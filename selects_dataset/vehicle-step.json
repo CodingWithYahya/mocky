@@ -3064,5 +3064,3189 @@
             "code": 3,
             "label": "ELECTRIQUE"
         }
+    ],
+    "allGenreBySousTypedUsage": [
+        {
+            "IDUSAGEVEHICULE" : 1,
+            "USAGE_VEHICULE" : "TOURISME",
+            "LIBELLE_GENRE" : "CONDUITE INTERIEURE",
+            "IDGENRE" : 1
+        },
+        {
+            "IDUSAGEVEHICULE" : 1,
+            "USAGE_VEHICULE" : "TOURISME",
+            "LIBELLE_GENRE" : "BERLINE",
+            "IDGENRE" : 2
+        },
+        {
+            "IDUSAGEVEHICULE" : 1,
+            "USAGE_VEHICULE" : "TOURISME",
+            "LIBELLE_GENRE" : "BREAK",
+            "IDGENRE" : 3
+        },
+        {
+            "IDUSAGEVEHICULE" : 1,
+            "USAGE_VEHICULE" : "TOURISME",
+            "LIBELLE_GENRE" : "CAMIONNETTE",
+            "IDGENRE" : 4
+        },
+        {
+            "IDUSAGEVEHICULE" : 1,
+            "USAGE_VEHICULE" : "TOURISME",
+            "LIBELLE_GENRE" : "JEEP",
+            "IDGENRE" : 9
+        },
+        {
+            "IDUSAGEVEHICULE" : 1,
+            "USAGE_VEHICULE" : "TOURISME",
+            "LIBELLE_GENRE" : "FOURGON",
+            "IDGENRE" : 14
+        },
+        {
+            "IDUSAGEVEHICULE" : 1,
+            "USAGE_VEHICULE" : "TOURISME",
+            "LIBELLE_GENRE" : "FOURGONNETTE",
+            "IDGENRE" : 24
+        },
+        {
+            "IDUSAGEVEHICULE" : 1,
+            "USAGE_VEHICULE" : "TOURISME",
+            "LIBELLE_GENRE" : "VEHICULE GARAGISTE",
+            "IDGENRE" : 26
+        },
+        {
+            "IDUSAGEVEHICULE" : 1,
+            "USAGE_VEHICULE" : "TOURISME",
+            "LIBELLE_GENRE" : "PICK-UP DOUBLE CABINE",
+            "IDGENRE" : 29
+        },
+        {
+            "IDUSAGEVEHICULE" : 1,
+            "USAGE_VEHICULE" : "TOURISME",
+            "LIBELLE_GENRE" : "PICK-UP",
+            "IDGENRE" : 34
+        },
+        {
+            "IDUSAGEVEHICULE" : 1,
+            "USAGE_VEHICULE" : "TOURISME",
+            "LIBELLE_GENRE" : "CAMPING CAR",
+            "IDGENRE" : 38
+        },
+        {
+            "IDUSAGEVEHICULE" : 1,
+            "USAGE_VEHICULE" : "TOURISME",
+            "LIBELLE_GENRE" : "FAMILIALE",
+            "IDGENRE" : 42
+        },
+        {
+            "IDUSAGEVEHICULE" : 1,
+            "USAGE_VEHICULE" : "TOURISME",
+            "LIBELLE_GENRE" : "QUADRICYCLE",
+            "IDGENRE" : 43
+        },
+        {
+            "IDUSAGEVEHICULE" : 1,
+            "USAGE_VEHICULE" : "TOURISME",
+            "LIBELLE_GENRE" : "S-W",
+            "IDGENRE" : 44
+        },
+        {
+            "IDUSAGEVEHICULE" : 1,
+            "USAGE_VEHICULE" : "TOURISME",
+            "LIBELLE_GENRE" : "ESTAFETTE",
+            "IDGENRE" : 54
+        },
+        {
+            "IDUSAGEVEHICULE" : 1,
+            "USAGE_VEHICULE" : "TOURISME",
+            "LIBELLE_GENRE" : "REMORQUE",
+            "IDGENRE" : 98
+        },
+        {
+            "IDUSAGEVEHICULE" : 1,
+            "USAGE_VEHICULE" : "TOURISME",
+            "LIBELLE_GENRE" : "CABRIOLET",
+            "IDGENRE" : 102
+        },
+        {
+            "IDUSAGEVEHICULE" : 1,
+            "USAGE_VEHICULE" : "TOURISME",
+            "LIBELLE_GENRE" : "COUPE",
+            "IDGENRE" : 103
+        },
+        {
+            "IDUSAGEVEHICULE" : 1,
+            "USAGE_VEHICULE" : "TOURISME",
+            "LIBELLE_GENRE" : "F.V.S",
+            "IDGENRE" : 104
+        },
+        {
+            "IDUSAGEVEHICULE" : 1,
+            "USAGE_VEHICULE" : "TOURISME",
+            "LIBELLE_GENRE" : "CONVERTIBLE",
+            "IDGENRE" : 105
+        },
+        {
+            "IDUSAGEVEHICULE" : 1,
+            "USAGE_VEHICULE" : "TOURISME",
+            "LIBELLE_GENRE" : "PICK-UP DOUBLE CABINE",
+            "IDGENRE" : 107
+        },
+        {
+            "IDUSAGEVEHICULE" : 1,
+            "USAGE_VEHICULE" : "TOURISME",
+            "LIBELLE_GENRE" : "LIMOUSINE",
+            "IDGENRE" : 117
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "BREAK",
+            "IDGENRE" : 3
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "CAMIONNETTE",
+            "IDGENRE" : 4
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "CAMION",
+            "IDGENRE" : 5
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "JEEP",
+            "IDGENRE" : 9
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "VEHICULE MALAXEUR",
+            "IDGENRE" : 10
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "CAMION CITERNE",
+            "IDGENRE" : 11
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "AUTOCAR",
+            "IDGENRE" : 12
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "MICROCAR",
+            "IDGENRE" : 13
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "FOURGON",
+            "IDGENRE" : 14
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "CAMION BENNE",
+            "IDGENRE" : 15
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "MICROBUS",
+            "IDGENRE" : 16
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "CAMION PORTEUR",
+            "IDGENRE" : 17
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "FOURGONNETTE",
+            "IDGENRE" : 24
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "CAMION PLATEAU",
+            "IDGENRE" : 25
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "VEHICULE GARAGISTE",
+            "IDGENRE" : 26
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "FOURGON FRIGORIFIQUE",
+            "IDGENRE" : 27
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "CAMION FRIGORIFIQUE",
+            "IDGENRE" : 28
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "TRACTEUR AVEC GRUE",
+            "IDGENRE" : 33
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "PICK-UP",
+            "IDGENRE" : 34
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "CAM. CARROS",
+            "IDGENRE" : 35
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "FOURGONNETTE FRIGORIFIQUE",
+            "IDGENRE" : 36
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "CAMIONNETTE FRIGORIFIQUE",
+            "IDGENRE" : 37
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "CAMPING CAR",
+            "IDGENRE" : 38
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "CAMION PLATEAU AVEC GRUE",
+            "IDGENRE" : 40
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "Camionnette Plateau",
+            "IDGENRE" : 41
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "S-W",
+            "IDGENRE" : 44
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "ESTAFETTE",
+            "IDGENRE" : 54
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "CAMION BRASSEUR",
+            "IDGENRE" : 59
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "CAMION PLATEAU RIDELLES",
+            "IDGENRE" : 60
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "CAMION PLATEAU BRASSEUR",
+            "IDGENRE" : 61
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "CAMION HYDRAUCUREUSE",
+            "IDGENRE" : 62
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "CAMION AMPLIROLL",
+            "IDGENRE" : 63
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "CAMION AVEC GRUE",
+            "IDGENRE" : 64
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "FOURGONNETTE VITREE",
+            "IDGENRE" : 65
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "FOURGONNETTE VITREE AVEC BANQUETTE",
+            "IDGENRE" : 66
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "REMORQUE",
+            "IDGENRE" : 98
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "CAMION FOURGON",
+            "IDGENRE" : 100
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "CAMIONNETTE FOURGON",
+            "IDGENRE" : 101
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "PICK-UP DOUBLE CABINE",
+            "IDGENRE" : 107
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "FTTE.V.S",
+            "IDGENRE" : 109
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "F.V.S",
+            "IDGENRE" : 110
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "FOURGONNETTE TOLEE",
+            "IDGENRE" : 119
+        },
+        {
+            "IDUSAGEVEHICULE" : 2,
+            "USAGE_VEHICULE" : "C1 (COMMERCE <= 3,5T)",
+            "LIBELLE_GENRE" : "PICK UP FOURGON FRIGORIFIQUE",
+            "IDGENRE" : 120
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CAMION",
+            "IDGENRE" : 5
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "TRACTEUR ROUTIER",
+            "IDGENRE" : 6
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "VEHICULE MALAXEUR",
+            "IDGENRE" : 10
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CAMION CITERNE",
+            "IDGENRE" : 11
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "AUTOCAR",
+            "IDGENRE" : 12
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "FOURGON",
+            "IDGENRE" : 14
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CAMION BENNE",
+            "IDGENRE" : 15
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CAMION PORTEUR",
+            "IDGENRE" : 17
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CAMION A BETTONNIERE",
+            "IDGENRE" : 20
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CAMION A FORAGE",
+            "IDGENRE" : 21
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "AUTOBUS",
+            "IDGENRE" : 22
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CAMION PLATEAU",
+            "IDGENRE" : 25
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "FOURGON FRIGORIFIQUE",
+            "IDGENRE" : 27
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CAMION FRIGORIFIQUE",
+            "IDGENRE" : 28
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "TRACTEUR AVEC GRUE",
+            "IDGENRE" : 33
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CAM. CARROS",
+            "IDGENRE" : 35
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CAMPING CAR",
+            "IDGENRE" : 38
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CAMION A POMPE A BETON",
+            "IDGENRE" : 39
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CAMION PLATEAU AVEC GRUE",
+            "IDGENRE" : 40
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "FOURGON VITREE AVEC SIEGE",
+            "IDGENRE" : 45
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CAMION CITERNE A EAU",
+            "IDGENRE" : 57
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CAMION CITERNE A CARBURANT",
+            "IDGENRE" : 58
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CAMION BRASSEUR",
+            "IDGENRE" : 59
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CAMION PLATEAU RIDELLES",
+            "IDGENRE" : 60
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CAMION PLATEAU BRASSEUR",
+            "IDGENRE" : 61
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CAMION HYDRAUCUREUSE",
+            "IDGENRE" : 62
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CAMION AMPLIROLL",
+            "IDGENRE" : 63
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CAMION AVEC GRUE",
+            "IDGENRE" : 64
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "FOURGONNETTE VITREE",
+            "IDGENRE" : 65
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "FOURGONNETTE VITREE AVEC BANQUETTE",
+            "IDGENRE" : 66
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "REMORQUE",
+            "IDGENRE" : 98
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CAMION FOURGON",
+            "IDGENRE" : 100
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "PICK-UP DOUBLE CABINE",
+            "IDGENRE" : 107
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CAMION BENNE AVEC GRUE",
+            "IDGENRE" : 108
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CAMION NACELLE",
+            "IDGENRE" : 111
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CHASSIS CABINE",
+            "IDGENRE" : 112
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CAMION AMPLIROLL AVEC GRUE",
+            "IDGENRE" : 116
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CAMION FOURGON ISOTHERME",
+            "IDGENRE" : 121
+        },
+        {
+            "IDUSAGEVEHICULE" : 3,
+            "USAGE_VEHICULE" : "C2 (COMMERCE +3,5T)",
+            "LIBELLE_GENRE" : "CAMION PLATEAU PORTE COMPRESSEURE",
+            "IDGENRE" : 124
+        },
+        {
+            "IDUSAGEVEHICULE" : 5,
+            "USAGE_VEHICULE" : "AMBULANCES <= 3,5T",
+            "LIBELLE_GENRE" : "BREAK",
+            "IDGENRE" : 3
+        },
+        {
+            "IDUSAGEVEHICULE" : 5,
+            "USAGE_VEHICULE" : "AMBULANCES <= 3,5T",
+            "LIBELLE_GENRE" : "FOURGON",
+            "IDGENRE" : 14
+        },
+        {
+            "IDUSAGEVEHICULE" : 5,
+            "USAGE_VEHICULE" : "AMBULANCES <= 3,5T",
+            "LIBELLE_GENRE" : "FOURGONNETTE",
+            "IDGENRE" : 24
+        },
+        {
+            "IDUSAGEVEHICULE" : 6,
+            "USAGE_VEHICULE" : "CORBILLARDS <= 3,5T",
+            "LIBELLE_GENRE" : "BREAK",
+            "IDGENRE" : 3
+        },
+        {
+            "IDUSAGEVEHICULE" : 6,
+            "USAGE_VEHICULE" : "CORBILLARDS <= 3,5T",
+            "LIBELLE_GENRE" : "FOURGON",
+            "IDGENRE" : 14
+        },
+        {
+            "IDUSAGEVEHICULE" : 6,
+            "USAGE_VEHICULE" : "CORBILLARDS <= 3,5T",
+            "LIBELLE_GENRE" : "FOURGONNETTE",
+            "IDGENRE" : 24
+        },
+        {
+            "IDUSAGEVEHICULE" : 7,
+            "USAGE_VEHICULE" : "FOURGONS FUNÉRAIRES <= 3,5T",
+            "LIBELLE_GENRE" : "BREAK",
+            "IDGENRE" : 3
+        },
+        {
+            "IDUSAGEVEHICULE" : 7,
+            "USAGE_VEHICULE" : "FOURGONS FUNÉRAIRES <= 3,5T",
+            "LIBELLE_GENRE" : "FOURGON",
+            "IDGENRE" : 14
+        },
+        {
+            "IDUSAGEVEHICULE" : 7,
+            "USAGE_VEHICULE" : "FOURGONS FUNÉRAIRES <= 3,5T",
+            "LIBELLE_GENRE" : "FOURGONNETTE",
+            "IDGENRE" : 24
+        },
+        {
+            "IDUSAGEVEHICULE" : 8,
+            "USAGE_VEHICULE" : "AUTO-ECOLE TOURISME",
+            "LIBELLE_GENRE" : "CONDUITE INTERIEURE",
+            "IDGENRE" : 1
+        },
+        {
+            "IDUSAGEVEHICULE" : 8,
+            "USAGE_VEHICULE" : "AUTO-ECOLE TOURISME",
+            "LIBELLE_GENRE" : "BERLINE",
+            "IDGENRE" : 2
+        },
+        {
+            "IDUSAGEVEHICULE" : 8,
+            "USAGE_VEHICULE" : "AUTO-ECOLE TOURISME",
+            "LIBELLE_GENRE" : "BREAK",
+            "IDGENRE" : 3
+        },
+        {
+            "IDUSAGEVEHICULE" : 8,
+            "USAGE_VEHICULE" : "AUTO-ECOLE TOURISME",
+            "LIBELLE_GENRE" : "CAMIONNETTE",
+            "IDGENRE" : 4
+        },
+        {
+            "IDUSAGEVEHICULE" : 8,
+            "USAGE_VEHICULE" : "AUTO-ECOLE TOURISME",
+            "LIBELLE_GENRE" : "JEEP",
+            "IDGENRE" : 9
+        },
+        {
+            "IDUSAGEVEHICULE" : 8,
+            "USAGE_VEHICULE" : "AUTO-ECOLE TOURISME",
+            "LIBELLE_GENRE" : "FOURGON",
+            "IDGENRE" : 14
+        },
+        {
+            "IDUSAGEVEHICULE" : 8,
+            "USAGE_VEHICULE" : "AUTO-ECOLE TOURISME",
+            "LIBELLE_GENRE" : "FOURGONNETTE",
+            "IDGENRE" : 24
+        },
+        {
+            "IDUSAGEVEHICULE" : 8,
+            "USAGE_VEHICULE" : "AUTO-ECOLE TOURISME",
+            "LIBELLE_GENRE" : "VEHICULE GARAGISTE",
+            "IDGENRE" : 26
+        },
+        {
+            "IDUSAGEVEHICULE" : 8,
+            "USAGE_VEHICULE" : "AUTO-ECOLE TOURISME",
+            "LIBELLE_GENRE" : "PICK-UP",
+            "IDGENRE" : 34
+        },
+        {
+            "IDUSAGEVEHICULE" : 8,
+            "USAGE_VEHICULE" : "AUTO-ECOLE TOURISME",
+            "LIBELLE_GENRE" : "S-W",
+            "IDGENRE" : 44
+        },
+        {
+            "IDUSAGEVEHICULE" : 8,
+            "USAGE_VEHICULE" : "AUTO-ECOLE TOURISME",
+            "LIBELLE_GENRE" : "ESTAFETTE",
+            "IDGENRE" : 54
+        },
+        {
+            "IDUSAGEVEHICULE" : 10,
+            "USAGE_VEHICULE" : "LOCATION C.I.",
+            "LIBELLE_GENRE" : "CONDUITE INTERIEURE",
+            "IDGENRE" : 1
+        },
+        {
+            "IDUSAGEVEHICULE" : 10,
+            "USAGE_VEHICULE" : "LOCATION C.I.",
+            "LIBELLE_GENRE" : "BERLINE",
+            "IDGENRE" : 2
+        },
+        {
+            "IDUSAGEVEHICULE" : 10,
+            "USAGE_VEHICULE" : "LOCATION C.I.",
+            "LIBELLE_GENRE" : "BREAK",
+            "IDGENRE" : 3
+        },
+        {
+            "IDUSAGEVEHICULE" : 10,
+            "USAGE_VEHICULE" : "LOCATION C.I.",
+            "LIBELLE_GENRE" : "CAMIONNETTE",
+            "IDGENRE" : 4
+        },
+        {
+            "IDUSAGEVEHICULE" : 10,
+            "USAGE_VEHICULE" : "LOCATION C.I.",
+            "LIBELLE_GENRE" : "JEEP",
+            "IDGENRE" : 9
+        },
+        {
+            "IDUSAGEVEHICULE" : 10,
+            "USAGE_VEHICULE" : "LOCATION C.I.",
+            "LIBELLE_GENRE" : "FOURGON",
+            "IDGENRE" : 14
+        },
+        {
+            "IDUSAGEVEHICULE" : 10,
+            "USAGE_VEHICULE" : "LOCATION C.I.",
+            "LIBELLE_GENRE" : "FOURGONNETTE",
+            "IDGENRE" : 24
+        },
+        {
+            "IDUSAGEVEHICULE" : 10,
+            "USAGE_VEHICULE" : "LOCATION C.I.",
+            "LIBELLE_GENRE" : "VEHICULE GARAGISTE",
+            "IDGENRE" : 26
+        },
+        {
+            "IDUSAGEVEHICULE" : 10,
+            "USAGE_VEHICULE" : "LOCATION C.I.",
+            "LIBELLE_GENRE" : "PICK-UP DOUBLE CABINE",
+            "IDGENRE" : 29
+        },
+        {
+            "IDUSAGEVEHICULE" : 10,
+            "USAGE_VEHICULE" : "LOCATION C.I.",
+            "LIBELLE_GENRE" : "PICK-UP",
+            "IDGENRE" : 34
+        },
+        {
+            "IDUSAGEVEHICULE" : 10,
+            "USAGE_VEHICULE" : "LOCATION C.I.",
+            "LIBELLE_GENRE" : "S-W",
+            "IDGENRE" : 44
+        },
+        {
+            "IDUSAGEVEHICULE" : 10,
+            "USAGE_VEHICULE" : "LOCATION C.I.",
+            "LIBELLE_GENRE" : "FOURGON VITREE AVEC SIEGE",
+            "IDGENRE" : 45
+        },
+        {
+            "IDUSAGEVEHICULE" : 10,
+            "USAGE_VEHICULE" : "LOCATION C.I.",
+            "LIBELLE_GENRE" : "ESTAFETTE",
+            "IDGENRE" : 54
+        },
+        {
+            "IDUSAGEVEHICULE" : 10,
+            "USAGE_VEHICULE" : "LOCATION C.I.",
+            "LIBELLE_GENRE" : "REMORQUE",
+            "IDGENRE" : 98
+        },
+        {
+            "IDUSAGEVEHICULE" : 11,
+            "USAGE_VEHICULE" : "LOCATION <= 3,5T(C1)",
+            "LIBELLE_GENRE" : "BREAK",
+            "IDGENRE" : 3
+        },
+        {
+            "IDUSAGEVEHICULE" : 11,
+            "USAGE_VEHICULE" : "LOCATION <= 3,5T(C1)",
+            "LIBELLE_GENRE" : "CAMIONNETTE",
+            "IDGENRE" : 4
+        },
+        {
+            "IDUSAGEVEHICULE" : 11,
+            "USAGE_VEHICULE" : "LOCATION <= 3,5T(C1)",
+            "LIBELLE_GENRE" : "CAMION",
+            "IDGENRE" : 5
+        },
+        {
+            "IDUSAGEVEHICULE" : 11,
+            "USAGE_VEHICULE" : "LOCATION <= 3,5T(C1)",
+            "LIBELLE_GENRE" : "JEEP",
+            "IDGENRE" : 9
+        },
+        {
+            "IDUSAGEVEHICULE" : 11,
+            "USAGE_VEHICULE" : "LOCATION <= 3,5T(C1)",
+            "LIBELLE_GENRE" : "VEHICULE MALAXEUR",
+            "IDGENRE" : 10
+        },
+        {
+            "IDUSAGEVEHICULE" : 11,
+            "USAGE_VEHICULE" : "LOCATION <= 3,5T(C1)",
+            "LIBELLE_GENRE" : "CAMION CITERNE",
+            "IDGENRE" : 11
+        },
+        {
+            "IDUSAGEVEHICULE" : 11,
+            "USAGE_VEHICULE" : "LOCATION <= 3,5T(C1)",
+            "LIBELLE_GENRE" : "AUTOCAR",
+            "IDGENRE" : 12
+        },
+        {
+            "IDUSAGEVEHICULE" : 11,
+            "USAGE_VEHICULE" : "LOCATION <= 3,5T(C1)",
+            "LIBELLE_GENRE" : "MICROCAR",
+            "IDGENRE" : 13
+        },
+        {
+            "IDUSAGEVEHICULE" : 11,
+            "USAGE_VEHICULE" : "LOCATION <= 3,5T(C1)",
+            "LIBELLE_GENRE" : "FOURGON",
+            "IDGENRE" : 14
+        },
+        {
+            "IDUSAGEVEHICULE" : 11,
+            "USAGE_VEHICULE" : "LOCATION <= 3,5T(C1)",
+            "LIBELLE_GENRE" : "CAMION BENNE",
+            "IDGENRE" : 15
+        },
+        {
+            "IDUSAGEVEHICULE" : 11,
+            "USAGE_VEHICULE" : "LOCATION <= 3,5T(C1)",
+            "LIBELLE_GENRE" : "MICROBUS",
+            "IDGENRE" : 16
+        },
+        {
+            "IDUSAGEVEHICULE" : 11,
+            "USAGE_VEHICULE" : "LOCATION <= 3,5T(C1)",
+            "LIBELLE_GENRE" : "CAMION PORTEUR",
+            "IDGENRE" : 17
+        },
+        {
+            "IDUSAGEVEHICULE" : 11,
+            "USAGE_VEHICULE" : "LOCATION <= 3,5T(C1)",
+            "LIBELLE_GENRE" : "FOURGONNETTE",
+            "IDGENRE" : 24
+        },
+        {
+            "IDUSAGEVEHICULE" : 11,
+            "USAGE_VEHICULE" : "LOCATION <= 3,5T(C1)",
+            "LIBELLE_GENRE" : "VEHICULE GARAGISTE",
+            "IDGENRE" : 26
+        },
+        {
+            "IDUSAGEVEHICULE" : 11,
+            "USAGE_VEHICULE" : "LOCATION <= 3,5T(C1)",
+            "LIBELLE_GENRE" : "FOURGON FRIGORIFIQUE",
+            "IDGENRE" : 27
+        },
+        {
+            "IDUSAGEVEHICULE" : 11,
+            "USAGE_VEHICULE" : "LOCATION <= 3,5T(C1)",
+            "LIBELLE_GENRE" : "CAMION FRIGORIFIQUE",
+            "IDGENRE" : 28
+        },
+        {
+            "IDUSAGEVEHICULE" : 11,
+            "USAGE_VEHICULE" : "LOCATION <= 3,5T(C1)",
+            "LIBELLE_GENRE" : "PICK-UP DOUBLE CABINE",
+            "IDGENRE" : 29
+        },
+        {
+            "IDUSAGEVEHICULE" : 11,
+            "USAGE_VEHICULE" : "LOCATION <= 3,5T(C1)",
+            "LIBELLE_GENRE" : "PICK-UP",
+            "IDGENRE" : 34
+        },
+        {
+            "IDUSAGEVEHICULE" : 11,
+            "USAGE_VEHICULE" : "LOCATION <= 3,5T(C1)",
+            "LIBELLE_GENRE" : "CAM. CARROS",
+            "IDGENRE" : 35
+        },
+        {
+            "IDUSAGEVEHICULE" : 11,
+            "USAGE_VEHICULE" : "LOCATION <= 3,5T(C1)",
+            "LIBELLE_GENRE" : "S-W",
+            "IDGENRE" : 44
+        },
+        {
+            "IDUSAGEVEHICULE" : 11,
+            "USAGE_VEHICULE" : "LOCATION <= 3,5T(C1)",
+            "LIBELLE_GENRE" : "FOURGON VITREE AVEC SIEGE",
+            "IDGENRE" : 45
+        },
+        {
+            "IDUSAGEVEHICULE" : 11,
+            "USAGE_VEHICULE" : "LOCATION <= 3,5T(C1)",
+            "LIBELLE_GENRE" : "ESTAFETTE",
+            "IDGENRE" : 54
+        },
+        {
+            "IDUSAGEVEHICULE" : 11,
+            "USAGE_VEHICULE" : "LOCATION <= 3,5T(C1)",
+            "LIBELLE_GENRE" : "REMORQUE",
+            "IDGENRE" : 98
+        },
+        {
+            "IDUSAGEVEHICULE" : 12,
+            "USAGE_VEHICULE" : "LOCATION CYCLO",
+            "LIBELLE_GENRE" : "CYCLOMOTEUR (2 ROUES)",
+            "IDGENRE" : 7
+        },
+        {
+            "IDUSAGEVEHICULE" : 13,
+            "USAGE_VEHICULE" : "LOCATION T.P <= 3,5T",
+            "LIBELLE_GENRE" : "BREAK",
+            "IDGENRE" : 3
+        },
+        {
+            "IDUSAGEVEHICULE" : 13,
+            "USAGE_VEHICULE" : "LOCATION T.P <= 3,5T",
+            "LIBELLE_GENRE" : "CAMIONNETTE",
+            "IDGENRE" : 4
+        },
+        {
+            "IDUSAGEVEHICULE" : 13,
+            "USAGE_VEHICULE" : "LOCATION T.P <= 3,5T",
+            "LIBELLE_GENRE" : "CAMION",
+            "IDGENRE" : 5
+        },
+        {
+            "IDUSAGEVEHICULE" : 13,
+            "USAGE_VEHICULE" : "LOCATION T.P <= 3,5T",
+            "LIBELLE_GENRE" : "JEEP",
+            "IDGENRE" : 9
+        },
+        {
+            "IDUSAGEVEHICULE" : 13,
+            "USAGE_VEHICULE" : "LOCATION T.P <= 3,5T",
+            "LIBELLE_GENRE" : "VEHICULE MALAXEUR",
+            "IDGENRE" : 10
+        },
+        {
+            "IDUSAGEVEHICULE" : 13,
+            "USAGE_VEHICULE" : "LOCATION T.P <= 3,5T",
+            "LIBELLE_GENRE" : "CAMION CITERNE",
+            "IDGENRE" : 11
+        },
+        {
+            "IDUSAGEVEHICULE" : 13,
+            "USAGE_VEHICULE" : "LOCATION T.P <= 3,5T",
+            "LIBELLE_GENRE" : "AUTOCAR",
+            "IDGENRE" : 12
+        },
+        {
+            "IDUSAGEVEHICULE" : 13,
+            "USAGE_VEHICULE" : "LOCATION T.P <= 3,5T",
+            "LIBELLE_GENRE" : "MICROCAR",
+            "IDGENRE" : 13
+        },
+        {
+            "IDUSAGEVEHICULE" : 13,
+            "USAGE_VEHICULE" : "LOCATION T.P <= 3,5T",
+            "LIBELLE_GENRE" : "FOURGON",
+            "IDGENRE" : 14
+        },
+        {
+            "IDUSAGEVEHICULE" : 13,
+            "USAGE_VEHICULE" : "LOCATION T.P <= 3,5T",
+            "LIBELLE_GENRE" : "CAMION BENNE",
+            "IDGENRE" : 15
+        },
+        {
+            "IDUSAGEVEHICULE" : 13,
+            "USAGE_VEHICULE" : "LOCATION T.P <= 3,5T",
+            "LIBELLE_GENRE" : "MICROBUS",
+            "IDGENRE" : 16
+        },
+        {
+            "IDUSAGEVEHICULE" : 13,
+            "USAGE_VEHICULE" : "LOCATION T.P <= 3,5T",
+            "LIBELLE_GENRE" : "CAMION PORTEUR",
+            "IDGENRE" : 17
+        },
+        {
+            "IDUSAGEVEHICULE" : 13,
+            "USAGE_VEHICULE" : "LOCATION T.P <= 3,5T",
+            "LIBELLE_GENRE" : "FOURGONNETTE",
+            "IDGENRE" : 24
+        },
+        {
+            "IDUSAGEVEHICULE" : 13,
+            "USAGE_VEHICULE" : "LOCATION T.P <= 3,5T",
+            "LIBELLE_GENRE" : "VEHICULE GARAGISTE",
+            "IDGENRE" : 26
+        },
+        {
+            "IDUSAGEVEHICULE" : 13,
+            "USAGE_VEHICULE" : "LOCATION T.P <= 3,5T",
+            "LIBELLE_GENRE" : "FOURGON FRIGORIFIQUE",
+            "IDGENRE" : 27
+        },
+        {
+            "IDUSAGEVEHICULE" : 13,
+            "USAGE_VEHICULE" : "LOCATION T.P <= 3,5T",
+            "LIBELLE_GENRE" : "CAMION FRIGORIFIQUE",
+            "IDGENRE" : 28
+        },
+        {
+            "IDUSAGEVEHICULE" : 13,
+            "USAGE_VEHICULE" : "LOCATION T.P <= 3,5T",
+            "LIBELLE_GENRE" : "PICK-UP",
+            "IDGENRE" : 34
+        },
+        {
+            "IDUSAGEVEHICULE" : 13,
+            "USAGE_VEHICULE" : "LOCATION T.P <= 3,5T",
+            "LIBELLE_GENRE" : "CAM. CARROS",
+            "IDGENRE" : 35
+        },
+        {
+            "IDUSAGEVEHICULE" : 13,
+            "USAGE_VEHICULE" : "LOCATION T.P <= 3,5T",
+            "LIBELLE_GENRE" : "S-W",
+            "IDGENRE" : 44
+        },
+        {
+            "IDUSAGEVEHICULE" : 13,
+            "USAGE_VEHICULE" : "LOCATION T.P <= 3,5T",
+            "LIBELLE_GENRE" : "FOURGON VITREE AVEC SIEGE",
+            "IDGENRE" : 45
+        },
+        {
+            "IDUSAGEVEHICULE" : 13,
+            "USAGE_VEHICULE" : "LOCATION T.P <= 3,5T",
+            "LIBELLE_GENRE" : "ESTAFETTE",
+            "IDGENRE" : 54
+        },
+        {
+            "IDUSAGEVEHICULE" : 14,
+            "USAGE_VEHICULE" : "LOCATION +3,5T(C2)",
+            "LIBELLE_GENRE" : "CAMION",
+            "IDGENRE" : 5
+        },
+        {
+            "IDUSAGEVEHICULE" : 14,
+            "USAGE_VEHICULE" : "LOCATION +3,5T(C2)",
+            "LIBELLE_GENRE" : "TRACTEUR ROUTIER",
+            "IDGENRE" : 6
+        },
+        {
+            "IDUSAGEVEHICULE" : 14,
+            "USAGE_VEHICULE" : "LOCATION +3,5T(C2)",
+            "LIBELLE_GENRE" : "VEHICULE MALAXEUR",
+            "IDGENRE" : 10
+        },
+        {
+            "IDUSAGEVEHICULE" : 14,
+            "USAGE_VEHICULE" : "LOCATION +3,5T(C2)",
+            "LIBELLE_GENRE" : "CAMION CITERNE",
+            "IDGENRE" : 11
+        },
+        {
+            "IDUSAGEVEHICULE" : 14,
+            "USAGE_VEHICULE" : "LOCATION +3,5T(C2)",
+            "LIBELLE_GENRE" : "AUTOCAR",
+            "IDGENRE" : 12
+        },
+        {
+            "IDUSAGEVEHICULE" : 14,
+            "USAGE_VEHICULE" : "LOCATION +3,5T(C2)",
+            "LIBELLE_GENRE" : "CAMION BENNE",
+            "IDGENRE" : 15
+        },
+        {
+            "IDUSAGEVEHICULE" : 14,
+            "USAGE_VEHICULE" : "LOCATION +3,5T(C2)",
+            "LIBELLE_GENRE" : "CAMION PORTEUR",
+            "IDGENRE" : 17
+        },
+        {
+            "IDUSAGEVEHICULE" : 14,
+            "USAGE_VEHICULE" : "LOCATION +3,5T(C2)",
+            "LIBELLE_GENRE" : "CAMION A BETTONNIERE",
+            "IDGENRE" : 20
+        },
+        {
+            "IDUSAGEVEHICULE" : 14,
+            "USAGE_VEHICULE" : "LOCATION +3,5T(C2)",
+            "LIBELLE_GENRE" : "CAMION A FORAGE",
+            "IDGENRE" : 21
+        },
+        {
+            "IDUSAGEVEHICULE" : 14,
+            "USAGE_VEHICULE" : "LOCATION +3,5T(C2)",
+            "LIBELLE_GENRE" : "AUTOBUS",
+            "IDGENRE" : 22
+        },
+        {
+            "IDUSAGEVEHICULE" : 14,
+            "USAGE_VEHICULE" : "LOCATION +3,5T(C2)",
+            "LIBELLE_GENRE" : "CAMION PLATEAU",
+            "IDGENRE" : 25
+        },
+        {
+            "IDUSAGEVEHICULE" : 14,
+            "USAGE_VEHICULE" : "LOCATION +3,5T(C2)",
+            "LIBELLE_GENRE" : "CAMION FRIGORIFIQUE",
+            "IDGENRE" : 28
+        },
+        {
+            "IDUSAGEVEHICULE" : 14,
+            "USAGE_VEHICULE" : "LOCATION +3,5T(C2)",
+            "LIBELLE_GENRE" : "CAM. CARROS",
+            "IDGENRE" : 35
+        },
+        {
+            "IDUSAGEVEHICULE" : 14,
+            "USAGE_VEHICULE" : "LOCATION +3,5T(C2)",
+            "LIBELLE_GENRE" : "CAMION A POMPE A BETON",
+            "IDGENRE" : 39
+        },
+        {
+            "IDUSAGEVEHICULE" : 14,
+            "USAGE_VEHICULE" : "LOCATION +3,5T(C2)",
+            "LIBELLE_GENRE" : "FOURGON VITREE AVEC SIEGE",
+            "IDGENRE" : 45
+        },
+        {
+            "IDUSAGEVEHICULE" : 14,
+            "USAGE_VEHICULE" : "LOCATION +3,5T(C2)",
+            "LIBELLE_GENRE" : "CAMION CITERNE A EAU",
+            "IDGENRE" : 57
+        },
+        {
+            "IDUSAGEVEHICULE" : 14,
+            "USAGE_VEHICULE" : "LOCATION +3,5T(C2)",
+            "LIBELLE_GENRE" : "REMORQUE",
+            "IDGENRE" : 98
+        },
+        {
+            "IDUSAGEVEHICULE" : 15,
+            "USAGE_VEHICULE" : "TRACTEUR AGRICOLE",
+            "LIBELLE_GENRE" : "TRACTEUR AGRICOLE",
+            "IDGENRE" : 19
+        },
+        {
+            "IDUSAGEVEHICULE" : 16,
+            "USAGE_VEHICULE" : "MOISSONEUSE BATTEUSE",
+            "LIBELLE_GENRE" : "MOISSONEUSE BATTEUSE",
+            "IDGENRE" : 18
+        },
+        {
+            "IDUSAGEVEHICULE" : 17,
+            "USAGE_VEHICULE" : "LOCATION TRICYCLES",
+            "LIBELLE_GENRE" : "TRICYCLES MOTEUR",
+            "IDGENRE" : 8
+        },
+        {
+            "IDUSAGEVEHICULE" : 18,
+            "USAGE_VEHICULE" : "VÉHICULE DÉPANNAGE <= 3,5T",
+            "LIBELLE_GENRE" : "CAMION",
+            "IDGENRE" : 5
+        },
+        {
+            "IDUSAGEVEHICULE" : 18,
+            "USAGE_VEHICULE" : "VÉHICULE DÉPANNAGE <= 3,5T",
+            "LIBELLE_GENRE" : "JEEP",
+            "IDGENRE" : 9
+        },
+        {
+            "IDUSAGEVEHICULE" : 18,
+            "USAGE_VEHICULE" : "VÉHICULE DÉPANNAGE <= 3,5T",
+            "LIBELLE_GENRE" : "PICK-UP",
+            "IDGENRE" : 34
+        },
+        {
+            "IDUSAGEVEHICULE" : 19,
+            "USAGE_VEHICULE" : "AUTO-ECOLE UTIL.\/AUTOCARS",
+            "LIBELLE_GENRE" : "CAMION",
+            "IDGENRE" : 5
+        },
+        {
+            "IDUSAGEVEHICULE" : 19,
+            "USAGE_VEHICULE" : "AUTO-ECOLE UTIL.\/AUTOCARS",
+            "LIBELLE_GENRE" : "TRACTEUR ROUTIER",
+            "IDGENRE" : 6
+        },
+        {
+            "IDUSAGEVEHICULE" : 19,
+            "USAGE_VEHICULE" : "AUTO-ECOLE UTIL.\/AUTOCARS",
+            "LIBELLE_GENRE" : "AUTOCAR",
+            "IDGENRE" : 12
+        },
+        {
+            "IDUSAGEVEHICULE" : 19,
+            "USAGE_VEHICULE" : "AUTO-ECOLE UTIL.\/AUTOCARS",
+            "LIBELLE_GENRE" : "AUTOBUS",
+            "IDGENRE" : 22
+        },
+        {
+            "IDUSAGEVEHICULE" : 20,
+            "USAGE_VEHICULE" : "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "LIBELLE_GENRE" : "CAMIONNETTE",
+            "IDGENRE" : 4
+        },
+        {
+            "IDUSAGEVEHICULE" : 20,
+            "USAGE_VEHICULE" : "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "LIBELLE_GENRE" : "AUTOCAR",
+            "IDGENRE" : 12
+        },
+        {
+            "IDUSAGEVEHICULE" : 20,
+            "USAGE_VEHICULE" : "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "LIBELLE_GENRE" : "MICROCAR",
+            "IDGENRE" : 13
+        },
+        {
+            "IDUSAGEVEHICULE" : 20,
+            "USAGE_VEHICULE" : "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "LIBELLE_GENRE" : "FOURGON",
+            "IDGENRE" : 14
+        },
+        {
+            "IDUSAGEVEHICULE" : 20,
+            "USAGE_VEHICULE" : "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "LIBELLE_GENRE" : "MICROBUS",
+            "IDGENRE" : 16
+        },
+        {
+            "IDUSAGEVEHICULE" : 20,
+            "USAGE_VEHICULE" : "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "LIBELLE_GENRE" : "CAMION PORTEUR",
+            "IDGENRE" : 17
+        },
+        {
+            "IDUSAGEVEHICULE" : 20,
+            "USAGE_VEHICULE" : "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "LIBELLE_GENRE" : "AUTOBUS",
+            "IDGENRE" : 22
+        },
+        {
+            "IDUSAGEVEHICULE" : 20,
+            "USAGE_VEHICULE" : "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "LIBELLE_GENRE" : "FOURGONNETTE",
+            "IDGENRE" : 24
+        },
+        {
+            "IDUSAGEVEHICULE" : 20,
+            "USAGE_VEHICULE" : "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "LIBELLE_GENRE" : "ESTAFETTE",
+            "IDGENRE" : 54
+        },
+        {
+            "IDUSAGEVEHICULE" : 20,
+            "USAGE_VEHICULE" : "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "LIBELLE_GENRE" : "FORGON VITRE AVEC SIEGE",
+            "IDGENRE" : 106
+        },
+        {
+            "IDUSAGEVEHICULE" : 21,
+            "USAGE_VEHICULE" : "TRANSPORT PERSONNEL <= 3,5T",
+            "LIBELLE_GENRE" : "CAMIONNETTE",
+            "IDGENRE" : 4
+        },
+        {
+            "IDUSAGEVEHICULE" : 21,
+            "USAGE_VEHICULE" : "TRANSPORT PERSONNEL <= 3,5T",
+            "LIBELLE_GENRE" : "CAMION",
+            "IDGENRE" : 5
+        },
+        {
+            "IDUSAGEVEHICULE" : 21,
+            "USAGE_VEHICULE" : "TRANSPORT PERSONNEL <= 3,5T",
+            "LIBELLE_GENRE" : "AUTOCAR",
+            "IDGENRE" : 12
+        },
+        {
+            "IDUSAGEVEHICULE" : 21,
+            "USAGE_VEHICULE" : "TRANSPORT PERSONNEL <= 3,5T",
+            "LIBELLE_GENRE" : "MICROCAR",
+            "IDGENRE" : 13
+        },
+        {
+            "IDUSAGEVEHICULE" : 21,
+            "USAGE_VEHICULE" : "TRANSPORT PERSONNEL <= 3,5T",
+            "LIBELLE_GENRE" : "FOURGON",
+            "IDGENRE" : 14
+        },
+        {
+            "IDUSAGEVEHICULE" : 21,
+            "USAGE_VEHICULE" : "TRANSPORT PERSONNEL <= 3,5T",
+            "LIBELLE_GENRE" : "MICROBUS",
+            "IDGENRE" : 16
+        },
+        {
+            "IDUSAGEVEHICULE" : 21,
+            "USAGE_VEHICULE" : "TRANSPORT PERSONNEL <= 3,5T",
+            "LIBELLE_GENRE" : "CAMION PORTEUR",
+            "IDGENRE" : 17
+        },
+        {
+            "IDUSAGEVEHICULE" : 21,
+            "USAGE_VEHICULE" : "TRANSPORT PERSONNEL <= 3,5T",
+            "LIBELLE_GENRE" : "AUTOBUS",
+            "IDGENRE" : 22
+        },
+        {
+            "IDUSAGEVEHICULE" : 21,
+            "USAGE_VEHICULE" : "TRANSPORT PERSONNEL <= 3,5T",
+            "LIBELLE_GENRE" : "FOURGONNETTE",
+            "IDGENRE" : 24
+        },
+        {
+            "IDUSAGEVEHICULE" : 21,
+            "USAGE_VEHICULE" : "TRANSPORT PERSONNEL <= 3,5T",
+            "LIBELLE_GENRE" : "PICK-UP",
+            "IDGENRE" : 34
+        },
+        {
+            "IDUSAGEVEHICULE" : 21,
+            "USAGE_VEHICULE" : "TRANSPORT PERSONNEL <= 3,5T",
+            "LIBELLE_GENRE" : "FOURGON VITREE AVEC SIEGE",
+            "IDGENRE" : 45
+        },
+        {
+            "IDUSAGEVEHICULE" : 21,
+            "USAGE_VEHICULE" : "TRANSPORT PERSONNEL <= 3,5T",
+            "LIBELLE_GENRE" : "ESTAFETTE",
+            "IDGENRE" : 54
+        },
+        {
+            "IDUSAGEVEHICULE" : 21,
+            "USAGE_VEHICULE" : "TRANSPORT PERSONNEL <= 3,5T",
+            "LIBELLE_GENRE" : "FORGON VITRE AVEC SIEGE",
+            "IDGENRE" : 106
+        },
+        {
+            "IDUSAGEVEHICULE" : 21,
+            "USAGE_VEHICULE" : "TRANSPORT PERSONNEL <= 3,5T",
+            "LIBELLE_GENRE" : "PICK-UP DOUBLE CABINE",
+            "IDGENRE" : 107
+        },
+        {
+            "IDUSAGEVEHICULE" : 22,
+            "USAGE_VEHICULE" : "ARROSEUSE <= 3,5T",
+            "LIBELLE_GENRE" : "CAMION CITERNE",
+            "IDGENRE" : 11
+        },
+        {
+            "IDUSAGEVEHICULE" : 23,
+            "USAGE_VEHICULE" : "BALAYEUSE <= 3,5T",
+            "LIBELLE_GENRE" : "CAMION",
+            "IDGENRE" : 5
+        },
+        {
+            "IDUSAGEVEHICULE" : 24,
+            "USAGE_VEHICULE" : "ENLÉVEMENT DES ORDURES <= 3,5T",
+            "LIBELLE_GENRE" : "CAMION",
+            "IDGENRE" : 5
+        },
+        {
+            "IDUSAGEVEHICULE" : 25,
+            "USAGE_VEHICULE" : "VOITURE VIDANGE <= 3,5T",
+            "LIBELLE_GENRE" : "CAMION CITERNE",
+            "IDGENRE" : 11
+        },
+        {
+            "IDUSAGEVEHICULE" : 26,
+            "USAGE_VEHICULE" : "CHASSE NEIGE <= 3,5T",
+            "LIBELLE_GENRE" : "CAMION",
+            "IDGENRE" : 5
+        },
+        {
+            "IDUSAGEVEHICULE" : 27,
+            "USAGE_VEHICULE" : "VÉHICULE SCE INCENDIE <= 3,5T",
+            "LIBELLE_GENRE" : "CAMION",
+            "IDGENRE" : 5
+        },
+        {
+            "IDUSAGEVEHICULE" : 27,
+            "USAGE_VEHICULE" : "VÉHICULE SCE INCENDIE <= 3,5T",
+            "LIBELLE_GENRE" : "FOURGON",
+            "IDGENRE" : 14
+        },
+        {
+            "IDUSAGEVEHICULE" : 28,
+            "USAGE_VEHICULE" : "VÉHICULE DÉPANNAGE +3,5T",
+            "LIBELLE_GENRE" : "CAMION",
+            "IDGENRE" : 5
+        },
+        {
+            "IDUSAGEVEHICULE" : 28,
+            "USAGE_VEHICULE" : "VÉHICULE DÉPANNAGE +3,5T",
+            "LIBELLE_GENRE" : "DEPANNAGE PORTE VHL",
+            "IDGENRE" : 113
+        },
+        {
+            "IDUSAGEVEHICULE" : 28,
+            "USAGE_VEHICULE" : "VÉHICULE DÉPANNAGE +3,5T",
+            "LIBELLE_GENRE" : "CAMION PLATEAU DEPANAGE AVEC GR",
+            "IDGENRE" : 118
+        },
+        {
+            "IDUSAGEVEHICULE" : 28,
+            "USAGE_VEHICULE" : "VÉHICULE DÉPANNAGE +3,5T",
+            "LIBELLE_GENRE" : "CAMION PLATEAU DE DEPANNAGE",
+            "IDGENRE" : 122
+        },
+        {
+            "IDUSAGEVEHICULE" : 29,
+            "USAGE_VEHICULE" : "TRANSPORT ECOLIERS +3,5T",
+            "LIBELLE_GENRE" : "CAMIONNETTE",
+            "IDGENRE" : 4
+        },
+        {
+            "IDUSAGEVEHICULE" : 29,
+            "USAGE_VEHICULE" : "TRANSPORT ECOLIERS +3,5T",
+            "LIBELLE_GENRE" : "AUTOCAR",
+            "IDGENRE" : 12
+        },
+        {
+            "IDUSAGEVEHICULE" : 29,
+            "USAGE_VEHICULE" : "TRANSPORT ECOLIERS +3,5T",
+            "LIBELLE_GENRE" : "MICROCAR",
+            "IDGENRE" : 13
+        },
+        {
+            "IDUSAGEVEHICULE" : 29,
+            "USAGE_VEHICULE" : "TRANSPORT ECOLIERS +3,5T",
+            "LIBELLE_GENRE" : "FOURGON",
+            "IDGENRE" : 14
+        },
+        {
+            "IDUSAGEVEHICULE" : 29,
+            "USAGE_VEHICULE" : "TRANSPORT ECOLIERS +3,5T",
+            "LIBELLE_GENRE" : "MICROBUS",
+            "IDGENRE" : 16
+        },
+        {
+            "IDUSAGEVEHICULE" : 29,
+            "USAGE_VEHICULE" : "TRANSPORT ECOLIERS +3,5T",
+            "LIBELLE_GENRE" : "CAMION PORTEUR",
+            "IDGENRE" : 17
+        },
+        {
+            "IDUSAGEVEHICULE" : 29,
+            "USAGE_VEHICULE" : "TRANSPORT ECOLIERS +3,5T",
+            "LIBELLE_GENRE" : "AUTOBUS",
+            "IDGENRE" : 22
+        },
+        {
+            "IDUSAGEVEHICULE" : 29,
+            "USAGE_VEHICULE" : "TRANSPORT ECOLIERS +3,5T",
+            "LIBELLE_GENRE" : "FOURGONNETTE",
+            "IDGENRE" : 24
+        },
+        {
+            "IDUSAGEVEHICULE" : 29,
+            "USAGE_VEHICULE" : "TRANSPORT ECOLIERS +3,5T",
+            "LIBELLE_GENRE" : "ESTAFETTE",
+            "IDGENRE" : 54
+        },
+        {
+            "IDUSAGEVEHICULE" : 29,
+            "USAGE_VEHICULE" : "TRANSPORT ECOLIERS +3,5T",
+            "LIBELLE_GENRE" : "FORGON VITRE AVEC SIEGE",
+            "IDGENRE" : 106
+        },
+        {
+            "IDUSAGEVEHICULE" : 30,
+            "USAGE_VEHICULE" : "TRANSPORT PERSONNEL +3,5T",
+            "LIBELLE_GENRE" : "CAMION",
+            "IDGENRE" : 5
+        },
+        {
+            "IDUSAGEVEHICULE" : 30,
+            "USAGE_VEHICULE" : "TRANSPORT PERSONNEL +3,5T",
+            "LIBELLE_GENRE" : "AUTOCAR",
+            "IDGENRE" : 12
+        },
+        {
+            "IDUSAGEVEHICULE" : 30,
+            "USAGE_VEHICULE" : "TRANSPORT PERSONNEL +3,5T",
+            "LIBELLE_GENRE" : "MICROCAR",
+            "IDGENRE" : 13
+        },
+        {
+            "IDUSAGEVEHICULE" : 30,
+            "USAGE_VEHICULE" : "TRANSPORT PERSONNEL +3,5T",
+            "LIBELLE_GENRE" : "FOURGON",
+            "IDGENRE" : 14
+        },
+        {
+            "IDUSAGEVEHICULE" : 30,
+            "USAGE_VEHICULE" : "TRANSPORT PERSONNEL +3,5T",
+            "LIBELLE_GENRE" : "FOURGONNETTE",
+            "IDGENRE" : 24
+        },
+        {
+            "IDUSAGEVEHICULE" : 30,
+            "USAGE_VEHICULE" : "TRANSPORT PERSONNEL +3,5T",
+            "LIBELLE_GENRE" : "FOURGON VITREE AVEC SIEGE",
+            "IDGENRE" : 45
+        },
+        {
+            "IDUSAGEVEHICULE" : 30,
+            "USAGE_VEHICULE" : "TRANSPORT PERSONNEL +3,5T",
+            "LIBELLE_GENRE" : "ESTAFETTE",
+            "IDGENRE" : 54
+        },
+        {
+            "IDUSAGEVEHICULE" : 30,
+            "USAGE_VEHICULE" : "TRANSPORT PERSONNEL +3,5T",
+            "LIBELLE_GENRE" : "FORGON VITRE AVEC SIEGE",
+            "IDGENRE" : 106
+        },
+        {
+            "IDUSAGEVEHICULE" : 31,
+            "USAGE_VEHICULE" : "ARROSEUR +3,5T",
+            "LIBELLE_GENRE" : "CAMION CITERNE",
+            "IDGENRE" : 11
+        },
+        {
+            "IDUSAGEVEHICULE" : 32,
+            "USAGE_VEHICULE" : "VOITURE VIDANGE +3.5T",
+            "LIBELLE_GENRE" : "CAMION CITERNE",
+            "IDGENRE" : 11
+        },
+        {
+            "IDUSAGEVEHICULE" : 33,
+            "USAGE_VEHICULE" : "VÉH. SCE INCENDIE +3.5T",
+            "LIBELLE_GENRE" : "CAMION",
+            "IDGENRE" : 5
+        },
+        {
+            "IDUSAGEVEHICULE" : 34,
+            "USAGE_VEHICULE" : "AUTO-ECOLE 2 OU 3 ROUES",
+            "LIBELLE_GENRE" : "CYCLOMOTEUR (2 ROUES)",
+            "IDGENRE" : 7
+        },
+        {
+            "IDUSAGEVEHICULE" : 34,
+            "USAGE_VEHICULE" : "AUTO-ECOLE 2 OU 3 ROUES",
+            "LIBELLE_GENRE" : "TRICYCLES MOTEUR",
+            "IDGENRE" : 8
+        },
+        {
+            "IDUSAGEVEHICULE" : 35,
+            "USAGE_VEHICULE" : "ENGIN DE CHANTIER",
+            "LIBELLE_GENRE" : "CAMION",
+            "IDGENRE" : 5
+        },
+        {
+            "IDUSAGEVEHICULE" : 35,
+            "USAGE_VEHICULE" : "ENGIN DE CHANTIER",
+            "LIBELLE_GENRE" : "TRACTEUR AGRICOLE",
+            "IDGENRE" : 19
+        },
+        {
+            "IDUSAGEVEHICULE" : 35,
+            "USAGE_VEHICULE" : "ENGIN DE CHANTIER",
+            "LIBELLE_GENRE" : "CAMION A BETTONNIERE",
+            "IDGENRE" : 20
+        },
+        {
+            "IDUSAGEVEHICULE" : 35,
+            "USAGE_VEHICULE" : "ENGIN DE CHANTIER",
+            "LIBELLE_GENRE" : "CAMION A FORAGE",
+            "IDGENRE" : 21
+        },
+        {
+            "IDUSAGEVEHICULE" : 35,
+            "USAGE_VEHICULE" : "ENGIN DE CHANTIER",
+            "LIBELLE_GENRE" : "ENGIN CHANTIER",
+            "IDGENRE" : 23
+        },
+        {
+            "IDUSAGEVEHICULE" : 35,
+            "USAGE_VEHICULE" : "ENGIN DE CHANTIER",
+            "LIBELLE_GENRE" : "CAMION A POMPE A BETON",
+            "IDGENRE" : 39
+        },
+        {
+            "IDUSAGEVEHICULE" : 35,
+            "USAGE_VEHICULE" : "ENGIN DE CHANTIER",
+            "LIBELLE_GENRE" : "CAMION SONDEUSE",
+            "IDGENRE" : 114
+        },
+        {
+            "IDUSAGEVEHICULE" : 36,
+            "USAGE_VEHICULE" : "CYLINDRÉE < 50 CM3 VITESSE < 60 KM\/H",
+            "LIBELLE_GENRE" : "CYCLOMOTEUR (2 ROUES)",
+            "IDGENRE" : 7
+        },
+        {
+            "IDUSAGEVEHICULE" : 37,
+            "USAGE_VEHICULE" : "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "LIBELLE_GENRE" : "CYCLOMOTEUR (2 ROUES)",
+            "IDGENRE" : 7
+        },
+        {
+            "IDUSAGEVEHICULE" : 37,
+            "USAGE_VEHICULE" : "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "LIBELLE_GENRE" : "TRICYCLES MOTEUR",
+            "IDGENRE" : 8
+        },
+        {
+            "IDUSAGEVEHICULE" : 37,
+            "USAGE_VEHICULE" : "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "LIBELLE_GENRE" : "QUAD",
+            "IDGENRE" : 56
+        },
+        {
+            "IDUSAGEVEHICULE" : 38,
+            "USAGE_VEHICULE" : "TRICYCLE OU TRIPORTEUR CYLINDRÉE < 125 CM3",
+            "LIBELLE_GENRE" : "TRICYCLES MOTEUR",
+            "IDGENRE" : 8
+        },
+        {
+            "IDUSAGEVEHICULE" : 39,
+            "USAGE_VEHICULE" : "TRANS. MATIÈRE INFL. <= 3,5T",
+            "LIBELLE_GENRE" : "BREAK",
+            "IDGENRE" : 3
+        },
+        {
+            "IDUSAGEVEHICULE" : 39,
+            "USAGE_VEHICULE" : "TRANS. MATIÈRE INFL. <= 3,5T",
+            "LIBELLE_GENRE" : "CAMIONNETTE",
+            "IDGENRE" : 4
+        },
+        {
+            "IDUSAGEVEHICULE" : 39,
+            "USAGE_VEHICULE" : "TRANS. MATIÈRE INFL. <= 3,5T",
+            "LIBELLE_GENRE" : "CAMION",
+            "IDGENRE" : 5
+        },
+        {
+            "IDUSAGEVEHICULE" : 39,
+            "USAGE_VEHICULE" : "TRANS. MATIÈRE INFL. <= 3,5T",
+            "LIBELLE_GENRE" : "JEEP",
+            "IDGENRE" : 9
+        },
+        {
+            "IDUSAGEVEHICULE" : 39,
+            "USAGE_VEHICULE" : "TRANS. MATIÈRE INFL. <= 3,5T",
+            "LIBELLE_GENRE" : "CAMION CITERNE",
+            "IDGENRE" : 11
+        },
+        {
+            "IDUSAGEVEHICULE" : 39,
+            "USAGE_VEHICULE" : "TRANS. MATIÈRE INFL. <= 3,5T",
+            "LIBELLE_GENRE" : "FOURGON",
+            "IDGENRE" : 14
+        },
+        {
+            "IDUSAGEVEHICULE" : 39,
+            "USAGE_VEHICULE" : "TRANS. MATIÈRE INFL. <= 3,5T",
+            "LIBELLE_GENRE" : "CAMION BENNE",
+            "IDGENRE" : 15
+        },
+        {
+            "IDUSAGEVEHICULE" : 39,
+            "USAGE_VEHICULE" : "TRANS. MATIÈRE INFL. <= 3,5T",
+            "LIBELLE_GENRE" : "FOURGONNETTE",
+            "IDGENRE" : 24
+        },
+        {
+            "IDUSAGEVEHICULE" : 39,
+            "USAGE_VEHICULE" : "TRANS. MATIÈRE INFL. <= 3,5T",
+            "LIBELLE_GENRE" : "CAMION PLATEAU",
+            "IDGENRE" : 25
+        },
+        {
+            "IDUSAGEVEHICULE" : 39,
+            "USAGE_VEHICULE" : "TRANS. MATIÈRE INFL. <= 3,5T",
+            "LIBELLE_GENRE" : "PICK-UP",
+            "IDGENRE" : 34
+        },
+        {
+            "IDUSAGEVEHICULE" : 39,
+            "USAGE_VEHICULE" : "TRANS. MATIÈRE INFL. <= 3,5T",
+            "LIBELLE_GENRE" : "CAM. CARROS",
+            "IDGENRE" : 35
+        },
+        {
+            "IDUSAGEVEHICULE" : 39,
+            "USAGE_VEHICULE" : "TRANS. MATIÈRE INFL. <= 3,5T",
+            "LIBELLE_GENRE" : "S-W",
+            "IDGENRE" : 44
+        },
+        {
+            "IDUSAGEVEHICULE" : 39,
+            "USAGE_VEHICULE" : "TRANS. MATIÈRE INFL. <= 3,5T",
+            "LIBELLE_GENRE" : "ESTAFETTE",
+            "IDGENRE" : 54
+        },
+        {
+            "IDUSAGEVEHICULE" : 39,
+            "USAGE_VEHICULE" : "TRANS. MATIÈRE INFL. <= 3,5T",
+            "LIBELLE_GENRE" : "CAMION CITERNE A CARBURANT",
+            "IDGENRE" : 58
+        },
+        {
+            "IDUSAGEVEHICULE" : 39,
+            "USAGE_VEHICULE" : "TRANS. MATIÈRE INFL. <= 3,5T",
+            "LIBELLE_GENRE" : "CAMION FOURGON",
+            "IDGENRE" : 100
+        },
+        {
+            "IDUSAGEVEHICULE" : 40,
+            "USAGE_VEHICULE" : "TRANS. MATIÈRE INFL. +3,5T",
+            "LIBELLE_GENRE" : "CAMION",
+            "IDGENRE" : 5
+        },
+        {
+            "IDUSAGEVEHICULE" : 40,
+            "USAGE_VEHICULE" : "TRANS. MATIÈRE INFL. +3,5T",
+            "LIBELLE_GENRE" : "TRACTEUR ROUTIER",
+            "IDGENRE" : 6
+        },
+        {
+            "IDUSAGEVEHICULE" : 40,
+            "USAGE_VEHICULE" : "TRANS. MATIÈRE INFL. +3,5T",
+            "LIBELLE_GENRE" : "CAMION CITERNE",
+            "IDGENRE" : 11
+        },
+        {
+            "IDUSAGEVEHICULE" : 40,
+            "USAGE_VEHICULE" : "TRANS. MATIÈRE INFL. +3,5T",
+            "LIBELLE_GENRE" : "CAMION BENNE",
+            "IDGENRE" : 15
+        },
+        {
+            "IDUSAGEVEHICULE" : 40,
+            "USAGE_VEHICULE" : "TRANS. MATIÈRE INFL. +3,5T",
+            "LIBELLE_GENRE" : "CAMION PORTEUR",
+            "IDGENRE" : 17
+        },
+        {
+            "IDUSAGEVEHICULE" : 40,
+            "USAGE_VEHICULE" : "TRANS. MATIÈRE INFL. +3,5T",
+            "LIBELLE_GENRE" : "CAMION PLATEAU",
+            "IDGENRE" : 25
+        },
+        {
+            "IDUSAGEVEHICULE" : 40,
+            "USAGE_VEHICULE" : "TRANS. MATIÈRE INFL. +3,5T",
+            "LIBELLE_GENRE" : "CAM. CARROS",
+            "IDGENRE" : 35
+        },
+        {
+            "IDUSAGEVEHICULE" : 40,
+            "USAGE_VEHICULE" : "TRANS. MATIÈRE INFL. +3,5T",
+            "LIBELLE_GENRE" : "CAMION CITERNE A CARBURANT",
+            "IDGENRE" : 58
+        },
+        {
+            "IDUSAGEVEHICULE" : 40,
+            "USAGE_VEHICULE" : "TRANS. MATIÈRE INFL. +3,5T",
+            "LIBELLE_GENRE" : "REMORQUE",
+            "IDGENRE" : 98
+        },
+        {
+            "IDUSAGEVEHICULE" : 40,
+            "USAGE_VEHICULE" : "TRANS. MATIÈRE INFL. +3,5T",
+            "LIBELLE_GENRE" : "CAMION FOURGON",
+            "IDGENRE" : 100
+        },
+        {
+            "IDUSAGEVEHICULE" : 41,
+            "USAGE_VEHICULE" : "TRACTEUR AGRICOLE AVEC T.M.I.",
+            "LIBELLE_GENRE" : "CAMION",
+            "IDGENRE" : 5
+        },
+        {
+            "IDUSAGEVEHICULE" : 41,
+            "USAGE_VEHICULE" : "TRACTEUR AGRICOLE AVEC T.M.I.",
+            "LIBELLE_GENRE" : "TRACTEUR AGRICOLE",
+            "IDGENRE" : 19
+        },
+        {
+            "IDUSAGEVEHICULE" : 41,
+            "USAGE_VEHICULE" : "TRACTEUR AGRICOLE AVEC T.M.I.",
+            "LIBELLE_GENRE" : "CAMION A BETTONNIERE",
+            "IDGENRE" : 20
+        },
+        {
+            "IDUSAGEVEHICULE" : 41,
+            "USAGE_VEHICULE" : "TRACTEUR AGRICOLE AVEC T.M.I.",
+            "LIBELLE_GENRE" : "CAMION A FORAGE",
+            "IDGENRE" : 21
+        },
+        {
+            "IDUSAGEVEHICULE" : 41,
+            "USAGE_VEHICULE" : "TRACTEUR AGRICOLE AVEC T.M.I.",
+            "LIBELLE_GENRE" : "ENGIN CHANTIER",
+            "IDGENRE" : 23
+        },
+        {
+            "IDUSAGEVEHICULE" : 41,
+            "USAGE_VEHICULE" : "TRACTEUR AGRICOLE AVEC T.M.I.",
+            "LIBELLE_GENRE" : "CAMION A POMPE A BETON",
+            "IDGENRE" : 39
+        },
+        {
+            "IDUSAGEVEHICULE" : 42,
+            "USAGE_VEHICULE" : "BALAYEUSE +3,5T",
+            "LIBELLE_GENRE" : "CAMION",
+            "IDGENRE" : 5
+        },
+        {
+            "IDUSAGEVEHICULE" : 43,
+            "USAGE_VEHICULE" : "ENLÉVEMENT DES ORDURES +3,5T",
+            "LIBELLE_GENRE" : "CAMION",
+            "IDGENRE" : 5
+        },
+        {
+            "IDUSAGEVEHICULE" : 43,
+            "USAGE_VEHICULE" : "ENLÉVEMENT DES ORDURES +3,5T",
+            "LIBELLE_GENRE" : "TRACTEUR ROUTIER",
+            "IDGENRE" : 6
+        },
+        {
+            "IDUSAGEVEHICULE" : 43,
+            "USAGE_VEHICULE" : "ENLÉVEMENT DES ORDURES +3,5T",
+            "LIBELLE_GENRE" : "REMORQUE",
+            "IDGENRE" : 98
+        },
+        {
+            "IDUSAGEVEHICULE" : 44,
+            "USAGE_VEHICULE" : "CHASSE NEIGE +3,5T",
+            "LIBELLE_GENRE" : "CAMION",
+            "IDGENRE" : 5
+        },
+        {
+            "IDUSAGEVEHICULE" : 45,
+            "USAGE_VEHICULE" : "GARAGISTE",
+            "LIBELLE_GENRE" : "VEHICULE GARAGISTE",
+            "IDGENRE" : 26
+        },
+        {
+            "IDUSAGEVEHICULE" : 46,
+            "USAGE_VEHICULE" : "MOTOCYCLETTE AVEC SIDE-CAR CYLINDRÉE > 125 CM3",
+            "LIBELLE_GENRE" : "CYCLOMOTEUR (2 ROUES)",
+            "IDGENRE" : 7
+        },
+        {
+            "IDUSAGEVEHICULE" : 46,
+            "USAGE_VEHICULE" : "MOTOCYCLETTE AVEC SIDE-CAR CYLINDRÉE > 125 CM3",
+            "LIBELLE_GENRE" : "TRICYCLES MOTEUR",
+            "IDGENRE" : 8
+        },
+        {
+            "IDUSAGEVEHICULE" : 47,
+            "USAGE_VEHICULE" : "CYLINDRÉE < 50 CM3 VITESSE > 60 KM\/H",
+            "LIBELLE_GENRE" : "CYCLOMOTEUR (2 ROUES)",
+            "IDGENRE" : 7
+        },
+        {
+            "IDUSAGEVEHICULE" : 48,
+            "USAGE_VEHICULE" : "CYLINDRÉE ENTRE 50 CM3 ET 125 CM3",
+            "LIBELLE_GENRE" : "CYCLOMOTEUR (2 ROUES)",
+            "IDGENRE" : 7
+        },
+        {
+            "IDUSAGEVEHICULE" : 48,
+            "USAGE_VEHICULE" : "CYLINDRÉE ENTRE 50 CM3 ET 125 CM3",
+            "LIBELLE_GENRE" : "TRICYCLES MOTEUR",
+            "IDGENRE" : 8
+        },
+        {
+            "IDUSAGEVEHICULE" : 49,
+            "USAGE_VEHICULE" : "VÉHICULES À MOTEUR ÉLECTRIQUE",
+            "LIBELLE_GENRE" : "Vehicule a moteur electrique",
+            "IDGENRE" : 55
+        },
+        {
+            "IDUSAGEVEHICULE" : 50,
+            "USAGE_VEHICULE" : "TRICYCLE OU TRIPORTEUR CYLINDRÉE > 125 CM3",
+            "LIBELLE_GENRE" : "TRICYCLES MOTEUR",
+            "IDGENRE" : 8
+        },
+        {
+            "IDUSAGEVEHICULE" : 51,
+            "USAGE_VEHICULE" : "LOCATION CYLINDRÉE < 50 CM3 VITESSE < 60 KM\/H",
+            "LIBELLE_GENRE" : "CYCLOMOTEUR (2 ROUES)",
+            "IDGENRE" : 7
+        },
+        {
+            "IDUSAGEVEHICULE" : 52,
+            "USAGE_VEHICULE" : "LOCATION MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "LIBELLE_GENRE" : "CYCLOMOTEUR (2 ROUES)",
+            "IDGENRE" : 7
+        },
+        {
+            "IDUSAGEVEHICULE" : 52,
+            "USAGE_VEHICULE" : "LOCATION MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "LIBELLE_GENRE" : "TRICYCLES MOTEUR",
+            "IDGENRE" : 8
+        },
+        {
+            "IDUSAGEVEHICULE" : 53,
+            "USAGE_VEHICULE" : "LOCATION TRICYCLE OU TRIPORTEUR CYLINDRÉE < 125 CM3",
+            "LIBELLE_GENRE" : "TRICYCLES MOTEUR",
+            "IDGENRE" : 8
+        },
+        {
+            "IDUSAGEVEHICULE" : 54,
+            "USAGE_VEHICULE" : "LOCATION MOTOCYCLETTE AVEC SIDE-CAR CYLINDRÉE > 125 CM3",
+            "LIBELLE_GENRE" : "CYCLOMOTEUR (2 ROUES)",
+            "IDGENRE" : 7
+        },
+        {
+            "IDUSAGEVEHICULE" : 54,
+            "USAGE_VEHICULE" : "LOCATION MOTOCYCLETTE AVEC SIDE-CAR CYLINDRÉE > 125 CM3",
+            "LIBELLE_GENRE" : "TRICYCLES MOTEUR",
+            "IDGENRE" : 8
+        },
+        {
+            "IDUSAGEVEHICULE" : 55,
+            "USAGE_VEHICULE" : "LOCATION CYLINDRÉE < 50 CM3 VITESSE > 60 KM\/H",
+            "LIBELLE_GENRE" : "CYCLOMOTEUR (2 ROUES)",
+            "IDGENRE" : 7
+        },
+        {
+            "IDUSAGEVEHICULE" : 56,
+            "USAGE_VEHICULE" : "LOCATION CYLINDRÉE ENTRE 50 CM3 ET 125 CM3",
+            "LIBELLE_GENRE" : "CYCLOMOTEUR (2 ROUES)",
+            "IDGENRE" : 7
+        },
+        {
+            "IDUSAGEVEHICULE" : 57,
+            "USAGE_VEHICULE" : "LOCATION TRICYCLE OU TRIPORTEUR CYLINDRÉE > 125 CM3",
+            "LIBELLE_GENRE" : "TRICYCLES MOTEUR",
+            "IDGENRE" : 8
+        },
+        {
+            "IDUSAGEVEHICULE" : 58,
+            "USAGE_VEHICULE" : "HYDROCUREUSE <= 3,5T",
+            "LIBELLE_GENRE" : "CAMION CITERNE",
+            "IDGENRE" : 11
+        },
+        {
+            "IDUSAGEVEHICULE" : 59,
+            "USAGE_VEHICULE" : "HYDROCUREUSE +3,5T",
+            "LIBELLE_GENRE" : "CAMION CITERNE",
+            "IDGENRE" : 11
+        },
+        {
+            "IDUSAGEVEHICULE" : 60,
+            "USAGE_VEHICULE" : "TRICYCLE SANS SIDE-CAR CYLINDR¿E>125 CM3",
+            "LIBELLE_GENRE" : "CYCLOMOTEUR (2 ROUES)",
+            "IDGENRE" : 7
+        },
+        {
+            "IDUSAGEVEHICULE" : 60,
+            "USAGE_VEHICULE" : "TRICYCLE SANS SIDE-CAR CYLINDR¿E>125 CM3",
+            "LIBELLE_GENRE" : "TRICYCLES MOTEUR",
+            "IDGENRE" : 8
+        },
+        {
+            "IDUSAGEVEHICULE" : 60,
+            "USAGE_VEHICULE" : "TRICYCLE SANS SIDE-CAR CYLINDR¿E>125 CM3",
+            "LIBELLE_GENRE" : "QUAD",
+            "IDGENRE" : 56
+        },
+        {
+            "IDUSAGEVEHICULE" : 61,
+            "USAGE_VEHICULE" : "TRICYCLE SANS SIDE-CAR CYLINDR¿E ENTRE 50 CM3 ET 125 CM3",
+            "LIBELLE_GENRE" : "CYCLOMOTEUR (2 ROUES)",
+            "IDGENRE" : 7
+        },
+        {
+            "IDUSAGEVEHICULE" : 61,
+            "USAGE_VEHICULE" : "TRICYCLE SANS SIDE-CAR CYLINDR¿E ENTRE 50 CM3 ET 125 CM3",
+            "LIBELLE_GENRE" : "TRICYCLES MOTEUR",
+            "IDGENRE" : 8
+        },
+        {
+            "IDUSAGEVEHICULE" : 62,
+            "USAGE_VEHICULE" : "TRACTEUR FORESTIER",
+            "LIBELLE_GENRE" : "TRACTEUR FORESTIER",
+            "IDGENRE" : 115
+        }
+    ],
+    "allFiscalPowersBySousTypedUsage":[
+        {
+            "ID" : 1,
+            "SOUS_TYPE_USAGE" : "TOURISME",
+            "ID_PUISSANCE_FISCALE" : 4,
+            "PUISSANCE_FISCALE" : 5
+        },
+        {
+            "ID" : 1,
+            "SOUS_TYPE_USAGE" : "TOURISME",
+            "ID_PUISSANCE_FISCALE" : 5,
+            "PUISSANCE_FISCALE" : 6
+        },
+        {
+            "ID" : 1,
+            "SOUS_TYPE_USAGE" : "TOURISME",
+            "ID_PUISSANCE_FISCALE" : 6,
+            "PUISSANCE_FISCALE" : 7
+        },
+        {
+            "ID" : 1,
+            "SOUS_TYPE_USAGE" : "TOURISME",
+            "ID_PUISSANCE_FISCALE" : 7,
+            "PUISSANCE_FISCALE" : 8
+        },
+        {
+            "ID" : 1,
+            "SOUS_TYPE_USAGE" : "TOURISME",
+            "ID_PUISSANCE_FISCALE" : 8,
+            "PUISSANCE_FISCALE" : 9
+        },
+        {
+            "ID" : 1,
+            "SOUS_TYPE_USAGE" : "TOURISME",
+            "ID_PUISSANCE_FISCALE" : 9,
+            "PUISSANCE_FISCALE" : 10
+        },
+        {
+            "ID" : 1,
+            "SOUS_TYPE_USAGE" : "TOURISME",
+            "ID_PUISSANCE_FISCALE" : 10,
+            "PUISSANCE_FISCALE" : 11
+        },
+        {
+            "ID" : 1,
+            "SOUS_TYPE_USAGE" : "TOURISME",
+            "ID_PUISSANCE_FISCALE" : 11,
+            "PUISSANCE_FISCALE" : 12
+        },
+        {
+            "ID" : 2,
+            "SOUS_TYPE_USAGE" : "C1 (COMMERCE <= 3,5T)",
+            "ID_PUISSANCE_FISCALE" : 12,
+            "PUISSANCE_FISCALE" : 5
+        },
+        {
+            "ID" : 2,
+            "SOUS_TYPE_USAGE" : "C1 (COMMERCE <= 3,5T)",
+            "ID_PUISSANCE_FISCALE" : 13,
+            "PUISSANCE_FISCALE" : 6
+        },
+        {
+            "ID" : 2,
+            "SOUS_TYPE_USAGE" : "C1 (COMMERCE <= 3,5T)",
+            "ID_PUISSANCE_FISCALE" : 14,
+            "PUISSANCE_FISCALE" : 7
+        },
+        {
+            "ID" : 2,
+            "SOUS_TYPE_USAGE" : "C1 (COMMERCE <= 3,5T)",
+            "ID_PUISSANCE_FISCALE" : 15,
+            "PUISSANCE_FISCALE" : 8
+        },
+        {
+            "ID" : 2,
+            "SOUS_TYPE_USAGE" : "C1 (COMMERCE <= 3,5T)",
+            "ID_PUISSANCE_FISCALE" : 16,
+            "PUISSANCE_FISCALE" : 9
+        },
+        {
+            "ID" : 2,
+            "SOUS_TYPE_USAGE" : "C1 (COMMERCE <= 3,5T)",
+            "ID_PUISSANCE_FISCALE" : 17,
+            "PUISSANCE_FISCALE" : 10
+        },
+        {
+            "ID" : 2,
+            "SOUS_TYPE_USAGE" : "C1 (COMMERCE <= 3,5T)",
+            "ID_PUISSANCE_FISCALE" : 18,
+            "PUISSANCE_FISCALE" : 11
+        },
+        {
+            "ID" : 2,
+            "SOUS_TYPE_USAGE" : "C1 (COMMERCE <= 3,5T)",
+            "ID_PUISSANCE_FISCALE" : 19,
+            "PUISSANCE_FISCALE" : 12
+        },
+        {
+            "ID" : 3,
+            "SOUS_TYPE_USAGE" : "C2 (COMMERCE +3,5T)",
+            "ID_PUISSANCE_FISCALE" : 57,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 5,
+            "SOUS_TYPE_USAGE" : "AMBULANCES <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 20,
+            "PUISSANCE_FISCALE" : 10
+        },
+        {
+            "ID" : 5,
+            "SOUS_TYPE_USAGE" : "AMBULANCES <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 21,
+            "PUISSANCE_FISCALE" : 9
+        },
+        {
+            "ID" : 5,
+            "SOUS_TYPE_USAGE" : "AMBULANCES <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 22,
+            "PUISSANCE_FISCALE" : 8
+        },
+        {
+            "ID" : 5,
+            "SOUS_TYPE_USAGE" : "AMBULANCES <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 23,
+            "PUISSANCE_FISCALE" : 6
+        },
+        {
+            "ID" : 5,
+            "SOUS_TYPE_USAGE" : "AMBULANCES <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 24,
+            "PUISSANCE_FISCALE" : 12
+        },
+        {
+            "ID" : 5,
+            "SOUS_TYPE_USAGE" : "AMBULANCES <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 25,
+            "PUISSANCE_FISCALE" : 11
+        },
+        {
+            "ID" : 5,
+            "SOUS_TYPE_USAGE" : "AMBULANCES <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 26,
+            "PUISSANCE_FISCALE" : 7
+        },
+        {
+            "ID" : 5,
+            "SOUS_TYPE_USAGE" : "AMBULANCES <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 27,
+            "PUISSANCE_FISCALE" : 5
+        },
+        {
+            "ID" : 5,
+            "SOUS_TYPE_USAGE" : "AMBULANCES <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 28,
+            "PUISSANCE_FISCALE" : 13
+        },
+        {
+            "ID" : 6,
+            "SOUS_TYPE_USAGE" : "CORBILLARDS <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 58,
+            "PUISSANCE_FISCALE" : 6
+        },
+        {
+            "ID" : 7,
+            "SOUS_TYPE_USAGE" : "FOURGONS FUNÉRAIRES <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 97,
+            "PUISSANCE_FISCALE" : 9
+        },
+        {
+            "ID" : 7,
+            "SOUS_TYPE_USAGE" : "FOURGONS FUNÉRAIRES <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 98,
+            "PUISSANCE_FISCALE" : 5
+        },
+        {
+            "ID" : 7,
+            "SOUS_TYPE_USAGE" : "FOURGONS FUNÉRAIRES <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 99,
+            "PUISSANCE_FISCALE" : 12
+        },
+        {
+            "ID" : 7,
+            "SOUS_TYPE_USAGE" : "FOURGONS FUNÉRAIRES <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 100,
+            "PUISSANCE_FISCALE" : 6
+        },
+        {
+            "ID" : 8,
+            "SOUS_TYPE_USAGE" : "AUTO-ECOLE TOURISME",
+            "ID_PUISSANCE_FISCALE" : 38,
+            "PUISSANCE_FISCALE" : 5
+        },
+        {
+            "ID" : 8,
+            "SOUS_TYPE_USAGE" : "AUTO-ECOLE TOURISME",
+            "ID_PUISSANCE_FISCALE" : 39,
+            "PUISSANCE_FISCALE" : 6
+        },
+        {
+            "ID" : 8,
+            "SOUS_TYPE_USAGE" : "AUTO-ECOLE TOURISME",
+            "ID_PUISSANCE_FISCALE" : 40,
+            "PUISSANCE_FISCALE" : 7
+        },
+        {
+            "ID" : 10,
+            "SOUS_TYPE_USAGE" : "LOCATION C.I.",
+            "ID_PUISSANCE_FISCALE" : 103,
+            "PUISSANCE_FISCALE" : 6
+        },
+        {
+            "ID" : 10,
+            "SOUS_TYPE_USAGE" : "LOCATION C.I.",
+            "ID_PUISSANCE_FISCALE" : 104,
+            "PUISSANCE_FISCALE" : 7
+        },
+        {
+            "ID" : 10,
+            "SOUS_TYPE_USAGE" : "LOCATION C.I.",
+            "ID_PUISSANCE_FISCALE" : 105,
+            "PUISSANCE_FISCALE" : 5
+        },
+        {
+            "ID" : 10,
+            "SOUS_TYPE_USAGE" : "LOCATION C.I.",
+            "ID_PUISSANCE_FISCALE" : 106,
+            "PUISSANCE_FISCALE" : 8
+        },
+        {
+            "ID" : 10,
+            "SOUS_TYPE_USAGE" : "LOCATION C.I.",
+            "ID_PUISSANCE_FISCALE" : 107,
+            "PUISSANCE_FISCALE" : 12
+        },
+        {
+            "ID" : 11,
+            "SOUS_TYPE_USAGE" : "LOCATION <= 3,5T(C1)",
+            "ID_PUISSANCE_FISCALE" : 102,
+            "PUISSANCE_FISCALE" : 10
+        },
+        {
+            "ID" : 14,
+            "SOUS_TYPE_USAGE" : "LOCATION +3,5T(C2)",
+            "ID_PUISSANCE_FISCALE" : 181,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 15,
+            "SOUS_TYPE_USAGE" : "TRACTEUR AGRICOLE",
+            "ID_PUISSANCE_FISCALE" : 142,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 15,
+            "SOUS_TYPE_USAGE" : "TRACTEUR AGRICOLE",
+            "ID_PUISSANCE_FISCALE" : 195,
+            "PUISSANCE_FISCALE" : 10
+        },
+        {
+            "ID" : 15,
+            "SOUS_TYPE_USAGE" : "TRACTEUR AGRICOLE",
+            "ID_PUISSANCE_FISCALE" : 196,
+            "PUISSANCE_FISCALE" : 11
+        },
+        {
+            "ID" : 15,
+            "SOUS_TYPE_USAGE" : "TRACTEUR AGRICOLE",
+            "ID_PUISSANCE_FISCALE" : 197,
+            "PUISSANCE_FISCALE" : 12
+        },
+        {
+            "ID" : 15,
+            "SOUS_TYPE_USAGE" : "TRACTEUR AGRICOLE",
+            "ID_PUISSANCE_FISCALE" : 198,
+            "PUISSANCE_FISCALE" : 13
+        },
+        {
+            "ID" : 15,
+            "SOUS_TYPE_USAGE" : "TRACTEUR AGRICOLE",
+            "ID_PUISSANCE_FISCALE" : 199,
+            "PUISSANCE_FISCALE" : 14
+        },
+        {
+            "ID" : 15,
+            "SOUS_TYPE_USAGE" : "TRACTEUR AGRICOLE",
+            "ID_PUISSANCE_FISCALE" : 200,
+            "PUISSANCE_FISCALE" : 15
+        },
+        {
+            "ID" : 16,
+            "SOUS_TYPE_USAGE" : "MOISSONEUSE BATTEUSE",
+            "ID_PUISSANCE_FISCALE" : 116,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 18,
+            "SOUS_TYPE_USAGE" : "VÉHICULE DÉPANNAGE <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 174,
+            "PUISSANCE_FISCALE" : 8
+        },
+        {
+            "ID" : 18,
+            "SOUS_TYPE_USAGE" : "VÉHICULE DÉPANNAGE <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 175,
+            "PUISSANCE_FISCALE" : 10
+        },
+        {
+            "ID" : 18,
+            "SOUS_TYPE_USAGE" : "VÉHICULE DÉPANNAGE <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 176,
+            "PUISSANCE_FISCALE" : 9
+        },
+        {
+            "ID" : 18,
+            "SOUS_TYPE_USAGE" : "VÉHICULE DÉPANNAGE <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 177,
+            "PUISSANCE_FISCALE" : 11
+        },
+        {
+            "ID" : 18,
+            "SOUS_TYPE_USAGE" : "VÉHICULE DÉPANNAGE <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 178,
+            "PUISSANCE_FISCALE" : 12
+        },
+        {
+            "ID" : 18,
+            "SOUS_TYPE_USAGE" : "VÉHICULE DÉPANNAGE <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 179,
+            "PUISSANCE_FISCALE" : 13
+        },
+        {
+            "ID" : 18,
+            "SOUS_TYPE_USAGE" : "VÉHICULE DÉPANNAGE <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 180,
+            "PUISSANCE_FISCALE" : 7
+        },
+        {
+            "ID" : 19,
+            "SOUS_TYPE_USAGE" : "AUTO-ECOLE UTIL.\/AUTOCARS",
+            "ID_PUISSANCE_FISCALE" : 41,
+            "PUISSANCE_FISCALE" : 12
+        },
+        {
+            "ID" : 19,
+            "SOUS_TYPE_USAGE" : "AUTO-ECOLE UTIL.\/AUTOCARS",
+            "ID_PUISSANCE_FISCALE" : 42,
+            "PUISSANCE_FISCALE" : 19
+        },
+        {
+            "ID" : 19,
+            "SOUS_TYPE_USAGE" : "AUTO-ECOLE UTIL.\/AUTOCARS",
+            "ID_PUISSANCE_FISCALE" : 43,
+            "PUISSANCE_FISCALE" : 23
+        },
+        {
+            "ID" : 19,
+            "SOUS_TYPE_USAGE" : "AUTO-ECOLE UTIL.\/AUTOCARS",
+            "ID_PUISSANCE_FISCALE" : 44,
+            "PUISSANCE_FISCALE" : 34
+        },
+        {
+            "ID" : 19,
+            "SOUS_TYPE_USAGE" : "AUTO-ECOLE UTIL.\/AUTOCARS",
+            "ID_PUISSANCE_FISCALE" : 45,
+            "PUISSANCE_FISCALE" : 6
+        },
+        {
+            "ID" : 19,
+            "SOUS_TYPE_USAGE" : "AUTO-ECOLE UTIL.\/AUTOCARS",
+            "ID_PUISSANCE_FISCALE" : 46,
+            "PUISSANCE_FISCALE" : 16
+        },
+        {
+            "ID" : 19,
+            "SOUS_TYPE_USAGE" : "AUTO-ECOLE UTIL.\/AUTOCARS",
+            "ID_PUISSANCE_FISCALE" : 47,
+            "PUISSANCE_FISCALE" : 9
+        },
+        {
+            "ID" : 19,
+            "SOUS_TYPE_USAGE" : "AUTO-ECOLE UTIL.\/AUTOCARS",
+            "ID_PUISSANCE_FISCALE" : 48,
+            "PUISSANCE_FISCALE" : 37
+        },
+        {
+            "ID" : 19,
+            "SOUS_TYPE_USAGE" : "AUTO-ECOLE UTIL.\/AUTOCARS",
+            "ID_PUISSANCE_FISCALE" : 49,
+            "PUISSANCE_FISCALE" : 32
+        },
+        {
+            "ID" : 19,
+            "SOUS_TYPE_USAGE" : "AUTO-ECOLE UTIL.\/AUTOCARS",
+            "ID_PUISSANCE_FISCALE" : 50,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 19,
+            "SOUS_TYPE_USAGE" : "AUTO-ECOLE UTIL.\/AUTOCARS",
+            "ID_PUISSANCE_FISCALE" : 51,
+            "PUISSANCE_FISCALE" : 15
+        },
+        {
+            "ID" : 19,
+            "SOUS_TYPE_USAGE" : "AUTO-ECOLE UTIL.\/AUTOCARS",
+            "ID_PUISSANCE_FISCALE" : 52,
+            "PUISSANCE_FISCALE" : 20
+        },
+        {
+            "ID" : 19,
+            "SOUS_TYPE_USAGE" : "AUTO-ECOLE UTIL.\/AUTOCARS",
+            "ID_PUISSANCE_FISCALE" : 53,
+            "PUISSANCE_FISCALE" : 18
+        },
+        {
+            "ID" : 19,
+            "SOUS_TYPE_USAGE" : "AUTO-ECOLE UTIL.\/AUTOCARS",
+            "ID_PUISSANCE_FISCALE" : 54,
+            "PUISSANCE_FISCALE" : 10
+        },
+        {
+            "ID" : 19,
+            "SOUS_TYPE_USAGE" : "AUTO-ECOLE UTIL.\/AUTOCARS",
+            "ID_PUISSANCE_FISCALE" : 55,
+            "PUISSANCE_FISCALE" : 14
+        },
+        {
+            "ID" : 20,
+            "SOUS_TYPE_USAGE" : "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "ID_PUISSANCE_FISCALE" : 155,
+            "PUISSANCE_FISCALE" : 9
+        },
+        {
+            "ID" : 20,
+            "SOUS_TYPE_USAGE" : "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "ID_PUISSANCE_FISCALE" : 156,
+            "PUISSANCE_FISCALE" : 10
+        },
+        {
+            "ID" : 20,
+            "SOUS_TYPE_USAGE" : "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "ID_PUISSANCE_FISCALE" : 157,
+            "PUISSANCE_FISCALE" : 12
+        },
+        {
+            "ID" : 20,
+            "SOUS_TYPE_USAGE" : "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "ID_PUISSANCE_FISCALE" : 158,
+            "PUISSANCE_FISCALE" : 11
+        },
+        {
+            "ID" : 20,
+            "SOUS_TYPE_USAGE" : "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "ID_PUISSANCE_FISCALE" : 159,
+            "PUISSANCE_FISCALE" : 8
+        },
+        {
+            "ID" : 20,
+            "SOUS_TYPE_USAGE" : "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "ID_PUISSANCE_FISCALE" : 160,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 21,
+            "SOUS_TYPE_USAGE" : "TRANSPORT PERSONNEL <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 162,
+            "PUISSANCE_FISCALE" : 6
+        },
+        {
+            "ID" : 21,
+            "SOUS_TYPE_USAGE" : "TRANSPORT PERSONNEL <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 163,
+            "PUISSANCE_FISCALE" : 12
+        },
+        {
+            "ID" : 21,
+            "SOUS_TYPE_USAGE" : "TRANSPORT PERSONNEL <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 164,
+            "PUISSANCE_FISCALE" : 10
+        },
+        {
+            "ID" : 21,
+            "SOUS_TYPE_USAGE" : "TRANSPORT PERSONNEL <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 165,
+            "PUISSANCE_FISCALE" : 13
+        },
+        {
+            "ID" : 21,
+            "SOUS_TYPE_USAGE" : "TRANSPORT PERSONNEL <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 166,
+            "PUISSANCE_FISCALE" : 19
+        },
+        {
+            "ID" : 21,
+            "SOUS_TYPE_USAGE" : "TRANSPORT PERSONNEL <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 167,
+            "PUISSANCE_FISCALE" : 7
+        },
+        {
+            "ID" : 21,
+            "SOUS_TYPE_USAGE" : "TRANSPORT PERSONNEL <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 168,
+            "PUISSANCE_FISCALE" : 11
+        },
+        {
+            "ID" : 21,
+            "SOUS_TYPE_USAGE" : "TRANSPORT PERSONNEL <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 169,
+            "PUISSANCE_FISCALE" : 8
+        },
+        {
+            "ID" : 21,
+            "SOUS_TYPE_USAGE" : "TRANSPORT PERSONNEL <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 170,
+            "PUISSANCE_FISCALE" : 9
+        },
+        {
+            "ID" : 22,
+            "SOUS_TYPE_USAGE" : "ARROSEUSE <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 204,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 23,
+            "SOUS_TYPE_USAGE" : "BALAYEUSE <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 205,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 24,
+            "SOUS_TYPE_USAGE" : "ENLÉVEMENT DES ORDURES <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 93,
+            "PUISSANCE_FISCALE" : 13
+        },
+        {
+            "ID" : 24,
+            "SOUS_TYPE_USAGE" : "ENLÉVEMENT DES ORDURES <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 94,
+            "PUISSANCE_FISCALE" : 9
+        },
+        {
+            "ID" : 24,
+            "SOUS_TYPE_USAGE" : "ENLÉVEMENT DES ORDURES <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 95,
+            "PUISSANCE_FISCALE" : 18
+        },
+        {
+            "ID" : 24,
+            "SOUS_TYPE_USAGE" : "ENLÉVEMENT DES ORDURES <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 96,
+            "PUISSANCE_FISCALE" : 10
+        },
+        {
+            "ID" : 25,
+            "SOUS_TYPE_USAGE" : "VOITURE VIDANGE <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 206,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 26,
+            "SOUS_TYPE_USAGE" : "CHASSE NEIGE <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 207,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 27,
+            "SOUS_TYPE_USAGE" : "VÉHICULE SCE INCENDIE <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 208,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 28,
+            "SOUS_TYPE_USAGE" : "VÉHICULE DÉPANNAGE +3,5T",
+            "ID_PUISSANCE_FISCALE" : 173,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 29,
+            "SOUS_TYPE_USAGE" : "TRANSPORT ECOLIERS +3,5T",
+            "ID_PUISSANCE_FISCALE" : 182,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 30,
+            "SOUS_TYPE_USAGE" : "TRANSPORT PERSONNEL +3,5T",
+            "ID_PUISSANCE_FISCALE" : 161,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 31,
+            "SOUS_TYPE_USAGE" : "ARROSEUR +3,5T",
+            "ID_PUISSANCE_FISCALE" : 29,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 32,
+            "SOUS_TYPE_USAGE" : "VOITURE VIDANGE +3.5T",
+            "ID_PUISSANCE_FISCALE" : 183,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 33,
+            "SOUS_TYPE_USAGE" : "VÉH. SCE INCENDIE +3.5T",
+            "ID_PUISSANCE_FISCALE" : 184,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 34,
+            "SOUS_TYPE_USAGE" : "AUTO-ECOLE 2 OU 3 ROUES",
+            "ID_PUISSANCE_FISCALE" : 30,
+            "PUISSANCE_FISCALE" : 7
+        },
+        {
+            "ID" : 34,
+            "SOUS_TYPE_USAGE" : "AUTO-ECOLE 2 OU 3 ROUES",
+            "ID_PUISSANCE_FISCALE" : 31,
+            "PUISSANCE_FISCALE" : 51
+        },
+        {
+            "ID" : 34,
+            "SOUS_TYPE_USAGE" : "AUTO-ECOLE 2 OU 3 ROUES",
+            "ID_PUISSANCE_FISCALE" : 32,
+            "PUISSANCE_FISCALE" : 126
+        },
+        {
+            "ID" : 34,
+            "SOUS_TYPE_USAGE" : "AUTO-ECOLE 2 OU 3 ROUES",
+            "ID_PUISSANCE_FISCALE" : 33,
+            "PUISSANCE_FISCALE" : 49
+        },
+        {
+            "ID" : 34,
+            "SOUS_TYPE_USAGE" : "AUTO-ECOLE 2 OU 3 ROUES",
+            "ID_PUISSANCE_FISCALE" : 34,
+            "PUISSANCE_FISCALE" : 5
+        },
+        {
+            "ID" : 34,
+            "SOUS_TYPE_USAGE" : "AUTO-ECOLE 2 OU 3 ROUES",
+            "ID_PUISSANCE_FISCALE" : 35,
+            "PUISSANCE_FISCALE" : 2
+        },
+        {
+            "ID" : 34,
+            "SOUS_TYPE_USAGE" : "AUTO-ECOLE 2 OU 3 ROUES",
+            "ID_PUISSANCE_FISCALE" : 36,
+            "PUISSANCE_FISCALE" : 4
+        },
+        {
+            "ID" : 34,
+            "SOUS_TYPE_USAGE" : "AUTO-ECOLE 2 OU 3 ROUES",
+            "ID_PUISSANCE_FISCALE" : 37,
+            "PUISSANCE_FISCALE" : 3
+        },
+        {
+            "ID" : 35,
+            "SOUS_TYPE_USAGE" : "ENGIN DE CHANTIER",
+            "ID_PUISSANCE_FISCALE" : 82,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 36,
+            "SOUS_TYPE_USAGE" : "CYLINDRÉE < 50 CM3 VITESSE < 60 KM\/H",
+            "ID_PUISSANCE_FISCALE" : 59,
+            "PUISSANCE_FISCALE" : 7
+        },
+        {
+            "ID" : 36,
+            "SOUS_TYPE_USAGE" : "CYLINDRÉE < 50 CM3 VITESSE < 60 KM\/H",
+            "ID_PUISSANCE_FISCALE" : 60,
+            "PUISSANCE_FISCALE" : 49
+        },
+        {
+            "ID" : 36,
+            "SOUS_TYPE_USAGE" : "CYLINDRÉE < 50 CM3 VITESSE < 60 KM\/H",
+            "ID_PUISSANCE_FISCALE" : 61,
+            "PUISSANCE_FISCALE" : 8
+        },
+        {
+            "ID" : 36,
+            "SOUS_TYPE_USAGE" : "CYLINDRÉE < 50 CM3 VITESSE < 60 KM\/H",
+            "ID_PUISSANCE_FISCALE" : 62,
+            "PUISSANCE_FISCALE" : 50
+        },
+        {
+            "ID" : 36,
+            "SOUS_TYPE_USAGE" : "CYLINDRÉE < 50 CM3 VITESSE < 60 KM\/H",
+            "ID_PUISSANCE_FISCALE" : 63,
+            "PUISSANCE_FISCALE" : 1
+        },
+        {
+            "ID" : 36,
+            "SOUS_TYPE_USAGE" : "CYLINDRÉE < 50 CM3 VITESSE < 60 KM\/H",
+            "ID_PUISSANCE_FISCALE" : 64,
+            "PUISSANCE_FISCALE" : 45
+        },
+        {
+            "ID" : 36,
+            "SOUS_TYPE_USAGE" : "CYLINDRÉE < 50 CM3 VITESSE < 60 KM\/H",
+            "ID_PUISSANCE_FISCALE" : 65,
+            "PUISSANCE_FISCALE" : 2
+        },
+        {
+            "ID" : 36,
+            "SOUS_TYPE_USAGE" : "CYLINDRÉE < 50 CM3 VITESSE < 60 KM\/H",
+            "ID_PUISSANCE_FISCALE" : 66,
+            "PUISSANCE_FISCALE" : 6
+        },
+        {
+            "ID" : 36,
+            "SOUS_TYPE_USAGE" : "CYLINDRÉE < 50 CM3 VITESSE < 60 KM\/H",
+            "ID_PUISSANCE_FISCALE" : 67,
+            "PUISSANCE_FISCALE" : 3
+        },
+        {
+            "ID" : 37,
+            "SOUS_TYPE_USAGE" : "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 121,
+            "PUISSANCE_FISCALE" : 126
+        },
+        {
+            "ID" : 37,
+            "SOUS_TYPE_USAGE" : "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 122,
+            "PUISSANCE_FISCALE" : 6
+        },
+        {
+            "ID" : 37,
+            "SOUS_TYPE_USAGE" : "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 123,
+            "PUISSANCE_FISCALE" : 2
+        },
+        {
+            "ID" : 37,
+            "SOUS_TYPE_USAGE" : "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 124,
+            "PUISSANCE_FISCALE" : 7
+        },
+        {
+            "ID" : 37,
+            "SOUS_TYPE_USAGE" : "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 125,
+            "PUISSANCE_FISCALE" : 4
+        },
+        {
+            "ID" : 37,
+            "SOUS_TYPE_USAGE" : "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 126,
+            "PUISSANCE_FISCALE" : 9
+        },
+        {
+            "ID" : 37,
+            "SOUS_TYPE_USAGE" : "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 127,
+            "PUISSANCE_FISCALE" : 5
+        },
+        {
+            "ID" : 37,
+            "SOUS_TYPE_USAGE" : "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 128,
+            "PUISSANCE_FISCALE" : 3
+        },
+        {
+            "ID" : 37,
+            "SOUS_TYPE_USAGE" : "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 129,
+            "PUISSANCE_FISCALE" : 8
+        },
+        {
+            "ID" : 37,
+            "SOUS_TYPE_USAGE" : "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 130,
+            "PUISSANCE_FISCALE" : 11
+        },
+        {
+            "ID" : 37,
+            "SOUS_TYPE_USAGE" : "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 131,
+            "PUISSANCE_FISCALE" : 10
+        },
+        {
+            "ID" : 37,
+            "SOUS_TYPE_USAGE" : "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 132,
+            "PUISSANCE_FISCALE" : 12
+        },
+        {
+            "ID" : 37,
+            "SOUS_TYPE_USAGE" : "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 133,
+            "PUISSANCE_FISCALE" : 1
+        },
+        {
+            "ID" : 37,
+            "SOUS_TYPE_USAGE" : "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 134,
+            "PUISSANCE_FISCALE" : 16
+        },
+        {
+            "ID" : 37,
+            "SOUS_TYPE_USAGE" : "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 135,
+            "PUISSANCE_FISCALE" : 14
+        },
+        {
+            "ID" : 37,
+            "SOUS_TYPE_USAGE" : "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 136,
+            "PUISSANCE_FISCALE" : 15
+        },
+        {
+            "ID" : 38,
+            "SOUS_TYPE_USAGE" : "TRICYCLE OU TRIPORTEUR CYLINDRÉE < 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 209,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 39,
+            "SOUS_TYPE_USAGE" : "TRANS. MATIÈRE INFL. <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 148,
+            "PUISSANCE_FISCALE" : 12
+        },
+        {
+            "ID" : 39,
+            "SOUS_TYPE_USAGE" : "TRANS. MATIÈRE INFL. <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 149,
+            "PUISSANCE_FISCALE" : 9
+        },
+        {
+            "ID" : 39,
+            "SOUS_TYPE_USAGE" : "TRANS. MATIÈRE INFL. <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 150,
+            "PUISSANCE_FISCALE" : 11
+        },
+        {
+            "ID" : 39,
+            "SOUS_TYPE_USAGE" : "TRANS. MATIÈRE INFL. <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 151,
+            "PUISSANCE_FISCALE" : 10
+        },
+        {
+            "ID" : 39,
+            "SOUS_TYPE_USAGE" : "TRANS. MATIÈRE INFL. <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 152,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 39,
+            "SOUS_TYPE_USAGE" : "TRANS. MATIÈRE INFL. <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 153,
+            "PUISSANCE_FISCALE" : 7
+        },
+        {
+            "ID" : 39,
+            "SOUS_TYPE_USAGE" : "TRANS. MATIÈRE INFL. <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 154,
+            "PUISSANCE_FISCALE" : 6
+        },
+        {
+            "ID" : 40,
+            "SOUS_TYPE_USAGE" : "TRANS. MATIÈRE INFL. +3,5T",
+            "ID_PUISSANCE_FISCALE" : 147,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 41,
+            "SOUS_TYPE_USAGE" : "TRACTEUR AGRICOLE AVEC T.M.I.",
+            "ID_PUISSANCE_FISCALE" : 194,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 42,
+            "SOUS_TYPE_USAGE" : "BALAYEUSE +3,5T",
+            "ID_PUISSANCE_FISCALE" : 56,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 43,
+            "SOUS_TYPE_USAGE" : "ENLÉVEMENT DES ORDURES +3,5T",
+            "ID_PUISSANCE_FISCALE" : 92,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 44,
+            "SOUS_TYPE_USAGE" : "CHASSE NEIGE +3,5T",
+            "ID_PUISSANCE_FISCALE" : 185,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 45,
+            "SOUS_TYPE_USAGE" : "GARAGISTE",
+            "ID_PUISSANCE_FISCALE" : 101,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 46,
+            "SOUS_TYPE_USAGE" : "MOTOCYCLETTE AVEC SIDE-CAR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 120,
+            "PUISSANCE_FISCALE" : 126
+        },
+        {
+            "ID" : 47,
+            "SOUS_TYPE_USAGE" : "CYLINDRÉE < 50 CM3 VITESSE > 60 KM\/H",
+            "ID_PUISSANCE_FISCALE" : 68,
+            "PUISSANCE_FISCALE" : 49
+        },
+        {
+            "ID" : 47,
+            "SOUS_TYPE_USAGE" : "CYLINDRÉE < 50 CM3 VITESSE > 60 KM\/H",
+            "ID_PUISSANCE_FISCALE" : 70,
+            "PUISSANCE_FISCALE" : 48
+        },
+        {
+            "ID" : 47,
+            "SOUS_TYPE_USAGE" : "CYLINDRÉE < 50 CM3 VITESSE > 60 KM\/H",
+            "ID_PUISSANCE_FISCALE" : 71,
+            "PUISSANCE_FISCALE" : 45
+        },
+        {
+            "ID" : 47,
+            "SOUS_TYPE_USAGE" : "CYLINDRÉE < 50 CM3 VITESSE > 60 KM\/H",
+            "ID_PUISSANCE_FISCALE" : 72,
+            "PUISSANCE_FISCALE" : 42
+        },
+        {
+            "ID" : 47,
+            "SOUS_TYPE_USAGE" : "CYLINDRÉE < 50 CM3 VITESSE > 60 KM\/H",
+            "ID_PUISSANCE_FISCALE" : 73,
+            "PUISSANCE_FISCALE" : 41
+        },
+        {
+            "ID" : 48,
+            "SOUS_TYPE_USAGE" : "CYLINDRÉE ENTRE 50 CM3 ET 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 76,
+            "PUISSANCE_FISCALE" : 1
+        },
+        {
+            "ID" : 48,
+            "SOUS_TYPE_USAGE" : "CYLINDRÉE ENTRE 50 CM3 ET 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 77,
+            "PUISSANCE_FISCALE" : 51
+        },
+        {
+            "ID" : 48,
+            "SOUS_TYPE_USAGE" : "CYLINDRÉE ENTRE 50 CM3 ET 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 78,
+            "PUISSANCE_FISCALE" : 125
+        },
+        {
+            "ID" : 48,
+            "SOUS_TYPE_USAGE" : "CYLINDRÉE ENTRE 50 CM3 ET 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 79,
+            "PUISSANCE_FISCALE" : 49
+        },
+        {
+            "ID" : 48,
+            "SOUS_TYPE_USAGE" : "CYLINDRÉE ENTRE 50 CM3 ET 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 80,
+            "PUISSANCE_FISCALE" : 107
+        },
+        {
+            "ID" : 48,
+            "SOUS_TYPE_USAGE" : "CYLINDRÉE ENTRE 50 CM3 ET 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 81,
+            "PUISSANCE_FISCALE" : 124
+        },
+        {
+            "ID" : 50,
+            "SOUS_TYPE_USAGE" : "TRICYCLE OU TRIPORTEUR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 171,
+            "PUISSANCE_FISCALE" : 2
+        },
+        {
+            "ID" : 50,
+            "SOUS_TYPE_USAGE" : "TRICYCLE OU TRIPORTEUR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 172,
+            "PUISSANCE_FISCALE" : 126
+        },
+        {
+            "ID" : 51,
+            "SOUS_TYPE_USAGE" : "LOCATION CYLINDRÉE < 50 CM3 VITESSE < 60 KM\/H",
+            "ID_PUISSANCE_FISCALE" : 1,
+            "PUISSANCE_FISCALE" : 45
+        },
+        {
+            "ID" : 51,
+            "SOUS_TYPE_USAGE" : "LOCATION CYLINDRÉE < 50 CM3 VITESSE < 60 KM\/H",
+            "ID_PUISSANCE_FISCALE" : 2,
+            "PUISSANCE_FISCALE" : 49
+        },
+        {
+            "ID" : 51,
+            "SOUS_TYPE_USAGE" : "LOCATION CYLINDRÉE < 50 CM3 VITESSE < 60 KM\/H",
+            "ID_PUISSANCE_FISCALE" : 3,
+            "PUISSANCE_FISCALE" : 50
+        },
+        {
+            "ID" : 52,
+            "SOUS_TYPE_USAGE" : "LOCATION MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 201,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 53,
+            "SOUS_TYPE_USAGE" : "LOCATION TRICYCLE OU TRIPORTEUR CYLINDRÉE < 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 202,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 54,
+            "SOUS_TYPE_USAGE" : "LOCATION MOTOCYCLETTE AVEC SIDE-CAR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 110,
+            "PUISSANCE_FISCALE" : 126
+        },
+        {
+            "ID" : 54,
+            "SOUS_TYPE_USAGE" : "LOCATION MOTOCYCLETTE AVEC SIDE-CAR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 111,
+            "PUISSANCE_FISCALE" : 9
+        },
+        {
+            "ID" : 54,
+            "SOUS_TYPE_USAGE" : "LOCATION MOTOCYCLETTE AVEC SIDE-CAR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 112,
+            "PUISSANCE_FISCALE" : 8
+        },
+        {
+            "ID" : 54,
+            "SOUS_TYPE_USAGE" : "LOCATION MOTOCYCLETTE AVEC SIDE-CAR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 113,
+            "PUISSANCE_FISCALE" : 11
+        },
+        {
+            "ID" : 54,
+            "SOUS_TYPE_USAGE" : "LOCATION MOTOCYCLETTE AVEC SIDE-CAR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 114,
+            "PUISSANCE_FISCALE" : 7
+        },
+        {
+            "ID" : 54,
+            "SOUS_TYPE_USAGE" : "LOCATION MOTOCYCLETTE AVEC SIDE-CAR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 115,
+            "PUISSANCE_FISCALE" : 4
+        },
+        {
+            "ID" : 55,
+            "SOUS_TYPE_USAGE" : "LOCATION CYLINDRÉE < 50 CM3 VITESSE > 60 KM\/H",
+            "ID_PUISSANCE_FISCALE" : 108,
+            "PUISSANCE_FISCALE" : 49
+        },
+        {
+            "ID" : 55,
+            "SOUS_TYPE_USAGE" : "LOCATION CYLINDRÉE < 50 CM3 VITESSE > 60 KM\/H",
+            "ID_PUISSANCE_FISCALE" : 187,
+            "PUISSANCE_FISCALE" : 41
+        },
+        {
+            "ID" : 55,
+            "SOUS_TYPE_USAGE" : "LOCATION CYLINDRÉE < 50 CM3 VITESSE > 60 KM\/H",
+            "ID_PUISSANCE_FISCALE" : 188,
+            "PUISSANCE_FISCALE" : 42
+        },
+        {
+            "ID" : 55,
+            "SOUS_TYPE_USAGE" : "LOCATION CYLINDRÉE < 50 CM3 VITESSE > 60 KM\/H",
+            "ID_PUISSANCE_FISCALE" : 189,
+            "PUISSANCE_FISCALE" : 45
+        },
+        {
+            "ID" : 55,
+            "SOUS_TYPE_USAGE" : "LOCATION CYLINDRÉE < 50 CM3 VITESSE > 60 KM\/H",
+            "ID_PUISSANCE_FISCALE" : 190,
+            "PUISSANCE_FISCALE" : 48
+        },
+        {
+            "ID" : 55,
+            "SOUS_TYPE_USAGE" : "LOCATION CYLINDRÉE < 50 CM3 VITESSE > 60 KM\/H",
+            "ID_PUISSANCE_FISCALE" : 191,
+            "PUISSANCE_FISCALE" : 50
+        },
+        {
+            "ID" : 55,
+            "SOUS_TYPE_USAGE" : "LOCATION CYLINDRÉE < 50 CM3 VITESSE > 60 KM\/H",
+            "ID_PUISSANCE_FISCALE" : 192,
+            "PUISSANCE_FISCALE" : 60
+        },
+        {
+            "ID" : 55,
+            "SOUS_TYPE_USAGE" : "LOCATION CYLINDRÉE < 50 CM3 VITESSE > 60 KM\/H",
+            "ID_PUISSANCE_FISCALE" : 193,
+            "PUISSANCE_FISCALE" : 110
+        },
+        {
+            "ID" : 56,
+            "SOUS_TYPE_USAGE" : "LOCATION CYLINDRÉE ENTRE 50 CM3 ET 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 109,
+            "PUISSANCE_FISCALE" : 1
+        },
+        {
+            "ID" : 57,
+            "SOUS_TYPE_USAGE" : "LOCATION TRICYCLE OU TRIPORTEUR CYLINDRÉE > 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 203,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 58,
+            "SOUS_TYPE_USAGE" : "HYDROCUREUSE <= 3,5T",
+            "ID_PUISSANCE_FISCALE" : 210,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 59,
+            "SOUS_TYPE_USAGE" : "HYDROCUREUSE +3,5T",
+            "ID_PUISSANCE_FISCALE" : 186,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 60,
+            "SOUS_TYPE_USAGE" : "TRICYCLE SANS SIDE-CAR CYLINDR¿E>125 CM3",
+            "ID_PUISSANCE_FISCALE" : 211,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 61,
+            "SOUS_TYPE_USAGE" : "TRICYCLE SANS SIDE-CAR CYLINDR¿E ENTRE 50 CM3 ET 125 CM3",
+            "ID_PUISSANCE_FISCALE" : 212,
+            "PUISSANCE_FISCALE" : 0
+        },
+        {
+            "ID" : 62,
+            "SOUS_TYPE_USAGE" : "TRACTEUR FORESTIER",
+            "ID_PUISSANCE_FISCALE" : 213,
+            "PUISSANCE_FISCALE" : 0
+        }
     ]
 }
