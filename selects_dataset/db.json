@@ -1,0 +1,32 @@
+{
+    "testingEndpointUsers": [
+        {
+            "id": "1",
+            "firstName": "yahya",
+            "lastName": "yahya",
+            "email": "yahya",
+            "age": 23,
+            "companyId": "1"
+        },
+        {
+            "id": "2",
+            "firstName": "khaoula",
+            "lastName": "khaoula",
+            "email": "khaoula",
+            "age": 23,
+            "companyId": "2"
+        }
+    ],
+    "testingEndpointCompanies": [
+        {
+            "id": "1",
+            "name": "RMA",
+            "description": "La Royale marocaine d'assurance est une compagnie d'assurance et de réassurance marocaine filiale du groupe FinanceCom. Depuis plus de 70 ans d existence, RMA offre une panoplie des services afin protéger les biens et les personnes contre les risques de la vie et d accompagner les particuliers, les professionnels et les entreprises dans la réalisation de leurs projets d avenir en toute sérénité."
+        },
+        {
+            "id": "2",
+            "name": "DELL",
+            "description": "DELL et de réassurance marocaine filiale du groupe DELL. Depuis plus de 70 ans d existence, DELL offre une panoplie des services afin protéger les biens et les personnes contre les risques de la vie et d accompagner les particuliers, les professionnels et les entreprises dans la réalisation de leurs projets d avenir en toute sérénité."
+        }
+    ]
+}

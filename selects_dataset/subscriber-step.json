@@ -676,15 +676,6 @@
             "abrg": "USA",
             "label": "United States of America",
             "visibles": true
-        },
-        {
-            "id": 140,
-            "version": 0,
-            "code": 33,
-            "libelle": "hin",
-            "abrg": "hind",
-            "label": "hin",
-            "visibles": true
         }
     ],
     "ville": [

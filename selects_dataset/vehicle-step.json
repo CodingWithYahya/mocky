@@ -1,0 +1,3068 @@
+{
+    "typeUsage": [
+        {
+            "id": 1,
+            "label": "LOCATION"
+        },
+        {
+            "id": 2,
+            "label": "CYCLOMOTER"
+        },
+        {
+            "id": 3,
+            "label": "DIVERS"
+        },
+        {
+            "id": 4,
+            "label": "TOURISME"
+        },
+        {
+            "id": 5,
+            "label": "C1"
+        },
+        {
+            "id": 6,
+            "label": "C2"
+        }
+    ],
+    "typeUsageAvecSousType": [
+        {
+            "id": 1,
+            "label": "LOCATION",
+            "libelle": "LOCATION",
+            "options": [
+                {
+                    "id": 10,
+                    "code": 16,
+                    "libelle": "LOCATION C.I.",
+                    "label": "LOCATION C.I.",
+                    "categorie": 751,
+                    "nombrePlaceMaximum": 30,
+                    "nombrePlaceMinimum": 0
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "label": "CYCLOMOTER",
+            "libelle": "CYCLOMOTER",
+            "options": [
+                {
+                    "id": 36,
+                    "code": 82,
+                    "libelle": "CYLINDRÉE < 50 CM3 VITESSE < 60 KM/H",
+                    "label": "CYLINDRÉE < 50 CM3 VITESSE < 60 KM/H",
+                    "categorie": 705,
+                    "nombrePlaceMaximum": 2,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 47,
+                    "code": 92,
+                    "libelle": "CYLINDRÉE < 50 CM3 VITESSE > 60 KM/H",
+                    "label": "CYLINDRÉE < 50 CM3 VITESSE > 60 KM/H",
+                    "categorie": 715,
+                    "nombrePlaceMaximum": 2,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 48,
+                    "code": 93,
+                    "libelle": "CYLINDRÉE ENTRE 50 CM3 ET 125 CM3",
+                    "label": "CYLINDRÉE ENTRE 50 CM3 ET 125 CM3",
+                    "categorie": 725,
+                    "nombrePlaceMaximum": 2,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 37,
+                    "code": 83,
+                    "libelle": "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+                    "label": "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+                    "categorie": 745,
+                    "nombrePlaceMaximum": 2,
+                    "nombrePlaceMinimum": 0
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "label": "DIVERS",
+            "libelle": "DIVERS",
+            "options": [
+                {
+                    "id": 44,
+                    "code": 90,
+                    "libelle": "CHASSE NEIGE +3,5T",
+                    "label": "CHASSE NEIGE +3,5T",
+                    "categorie": 753,
+                    "ptc": "+3,5T",
+                    "nombrePlaceMaximum": 5,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 41,
+                    "code": 87,
+                    "libelle": "TRACTEUR AGRICOLE AVEC T.M.I.",
+                    "label": "TRACTEUR AGRICOLE AVEC T.M.I.",
+                    "categorie": 713,
+                    "nombrePlaceMaximum": 1,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 28,
+                    "code": 40,
+                    "libelle": "VÉHICULE DÉPANNAGE +3,5T",
+                    "label": "VÉHICULE DÉPANNAGE +3,5T",
+                    "categorie": 763,
+                    "ptc": "+3,5T",
+                    "nombrePlaceMaximum": 3,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 49,
+                    "code": 95,
+                    "libelle": "VÉHICULES À MOTEUR ÉLECTRIQUE",
+                    "label": "VÉHICULES À MOTEUR ÉLECTRIQUE",
+                    "nombrePlaceMaximum": 1,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 58,
+                    "code": 41,
+                    "libelle": "HYDROCUREUSE <= 3,5T",
+                    "label": "HYDROCUREUSE <= 3,5T",
+                    "categorie": 753,
+                    "nombrePlaceMaximum": 3,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 25,
+                    "code": 37,
+                    "libelle": "VOITURE VIDANGE <= 3,5T",
+                    "label": "VOITURE VIDANGE <= 3,5T",
+                    "categorie": 753,
+                    "ptc": "-3,5T",
+                    "nombrePlaceMaximum": 3,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 24,
+                    "code": 36,
+                    "libelle": "ENLÉVEMENT DES ORDURES <= 3,5T",
+                    "label": "ENLÉVEMENT DES ORDURES <= 3,5T",
+                    "categorie": 753,
+                    "ptc": "-3,5T",
+                    "nombrePlaceMaximum": 3,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 62,
+                    "code": 100,
+                    "libelle": "TRACTEUR FORESTIER",
+                    "label": "TRACTEUR FORESTIER",
+                    "categorie": 711,
+                    "nombrePlaceMaximum": 1,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 31,
+                    "code": 44,
+                    "libelle": "ARROSEUR +3,5T",
+                    "label": "ARROSEUR +3,5T",
+                    "categorie": 753,
+                    "ptc": "+3,5T",
+                    "nombrePlaceMaximum": 3,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 42,
+                    "code": 88,
+                    "libelle": "BALAYEUSE +3,5T",
+                    "label": "BALAYEUSE +3,5T",
+                    "categorie": 753,
+                    "ptc": "+3,5T",
+                    "nombrePlaceMaximum": 5,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 5,
+                    "code": 11,
+                    "libelle": "AMBULANCES <= 3,5T",
+                    "label": "AMBULANCES <= 3,5T",
+                    "categorie": 721,
+                    "ptc": "-3,5T",
+                    "nombrePlaceMaximum": 5,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 8,
+                    "code": 14,
+                    "libelle": "AUTO-ECOLE TOURISME",
+                    "label": "AUTO-ECOLE TOURISME",
+                    "categorie": 741,
+                    "nombrePlaceMaximum": 5,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 32,
+                    "code": 47,
+                    "libelle": "VOITURE VIDANGE +3.5T",
+                    "label": "VOITURE VIDANGE +3.5T",
+                    "categorie": 753,
+                    "ptc": "+3,5T",
+                    "nombrePlaceMaximum": 3,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 16,
+                    "code": 22,
+                    "libelle": "MOISSONEUSE BATTEUSE",
+                    "label": "MOISSONEUSE BATTEUSE",
+                    "categorie": 783,
+                    "nombrePlaceMaximum": 1,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 33,
+                    "code": 49,
+                    "libelle": "VÉH. SCE INCENDIE +3.5T",
+                    "label": "VÉH. SCE INCENDIE +3.5T",
+                    "categorie": 753,
+                    "ptc": "+3,5T",
+                    "nombrePlaceMaximum": 5,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 20,
+                    "code": 32,
+                    "libelle": "TRANSPORT DES ECOLIERS <= 3,5 T",
+                    "label": "TRANSPORT DES ECOLIERS <= 3,5 T",
+                    "categorie": 703,
+                    "ptc": "-3,5T",
+                    "nombrePlaceMaximum": 70,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 39,
+                    "code": 85,
+                    "libelle": "TRANS. MATIÈRE INFL. <= 3,5T",
+                    "label": "TRANS. MATIÈRE INFL. <= 3,5T",
+                    "categorie": 773,
+                    "ptc": "-3,5T",
+                    "nombrePlaceMaximum": 5,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 6,
+                    "code": 12,
+                    "libelle": "CORBILLARDS <= 3,5T",
+                    "label": "CORBILLARDS <= 3,5T",
+                    "categorie": 721,
+                    "ptc": "-3,5T",
+                    "nombrePlaceMaximum": 3,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 29,
+                    "code": 42,
+                    "libelle": "TRANSPORT ECOLIERS +3,5T",
+                    "label": "TRANSPORT ECOLIERS +3,5T",
+                    "categorie": 713,
+                    "ptc": "+3,5T",
+                    "nombrePlaceMaximum": 80,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 34,
+                    "code": 51,
+                    "libelle": "AUTO-ECOLE 2 OU 3 ROUES",
+                    "label": "AUTO-ECOLE 2 OU 3 ROUES",
+                    "categorie": 741,
+                    "nombrePlaceMaximum": 2,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 27,
+                    "code": 39,
+                    "libelle": "VÉHICULE SCE INCENDIE <= 3,5T",
+                    "label": "VÉHICULE SCE INCENDIE <= 3,5T",
+                    "categorie": 753,
+                    "ptc": "-3,5T",
+                    "nombrePlaceMaximum": 5,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 26,
+                    "code": 38,
+                    "libelle": "CHASSE NEIGE <= 3,5T",
+                    "label": "CHASSE NEIGE <= 3,5T",
+                    "categorie": 753,
+                    "ptc": "-3,5T",
+                    "nombrePlaceMaximum": 3,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 15,
+                    "code": 21,
+                    "libelle": "TRACTEUR AGRICOLE",
+                    "label": "TRACTEUR AGRICOLE",
+                    "categorie": 711,
+                    "nombrePlaceMaximum": 1,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 21,
+                    "code": 33,
+                    "libelle": "TRANSPORT PERSONNEL <= 3,5T",
+                    "label": "TRANSPORT PERSONNEL <= 3,5T",
+                    "categorie": 703,
+                    "ptc": "-3,5T",
+                    "nombrePlaceMaximum": 32,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 18,
+                    "code": 30,
+                    "libelle": "VÉHICULE DÉPANNAGE <= 3,5T",
+                    "label": "VÉHICULE DÉPANNAGE <= 3,5T",
+                    "categorie": 763,
+                    "ptc": "-3,5T",
+                    "nombrePlaceMaximum": 3,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 30,
+                    "code": 43,
+                    "libelle": "TRANSPORT PERSONNEL +3,5T",
+                    "label": "TRANSPORT PERSONNEL +3,5T",
+                    "categorie": 713,
+                    "ptc": "+3,5T",
+                    "nombrePlaceMaximum": 80,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 23,
+                    "code": 35,
+                    "libelle": "BALAYEUSE <= 3,5T",
+                    "label": "BALAYEUSE <= 3,5T",
+                    "categorie": 753,
+                    "ptc": "-3,5T",
+                    "nombrePlaceMaximum": 3,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 59,
+                    "code": 45,
+                    "libelle": "HYDROCUREUSE +3,5T",
+                    "label": "HYDROCUREUSE +3,5T",
+                    "categorie": 753,
+                    "nombrePlaceMaximum": 3,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 19,
+                    "code": 31,
+                    "libelle": "AUTO-ECOLE UTIL./AUTOCARS",
+                    "label": "AUTO-ECOLE UTIL./AUTOCARS",
+                    "categorie": 741,
+                    "nombrePlaceMaximum": 5,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 7,
+                    "code": 13,
+                    "libelle": "FOURGONS FUNÉRAIRES <= 3,5T",
+                    "label": "FOURGONS FUNÉRAIRES <= 3,5T",
+                    "categorie": 721,
+                    "ptc": "-3,5T",
+                    "nombrePlaceMaximum": 3,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 45,
+                    "code": 99,
+                    "libelle": "GARAGISTE",
+                    "label": "GARAGISTE",
+                    "categorie": 731,
+                    "nombrePlaceMaximum": 5,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 22,
+                    "code": 34,
+                    "libelle": "ARROSEUSE <= 3,5T",
+                    "label": "ARROSEUSE <= 3,5T",
+                    "categorie": 753,
+                    "ptc": "-3,5T",
+                    "nombrePlaceMaximum": 3,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 43,
+                    "code": 89,
+                    "libelle": "ENLÉVEMENT DES ORDURES +3,5T",
+                    "label": "ENLÉVEMENT DES ORDURES +3,5T",
+                    "categorie": 753,
+                    "ptc": "+3,5T",
+                    "nombrePlaceMaximum": 5,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 40,
+                    "code": 86,
+                    "libelle": "TRANS. MATIÈRE INFL. +3,5T",
+                    "label": "TRANS. MATIÈRE INFL. +3,5T",
+                    "categorie": 773,
+                    "ptc": "+3,5T",
+                    "nombrePlaceMaximum": 5,
+                    "nombrePlaceMinimum": 0
+                },
+                {
+                    "id": 35,
+                    "code": 81,
+                    "libelle": "ENGIN DE CHANTIER",
+                    "label": "ENGIN DE CHANTIER",
+                    "categorie": 743,
+                    "nombrePlaceMaximum": 1,
+                    "nombrePlaceMinimum": 0
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "label": "TOURISME",
+            "libelle": "TOURISME",
+            "options": [
+                {
+                    "id": 1,
+                    "code": 1,
+                    "libelle": "TOURISME",
+                    "label": "TOURISME",
+                    "categorie": 701,
+                    "nombrePlaceMaximum": 8,
+                    "nombrePlaceMinimum": 0
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "label": "C1",
+            "libelle": "C1",
+            "options": [
+                {
+                    "id": 2,
+                    "code": 3,
+                    "libelle": "C1 (COMMERCE <= 3,5T)",
+                    "label": "C1 (COMMERCE <= 3,5T)",
+                    "categorie": 703,
+                    "ptc": "-3,5T",
+                    "nombrePlaceMaximum": 32,
+                    "nombrePlaceMinimum": 8
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "label": "C2",
+            "libelle": "C2",
+            "options": [
+                {
+                    "id": 3,
+                    "code": 4,
+                    "libelle": "C2 (COMMERCE +3,5T)",
+                    "label": "C2 (COMMERCE +3,5T)",
+                    "categorie": 713,
+                    "ptc": "+3,5T",
+                    "nombrePlaceMaximum": 3,
+                    "nombrePlaceMinimum": 3
+                }
+            ]
+        }
+    ],
+    "allGenreVehicle": [
+        {
+            "id": 2,
+            "code": "BERLINE     ",
+            "libelle": "BERLINE",
+            "label": "BERLINE"
+        },
+        {
+            "id": 3,
+            "code": "BREAK       ",
+            "libelle": "BREAK",
+            "label": "BREAK"
+        },
+        {
+            "id": 1,
+            "code": "C.I       ",
+            "libelle": "CONDUITE INTERIEURE",
+            "label": "CONDUITE INTERIEURE"
+        },
+        {
+            "id": 102,
+            "code": "CABRIOLET",
+            "libelle": "CABRIOLET",
+            "label": "CABRIOLET"
+        },
+        {
+            "id": 4,
+            "code": "CAMIONNETTE ",
+            "libelle": "CAMIONNETTE",
+            "label": "CAMIONNETTE"
+        },
+        {
+            "id": 38,
+            "code": "CAMPING CAR",
+            "libelle": "CAMPING CAR",
+            "label": "CAMPING CAR"
+        },
+        {
+            "id": 105,
+            "code": "CONVERTIBLE",
+            "libelle": "CONVERTIBLE",
+            "label": "CONVERTIBLE"
+        },
+        {
+            "id": 103,
+            "code": "COUPE",
+            "libelle": "COUPE",
+            "label": "COUPE"
+        },
+        {
+            "id": 54,
+            "code": "ESTAFETTE",
+            "libelle": "ESTAFETTE",
+            "label": "ESTAFETTE"
+        },
+        {
+            "id": 104,
+            "code": "F.V.S",
+            "libelle": "F.V.S",
+            "label": "F.V.S"
+        },
+        {
+            "id": 42,
+            "code": "FAMILIALE",
+            "libelle": "FAMILIALE",
+            "label": "FAMILIALE"
+        },
+        {
+            "id": 14,
+            "code": "FOURGON     ",
+            "libelle": "FOURGON",
+            "label": "FOURGON"
+        },
+        {
+            "id": 24,
+            "code": "FOURGONNETTE",
+            "libelle": "FOURGONNETTE",
+            "label": "FOURGONNETTE"
+        },
+        {
+            "id": 9,
+            "code": "JEEP        ",
+            "libelle": "JEEP",
+            "label": "JEEP"
+        },
+        {
+            "id": 117,
+            "code": "LIMOUSINE",
+            "libelle": "LIMOUSINE",
+            "label": "LIMOUSINE"
+        },
+        {
+            "id": 34,
+            "code": "PICK-UP",
+            "libelle": "PICK-UP",
+            "label": "PICK-UP"
+        },
+        {
+            "id": 29,
+            "code": "PICK-UP DBL CABINE",
+            "libelle": "PICK-UP DOUBLE CABINE",
+            "label": "PICK-UP DOUBLE CABINE"
+        },
+        {
+            "id": 107,
+            "code": "PICK-UP DOUBLE CABINE",
+            "libelle": "PICK-UP DOUBLE CABINE",
+            "label": "PICK-UP DOUBLE CABINE"
+        },
+        {
+            "id": 43,
+            "code": "QUADRICYCLE",
+            "libelle": "QUADRICYCLE",
+            "label": "QUADRICYCLE"
+        },
+        {
+            "id": 98,
+            "code": "REMORQUE",
+            "libelle": "REMORQUE",
+            "label": "REMORQUE"
+        },
+        {
+            "id": 44,
+            "code": "S-W ",
+            "libelle": "S-W",
+            "label": "S-W"
+        },
+        {
+            "id": 26,
+            "code": "V.GARAGISTE ",
+            "libelle": "VEHICULE GARAGISTE",
+            "label": "VEHICULE GARAGISTE"
+        },
+        {
+            "id": 12,
+            "code": "AUTOCAR     ",
+            "libelle": "AUTOCAR"
+        },
+        {
+            "id": 28,
+            "code": "CAM-FRIGORIF",
+            "libelle": "CAMION FRIGORIFIQUE"
+        },
+        {
+            "id": 35,
+            "code": "CAM. CARROS",
+            "libelle": "CAM. CARROS"
+        },
+        {
+            "id": 11,
+            "code": "CAM. CITERNE",
+            "libelle": "CAMION CITERNE"
+        },
+        {
+            "id": 25,
+            "code": "CAM. PLATEAU",
+            "libelle": "CAMION PLATEAU"
+        },
+        {
+            "id": 61,
+            "code": "CAM. PLATEAU BRASSEUR",
+            "libelle": "CAMION PLATEAU BRASSEUR"
+        },
+        {
+            "id": 60,
+            "code": "CAM. PLATEAU RIDELLES",
+            "libelle": "CAMION PLATEAU RIDELLES"
+        },
+        {
+            "id": 41,
+            "code": "Camionnette Plateau",
+            "libelle": "Camionnette Plateau"
+        },
+        {
+            "id": 101,
+            "code": "CAMIONNETTE FOURGON",
+            "libelle": "CAMIONNETTE FOURGON"
+        },
+        {
+            "id": 37,
+            "code": "CAMIONNETTE-FRIGO",
+            "libelle": "CAMIONNETTE FRIGORIFIQUE"
+        },
+        {
+            "id": 17,
+            "code": "CAM. PORTEUR",
+            "libelle": "CAMION PORTEUR"
+        },
+        {
+            "id": 5,
+            "code": "CAMION      ",
+            "libelle": "CAMION"
+        },
+        {
+            "id": 63,
+            "code": "CAMION AMPLIROLL",
+            "libelle": "CAMION AMPLIROLL"
+        },
+        {
+            "id": 64,
+            "code": "CAMION AVEC GRUE",
+            "libelle": "CAMION AVEC GRUE"
+        },
+        {
+            "id": 15,
+            "code": "CAMION BENNE",
+            "libelle": "CAMION BENNE"
+        },
+        {
+            "id": 59,
+            "code": "CAMION BRASSEUR",
+            "libelle": "CAMION BRASSEUR"
+        },
+        {
+            "id": 100,
+            "code": "CAMION FOURGON",
+            "libelle": "CAMION FOURGON"
+        },
+        {
+            "id": 62,
+            "code": "CAMION HYDRAUCUREUSE",
+            "libelle": "CAMION HYDRAUCUREUSE"
+        },
+        {
+            "id": 40,
+            "code": "CAMION PLATEAU AVEC GRUE",
+            "libelle": "CAMION PLATEAU AVEC GRUE"
+        },
+        {
+            "id": 110,
+            "code": "F.V.S",
+            "libelle": "F.V.S"
+        },
+        {
+            "id": 27,
+            "code": "FOURG-FRIGOR",
+            "libelle": "FOURGON FRIGORIFIQUE"
+        },
+        {
+            "id": 66,
+            "code": "FOURGONNET.VITR.AVEC BANQ.",
+            "libelle": "FOURGONNETTE VITREE AVEC BANQUETTE"
+        },
+        {
+            "id": 24,
+            "code": "FOURGONNETTE",
+            "libelle": "FOURGONNETTE"
+        },
+        {
+            "id": 119,
+            "code": "FOURGONNETTE TOLEE",
+            "libelle": "FOURGONNETTE TOLEE"
+        },
+        {
+            "id": 65,
+            "code": "FOURGONNETTE VITREE",
+            "libelle": "FOURGONNETTE VITREE"
+        },
+        {
+            "id": 36,
+            "code": "FOURGONNETTE-FRIGOR",
+            "libelle": "FOURGONNETTE FRIGORIFIQUE"
+        },
+        {
+            "id": 109,
+            "code": "FTTE.V.S",
+            "libelle": "FTTE.V.S"
+        },
+        {
+            "id": 9,
+            "code": "JEEP        ",
+            "libelle": "JEEP"
+        },
+        {
+            "id": 16,
+            "code": "MICROBUS    ",
+            "libelle": "MICROBUS"
+        },
+        {
+            "id": 13,
+            "code": "MICROCAR    ",
+            "libelle": "MICROCAR"
+        },
+        {
+            "id": 120,
+            "code": "PICK UP FOURGON FRIGORIFIQUE",
+            "libelle": "PICK UP FOURGON FRIGORIFIQUE"
+        },
+        {
+            "id": 34,
+            "code": "PICK-UP",
+            "libelle": "PICK-UP"
+        },
+        {
+            "id": 107,
+            "code": "PICK-UP DOUBLE CABINE",
+            "libelle": "PICK-UP DOUBLE CABINE"
+        },
+        {
+            "id": 98,
+            "code": "REMORQUE",
+            "libelle": "REMORQUE"
+        },
+        {
+            "id": 44,
+            "code": "S-W ",
+            "libelle": "S-W"
+        },
+        {
+            "id": 33,
+            "code": "TRAC.AVEC GRUE",
+            "libelle": "TRACTEUR AVEC GRUE"
+        },
+        {
+            "id": 26,
+            "code": "V.GARAGISTE ",
+            "libelle": "VEHICULE GARAGISTE"
+        },
+        {
+            "id": 10,
+            "code": "VEH.MALAXEUR",
+            "libelle": "VEHICULE MALAXEUR"
+        },
+        {
+            "id": 45,
+            "code": "FOURGON VITREE AVEC SIEGE",
+            "libelle": "FOURGON VITREE AVEC SIEGE"
+        },
+        {
+            "id": 6,
+            "code": "TRAC.ROUT.  ",
+            "libelle": "TRACTEUR ROUTIER"
+        },
+        {
+            "id": 112,
+            "code": "CHASSIS CABINE",
+            "libelle": "CHASSIS CABINE"
+        },
+        {
+            "id": 124,
+            "code": "CAMION PLATEAU PORTE COMPRESSEURE",
+            "libelle": "CAMION PLATEAU PORTE COMPRESSEURE"
+        },
+        {
+            "id": 111,
+            "code": "CAMION NACELLE",
+            "libelle": "CAMION NACELLE"
+        },
+        {
+            "id": 121,
+            "code": "CAMION FOURGON ISOTHERME",
+            "libelle": "CAMION FOURGON ISOTHERME"
+        },
+        {
+            "id": 108,
+            "code": "CAMION BENNE AVEC GRUE",
+            "libelle": "CAMION BENNE AVEC GRUE"
+        },
+        {
+            "id": 58,
+            "code": "CAM. CITERNE A CARBURANT",
+            "libelle": "CAMION CITERNE A CARBURANT"
+        },
+        {
+            "id": 57,
+            "code": "CAM. CITERNE A EAU",
+            "libelle": "CAMION CITERNE A EAU"
+        },
+        {
+            "id": 39,
+            "code": "CAMION A POMPE A BETON",
+            "libelle": "CAMION A POMPE A BETON"
+        },
+        {
+            "id": 116,
+            "code": "CAMION AMPLIROLL AVEC GRUE",
+            "libelle": "CAMION AMPLIROLL AVEC GRUE"
+        }
+    ],
+    "allTypePlaque": [
+        {
+            "code": 1,
+            "label": "Plaque noire"
+        },
+        {
+            "code": 2,
+            "label": "Plaque blanche"
+        },
+        {
+            "code": 3,
+            "label": "Nouvelle plaque"
+        },
+        {
+            "code": 4,
+            "label": "Autre"
+        },
+        {
+            "code": 5,
+            "label": "WW"
+        },
+        {
+            "code": 7,
+            "label": "Ancienne Immatriculation"
+        },
+        {
+            "code": 8,
+            "label": "Nouvelle Immatriculation"
+        },
+        {
+            "code": 9,
+            "label": "En cours d'immatriculation"
+        },
+        {
+            "code": 10,
+            "label": "Etatique"
+        }
+    ],
+    "allSousTypeUsageAvecIdGenre": [
+        {
+            "LIBELLE": "TOURISME",
+            "IDUSAGEVEHICULE": 1,
+            "IDGENRE": 1
+        },
+        {
+            "LIBELLE": "TOURISME",
+            "IDUSAGEVEHICULE": 1,
+            "IDGENRE": 2
+        },
+        {
+            "LIBELLE": "TOURISME",
+            "IDUSAGEVEHICULE": 1,
+            "IDGENRE": 3
+        },
+        {
+            "LIBELLE": "TOURISME",
+            "IDUSAGEVEHICULE": 1,
+            "IDGENRE": 4
+        },
+        {
+            "LIBELLE": "TOURISME",
+            "IDUSAGEVEHICULE": 1,
+            "IDGENRE": 9
+        },
+        {
+            "LIBELLE": "TOURISME",
+            "IDUSAGEVEHICULE": 1,
+            "IDGENRE": 14
+        },
+        {
+            "LIBELLE": "TOURISME",
+            "IDUSAGEVEHICULE": 1,
+            "IDGENRE": 24
+        },
+        {
+            "LIBELLE": "TOURISME",
+            "IDUSAGEVEHICULE": 1,
+            "IDGENRE": 26
+        },
+        {
+            "LIBELLE": "TOURISME",
+            "IDUSAGEVEHICULE": 1,
+            "IDGENRE": 29
+        },
+        {
+            "LIBELLE": "TOURISME",
+            "IDUSAGEVEHICULE": 1,
+            "IDGENRE": 34
+        },
+        {
+            "LIBELLE": "TOURISME",
+            "IDUSAGEVEHICULE": 1,
+            "IDGENRE": 38
+        },
+        {
+            "LIBELLE": "TOURISME",
+            "IDUSAGEVEHICULE": 1,
+            "IDGENRE": 42
+        },
+        {
+            "LIBELLE": "TOURISME",
+            "IDUSAGEVEHICULE": 1,
+            "IDGENRE": 43
+        },
+        {
+            "LIBELLE": "TOURISME",
+            "IDUSAGEVEHICULE": 1,
+            "IDGENRE": 44
+        },
+        {
+            "LIBELLE": "TOURISME",
+            "IDUSAGEVEHICULE": 1,
+            "IDGENRE": 54
+        },
+        {
+            "LIBELLE": "TOURISME",
+            "IDUSAGEVEHICULE": 1,
+            "IDGENRE": 98
+        },
+        {
+            "LIBELLE": "TOURISME",
+            "IDUSAGEVEHICULE": 1,
+            "IDGENRE": 102
+        },
+        {
+            "LIBELLE": "TOURISME",
+            "IDUSAGEVEHICULE": 1,
+            "IDGENRE": 103
+        },
+        {
+            "LIBELLE": "TOURISME",
+            "IDUSAGEVEHICULE": 1,
+            "IDGENRE": 104
+        },
+        {
+            "LIBELLE": "TOURISME",
+            "IDUSAGEVEHICULE": 1,
+            "IDGENRE": 105
+        },
+        {
+            "LIBELLE": "TOURISME",
+            "IDUSAGEVEHICULE": 1,
+            "IDGENRE": 107
+        },
+        {
+            "LIBELLE": "TOURISME",
+            "IDUSAGEVEHICULE": 1,
+            "IDGENRE": 117
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 3
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 4
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 5
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 9
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 10
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 11
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 12
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 13
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 14
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 15
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 16
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 17
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 24
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 25
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 26
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 27
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 28
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 33
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 34
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 35
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 36
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 37
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 38
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 40
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 41
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 44
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 54
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 59
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 60
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 61
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 62
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 63
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 64
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 65
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 66
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 98
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 100
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 101
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 107
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 109
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 110
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 119
+        },
+        {
+            "LIBELLE": "C1 (COMMERCE <= 3,5T)",
+            "IDUSAGEVEHICULE": 2,
+            "IDGENRE": 120
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 5
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 6
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 10
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 11
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 12
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 14
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 15
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 17
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 20
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 21
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 22
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 25
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 27
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 28
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 33
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 35
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 38
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 39
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 40
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 45
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 57
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 58
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 59
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 60
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 61
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 62
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 63
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 64
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 65
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 66
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 98
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 100
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 107
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 108
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 111
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 112
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 116
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 121
+        },
+        {
+            "LIBELLE": "C2 (COMMERCE +3,5T)",
+            "IDUSAGEVEHICULE": 3,
+            "IDGENRE": 124
+        },
+        {
+            "LIBELLE": "AMBULANCES <= 3,5T",
+            "IDUSAGEVEHICULE": 5,
+            "IDGENRE": 3
+        },
+        {
+            "LIBELLE": "AMBULANCES <= 3,5T",
+            "IDUSAGEVEHICULE": 5,
+            "IDGENRE": 14
+        },
+        {
+            "LIBELLE": "AMBULANCES <= 3,5T",
+            "IDUSAGEVEHICULE": 5,
+            "IDGENRE": 24
+        },
+        {
+            "LIBELLE": "CORBILLARDS <= 3,5T",
+            "IDUSAGEVEHICULE": 6,
+            "IDGENRE": 3
+        },
+        {
+            "LIBELLE": "CORBILLARDS <= 3,5T",
+            "IDUSAGEVEHICULE": 6,
+            "IDGENRE": 14
+        },
+        {
+            "LIBELLE": "CORBILLARDS <= 3,5T",
+            "IDUSAGEVEHICULE": 6,
+            "IDGENRE": 24
+        },
+        {
+            "LIBELLE": "FOURGONS FUNÉRAIRES <= 3,5T",
+            "IDUSAGEVEHICULE": 7,
+            "IDGENRE": 3
+        },
+        {
+            "LIBELLE": "FOURGONS FUNÉRAIRES <= 3,5T",
+            "IDUSAGEVEHICULE": 7,
+            "IDGENRE": 14
+        },
+        {
+            "LIBELLE": "FOURGONS FUNÉRAIRES <= 3,5T",
+            "IDUSAGEVEHICULE": 7,
+            "IDGENRE": 24
+        },
+        {
+            "LIBELLE": "AUTO-ECOLE TOURISME",
+            "IDUSAGEVEHICULE": 8,
+            "IDGENRE": 1
+        },
+        {
+            "LIBELLE": "AUTO-ECOLE TOURISME",
+            "IDUSAGEVEHICULE": 8,
+            "IDGENRE": 2
+        },
+        {
+            "LIBELLE": "AUTO-ECOLE TOURISME",
+            "IDUSAGEVEHICULE": 8,
+            "IDGENRE": 3
+        },
+        {
+            "LIBELLE": "AUTO-ECOLE TOURISME",
+            "IDUSAGEVEHICULE": 8,
+            "IDGENRE": 4
+        },
+        {
+            "LIBELLE": "AUTO-ECOLE TOURISME",
+            "IDUSAGEVEHICULE": 8,
+            "IDGENRE": 9
+        },
+        {
+            "LIBELLE": "AUTO-ECOLE TOURISME",
+            "IDUSAGEVEHICULE": 8,
+            "IDGENRE": 14
+        },
+        {
+            "LIBELLE": "AUTO-ECOLE TOURISME",
+            "IDUSAGEVEHICULE": 8,
+            "IDGENRE": 24
+        },
+        {
+            "LIBELLE": "AUTO-ECOLE TOURISME",
+            "IDUSAGEVEHICULE": 8,
+            "IDGENRE": 26
+        },
+        {
+            "LIBELLE": "AUTO-ECOLE TOURISME",
+            "IDUSAGEVEHICULE": 8,
+            "IDGENRE": 34
+        },
+        {
+            "LIBELLE": "AUTO-ECOLE TOURISME",
+            "IDUSAGEVEHICULE": 8,
+            "IDGENRE": 44
+        },
+        {
+            "LIBELLE": "AUTO-ECOLE TOURISME",
+            "IDUSAGEVEHICULE": 8,
+            "IDGENRE": 54
+        },
+        {
+            "LIBELLE": "LOCATION C.I.",
+            "IDUSAGEVEHICULE": 10,
+            "IDGENRE": 1
+        },
+        {
+            "LIBELLE": "LOCATION C.I.",
+            "IDUSAGEVEHICULE": 10,
+            "IDGENRE": 2
+        },
+        {
+            "LIBELLE": "LOCATION C.I.",
+            "IDUSAGEVEHICULE": 10,
+            "IDGENRE": 3
+        },
+        {
+            "LIBELLE": "LOCATION C.I.",
+            "IDUSAGEVEHICULE": 10,
+            "IDGENRE": 4
+        },
+        {
+            "LIBELLE": "LOCATION C.I.",
+            "IDUSAGEVEHICULE": 10,
+            "IDGENRE": 9
+        },
+        {
+            "LIBELLE": "LOCATION C.I.",
+            "IDUSAGEVEHICULE": 10,
+            "IDGENRE": 14
+        },
+        {
+            "LIBELLE": "LOCATION C.I.",
+            "IDUSAGEVEHICULE": 10,
+            "IDGENRE": 24
+        },
+        {
+            "LIBELLE": "LOCATION C.I.",
+            "IDUSAGEVEHICULE": 10,
+            "IDGENRE": 26
+        },
+        {
+            "LIBELLE": "LOCATION C.I.",
+            "IDUSAGEVEHICULE": 10,
+            "IDGENRE": 29
+        },
+        {
+            "LIBELLE": "LOCATION C.I.",
+            "IDUSAGEVEHICULE": 10,
+            "IDGENRE": 34
+        },
+        {
+            "LIBELLE": "LOCATION C.I.",
+            "IDUSAGEVEHICULE": 10,
+            "IDGENRE": 44
+        },
+        {
+            "LIBELLE": "LOCATION C.I.",
+            "IDUSAGEVEHICULE": 10,
+            "IDGENRE": 45
+        },
+        {
+            "LIBELLE": "LOCATION C.I.",
+            "IDUSAGEVEHICULE": 10,
+            "IDGENRE": 54
+        },
+        {
+            "LIBELLE": "LOCATION C.I.",
+            "IDUSAGEVEHICULE": 10,
+            "IDGENRE": 98
+        },
+        {
+            "LIBELLE": "LOCATION <= 3,5T(C1)",
+            "IDUSAGEVEHICULE": 11,
+            "IDGENRE": 3
+        },
+        {
+            "LIBELLE": "LOCATION <= 3,5T(C1)",
+            "IDUSAGEVEHICULE": 11,
+            "IDGENRE": 4
+        },
+        {
+            "LIBELLE": "LOCATION <= 3,5T(C1)",
+            "IDUSAGEVEHICULE": 11,
+            "IDGENRE": 5
+        },
+        {
+            "LIBELLE": "LOCATION <= 3,5T(C1)",
+            "IDUSAGEVEHICULE": 11,
+            "IDGENRE": 9
+        },
+        {
+            "LIBELLE": "LOCATION <= 3,5T(C1)",
+            "IDUSAGEVEHICULE": 11,
+            "IDGENRE": 10
+        },
+        {
+            "LIBELLE": "LOCATION <= 3,5T(C1)",
+            "IDUSAGEVEHICULE": 11,
+            "IDGENRE": 11
+        },
+        {
+            "LIBELLE": "LOCATION <= 3,5T(C1)",
+            "IDUSAGEVEHICULE": 11,
+            "IDGENRE": 12
+        },
+        {
+            "LIBELLE": "LOCATION <= 3,5T(C1)",
+            "IDUSAGEVEHICULE": 11,
+            "IDGENRE": 13
+        },
+        {
+            "LIBELLE": "LOCATION <= 3,5T(C1)",
+            "IDUSAGEVEHICULE": 11,
+            "IDGENRE": 14
+        },
+        {
+            "LIBELLE": "LOCATION <= 3,5T(C1)",
+            "IDUSAGEVEHICULE": 11,
+            "IDGENRE": 15
+        },
+        {
+            "LIBELLE": "LOCATION <= 3,5T(C1)",
+            "IDUSAGEVEHICULE": 11,
+            "IDGENRE": 16
+        },
+        {
+            "LIBELLE": "LOCATION <= 3,5T(C1)",
+            "IDUSAGEVEHICULE": 11,
+            "IDGENRE": 17
+        },
+        {
+            "LIBELLE": "LOCATION <= 3,5T(C1)",
+            "IDUSAGEVEHICULE": 11,
+            "IDGENRE": 24
+        },
+        {
+            "LIBELLE": "LOCATION <= 3,5T(C1)",
+            "IDUSAGEVEHICULE": 11,
+            "IDGENRE": 26
+        },
+        {
+            "LIBELLE": "LOCATION <= 3,5T(C1)",
+            "IDUSAGEVEHICULE": 11,
+            "IDGENRE": 27
+        },
+        {
+            "LIBELLE": "LOCATION <= 3,5T(C1)",
+            "IDUSAGEVEHICULE": 11,
+            "IDGENRE": 28
+        },
+        {
+            "LIBELLE": "LOCATION <= 3,5T(C1)",
+            "IDUSAGEVEHICULE": 11,
+            "IDGENRE": 29
+        },
+        {
+            "LIBELLE": "LOCATION <= 3,5T(C1)",
+            "IDUSAGEVEHICULE": 11,
+            "IDGENRE": 34
+        },
+        {
+            "LIBELLE": "LOCATION <= 3,5T(C1)",
+            "IDUSAGEVEHICULE": 11,
+            "IDGENRE": 35
+        },
+        {
+            "LIBELLE": "LOCATION <= 3,5T(C1)",
+            "IDUSAGEVEHICULE": 11,
+            "IDGENRE": 44
+        },
+        {
+            "LIBELLE": "LOCATION <= 3,5T(C1)",
+            "IDUSAGEVEHICULE": 11,
+            "IDGENRE": 45
+        },
+        {
+            "LIBELLE": "LOCATION <= 3,5T(C1)",
+            "IDUSAGEVEHICULE": 11,
+            "IDGENRE": 54
+        },
+        {
+            "LIBELLE": "LOCATION <= 3,5T(C1)",
+            "IDUSAGEVEHICULE": 11,
+            "IDGENRE": 98
+        },
+        {
+            "LIBELLE": "LOCATION CYCLO",
+            "IDUSAGEVEHICULE": 12,
+            "IDGENRE": 7
+        },
+        {
+            "LIBELLE": "LOCATION T.P <= 3,5T",
+            "IDUSAGEVEHICULE": 13,
+            "IDGENRE": 3
+        },
+        {
+            "LIBELLE": "LOCATION T.P <= 3,5T",
+            "IDUSAGEVEHICULE": 13,
+            "IDGENRE": 4
+        },
+        {
+            "LIBELLE": "LOCATION T.P <= 3,5T",
+            "IDUSAGEVEHICULE": 13,
+            "IDGENRE": 5
+        },
+        {
+            "LIBELLE": "LOCATION T.P <= 3,5T",
+            "IDUSAGEVEHICULE": 13,
+            "IDGENRE": 9
+        },
+        {
+            "LIBELLE": "LOCATION T.P <= 3,5T",
+            "IDUSAGEVEHICULE": 13,
+            "IDGENRE": 10
+        },
+        {
+            "LIBELLE": "LOCATION T.P <= 3,5T",
+            "IDUSAGEVEHICULE": 13,
+            "IDGENRE": 11
+        },
+        {
+            "LIBELLE": "LOCATION T.P <= 3,5T",
+            "IDUSAGEVEHICULE": 13,
+            "IDGENRE": 12
+        },
+        {
+            "LIBELLE": "LOCATION T.P <= 3,5T",
+            "IDUSAGEVEHICULE": 13,
+            "IDGENRE": 13
+        },
+        {
+            "LIBELLE": "LOCATION T.P <= 3,5T",
+            "IDUSAGEVEHICULE": 13,
+            "IDGENRE": 14
+        },
+        {
+            "LIBELLE": "LOCATION T.P <= 3,5T",
+            "IDUSAGEVEHICULE": 13,
+            "IDGENRE": 15
+        },
+        {
+            "LIBELLE": "LOCATION T.P <= 3,5T",
+            "IDUSAGEVEHICULE": 13,
+            "IDGENRE": 16
+        },
+        {
+            "LIBELLE": "LOCATION T.P <= 3,5T",
+            "IDUSAGEVEHICULE": 13,
+            "IDGENRE": 17
+        },
+        {
+            "LIBELLE": "LOCATION T.P <= 3,5T",
+            "IDUSAGEVEHICULE": 13,
+            "IDGENRE": 24
+        },
+        {
+            "LIBELLE": "LOCATION T.P <= 3,5T",
+            "IDUSAGEVEHICULE": 13,
+            "IDGENRE": 26
+        },
+        {
+            "LIBELLE": "LOCATION T.P <= 3,5T",
+            "IDUSAGEVEHICULE": 13,
+            "IDGENRE": 27
+        },
+        {
+            "LIBELLE": "LOCATION T.P <= 3,5T",
+            "IDUSAGEVEHICULE": 13,
+            "IDGENRE": 28
+        },
+        {
+            "LIBELLE": "LOCATION T.P <= 3,5T",
+            "IDUSAGEVEHICULE": 13,
+            "IDGENRE": 34
+        },
+        {
+            "LIBELLE": "LOCATION T.P <= 3,5T",
+            "IDUSAGEVEHICULE": 13,
+            "IDGENRE": 35
+        },
+        {
+            "LIBELLE": "LOCATION T.P <= 3,5T",
+            "IDUSAGEVEHICULE": 13,
+            "IDGENRE": 44
+        },
+        {
+            "LIBELLE": "LOCATION T.P <= 3,5T",
+            "IDUSAGEVEHICULE": 13,
+            "IDGENRE": 45
+        },
+        {
+            "LIBELLE": "LOCATION T.P <= 3,5T",
+            "IDUSAGEVEHICULE": 13,
+            "IDGENRE": 54
+        },
+        {
+            "LIBELLE": "LOCATION +3,5T(C2)",
+            "IDUSAGEVEHICULE": 14,
+            "IDGENRE": 5
+        },
+        {
+            "LIBELLE": "LOCATION +3,5T(C2)",
+            "IDUSAGEVEHICULE": 14,
+            "IDGENRE": 6
+        },
+        {
+            "LIBELLE": "LOCATION +3,5T(C2)",
+            "IDUSAGEVEHICULE": 14,
+            "IDGENRE": 10
+        },
+        {
+            "LIBELLE": "LOCATION +3,5T(C2)",
+            "IDUSAGEVEHICULE": 14,
+            "IDGENRE": 11
+        },
+        {
+            "LIBELLE": "LOCATION +3,5T(C2)",
+            "IDUSAGEVEHICULE": 14,
+            "IDGENRE": 12
+        },
+        {
+            "LIBELLE": "LOCATION +3,5T(C2)",
+            "IDUSAGEVEHICULE": 14,
+            "IDGENRE": 15
+        },
+        {
+            "LIBELLE": "LOCATION +3,5T(C2)",
+            "IDUSAGEVEHICULE": 14,
+            "IDGENRE": 17
+        },
+        {
+            "LIBELLE": "LOCATION +3,5T(C2)",
+            "IDUSAGEVEHICULE": 14,
+            "IDGENRE": 20
+        },
+        {
+            "LIBELLE": "LOCATION +3,5T(C2)",
+            "IDUSAGEVEHICULE": 14,
+            "IDGENRE": 21
+        },
+        {
+            "LIBELLE": "LOCATION +3,5T(C2)",
+            "IDUSAGEVEHICULE": 14,
+            "IDGENRE": 22
+        },
+        {
+            "LIBELLE": "LOCATION +3,5T(C2)",
+            "IDUSAGEVEHICULE": 14,
+            "IDGENRE": 25
+        },
+        {
+            "LIBELLE": "LOCATION +3,5T(C2)",
+            "IDUSAGEVEHICULE": 14,
+            "IDGENRE": 28
+        },
+        {
+            "LIBELLE": "LOCATION +3,5T(C2)",
+            "IDUSAGEVEHICULE": 14,
+            "IDGENRE": 35
+        },
+        {
+            "LIBELLE": "LOCATION +3,5T(C2)",
+            "IDUSAGEVEHICULE": 14,
+            "IDGENRE": 39
+        },
+        {
+            "LIBELLE": "LOCATION +3,5T(C2)",
+            "IDUSAGEVEHICULE": 14,
+            "IDGENRE": 45
+        },
+        {
+            "LIBELLE": "LOCATION +3,5T(C2)",
+            "IDUSAGEVEHICULE": 14,
+            "IDGENRE": 57
+        },
+        {
+            "LIBELLE": "LOCATION +3,5T(C2)",
+            "IDUSAGEVEHICULE": 14,
+            "IDGENRE": 98
+        },
+        {
+            "LIBELLE": "TRACTEUR AGRICOLE",
+            "IDUSAGEVEHICULE": 15,
+            "IDGENRE": 19
+        },
+        {
+            "LIBELLE": "MOISSONEUSE BATTEUSE",
+            "IDUSAGEVEHICULE": 16,
+            "IDGENRE": 18
+        },
+        {
+            "LIBELLE": "LOCATION TRICYCLES",
+            "IDUSAGEVEHICULE": 17,
+            "IDGENRE": 8
+        },
+        {
+            "LIBELLE": "VÉHICULE DÉPANNAGE <= 3,5T",
+            "IDUSAGEVEHICULE": 18,
+            "IDGENRE": 5
+        },
+        {
+            "LIBELLE": "VÉHICULE DÉPANNAGE <= 3,5T",
+            "IDUSAGEVEHICULE": 18,
+            "IDGENRE": 9
+        },
+        {
+            "LIBELLE": "VÉHICULE DÉPANNAGE <= 3,5T",
+            "IDUSAGEVEHICULE": 18,
+            "IDGENRE": 34
+        },
+        {
+            "LIBELLE": "AUTO-ECOLE UTIL.\/AUTOCARS",
+            "IDUSAGEVEHICULE": 19,
+            "IDGENRE": 5
+        },
+        {
+            "LIBELLE": "AUTO-ECOLE UTIL.\/AUTOCARS",
+            "IDUSAGEVEHICULE": 19,
+            "IDGENRE": 6
+        },
+        {
+            "LIBELLE": "AUTO-ECOLE UTIL.\/AUTOCARS",
+            "IDUSAGEVEHICULE": 19,
+            "IDGENRE": 12
+        },
+        {
+            "LIBELLE": "AUTO-ECOLE UTIL.\/AUTOCARS",
+            "IDUSAGEVEHICULE": 19,
+            "IDGENRE": 22
+        },
+        {
+            "LIBELLE": "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "IDUSAGEVEHICULE": 20,
+            "IDGENRE": 4
+        },
+        {
+            "LIBELLE": "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "IDUSAGEVEHICULE": 20,
+            "IDGENRE": 12
+        },
+        {
+            "LIBELLE": "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "IDUSAGEVEHICULE": 20,
+            "IDGENRE": 13
+        },
+        {
+            "LIBELLE": "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "IDUSAGEVEHICULE": 20,
+            "IDGENRE": 14
+        },
+        {
+            "LIBELLE": "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "IDUSAGEVEHICULE": 20,
+            "IDGENRE": 16
+        },
+        {
+            "LIBELLE": "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "IDUSAGEVEHICULE": 20,
+            "IDGENRE": 17
+        },
+        {
+            "LIBELLE": "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "IDUSAGEVEHICULE": 20,
+            "IDGENRE": 22
+        },
+        {
+            "LIBELLE": "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "IDUSAGEVEHICULE": 20,
+            "IDGENRE": 24
+        },
+        {
+            "LIBELLE": "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "IDUSAGEVEHICULE": 20,
+            "IDGENRE": 54
+        },
+        {
+            "LIBELLE": "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "IDUSAGEVEHICULE": 20,
+            "IDGENRE": 106
+        },
+        {
+            "LIBELLE": "TRANSPORT PERSONNEL <= 3,5T",
+            "IDUSAGEVEHICULE": 21,
+            "IDGENRE": 4
+        },
+        {
+            "LIBELLE": "TRANSPORT PERSONNEL <= 3,5T",
+            "IDUSAGEVEHICULE": 21,
+            "IDGENRE": 5
+        },
+        {
+            "LIBELLE": "TRANSPORT PERSONNEL <= 3,5T",
+            "IDUSAGEVEHICULE": 21,
+            "IDGENRE": 12
+        },
+        {
+            "LIBELLE": "TRANSPORT PERSONNEL <= 3,5T",
+            "IDUSAGEVEHICULE": 21,
+            "IDGENRE": 13
+        },
+        {
+            "LIBELLE": "TRANSPORT PERSONNEL <= 3,5T",
+            "IDUSAGEVEHICULE": 21,
+            "IDGENRE": 14
+        },
+        {
+            "LIBELLE": "TRANSPORT PERSONNEL <= 3,5T",
+            "IDUSAGEVEHICULE": 21,
+            "IDGENRE": 16
+        },
+        {
+            "LIBELLE": "TRANSPORT PERSONNEL <= 3,5T",
+            "IDUSAGEVEHICULE": 21,
+            "IDGENRE": 17
+        },
+        {
+            "LIBELLE": "TRANSPORT PERSONNEL <= 3,5T",
+            "IDUSAGEVEHICULE": 21,
+            "IDGENRE": 22
+        },
+        {
+            "LIBELLE": "TRANSPORT PERSONNEL <= 3,5T",
+            "IDUSAGEVEHICULE": 21,
+            "IDGENRE": 24
+        },
+        {
+            "LIBELLE": "TRANSPORT PERSONNEL <= 3,5T",
+            "IDUSAGEVEHICULE": 21,
+            "IDGENRE": 34
+        },
+        {
+            "LIBELLE": "TRANSPORT PERSONNEL <= 3,5T",
+            "IDUSAGEVEHICULE": 21,
+            "IDGENRE": 45
+        },
+        {
+            "LIBELLE": "TRANSPORT PERSONNEL <= 3,5T",
+            "IDUSAGEVEHICULE": 21,
+            "IDGENRE": 54
+        },
+        {
+            "LIBELLE": "TRANSPORT PERSONNEL <= 3,5T",
+            "IDUSAGEVEHICULE": 21,
+            "IDGENRE": 106
+        },
+        {
+            "LIBELLE": "TRANSPORT PERSONNEL <= 3,5T",
+            "IDUSAGEVEHICULE": 21,
+            "IDGENRE": 107
+        },
+        {
+            "LIBELLE": "ARROSEUSE <= 3,5T",
+            "IDUSAGEVEHICULE": 22,
+            "IDGENRE": 11
+        },
+        {
+            "LIBELLE": "BALAYEUSE <= 3,5T",
+            "IDUSAGEVEHICULE": 23,
+            "IDGENRE": 5
+        },
+        {
+            "LIBELLE": "ENLÉVEMENT DES ORDURES <= 3,5T",
+            "IDUSAGEVEHICULE": 24,
+            "IDGENRE": 5
+        },
+        {
+            "LIBELLE": "VOITURE VIDANGE <= 3,5T",
+            "IDUSAGEVEHICULE": 25,
+            "IDGENRE": 11
+        },
+        {
+            "LIBELLE": "CHASSE NEIGE <= 3,5T",
+            "IDUSAGEVEHICULE": 26,
+            "IDGENRE": 5
+        },
+        {
+            "LIBELLE": "VÉHICULE SCE INCENDIE <= 3,5T",
+            "IDUSAGEVEHICULE": 27,
+            "IDGENRE": 5
+        },
+        {
+            "LIBELLE": "VÉHICULE SCE INCENDIE <= 3,5T",
+            "IDUSAGEVEHICULE": 27,
+            "IDGENRE": 14
+        },
+        {
+            "LIBELLE": "VÉHICULE DÉPANNAGE +3,5T",
+            "IDUSAGEVEHICULE": 28,
+            "IDGENRE": 5
+        },
+        {
+            "LIBELLE": "VÉHICULE DÉPANNAGE +3,5T",
+            "IDUSAGEVEHICULE": 28,
+            "IDGENRE": 113
+        },
+        {
+            "LIBELLE": "VÉHICULE DÉPANNAGE +3,5T",
+            "IDUSAGEVEHICULE": 28,
+            "IDGENRE": 118
+        },
+        {
+            "LIBELLE": "VÉHICULE DÉPANNAGE +3,5T",
+            "IDUSAGEVEHICULE": 28,
+            "IDGENRE": 122
+        },
+        {
+            "LIBELLE": "TRANSPORT ECOLIERS +3,5T",
+            "IDUSAGEVEHICULE": 29,
+            "IDGENRE": 4
+        },
+        {
+            "LIBELLE": "TRANSPORT ECOLIERS +3,5T",
+            "IDUSAGEVEHICULE": 29,
+            "IDGENRE": 12
+        },
+        {
+            "LIBELLE": "TRANSPORT ECOLIERS +3,5T",
+            "IDUSAGEVEHICULE": 29,
+            "IDGENRE": 13
+        },
+        {
+            "LIBELLE": "TRANSPORT ECOLIERS +3,5T",
+            "IDUSAGEVEHICULE": 29,
+            "IDGENRE": 14
+        },
+        {
+            "LIBELLE": "TRANSPORT ECOLIERS +3,5T",
+            "IDUSAGEVEHICULE": 29,
+            "IDGENRE": 16
+        },
+        {
+            "LIBELLE": "TRANSPORT ECOLIERS +3,5T",
+            "IDUSAGEVEHICULE": 29,
+            "IDGENRE": 17
+        },
+        {
+            "LIBELLE": "TRANSPORT ECOLIERS +3,5T",
+            "IDUSAGEVEHICULE": 29,
+            "IDGENRE": 22
+        },
+        {
+            "LIBELLE": "TRANSPORT ECOLIERS +3,5T",
+            "IDUSAGEVEHICULE": 29,
+            "IDGENRE": 24
+        },
+        {
+            "LIBELLE": "TRANSPORT ECOLIERS +3,5T",
+            "IDUSAGEVEHICULE": 29,
+            "IDGENRE": 54
+        },
+        {
+            "LIBELLE": "TRANSPORT ECOLIERS +3,5T",
+            "IDUSAGEVEHICULE": 29,
+            "IDGENRE": 106
+        },
+        {
+            "LIBELLE": "TRANSPORT PERSONNEL +3,5T",
+            "IDUSAGEVEHICULE": 30,
+            "IDGENRE": 5
+        },
+        {
+            "LIBELLE": "TRANSPORT PERSONNEL +3,5T",
+            "IDUSAGEVEHICULE": 30,
+            "IDGENRE": 12
+        },
+        {
+            "LIBELLE": "TRANSPORT PERSONNEL +3,5T",
+            "IDUSAGEVEHICULE": 30,
+            "IDGENRE": 13
+        },
+        {
+            "LIBELLE": "TRANSPORT PERSONNEL +3,5T",
+            "IDUSAGEVEHICULE": 30,
+            "IDGENRE": 14
+        },
+        {
+            "LIBELLE": "TRANSPORT PERSONNEL +3,5T",
+            "IDUSAGEVEHICULE": 30,
+            "IDGENRE": 24
+        },
+        {
+            "LIBELLE": "TRANSPORT PERSONNEL +3,5T",
+            "IDUSAGEVEHICULE": 30,
+            "IDGENRE": 45
+        },
+        {
+            "LIBELLE": "TRANSPORT PERSONNEL +3,5T",
+            "IDUSAGEVEHICULE": 30,
+            "IDGENRE": 54
+        },
+        {
+            "LIBELLE": "TRANSPORT PERSONNEL +3,5T",
+            "IDUSAGEVEHICULE": 30,
+            "IDGENRE": 106
+        },
+        {
+            "LIBELLE": "ARROSEUR +3,5T",
+            "IDUSAGEVEHICULE": 31,
+            "IDGENRE": 11
+        },
+        {
+            "LIBELLE": "VOITURE VIDANGE +3.5T",
+            "IDUSAGEVEHICULE": 32,
+            "IDGENRE": 11
+        },
+        {
+            "LIBELLE": "VÉH. SCE INCENDIE +3.5T",
+            "IDUSAGEVEHICULE": 33,
+            "IDGENRE": 5
+        },
+        {
+            "LIBELLE": "AUTO-ECOLE 2 OU 3 ROUES",
+            "IDUSAGEVEHICULE": 34,
+            "IDGENRE": 7
+        },
+        {
+            "LIBELLE": "AUTO-ECOLE 2 OU 3 ROUES",
+            "IDUSAGEVEHICULE": 34,
+            "IDGENRE": 8
+        },
+        {
+            "LIBELLE": "ENGIN DE CHANTIER",
+            "IDUSAGEVEHICULE": 35,
+            "IDGENRE": 5
+        },
+        {
+            "LIBELLE": "ENGIN DE CHANTIER",
+            "IDUSAGEVEHICULE": 35,
+            "IDGENRE": 19
+        },
+        {
+            "LIBELLE": "ENGIN DE CHANTIER",
+            "IDUSAGEVEHICULE": 35,
+            "IDGENRE": 20
+        },
+        {
+            "LIBELLE": "ENGIN DE CHANTIER",
+            "IDUSAGEVEHICULE": 35,
+            "IDGENRE": 21
+        },
+        {
+            "LIBELLE": "ENGIN DE CHANTIER",
+            "IDUSAGEVEHICULE": 35,
+            "IDGENRE": 23
+        },
+        {
+            "LIBELLE": "ENGIN DE CHANTIER",
+            "IDUSAGEVEHICULE": 35,
+            "IDGENRE": 39
+        },
+        {
+            "LIBELLE": "ENGIN DE CHANTIER",
+            "IDUSAGEVEHICULE": 35,
+            "IDGENRE": 114
+        },
+        {
+            "LIBELLE": "CYLINDRÉE < 50 CM3 VITESSE < 60 KM\/H",
+            "IDUSAGEVEHICULE": 36,
+            "IDGENRE": 7
+        },
+        {
+            "LIBELLE": "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "IDUSAGEVEHICULE": 37,
+            "IDGENRE": 7
+        },
+        {
+            "LIBELLE": "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "IDUSAGEVEHICULE": 37,
+            "IDGENRE": 8
+        },
+        {
+            "LIBELLE": "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "IDUSAGEVEHICULE": 37,
+            "IDGENRE": 56
+        },
+        {
+            "LIBELLE": "TRICYCLE OU TRIPORTEUR CYLINDRÉE < 125 CM3",
+            "IDUSAGEVEHICULE": 38,
+            "IDGENRE": 8
+        },
+        {
+            "LIBELLE": "TRANS. MATIÈRE INFL. <= 3,5T",
+            "IDUSAGEVEHICULE": 39,
+            "IDGENRE": 3
+        },
+        {
+            "LIBELLE": "TRANS. MATIÈRE INFL. <= 3,5T",
+            "IDUSAGEVEHICULE": 39,
+            "IDGENRE": 4
+        },
+        {
+            "LIBELLE": "TRANS. MATIÈRE INFL. <= 3,5T",
+            "IDUSAGEVEHICULE": 39,
+            "IDGENRE": 5
+        },
+        {
+            "LIBELLE": "TRANS. MATIÈRE INFL. <= 3,5T",
+            "IDUSAGEVEHICULE": 39,
+            "IDGENRE": 9
+        },
+        {
+            "LIBELLE": "TRANS. MATIÈRE INFL. <= 3,5T",
+            "IDUSAGEVEHICULE": 39,
+            "IDGENRE": 11
+        },
+        {
+            "LIBELLE": "TRANS. MATIÈRE INFL. <= 3,5T",
+            "IDUSAGEVEHICULE": 39,
+            "IDGENRE": 14
+        },
+        {
+            "LIBELLE": "TRANS. MATIÈRE INFL. <= 3,5T",
+            "IDUSAGEVEHICULE": 39,
+            "IDGENRE": 15
+        },
+        {
+            "LIBELLE": "TRANS. MATIÈRE INFL. <= 3,5T",
+            "IDUSAGEVEHICULE": 39,
+            "IDGENRE": 24
+        },
+        {
+            "LIBELLE": "TRANS. MATIÈRE INFL. <= 3,5T",
+            "IDUSAGEVEHICULE": 39,
+            "IDGENRE": 25
+        },
+        {
+            "LIBELLE": "TRANS. MATIÈRE INFL. <= 3,5T",
+            "IDUSAGEVEHICULE": 39,
+            "IDGENRE": 34
+        },
+        {
+            "LIBELLE": "TRANS. MATIÈRE INFL. <= 3,5T",
+            "IDUSAGEVEHICULE": 39,
+            "IDGENRE": 35
+        },
+        {
+            "LIBELLE": "TRANS. MATIÈRE INFL. <= 3,5T",
+            "IDUSAGEVEHICULE": 39,
+            "IDGENRE": 44
+        },
+        {
+            "LIBELLE": "TRANS. MATIÈRE INFL. <= 3,5T",
+            "IDUSAGEVEHICULE": 39,
+            "IDGENRE": 54
+        },
+        {
+            "LIBELLE": "TRANS. MATIÈRE INFL. <= 3,5T",
+            "IDUSAGEVEHICULE": 39,
+            "IDGENRE": 58
+        },
+        {
+            "LIBELLE": "TRANS. MATIÈRE INFL. <= 3,5T",
+            "IDUSAGEVEHICULE": 39,
+            "IDGENRE": 100
+        },
+        {
+            "LIBELLE": "TRANS. MATIÈRE INFL. +3,5T",
+            "IDUSAGEVEHICULE": 40,
+            "IDGENRE": 5
+        },
+        {
+            "LIBELLE": "TRANS. MATIÈRE INFL. +3,5T",
+            "IDUSAGEVEHICULE": 40,
+            "IDGENRE": 6
+        },
+        {
+            "LIBELLE": "TRANS. MATIÈRE INFL. +3,5T",
+            "IDUSAGEVEHICULE": 40,
+            "IDGENRE": 11
+        },
+        {
+            "LIBELLE": "TRANS. MATIÈRE INFL. +3,5T",
+            "IDUSAGEVEHICULE": 40,
+            "IDGENRE": 15
+        },
+        {
+            "LIBELLE": "TRANS. MATIÈRE INFL. +3,5T",
+            "IDUSAGEVEHICULE": 40,
+            "IDGENRE": 17
+        },
+        {
+            "LIBELLE": "TRANS. MATIÈRE INFL. +3,5T",
+            "IDUSAGEVEHICULE": 40,
+            "IDGENRE": 25
+        },
+        {
+            "LIBELLE": "TRANS. MATIÈRE INFL. +3,5T",
+            "IDUSAGEVEHICULE": 40,
+            "IDGENRE": 35
+        },
+        {
+            "LIBELLE": "TRANS. MATIÈRE INFL. +3,5T",
+            "IDUSAGEVEHICULE": 40,
+            "IDGENRE": 58
+        },
+        {
+            "LIBELLE": "TRANS. MATIÈRE INFL. +3,5T",
+            "IDUSAGEVEHICULE": 40,
+            "IDGENRE": 98
+        },
+        {
+            "LIBELLE": "TRANS. MATIÈRE INFL. +3,5T",
+            "IDUSAGEVEHICULE": 40,
+            "IDGENRE": 100
+        },
+        {
+            "LIBELLE": "TRACTEUR AGRICOLE AVEC T.M.I.",
+            "IDUSAGEVEHICULE": 41,
+            "IDGENRE": 5
+        },
+        {
+            "LIBELLE": "TRACTEUR AGRICOLE AVEC T.M.I.",
+            "IDUSAGEVEHICULE": 41,
+            "IDGENRE": 19
+        },
+        {
+            "LIBELLE": "TRACTEUR AGRICOLE AVEC T.M.I.",
+            "IDUSAGEVEHICULE": 41,
+            "IDGENRE": 20
+        },
+        {
+            "LIBELLE": "TRACTEUR AGRICOLE AVEC T.M.I.",
+            "IDUSAGEVEHICULE": 41,
+            "IDGENRE": 21
+        },
+        {
+            "LIBELLE": "TRACTEUR AGRICOLE AVEC T.M.I.",
+            "IDUSAGEVEHICULE": 41,
+            "IDGENRE": 23
+        },
+        {
+            "LIBELLE": "TRACTEUR AGRICOLE AVEC T.M.I.",
+            "IDUSAGEVEHICULE": 41,
+            "IDGENRE": 39
+        },
+        {
+            "LIBELLE": "BALAYEUSE +3,5T",
+            "IDUSAGEVEHICULE": 42,
+            "IDGENRE": 5
+        },
+        {
+            "LIBELLE": "ENLÉVEMENT DES ORDURES +3,5T",
+            "IDUSAGEVEHICULE": 43,
+            "IDGENRE": 5
+        },
+        {
+            "LIBELLE": "ENLÉVEMENT DES ORDURES +3,5T",
+            "IDUSAGEVEHICULE": 43,
+            "IDGENRE": 6
+        },
+        {
+            "LIBELLE": "ENLÉVEMENT DES ORDURES +3,5T",
+            "IDUSAGEVEHICULE": 43,
+            "IDGENRE": 98
+        },
+        {
+            "LIBELLE": "CHASSE NEIGE +3,5T",
+            "IDUSAGEVEHICULE": 44,
+            "IDGENRE": 5
+        },
+        {
+            "LIBELLE": "GARAGISTE",
+            "IDUSAGEVEHICULE": 45,
+            "IDGENRE": 26
+        },
+        {
+            "LIBELLE": "MOTOCYCLETTE AVEC SIDE-CAR CYLINDRÉE > 125 CM3",
+            "IDUSAGEVEHICULE": 46,
+            "IDGENRE": 7
+        },
+        {
+            "LIBELLE": "MOTOCYCLETTE AVEC SIDE-CAR CYLINDRÉE > 125 CM3",
+            "IDUSAGEVEHICULE": 46,
+            "IDGENRE": 8
+        },
+        {
+            "LIBELLE": "CYLINDRÉE < 50 CM3 VITESSE > 60 KM\/H",
+            "IDUSAGEVEHICULE": 47,
+            "IDGENRE": 7
+        },
+        {
+            "LIBELLE": "CYLINDRÉE ENTRE 50 CM3 ET 125 CM3",
+            "IDUSAGEVEHICULE": 48,
+            "IDGENRE": 7
+        },
+        {
+            "LIBELLE": "CYLINDRÉE ENTRE 50 CM3 ET 125 CM3",
+            "IDUSAGEVEHICULE": 48,
+            "IDGENRE": 8
+        },
+        {
+            "LIBELLE": "VÉHICULES À MOTEUR ÉLECTRIQUE",
+            "IDUSAGEVEHICULE": 49,
+            "IDGENRE": 55
+        },
+        {
+            "LIBELLE": "TRICYCLE OU TRIPORTEUR CYLINDRÉE > 125 CM3",
+            "IDUSAGEVEHICULE": 50,
+            "IDGENRE": 8
+        },
+        {
+            "LIBELLE": "LOCATION CYLINDRÉE < 50 CM3 VITESSE < 60 KM\/H",
+            "IDUSAGEVEHICULE": 51,
+            "IDGENRE": 7
+        },
+        {
+            "LIBELLE": "LOCATION MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "IDUSAGEVEHICULE": 52,
+            "IDGENRE": 7
+        },
+        {
+            "LIBELLE": "LOCATION MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "IDUSAGEVEHICULE": 52,
+            "IDGENRE": 8
+        },
+        {
+            "LIBELLE": "LOCATION TRICYCLE OU TRIPORTEUR CYLINDRÉE < 125 CM3",
+            "IDUSAGEVEHICULE": 53,
+            "IDGENRE": 8
+        },
+        {
+            "LIBELLE": "LOCATION MOTOCYCLETTE AVEC SIDE-CAR CYLINDRÉE > 125 CM3",
+            "IDUSAGEVEHICULE": 54,
+            "IDGENRE": 7
+        },
+        {
+            "LIBELLE": "LOCATION MOTOCYCLETTE AVEC SIDE-CAR CYLINDRÉE > 125 CM3",
+            "IDUSAGEVEHICULE": 54,
+            "IDGENRE": 8
+        },
+        {
+            "LIBELLE": "LOCATION CYLINDRÉE < 50 CM3 VITESSE > 60 KM\/H",
+            "IDUSAGEVEHICULE": 55,
+            "IDGENRE": 7
+        },
+        {
+            "LIBELLE": "LOCATION CYLINDRÉE ENTRE 50 CM3 ET 125 CM3",
+            "IDUSAGEVEHICULE": 56,
+            "IDGENRE": 7
+        },
+        {
+            "LIBELLE": "LOCATION TRICYCLE OU TRIPORTEUR CYLINDRÉE > 125 CM3",
+            "IDUSAGEVEHICULE": 57,
+            "IDGENRE": 8
+        },
+        {
+            "LIBELLE": "HYDROCUREUSE <= 3,5T",
+            "IDUSAGEVEHICULE": 58,
+            "IDGENRE": 11
+        },
+        {
+            "LIBELLE": "HYDROCUREUSE +3,5T",
+            "IDUSAGEVEHICULE": 59,
+            "IDGENRE": 11
+        },
+        {
+            "LIBELLE": "TRICYCLE SANS SIDE-CAR CYLINDR¿E>125 CM3",
+            "IDUSAGEVEHICULE": 60,
+            "IDGENRE": 7
+        },
+        {
+            "LIBELLE": "TRICYCLE SANS SIDE-CAR CYLINDR¿E>125 CM3",
+            "IDUSAGEVEHICULE": 60,
+            "IDGENRE": 8
+        },
+        {
+            "LIBELLE": "TRICYCLE SANS SIDE-CAR CYLINDR¿E>125 CM3",
+            "IDUSAGEVEHICULE": 60,
+            "IDGENRE": 56
+        },
+        {
+            "LIBELLE": "TRICYCLE SANS SIDE-CAR CYLINDR¿E ENTRE 50 CM3 ET 125 CM3",
+            "IDUSAGEVEHICULE": 61,
+            "IDGENRE": 7
+        },
+        {
+            "LIBELLE": "TRICYCLE SANS SIDE-CAR CYLINDR¿E ENTRE 50 CM3 ET 125 CM3",
+            "IDUSAGEVEHICULE": 61,
+            "IDGENRE": 8
+        },
+        {
+            "LIBELLE": "TRACTEUR FORESTIER",
+            "IDUSAGEVEHICULE": 62,
+            "IDGENRE": 115
+        }
+    ],
+    "puissanceFiscale": [
+        {
+            "id":1,
+            "value":"5"
+        },
+        {
+            "id":2,
+            "value":"6"
+        },
+        {
+            "id":3,
+            "value":"7"
+        },
+        {
+            "id":4,
+            "value":"8"
+        },
+        {
+            "id":5,
+            "value":"9"
+        },
+        {
+            "id":6,
+            "value":"10"
+        },
+        {
+            "id":7,
+            "value":"11"
+        },
+        {
+            "id":8,
+            "value":"12"
+        }
+    ],
+    "allSousTypeUsageNOTSORTED": [
+        {
+            "id": 10,
+            "code": 16,
+            "libelle": "LOCATION C.I. Hhhhhhhh",
+            "label": "LOCATION C.I.",
+            "categorie": 751,
+            "nombrePlaceMaximum": 30,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 36,
+            "code": 82,
+            "libelle": "CYLINDRÉE < 50 CM3 VITESSE < 60 KM/H",
+            "label": "CYLINDRÉE < 50 CM3 VITESSE < 60 KM/H",
+            "categorie": 705,
+            "nombrePlaceMaximum": 2,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 47,
+            "code": 92,
+            "libelle": "CYLINDRÉE < 50 CM3 VITESSE > 60 KM/H",
+            "label": "CYLINDRÉE < 50 CM3 VITESSE > 60 KM/H",
+            "categorie": 715,
+            "nombrePlaceMaximum": 2,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 48,
+            "code": 93,
+            "libelle": "CYLINDRÉE ENTRE 50 CM3 ET 125 CM3",
+            "label": "CYLINDRÉE ENTRE 50 CM3 ET 125 CM3",
+            "categorie": 725,
+            "nombrePlaceMaximum": 2,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 37,
+            "code": 83,
+            "libelle": "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "label": "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+            "categorie": 745,
+            "nombrePlaceMaximum": 2,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 44,
+            "code": 90,
+            "libelle": "CHASSE NEIGE +3,5T",
+            "label": "CHASSE NEIGE +3,5T",
+            "categorie": 753,
+            "ptc": "+3,5T",
+            "nombrePlaceMaximum": 5,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 41,
+            "code": 87,
+            "libelle": "TRACTEUR AGRICOLE AVEC T.M.I.",
+            "label": "TRACTEUR AGRICOLE AVEC T.M.I.",
+            "categorie": 713,
+            "nombrePlaceMaximum": 1,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 28,
+            "code": 40,
+            "libelle": "VÉHICULE DÉPANNAGE +3,5T",
+            "label": "VÉHICULE DÉPANNAGE +3,5T",
+            "categorie": 763,
+            "ptc": "+3,5T",
+            "nombrePlaceMaximum": 3,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 49,
+            "code": 95,
+            "libelle": "VÉHICULES À MOTEUR ÉLECTRIQUE",
+            "label": "VÉHICULES À MOTEUR ÉLECTRIQUE",
+            "nombrePlaceMaximum": 1,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 58,
+            "code": 41,
+            "libelle": "HYDROCUREUSE <= 3,5T",
+            "label": "HYDROCUREUSE <= 3,5T",
+            "categorie": 753,
+            "nombrePlaceMaximum": 3,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 25,
+            "code": 37,
+            "libelle": "VOITURE VIDANGE <= 3,5T",
+            "label": "VOITURE VIDANGE <= 3,5T",
+            "categorie": 753,
+            "ptc": "-3,5T",
+            "nombrePlaceMaximum": 3,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 24,
+            "code": 36,
+            "libelle": "ENLÉVEMENT DES ORDURES <= 3,5T",
+            "label": "ENLÉVEMENT DES ORDURES <= 3,5T",
+            "categorie": 753,
+            "ptc": "-3,5T",
+            "nombrePlaceMaximum": 3,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 62,
+            "code": 100,
+            "libelle": "TRACTEUR FORESTIER",
+            "label": "TRACTEUR FORESTIER",
+            "categorie": 711,
+            "nombrePlaceMaximum": 1,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 31,
+            "code": 44,
+            "libelle": "ARROSEUR +3,5T",
+            "label": "ARROSEUR +3,5T",
+            "categorie": 753,
+            "ptc": "+3,5T",
+            "nombrePlaceMaximum": 3,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 42,
+            "code": 88,
+            "libelle": "BALAYEUSE +3,5T",
+            "label": "BALAYEUSE +3,5T",
+            "categorie": 753,
+            "ptc": "+3,5T",
+            "nombrePlaceMaximum": 5,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 5,
+            "code": 11,
+            "libelle": "AMBULANCES <= 3,5T",
+            "label": "AMBULANCES <= 3,5T",
+            "categorie": 721,
+            "ptc": "-3,5T",
+            "nombrePlaceMaximum": 5,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 8,
+            "code": 14,
+            "libelle": "AUTO-ECOLE TOURISME",
+            "label": "AUTO-ECOLE TOURISME",
+            "categorie": 741,
+            "nombrePlaceMaximum": 5,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 32,
+            "code": 47,
+            "libelle": "VOITURE VIDANGE +3.5T",
+            "label": "VOITURE VIDANGE +3.5T",
+            "categorie": 753,
+            "ptc": "+3,5T",
+            "nombrePlaceMaximum": 3,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 16,
+            "code": 22,
+            "libelle": "MOISSONEUSE BATTEUSE",
+            "label": "MOISSONEUSE BATTEUSE",
+            "categorie": 783,
+            "nombrePlaceMaximum": 1,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 33,
+            "code": 49,
+            "libelle": "VÉH. SCE INCENDIE +3.5T",
+            "label": "VÉH. SCE INCENDIE +3.5T",
+            "categorie": 753,
+            "ptc": "+3,5T",
+            "nombrePlaceMaximum": 5,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 20,
+            "code": 32,
+            "libelle": "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "label": "TRANSPORT DES ECOLIERS <= 3,5 T",
+            "categorie": 703,
+            "ptc": "-3,5T",
+            "nombrePlaceMaximum": 70,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 39,
+            "code": 85,
+            "libelle": "TRANS. MATIÈRE INFL. <= 3,5T",
+            "label": "TRANS. MATIÈRE INFL. <= 3,5T",
+            "categorie": 773,
+            "ptc": "-3,5T",
+            "nombrePlaceMaximum": 5,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 6,
+            "code": 12,
+            "libelle": "CORBILLARDS <= 3,5T",
+            "label": "CORBILLARDS <= 3,5T",
+            "categorie": 721,
+            "ptc": "-3,5T",
+            "nombrePlaceMaximum": 3,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 29,
+            "code": 42,
+            "libelle": "TRANSPORT ECOLIERS +3,5T",
+            "label": "TRANSPORT ECOLIERS +3,5T",
+            "categorie": 713,
+            "ptc": "+3,5T",
+            "nombrePlaceMaximum": 80,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 34,
+            "code": 51,
+            "libelle": "AUTO-ECOLE 2 OU 3 ROUES",
+            "label": "AUTO-ECOLE 2 OU 3 ROUES",
+            "categorie": 741,
+            "nombrePlaceMaximum": 2,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 27,
+            "code": 39,
+            "libelle": "VÉHICULE SCE INCENDIE <= 3,5T",
+            "label": "VÉHICULE SCE INCENDIE <= 3,5T",
+            "categorie": 753,
+            "ptc": "-3,5T",
+            "nombrePlaceMaximum": 5,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 26,
+            "code": 38,
+            "libelle": "CHASSE NEIGE <= 3,5T",
+            "label": "CHASSE NEIGE <= 3,5T",
+            "categorie": 753,
+            "ptc": "-3,5T",
+            "nombrePlaceMaximum": 3,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 15,
+            "code": 21,
+            "libelle": "TRACTEUR AGRICOLE",
+            "label": "TRACTEUR AGRICOLE",
+            "categorie": 711,
+            "nombrePlaceMaximum": 1,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 21,
+            "code": 33,
+            "libelle": "TRANSPORT PERSONNEL <= 3,5T",
+            "label": "TRANSPORT PERSONNEL <= 3,5T",
+            "categorie": 703,
+            "ptc": "-3,5T",
+            "nombrePlaceMaximum": 32,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 18,
+            "code": 30,
+            "libelle": "VÉHICULE DÉPANNAGE <= 3,5T",
+            "label": "VÉHICULE DÉPANNAGE <= 3,5T",
+            "categorie": 763,
+            "ptc": "-3,5T",
+            "nombrePlaceMaximum": 3,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 30,
+            "code": 43,
+            "libelle": "TRANSPORT PERSONNEL +3,5T",
+            "label": "TRANSPORT PERSONNEL +3,5T",
+            "categorie": 713,
+            "ptc": "+3,5T",
+            "nombrePlaceMaximum": 80,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 23,
+            "code": 35,
+            "libelle": "BALAYEUSE <= 3,5T",
+            "label": "BALAYEUSE <= 3,5T",
+            "categorie": 753,
+            "ptc": "-3,5T",
+            "nombrePlaceMaximum": 3,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 59,
+            "code": 45,
+            "libelle": "HYDROCUREUSE +3,5T",
+            "label": "HYDROCUREUSE +3,5T",
+            "categorie": 753,
+            "nombrePlaceMaximum": 3,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 19,
+            "code": 31,
+            "libelle": "AUTO-ECOLE UTIL./AUTOCARS",
+            "label": "AUTO-ECOLE UTIL./AUTOCARS",
+            "categorie": 741,
+            "nombrePlaceMaximum": 5,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 7,
+            "code": 13,
+            "libelle": "FOURGONS FUNÉRAIRES <= 3,5T",
+            "label": "FOURGONS FUNÉRAIRES <= 3,5T",
+            "categorie": 721,
+            "ptc": "-3,5T",
+            "nombrePlaceMaximum": 3,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 45,
+            "code": 99,
+            "libelle": "GARAGISTE",
+            "label": "GARAGISTE",
+            "categorie": 731,
+            "nombrePlaceMaximum": 5,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 22,
+            "code": 34,
+            "libelle": "ARROSEUSE <= 3,5T",
+            "label": "ARROSEUSE <= 3,5T",
+            "categorie": 753,
+            "ptc": "-3,5T",
+            "nombrePlaceMaximum": 3,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 43,
+            "code": 89,
+            "libelle": "ENLÉVEMENT DES ORDURES +3,5T",
+            "label": "ENLÉVEMENT DES ORDURES +3,5T",
+            "categorie": 753,
+            "ptc": "+3,5T",
+            "nombrePlaceMaximum": 5,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 40,
+            "code": 86,
+            "libelle": "TRANS. MATIÈRE INFL. +3,5T",
+            "label": "TRANS. MATIÈRE INFL. +3,5T",
+            "categorie": 773,
+            "ptc": "+3,5T",
+            "nombrePlaceMaximum": 5,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 35,
+            "code": 81,
+            "libelle": "ENGIN DE CHANTIER",
+            "label": "ENGIN DE CHANTIER",
+            "categorie": 743,
+            "nombrePlaceMaximum": 1,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 1,
+            "code": 1,
+            "libelle": "TOURISME",
+            "label": "TOURISME",
+            "categorie": 701,
+            "nombrePlaceMaximum": 8,
+            "nombrePlaceMinimum": 0
+        },
+        {
+            "id": 2,
+            "code": 3,
+            "libelle": "C1 (COMMERCE <= 3,5T)",
+            "label": "C1 (COMMERCE <= 3,5T)",
+            "categorie": 703,
+            "ptc": "-3,5T",
+            "nombrePlaceMaximum": 32,
+            "nombrePlaceMinimum": 8
+        },
+        {
+            "id": 3,
+            "code": 4,
+            "libelle": "C2 (COMMERCE +3,5T)",
+            "label": "C2 (COMMERCE +3,5T)",
+            "categorie": 713,
+            "ptc": "+3,5T",
+            "nombrePlaceMaximum": 3,
+            "nombrePlaceMinimum": 3
+        }
+    ],
+    "combustible": [
+        {
+            "code": 1,
+            "label": "ESSENCE"
+        },
+        {
+            "code": 2,
+            "label": "DIESEL"
+        },
+        {
+            "code": 3,
+            "label": "ELECTRIQUE"
+        }
+    ]
+}
