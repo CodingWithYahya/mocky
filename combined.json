@@ -1,0 +1,1364 @@
+{
+  "Err/users": [
+    {
+      "id": "1",
+      "firstName": "yahya",
+      "lastName": "yahya",
+      "email": "yahya",
+      "age": 23,
+      "companyId": "1"
+    },
+    {
+      "id": "2",
+      "firstName": "yahya",
+      "lastName": "yahya",
+      "email": "yahya",
+      "age": 23,
+      "companyId": "2"
+    }
+  ],
+  "Err/companies": [
+    {
+      "id": "1",
+      "name": "RMA",
+      "description": "La Royale marocaine d'assurance est une compagnie d'assurance et de réassurance marocaine filiale du groupe FinanceCom. Depuis plus de 70 ans d existence, RMA offre une panoplie des services afin protéger les biens et les personnes contre les risques de la vie et d accompagner les particuliers, les professionnels et les entreprises dans la réalisation de leurs projets d avenir en toute sérénité."
+    },
+    {
+      "id": "2",
+      "name": "DELL",
+      "description": "DELL et de réassurance marocaine filiale du groupe DELL. Depuis plus de 70 ans d existence, DELL offre une panoplie des services afin protéger les biens et les personnes contre les risques de la vie et d accompagner les particuliers, les professionnels et les entreprises dans la réalisation de leurs projets d avenir en toute sérénité."
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "RMA",
+      "description": "La Royale marocaine d'assurance est une compagnie d'assurance et de réassurance marocaine filiale du groupe FinanceCom. Depuis plus de 70 ans d existence, RMA offre une panoplie des services afin protéger les biens et les personnes contre les risques de la vie et d accompagner les particuliers, les professionnels et les entreprises dans la réalisation de leurs projets d avenir en toute sérénité."
+    },
+    {
+      "id": "2",
+      "name": "DELL",
+      "description": "DELL et de réassurance marocaine filiale du groupe DELL. Depuis plus de 70 ans d existence, DELL offre une panoplie des services afin protéger les biens et les personnes contre les risques de la vie et d accompagner les particuliers, les professionnels et les entreprises dans la réalisation de leurs projets d avenir en toute sérénité."
+    }
+  ],
+  "AllGenres": [
+    {
+      "id": 38,
+      "code": "CAMPING CAR",
+      "libelle": "CAMPING CAR",
+      "label": "CAMPING CAR"
+    },
+    {
+      "id": 98,
+      "code": "REMORQUE",
+      "libelle": "REMORQUE",
+      "label": "REMORQUE"
+    },
+    {
+      "id": 56,
+      "code": "QUAD",
+      "libelle": "QUAD",
+      "label": "QUAD"
+    },
+    {
+      "id": 1,
+      "code": "C.I",
+      "libelle": "CONDUITE INTERIEURE",
+      "label": "CONDUITE INTERIEURE"
+    },
+    {
+      "id": 2,
+      "code": "BERLINE",
+      "libelle": "BERLINE",
+      "label": "BERLINE"
+    },
+    {
+      "id": 3,
+      "code": "BREAK",
+      "libelle": "BREAK",
+      "label": "BREAK"
+    },
+    {
+      "id": 4,
+      "code": "CAMIONNETTE ",
+      "libelle": "CAMIONNETTE",
+      "label": "CAMIONNETTE"
+    },
+    {
+      "id": 5,
+      "code": "CAMION      ",
+      "libelle": "CAMION",
+      "label": "CAMION"
+    },
+    {
+      "id": 6,
+      "code": "TRAC.ROUT.  ",
+      "libelle": "TRACTEUR ROUTIER",
+      "label": "TRACTEUR ROUTIER"
+    },
+    {
+      "id": 7,
+      "code": "2.R       ",
+      "libelle": "CYCLOMOTEUR (2 ROUES)",
+      "label": "CYCLOMOTEUR (2 ROUES)"
+    },
+    {
+      "id": 8,
+      "code": "TRI A MOTEUR",
+      "libelle": "TRICYCLES MOTEUR",
+      "label": "TRICYCLES MOTEUR"
+    },
+    {
+      "id": 9,
+      "code": "JEEP        ",
+      "libelle": "JEEP",
+      "label": "JEEP"
+    },
+    {
+      "id": 10,
+      "code": "VEH.MALAXEUR",
+      "libelle": "VEHICULE MALAXEUR",
+      "label": "VEHICULE MALAXEUR"
+    },
+    {
+      "id": 11,
+      "code": "CAM. CITERNE",
+      "libelle": "CAMION CITERNE",
+      "label": "CAMION CITERNE"
+    },
+    {
+      "id": 12,
+      "code": "AUTOCAR     ",
+      "libelle": "AUTOCAR",
+      "label": "AUTOCAR"
+    },
+    {
+      "id": 13,
+      "code": "MICROCAR    ",
+      "libelle": "MICROCAR",
+      "label": "MICROCAR"
+    },
+    {
+      "id": 14,
+      "code": "FOURGON     ",
+      "libelle": "FOURGON",
+      "label": "FOURGON"
+    },
+    {
+      "id": 15,
+      "code": "CAMION BENNE",
+      "libelle": "CAMION BENNE",
+      "label": "CAMION BENNE"
+    },
+    {
+      "id": 16,
+      "code": "MICROBUS    ",
+      "libelle": "MICROBUS",
+      "label": "MICROBUS"
+    },
+    {
+      "id": 17,
+      "code": "CAM. PORTEUR",
+      "libelle": "CAMION PORTEUR",
+      "label": "CAMION PORTEUR"
+    },
+    {
+      "id": 18,
+      "code": "M. BATTEUSE ",
+      "libelle": "MOISSONEUSE BATTEUSE",
+      "label": "MOISSONEUSE BATTEUSE"
+    },
+    {
+      "id": 19,
+      "code": "TRAC.AGRICOL",
+      "libelle": "TRACTEUR AGRICOLE",
+      "label": "TRACTEUR AGRICOLE"
+    },
+    {
+      "id": 20,
+      "code": "CAM. A BET. ",
+      "libelle": "CAMION A BETTONNIERE",
+      "label": "CAMION A BETTONNIERE"
+    },
+    {
+      "id": 21,
+      "code": "CAM A FORAGE",
+      "libelle": "CAMION A FORAGE",
+      "label": "CAMION A FORAGE"
+    },
+    {
+      "id": 22,
+      "code": "AUTOBUS     ",
+      "libelle": "AUTOBUS",
+      "label": "AUTOBUS"
+    },
+    {
+      "id": 23,
+      "code": "ENG CHANTIER",
+      "libelle": "ENGIN CHANTIER",
+      "label": "ENGIN CHANTIER"
+    },
+    {
+      "id": 24,
+      "code": "FOURGONNETTE",
+      "libelle": "FOURGONNETTE",
+      "label": "FOURGONNETTE"
+    },
+    {
+      "id": 25,
+      "code": "CAM. PLATEAU",
+      "libelle": "CAMION PLATEAU",
+      "label": "CAMION PLATEAU"
+    },
+    {
+      "id": 26,
+      "code": "V.GARAGISTE ",
+      "libelle": "VEHICULE GARAGISTE",
+      "label": "VEHICULE GARAGISTE"
+    },
+    {
+      "id": 27,
+      "code": "FOURG-FRIGOR",
+      "libelle": "FOURGON FRIGORIFIQUE",
+      "label": "FOURGON FRIGORIFIQUE"
+    },
+    {
+      "id": 28,
+      "code": "CAM-FRIGORIF",
+      "libelle": "CAMION FRIGORIFIQUE",
+      "label": "CAMION FRIGORIFIQUE"
+    },
+    {
+      "id": 29,
+      "code": "PICK-UP DBL CABINE",
+      "libelle": "PICK-UP DOUBLE CABINE",
+      "label": "PICK-UP DOUBLE CABINE"
+    },
+    {
+      "id": 30,
+      "code": "CAM. CARROS.",
+      "libelle": "CAMION CARROSSERIE",
+      "label": "CAMION CARROSSERIE"
+    },
+    {
+      "id": 31,
+      "code": "S-W         ",
+      "libelle": "STATION WAGON",
+      "label": "STATION WAGON"
+    },
+    {
+      "id": 32,
+      "code": "ESTAFETTE   ",
+      "libelle": "ESTAFETTE",
+      "label": "ESTAFETTE"
+    },
+    {
+      "id": 33,
+      "code": "TRAC.AVEC GRUE",
+      "libelle": "TRACTEUR AVEC GRUE",
+      "label": "TRACTEUR AVEC GRUE"
+    },
+    {
+      "id": 34,
+      "code": "PICK-UP",
+      "libelle": "PICK-UP",
+      "label": "PICK-UP"
+    },
+    {
+      "id": 35,
+      "code": "CAM. CARROS",
+      "libelle": "CAM. CARROS",
+      "label": "CAM. CARROS"
+    },
+    {
+      "id": 44,
+      "code": "S-W ",
+      "libelle": "S-W",
+      "label": "S-W"
+    },
+    {
+      "id": 54,
+      "code": "ESTAFETTE",
+      "libelle": "ESTAFETTE",
+      "label": "ESTAFETTE"
+    },
+    {
+      "id": 99,
+      "code": "Quelconque",
+      "libelle": "Quelconque",
+      "label": "Quelconque"
+    },
+    {
+      "id": 55,
+      "code": "Vehicule a moteur electrique",
+      "libelle": "Vehicule a moteur electrique",
+      "label": "Vehicule a moteur electrique"
+    },
+    {
+      "id": 39,
+      "code": "CAMION A POMPE A BETON",
+      "libelle": "CAMION A POMPE A BETON",
+      "label": "CAMION A POMPE A BETON"
+    },
+    {
+      "id": 40,
+      "code": "CAMION PLATEAU AVEC GRUE",
+      "libelle": "CAMION PLATEAU AVEC GRUE",
+      "label": "CAMION PLATEAU AVEC GRUE"
+    },
+    {
+      "id": 102,
+      "code": "CABRIOLET",
+      "libelle": "CABRIOLET",
+      "label": "CABRIOLET"
+    },
+    {
+      "id": 37,
+      "code": "CAMIONNETTE-FRIGO",
+      "libelle": "CAMIONNETTE FRIGORIFIQUE",
+      "label": "CAMIONNETTE FRIGORIFIQUE"
+    },
+    {
+      "id": 41,
+      "code": "Camionnette Plateau",
+      "libelle": "Camionnette Plateau",
+      "label": "Camionnette Plateau"
+    },
+    {
+      "id": 103,
+      "code": "COUPE",
+      "libelle": "COUPE",
+      "label": "COUPE"
+    },
+    {
+      "id": 36,
+      "code": "FOURGONNETTE-FRIGOR",
+      "libelle": "FOURGONNETTE FRIGORIFIQUE",
+      "label": "FOURGONNETTE FRIGORIFIQUE"
+    },
+    {
+      "id": 100,
+      "code": "CAMION FOURGON",
+      "libelle": "CAMION FOURGON",
+      "label": "CAMION FOURGON"
+    },
+    {
+      "id": 101,
+      "code": "CAMIONNETTE FOURGON",
+      "libelle": "CAMIONNETTE FOURGON",
+      "label": "CAMIONNETTE FOURGON"
+    },
+    {
+      "id": 105,
+      "code": "CONVERTIBLE",
+      "libelle": "CONVERTIBLE",
+      "label": "CONVERTIBLE"
+    },
+    {
+      "id": 109,
+      "code": "FTTE.V.S",
+      "libelle": "FTTE.V.S",
+      "label": "FTTE.V.S"
+    },
+    {
+      "id": 110,
+      "code": "F.V.S",
+      "libelle": "F.V.S",
+      "label": "F.V.S"
+    },
+    {
+      "id": 104,
+      "code": "F.V.S",
+      "libelle": "F.V.S",
+      "label": "F.V.S"
+    },
+    {
+      "id": 42,
+      "code": "FAMILIALE",
+      "libelle": "FAMILIALE",
+      "label": "FAMILIALE"
+    },
+    {
+      "id": 43,
+      "code": "QUADRICYCLE",
+      "libelle": "QUADRICYCLE",
+      "label": "QUADRICYCLE"
+    },
+    {
+      "id": 57,
+      "code": "CAM. CITERNE A EAU",
+      "libelle": "CAMION CITERNE A EAU",
+      "label": "CAMION CITERNE A EAU"
+    },
+    {
+      "id": 58,
+      "code": "CAM. CITERNE A CARBURANT",
+      "libelle": "CAMION CITERNE A CARBURANT",
+      "label": "CAMION CITERNE A CARBURANT"
+    },
+    {
+      "id": 59,
+      "code": "CAMION BRASSEUR",
+      "libelle": "CAMION BRASSEUR",
+      "label": "CAMION BRASSEUR"
+    },
+    {
+      "id": 60,
+      "code": "CAM. PLATEAU RIDELLES",
+      "libelle": "CAMION PLATEAU RIDELLES",
+      "label": "CAMION PLATEAU RIDELLES"
+    },
+    {
+      "id": 61,
+      "code": "CAM. PLATEAU BRASSEUR",
+      "libelle": "CAMION PLATEAU BRASSEUR",
+      "label": "CAMION PLATEAU BRASSEUR"
+    },
+    {
+      "id": 62,
+      "code": "CAMION HYDRAUCUREUSE",
+      "libelle": "CAMION HYDRAUCUREUSE",
+      "label": "CAMION HYDRAUCUREUSE"
+    },
+    {
+      "id": 63,
+      "code": "CAMION AMPLIROLL",
+      "libelle": "CAMION AMPLIROLL",
+      "label": "CAMION AMPLIROLL"
+    },
+    {
+      "id": 64,
+      "code": "CAMION AVEC GRUE",
+      "libelle": "CAMION AVEC GRUE",
+      "label": "CAMION AVEC GRUE"
+    },
+    {
+      "id": 65,
+      "code": "FOURGONNETTE VITREE",
+      "libelle": "FOURGONNETTE VITREE",
+      "label": "FOURGONNETTE VITREE"
+    },
+    {
+      "id": 66,
+      "code": "FOURGONNET.VITR.AVEC BANQ.",
+      "libelle": "FOURGONNETTE VITREE AVEC BANQUETTE",
+      "label": "FOURGONNETTE VITREE AVEC BANQUETTE"
+    },
+    {
+      "id": 112,
+      "code": "CHASSIS CABINE",
+      "libelle": "CHASSIS CABINE",
+      "label": "CHASSIS CABINE"
+    },
+    {
+      "id": 107,
+      "code": "PICK-UP DOUBLE CABINE",
+      "libelle": "PICK-UP DOUBLE CABINE",
+      "label": "PICK-UP DOUBLE CABINE"
+    },
+    {
+      "id": 45,
+      "code": "FOURGON VITREE AVEC SIEGE",
+      "libelle": "FOURGON VITREE AVEC SIEGE",
+      "label": "FOURGON VITREE AVEC SIEGE"
+    },
+    {
+      "id": 108,
+      "code": "CAMION BENNE AVEC GRUE",
+      "libelle": "CAMION BENNE AVEC GRUE",
+      "label": "CAMION BENNE AVEC GRUE"
+    },
+    {
+      "id": 106,
+      "code": "FORGON VITRE AVEC SIEGE",
+      "libelle": "FORGON VITRE AVEC SIEGE",
+      "label": "FORGON VITRE AVEC SIEGE"
+    },
+    {
+      "id": 111,
+      "code": "CAMION NACELLE",
+      "libelle": "CAMION NACELLE",
+      "label": "CAMION NACELLE"
+    },
+    {
+      "id": 114,
+      "code": "CAMION SONDEUSE",
+      "libelle": "CAMION SONDEUSE",
+      "label": "CAMION SONDEUSE"
+    },
+    {
+      "id": 117,
+      "code": "LIMOUSINE",
+      "libelle": "LIMOUSINE",
+      "label": "LIMOUSINE"
+    },
+    {
+      "id": 120,
+      "code": "PICK UP FOURGON FRIGORIFIQUE",
+      "libelle": "PICK UP FOURGON FRIGORIFIQUE",
+      "label": "PICK UP FOURGON FRIGORIFIQUE"
+    },
+    {
+      "id": 122,
+      "code": "CAMION PLATEAU DE DEPANNAGE",
+      "libelle": "CAMION PLATEAU DE DEPANNAGE",
+      "label": "CAMION PLATEAU DE DEPANNAGE"
+    },
+    {
+      "id": 124,
+      "code": "CAMION PLATEAU PORTE COMPRESSEURE",
+      "libelle": "CAMION PLATEAU PORTE COMPRESSEURE",
+      "label": "CAMION PLATEAU PORTE COMPRESSEURE"
+    },
+    {
+      "id": 116,
+      "code": "CAMION AMPLIROLL AVEC GRUE",
+      "libelle": "CAMION AMPLIROLL AVEC GRUE",
+      "label": "CAMION AMPLIROLL AVEC GRUE"
+    },
+    {
+      "id": 118,
+      "code": "CAMION PLATEAU DEPANAGE AVEC GR",
+      "libelle": "CAMION PLATEAU DEPANAGE AVEC GR",
+      "label": "CAMION PLATEAU DEPANAGE AVEC GR"
+    },
+    {
+      "id": 119,
+      "code": "FOURGONNETTE TOLEE",
+      "libelle": "FOURGONNETTE TOLEE",
+      "label": "FOURGONNETTE TOLEE"
+    },
+    {
+      "id": 113,
+      "code": "DEPANNAGE PORTE VHL",
+      "libelle": "DEPANNAGE PORTE VHL",
+      "label": "DEPANNAGE PORTE VHL"
+    },
+    {
+      "id": 121,
+      "code": "CAMION FOURGON ISOTHERME",
+      "libelle": "CAMION FOURGON ISOTHERME",
+      "label": "CAMION FOURGON ISOTHERME"
+    },
+    {
+      "id": 115,
+      "code": "TRACTEUR FORESTIER",
+      "libelle": "TRACTEUR FORESTIER",
+      "label": "TRACTEUR FORESTIER"
+    }
+  ],
+  "combustible": [
+    {
+      "code": 1,
+      "label": "ESSENCE"
+    },
+    {
+      "code": 2,
+      "label": "DIESEL"
+    },
+    {
+      "code": 3,
+      "label": "ELECTRIQUE"
+    }
+  ],
+  "natureClient": [
+    {
+      "id": 1,
+      "version": 0,
+      "code": 1,
+      "libelle": "Particulier",
+      "label": "Particulier",
+      "visibles": true
+    },
+    {
+      "id": 2,
+      "version": 0,
+      "code": 2,
+      "libelle": "Entreprise\r\n\r\n",
+      "label": "Entreprise\r\n\r\n",
+      "visibles": true
+    }
+  ],
+  "titreCivilite": [
+    {
+      "id": 3,
+      "version": 0,
+      "code": 3,
+      "libelle": "Mlle. figé",
+      "label": "Mlle. ",
+      "abrg": "Mlle.",
+      "visibles": true
+    },
+    {
+      "id": 2,
+      "version": 0,
+      "code": 2,
+      "libelle": "Mme figé",
+      "label": "Mme. ",
+      "abrg": "Mme.",
+      "visibles": true
+    },
+    {
+      "id": 1,
+      "version": 0,
+      "code": 1,
+      "libelle": "Mr. ",
+      "label": "Mr. ",
+      "abrg": "Mr.",
+      "visibles": true
+    }
+  ],
+  "genre": [
+    {
+      "code": 1,
+      "label": "ESSENCE"
+    },
+    {
+      "code": 2,
+      "label": "DIESEL"
+    },
+    {
+      "code": 3,
+      "label": "ELECTRIQUE"
+    }
+  ],
+  "numeroDePieceDidentite": [
+    {
+      "id": 1,
+      "version": 0,
+      "code": "1",
+      "label": "CIN",
+      "libelle": "CIN",
+      "typeCritere": "P"
+    },
+    {
+      "id": 2,
+      "version": 0,
+      "code": "2",
+      "label": "N° de passeport",
+      "libelle": "N° de passeport",
+      "typeCritere": "P"
+    },
+    {
+      "id": 3,
+      "version": 0,
+      "code": "3",
+      "label": "Carte de séjour",
+      "libelle": "Carte de séjour",
+      "typeCritere": "P"
+    },
+    {
+      "id": 5,
+      "version": 0,
+      "code": "5",
+      "label": "RC",
+      "libelle": "RC",
+      "typeCritere": "E"
+    },
+    {
+      "id": 8,
+      "version": 0,
+      "code": "8",
+      "label": "I.C.E",
+      "libelle": "I.C.E",
+      "typeCritere": "E"
+    }
+  ],
+  "profession": [
+    {
+      "id": 102,
+      "version": 0,
+      "code": 102,
+      "libelle": "Administrateur figéfigé",
+      "label": "Administrator",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 10,
+      "version": 0,
+      "code": 10,
+      "libelle": "Agriculteurs exploitants",
+      "label": "Farmers",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 21,
+      "version": 0,
+      "code": 21,
+      "libelle": "Artisans",
+      "label": "Craftsmen",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 99,
+      "version": 0,
+      "code": 99,
+      "libelle": "Autre profession",
+      "label": "Other profession",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 36,
+      "version": 0,
+      "code": 36,
+      "libelle": "Cadres d'entreprise",
+      "label": "Business executives",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 32,
+      "version": 0,
+      "code": 32,
+      "libelle": "Cadres de de fonction publique, professions artistiques",
+      "label": "Public service executives, artistic professions",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 23,
+      "version": 0,
+      "code": 23,
+      "libelle": "Chefs d'entreprise de 10 salariés ou plus",
+      "label": "Business owners with 10 employees or more",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 22,
+      "version": 0,
+      "code": 22,
+      "libelle": "Commerçants et assimilés",
+      "label": "Traders and similar professions",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 48,
+      "version": 0,
+      "code": 48,
+      "libelle": "Contremaitres, agents de maitrise",
+      "label": "Foremen, skilled workers",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 101,
+      "version": 0,
+      "code": 101,
+      "libelle": "Directeur Général Adjoint",
+      "label": "Deputy General Manager",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 54,
+      "version": 0,
+      "code": 54,
+      "libelle": "Employés administratifs d'entreprise",
+      "label": "Administrative employees",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 55,
+      "version": 0,
+      "code": 55,
+      "libelle": "Employés de commerce",
+      "label": "Sales employees",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 51,
+      "version": 0,
+      "code": 51,
+      "libelle": "Employés de la fonction publique",
+      "label": "Public service employees",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 82,
+      "version": 0,
+      "code": 82,
+      "libelle": "Inactifs divers (autres que retraités)",
+      "label": "Various inactive (non-retired)",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 69,
+      "version": 0,
+      "code": 69,
+      "libelle": "Ouvriers agricoles",
+      "label": "Agricultural workers",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 62,
+      "version": 0,
+      "code": 62,
+      "libelle": "Ouvriers non qualifiés",
+      "label": "Unskilled workers",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 61,
+      "version": 0,
+      "code": 61,
+      "libelle": "Ouvriers qualifiés",
+      "label": "Skilled workers",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 56,
+      "version": 0,
+      "code": 56,
+      "libelle": "Personnels des services directs aux particuliers",
+      "label": "Personnel of direct services to individuals",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 41,
+      "version": 0,
+      "code": 41,
+      "libelle": "Professions Enseignement, Santé, Publique et Assimilés",
+      "label": "Teaching, Health, Public and Related Professions",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 46,
+      "version": 0,
+      "code": 46,
+      "libelle": "Professions intermédiaires administratives et commerciales",
+      "label": "Intermediate administrative and commercial professions",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 31,
+      "version": 0,
+      "code": 31,
+      "libelle": "Professions libérales et assimilés",
+      "label": "Liberal professions and similar professions",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 44,
+      "version": 0,
+      "code": 44,
+      "libelle": "Professions sportives",
+      "label": "Sports professions",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 100,
+      "version": 0,
+      "code": 100,
+      "libelle": "Respontasble de pole",
+      "label": "Pole responsible",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 71,
+      "version": 0,
+      "code": 71,
+      "libelle": "Retraités (Anciens agriculteurs exploitants)",
+      "label": "Retirees (Former farmers)",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 73,
+      "version": 0,
+      "code": 73,
+      "libelle": "Retraités (Anciens cadres et professions intermédiaires)",
+      "label": "Retirees (Former executives and intermediate professions)",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 76,
+      "version": 0,
+      "code": 76,
+      "libelle": "Retraités (Anciens employés et ouvriers)",
+      "label": "Retirees (Former employees and workers)",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 72,
+      "version": 0,
+      "code": 72,
+      "libelle": "Retraités (Artisans, Commerçants, Chefs d'entreprise)",
+      "label": "Retirees (Craftsmen, Traders, Business owners)",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 47,
+      "version": 0,
+      "code": 47,
+      "libelle": "Techniciens",
+      "label": "Technicians",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    }
+  ],
+  "categoriePermis": [
+    {
+      "code": "A",
+      "label": "Ahhh"
+    },
+    {
+      "code": "B",
+      "label": "B"
+    },
+    {
+      "code": "C",
+      "label": "C"
+    },
+    {
+      "code": "D",
+      "label": "D"
+    },
+    {
+      "code": "E",
+      "label": "E"
+    },
+    {
+      "code": "F",
+      "label": "F"
+    }
+  ],
+  "paysDobtentionDuPermis": [
+    {
+      "id": 3,
+      "version": 0,
+      "code": 3,
+      "libelle": "Laliman ALLEMAGNE",
+      "abrg": "GER",
+      "label": "Germany",
+      "visibles": true
+    },
+    {
+      "id": 6,
+      "version": 0,
+      "code": 6,
+      "libelle": "Belgique",
+      "abrg": "BEL",
+      "label": "Belgium",
+      "visibles": true
+    },
+    {
+      "id": 8,
+      "version": 0,
+      "code": 8,
+      "libelle": "CANADA",
+      "abrg": "CAN",
+      "label": "Canada",
+      "visibles": true
+    },
+    {
+      "id": 9,
+      "version": 0,
+      "code": 9,
+      "libelle": "CONGO",
+      "abrg": "CGO",
+      "label": "Congo",
+      "visibles": true
+    },
+    {
+      "id": 11,
+      "version": 0,
+      "code": 11,
+      "libelle": "ESPAGNE",
+      "abrg": "ESP",
+      "label": "Spain",
+      "visibles": true
+    },
+    {
+      "id": 5,
+      "version": 0,
+      "code": 5,
+      "libelle": "FRANCE",
+      "abrg": "FRA",
+      "label": "France",
+      "visibles": true
+    },
+    {
+      "id": 10,
+      "version": 0,
+      "code": 10,
+      "libelle": "GRANDE BRETAGNE",
+      "abrg": "GB",
+      "label": "Great Britain",
+      "visibles": true
+    },
+    {
+      "id": 204,
+      "version": 0,
+      "code": 204,
+      "libelle": "IRAN",
+      "abrg": "IR",
+      "label": "Iran",
+      "visibles": true
+    },
+    {
+      "id": 4,
+      "version": 0,
+      "code": 4,
+      "libelle": "ITALIE",
+      "abrg": "ITA",
+      "label": "Italy",
+      "visibles": true
+    },
+    {
+      "id": 12,
+      "version": 0,
+      "code": 12,
+      "libelle": "JAPAN",
+      "abrg": "JP",
+      "label": "Japan",
+      "visibles": true
+    },
+    {
+      "id": 212,
+      "version": 0,
+      "code": 212,
+      "libelle": "MAROC",
+      "abrg": "Mar",
+      "label": "Morocco",
+      "visibles": true
+    },
+    {
+      "id": 1,
+      "version": 0,
+      "code": 1,
+      "libelle": "MAROC (SUITE)",
+      "abrg": "MAR",
+      "label": "Morocco (Continued)",
+      "visibles": true
+    },
+    {
+      "id": 7,
+      "version": 0,
+      "code": 7,
+      "libelle": "SUEDE",
+      "abrg": "SUED",
+      "label": "Sweden",
+      "visibles": true
+    },
+    {
+      "id": 2,
+      "version": 0,
+      "code": 2,
+      "libelle": "UNITED STATE OF AMERICA",
+      "abrg": "USA",
+      "label": "United States of America",
+      "visibles": true
+    },
+    {
+      "id": 140,
+      "version": 0,
+      "code": 33,
+      "libelle": "hin",
+      "abrg": "hind",
+      "label": "hin",
+      "visibles": true
+    }
+  ],
+  "ville": [
+    {
+      "id": 2,
+      "version": 0,
+      "code": 10,
+      "libelle": "AGADIR",
+      "label": "AGADIR",
+      "abrg": null,
+      "refPays": {
+        "id": 212,
+        "version": 0,
+        "code": 212,
+        "libelle": "MAROC",
+        "label": "MAROC",
+        "abrg": "Mar",
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 59,
+      "version": 0,
+      "code": 576,
+      "libelle": "AHFIR",
+      "label": "AHFIR",
+      "abrg": null,
+      "refPays": {
+        "id": 212,
+        "version": 0,
+        "code": 212,
+        "libelle": "MAROC",
+        "label": "MAROC",
+        "abrg": "Mar",
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 122,
+      "version": 0,
+      "code": 583,
+      "libelle": "AIN B MATHAR",
+      "label": "AIN B MATHAR",
+      "abrg": null,
+      "refPays": {
+        "id": 212,
+        "version": 0,
+        "code": 212,
+        "libelle": "MAROC",
+        "label": "MAROC",
+        "abrg": "Mar",
+        "visibles": true
+      },
+      "visibles": true
+    }
+  ],
+  "situationFamiliale": [
+    {
+      "id": 1,
+      "version": 0,
+      "code": 1,
+      "libelle": "Célibataire figé",
+      "label": "Single",
+      "visibles": true
+    },
+    {
+      "id": 3,
+      "version": 0,
+      "code": 2,
+      "libelle": "Divorcé",
+      "label": "Divorced",
+      "visibles": true
+    },
+    {
+      "id": 2,
+      "version": 0,
+      "code": 3,
+      "libelle": "Marié",
+      "label": "Married",
+      "visibles": true
+    },
+    {
+      "id": 6,
+      "version": 0,
+      "code": 4,
+      "libelle": "Veuf",
+      "label": "widower",
+      "visibles": true
+    }
+  ],
+  "dureeContrat": [
+    {
+      "code": 1,
+      "label": "1 mois"
+    },
+    {
+      "code": 3,
+      "label": "3 mois"
+    },
+    {
+      "code": 6,
+      "label": "6 mois"
+    },
+    {
+      "code": 12,
+      "label": "12 mois"
+    },
+    {
+      "code": 0,
+      "label": "Autre"
+    }
+  ]
+}

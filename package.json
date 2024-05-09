@@ -1,0 +1,14 @@
+{
+  "name": "mocky",
+  "version": "1.0.0",
+  "description": "Mocked RestAPI for testing",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "node combine-json.js && json-server --watch combined.json --port 3020"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  }
+}
