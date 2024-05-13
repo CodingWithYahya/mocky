@@ -25,6 +25,8 @@ server.use((req, res, next) => {
 server.use(router);
 server.use(middlewares)
 
+fs.writeFileSync("./combined.json", '');
+
 const dbData = require("./selects_dataset/db.json");
 const subscriberData = require("./selects_dataset/subscriber-step.json");
 const vehicleData = require("./selects_dataset/vehicle-step.json");
