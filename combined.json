@@ -132,428 +132,6 @@
       "typeCritere": "E"
     }
   ],
-  "profession": [
-    {
-      "id": 102,
-      "version": 0,
-      "code": 102,
-      "libelle": "Administrateur figéfigé",
-      "label": "Administrator",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 10,
-      "version": 0,
-      "code": 10,
-      "libelle": "Agriculteurs exploitants",
-      "label": "Farmers",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 21,
-      "version": 0,
-      "code": 21,
-      "libelle": "Artisans",
-      "label": "Craftsmen",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 99,
-      "version": 0,
-      "code": 99,
-      "libelle": "Autre profession",
-      "label": "Other profession",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 36,
-      "version": 0,
-      "code": 36,
-      "libelle": "Cadres d'entreprise",
-      "label": "Business executives",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 32,
-      "version": 0,
-      "code": 32,
-      "libelle": "Cadres de de fonction publique, professions artistiques",
-      "label": "Public service executives, artistic professions",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 23,
-      "version": 0,
-      "code": 23,
-      "libelle": "Chefs d'entreprise de 10 salariés ou plus",
-      "label": "Business owners with 10 employees or more",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 22,
-      "version": 0,
-      "code": 22,
-      "libelle": "Commerçants et assimilés",
-      "label": "Traders and similar professions",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 48,
-      "version": 0,
-      "code": 48,
-      "libelle": "Contremaitres, agents de maitrise",
-      "label": "Foremen, skilled workers",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 101,
-      "version": 0,
-      "code": 101,
-      "libelle": "Directeur Général Adjoint",
-      "label": "Deputy General Manager",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 54,
-      "version": 0,
-      "code": 54,
-      "libelle": "Employés administratifs d'entreprise",
-      "label": "Administrative employees",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 55,
-      "version": 0,
-      "code": 55,
-      "libelle": "Employés de commerce",
-      "label": "Sales employees",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 51,
-      "version": 0,
-      "code": 51,
-      "libelle": "Employés de la fonction publique",
-      "label": "Public service employees",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 82,
-      "version": 0,
-      "code": 82,
-      "libelle": "Inactifs divers (autres que retraités)",
-      "label": "Various inactive (non-retired)",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 69,
-      "version": 0,
-      "code": 69,
-      "libelle": "Ouvriers agricoles",
-      "label": "Agricultural workers",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 62,
-      "version": 0,
-      "code": 62,
-      "libelle": "Ouvriers non qualifiés",
-      "label": "Unskilled workers",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 61,
-      "version": 0,
-      "code": 61,
-      "libelle": "Ouvriers qualifiés",
-      "label": "Skilled workers",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 56,
-      "version": 0,
-      "code": 56,
-      "libelle": "Personnels des services directs aux particuliers",
-      "label": "Personnel of direct services to individuals",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 41,
-      "version": 0,
-      "code": 41,
-      "libelle": "Professions Enseignement, Santé, Publique et Assimilés",
-      "label": "Teaching, Health, Public and Related Professions",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 46,
-      "version": 0,
-      "code": 46,
-      "libelle": "Professions intermédiaires administratives et commerciales",
-      "label": "Intermediate administrative and commercial professions",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 31,
-      "version": 0,
-      "code": 31,
-      "libelle": "Professions libérales et assimilés",
-      "label": "Liberal professions and similar professions",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 44,
-      "version": 0,
-      "code": 44,
-      "libelle": "Professions sportives",
-      "label": "Sports professions",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 100,
-      "version": 0,
-      "code": 100,
-      "libelle": "Respontasble de pole",
-      "label": "Pole responsible",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 71,
-      "version": 0,
-      "code": 71,
-      "libelle": "Retraités (Anciens agriculteurs exploitants)",
-      "label": "Retirees (Former farmers)",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 73,
-      "version": 0,
-      "code": 73,
-      "libelle": "Retraités (Anciens cadres et professions intermédiaires)",
-      "label": "Retirees (Former executives and intermediate professions)",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 76,
-      "version": 0,
-      "code": 76,
-      "libelle": "Retraités (Anciens employés et ouvriers)",
-      "label": "Retirees (Former employees and workers)",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 72,
-      "version": 0,
-      "code": 72,
-      "libelle": "Retraités (Artisans, Commerçants, Chefs d'entreprise)",
-      "label": "Retirees (Craftsmen, Traders, Business owners)",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    },
-    {
-      "id": 47,
-      "version": 0,
-      "code": 47,
-      "libelle": "Techniciens",
-      "label": "Technicians",
-      "natureProfession": {
-        "id": 0,
-        "version": 0,
-        "code": null,
-        "libelle": null,
-        "visibles": true
-      },
-      "visibles": true
-    }
-  ],
   "categoriePermis": [
     {
       "code": "A",
@@ -7084,6 +6662,589 @@
       "code": "02",
       "libelle": "Verifie",
       "visibles": true
+    }
+  ],
+  "profession": [
+    {
+      "id": 102,
+      "version": 0,
+      "code": 102,
+      "libelle": "Administrateur jsonserver",
+      "label": "Administrator",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 10,
+      "version": 0,
+      "code": 10,
+      "libelle": "Agriculteurs exploitants MirageJS",
+      "label": "Farmers",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 21,
+      "version": 0,
+      "code": 21,
+      "libelle": "Artisans",
+      "label": "Craftsmen",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 99,
+      "version": 0,
+      "code": 99,
+      "libelle": "Autre profession",
+      "label": "Other profession",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 36,
+      "version": 0,
+      "code": 36,
+      "libelle": "Cadres d'entreprise",
+      "label": "Business executives",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 32,
+      "version": 0,
+      "code": 32,
+      "libelle": "Cadres de de fonction publique, professions artistiques",
+      "label": "Public service executives, artistic professions",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 23,
+      "version": 0,
+      "code": 23,
+      "libelle": "Chefs d'entreprise de 10 salariés ou plus",
+      "label": "Business owners with 10 employees or more",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 22,
+      "version": 0,
+      "code": 22,
+      "libelle": "Commerçants et assimilés",
+      "label": "Traders and similar professions",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 48,
+      "version": 0,
+      "code": 48,
+      "libelle": "Contremaitres, agents de maitrise",
+      "label": "Foremen, skilled workers",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 101,
+      "version": 0,
+      "code": 101,
+      "libelle": "Directeur Général Adjoint",
+      "label": "Deputy General Manager",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 54,
+      "version": 0,
+      "code": 54,
+      "libelle": "Employés administratifs d'entreprise",
+      "label": "Administrative employees",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 55,
+      "version": 0,
+      "code": 55,
+      "libelle": "Employés de commerce",
+      "label": "Sales employees",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 51,
+      "version": 0,
+      "code": 51,
+      "libelle": "Employés de la fonction publique",
+      "label": "Public service employees",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 82,
+      "version": 0,
+      "code": 82,
+      "libelle": "Inactifs divers (autres que retraités)",
+      "label": "Various inactive (non-retired)",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 69,
+      "version": 0,
+      "code": 69,
+      "libelle": "Ouvriers agricoles",
+      "label": "Agricultural workers",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 62,
+      "version": 0,
+      "code": 62,
+      "libelle": "Ouvriers non qualifiés",
+      "label": "Unskilled workers",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 61,
+      "version": 0,
+      "code": 61,
+      "libelle": "Ouvriers qualifiés",
+      "label": "Skilled workers",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 56,
+      "version": 0,
+      "code": 56,
+      "libelle": "Personnels des services directs aux particuliers",
+      "label": "Personnel of direct services to individuals",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 41,
+      "version": 0,
+      "code": 41,
+      "libelle": "Professions Enseignement, Santé, Publique et Assimilés",
+      "label": "Teaching, Health, Public and Related Professions",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 46,
+      "version": 0,
+      "code": 46,
+      "libelle": "Professions intermédiaires administratives et commerciales",
+      "label": "Intermediate administrative and commercial professions",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 31,
+      "version": 0,
+      "code": 31,
+      "libelle": "Professions libérales et assimilés",
+      "label": "Liberal professions and similar professions",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 44,
+      "version": 0,
+      "code": 44,
+      "libelle": "Professions sportives",
+      "label": "Sports professions",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 100,
+      "version": 0,
+      "code": 100,
+      "libelle": "Respontasble de pole",
+      "label": "Pole responsible",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 71,
+      "version": 0,
+      "code": 71,
+      "libelle": "Retraités (Anciens agriculteurs exploitants)",
+      "label": "Retirees (Former farmers)",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 73,
+      "version": 0,
+      "code": 73,
+      "libelle": "Retraités (Anciens cadres et professions intermédiaires)",
+      "label": "Retirees (Former executives and intermediate professions)",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 76,
+      "version": 0,
+      "code": 76,
+      "libelle": "Retraités (Anciens employés et ouvriers)",
+      "label": "Retirees (Former employees and workers)",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 72,
+      "version": 0,
+      "code": 72,
+      "libelle": "Retraités (Artisans, Commerçants, Chefs d'entreprise)",
+      "label": "Retirees (Craftsmen, Traders, Business owners)",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    },
+    {
+      "id": 47,
+      "version": 0,
+      "code": 47,
+      "libelle": "Techniciens",
+      "label": "Technicians",
+      "natureProfession": {
+        "id": 0,
+        "version": 0,
+        "code": null,
+        "libelle": null,
+        "visibles": true
+      },
+      "visibles": true
+    }
+  ],
+  "typeRecherche": [
+    {
+      "id": 18,
+      "version": 0,
+      "code": "12",
+      "codeType": "NUMERO_POLICE",
+      "libelle": "Numéro Police",
+      "typeCritere": "P",
+      "typeDocument": null,
+      "visibles": true
+    },
+    {
+      "id": 1,
+      "version": 0,
+      "code": "1",
+      "codeType": "CIN",
+      "libelle": "C.I.N",
+      "typeCritere": "P",
+      "typeDocument": {
+        "id": 1,
+        "version": 0,
+        "code": 1,
+        "libelle": "CIN"
+      },
+      "visibles": true
+    },
+    {
+      "id": 2,
+      "version": 0,
+      "code": "2",
+      "codeType": "PASSPORT",
+      "libelle": "N. Passport",
+      "typeCritere": "P",
+      "typeDocument": {
+        "id": 2,
+        "version": 0,
+        "code": 2,
+        "libelle": "N° de passeport"
+      },
+      "visibles": true
+    },
+    {
+      "id": 3,
+      "version": 0,
+      "code": "3",
+      "codeType": "CARTE_SEJOUR",
+      "libelle": "Carte sejour",
+      "typeCritere": "P",
+      "typeDocument": {
+        "id": 3,
+        "version": 0,
+        "code": 3,
+        "libelle": "Carte de séjour"
+      },
+      "visibles": true
+    },
+    {
+      "id": 5,
+      "version": 0,
+      "code": "5",
+      "codeType": "RC",
+      "libelle": "R.C",
+      "typeCritere": "E",
+      "typeDocument": {
+        "id": 5,
+        "version": 0,
+        "code": 5,
+        "libelle": "RC"
+      },
+      "visibles": true
+    },
+    {
+      "id": 8,
+      "version": 0,
+      "code": "8",
+      "codeType": "ICE",
+      "libelle": "I.C.E",
+      "typeCritere": "E",
+      "typeDocument": {
+        "id": 8,
+        "version": 0,
+        "code": 8,
+        "libelle": "I.C.E"
+      },
+      "visibles": true
+    },
+    {
+      "id": 11,
+      "version": 0,
+      "code": "11",
+      "codeType": "RAISON_SOCIALE",
+      "libelle": "Raison sociale",
+      "typeCritere": "E",
+      "typeDocument": null,
+      "visibles": true
+    }
+  ],
+  "etat22Client": [
+    {
+      "id": 1,
+      "version": 0,
+      "code": "01",
+      "libelle": "Non Verifie",
+      "visibles": true
+    },
+    {
+      "id": 2,
+      "version": 0,
+      "code": "02",
+      "libelle": "Verifie",
+      "visibles": true
+    }
+  ],
+  "referentielApiEnum-nomenclatureCategorie-permis": [
+    {
+      "code": "A",
+      "label": "A"
+    },
+    {
+      "code": "B",
+      "label": "B"
+    },
+    {
+      "code": "C",
+      "label": "C"
+    },
+    {
+      "code": "D",
+      "label": "D"
+    },
+    {
+      "code": "E",
+      "label": "E"
+    },
+    {
+      "code": "F",
+      "label": "F"
+    }
+  ],
+  "referentielApiEnum-nomenclatureDuree-contrat": [
+    {
+      "code": 1,
+      "label": "1 mois"
+    },
+    {
+      "code": 3,
+      "label": "3 mois"
+    },
+    {
+      "code": 6,
+      "label": "6 mois"
+    },
+    {
+      "code": 12,
+      "label": "12 mois"
+    },
+    {
+      "code": 0,
+      "label": "Autre"
     }
   ]
 }

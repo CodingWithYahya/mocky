@@ -4,7 +4,7 @@
   "description": "Mocked RestAPI for testing",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js && json-server --watch combined.json --port 3046"
+    "start": "node index.js && json-server --watch combined.json --port 3046 --routes routes.json"
   },
   "author": "",
   "license": "ISC",
