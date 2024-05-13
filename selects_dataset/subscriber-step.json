@@ -1,4 +1,33 @@
 {
+    "titreCivilite": [
+        {
+            "id": 3,
+            "version": 0,
+            "code": 3,
+            "libelle": "Mlle. ",
+            "label": "Mlle. ",
+            "abrg": "Mlle.",
+            "visibles": true
+        },
+        {
+            "id": 2,
+            "version": 0,
+            "code": 2,
+            "libelle": "Mme hhhh",
+            "label": "Mme. ",
+            "abrg": "Mme.",
+            "visibles": true
+        },
+        {
+            "id": 1,
+            "version": 0,
+            "code": 1,
+            "libelle": "Mr. ",
+            "label": "Mr. ",
+            "abrg": "Mr.",
+            "visibles": true
+        }
+    ],
     "natureClient": [
         {
             "id": 1,
@@ -14,35 +43,6 @@
             "code": 2,
             "libelle": "Entreprise\r\n\r\n",
             "label": "Entreprise\r\n\r\n",
-            "visibles": true
-        }
-    ],
-    "titreCivilite": [
-        {
-            "id": 3,
-            "version": 0,
-            "code": 3,
-            "libelle": "Mlle. figé",
-            "label": "Mlle. ",
-            "abrg": "Mlle.",
-            "visibles": true
-        },
-        {
-            "id": 2,
-            "version": 0,
-            "code": 2,
-            "libelle": "Mme figé",
-            "label": "Mme. ",
-            "abrg": "Mme.",
-            "visibles": true
-        },
-        {
-            "id": 1,
-            "version": 0,
-            "code": 1,
-            "libelle": "Mr. ",
-            "label": "Mr. ",
-            "abrg": "Mr.",
             "visibles": true
         }
     ],

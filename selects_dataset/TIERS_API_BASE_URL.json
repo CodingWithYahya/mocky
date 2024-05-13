@@ -1,0 +1,18 @@
+{
+    "etatClient": [
+        {
+            "id": 1,
+            "version": 0,
+            "code": "01",
+            "libelle": "Non Verifie",
+            "visibles": true
+        },
+        {
+            "id": 2,
+            "version": 0,
+            "code": "02",
+            "libelle": "Verifie",
+            "visibles": true
+        }
+    ]
+}
