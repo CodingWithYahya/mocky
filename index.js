@@ -33,6 +33,6 @@ const vehicleData = require("./selects_dataset/vehicle-step.json");
 const tiers = require("./selects_dataset/TIERS_API_BASE_URL.json");
 const mono = require("./selects_dataset/MONO_API_BASE_URL.json");
 const auth = require("./selects_dataset/AUTH_BASE_URL.json");
-const combinedData = { ...dbData, ...subscriberData, ...vehicleData, ...tiers, ...auth, ...mono };
+const combinedData = { ...dbData /* , ...subscriberData, ...vehicleData, ...tiers, ...auth, ...mono */ };
 
 fs.writeFileSync("./combined.json", JSON.stringify(combinedData, null, 2));
