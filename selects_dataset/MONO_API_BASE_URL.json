@@ -46,5 +46,25 @@
             "code": 0,
             "label": "Autre"
         }
+    ],
+    "nature-contrat":[
+        {
+            "code": "T",
+            "label": "Tacite"
+        },
+        {
+            "code": "F",
+            "label": "Ferme"
+        }
+    ],
+    "referentielApiEnum-nomenclatureNature-contratIntermediaireId":[
+        {
+            "code": "T",
+            "label": "Tacite"
+        },
+        {
+            "code": "F",
+            "label": "Ferme"
+        }
     ]
 }

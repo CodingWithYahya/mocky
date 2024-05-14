@@ -76,20 +76,6 @@
       "visibles": true
     }
   ],
-  "genre": [
-    {
-      "code": 1,
-      "label": "ESSENCE"
-    },
-    {
-      "code": 2,
-      "label": "DIESEL"
-    },
-    {
-      "code": 3,
-      "label": "ELECTRIQUE"
-    }
-  ],
   "numeroDePieceDidentite": [
     {
       "id": 1,
@@ -7183,6 +7169,66 @@
       "visibles": true
     }
   ],
+  "typeRechercheCriteres": [
+    {
+      "id": 1,
+      "version": 0,
+      "code": 1,
+      "libelle": "CIN",
+      "typeCritere": "P"
+    },
+    {
+      "id": 2,
+      "version": 0,
+      "code": 2,
+      "libelle": "N° de passeport",
+      "typeCritere": "P"
+    },
+    {
+      "id": 3,
+      "version": 0,
+      "code": 3,
+      "libelle": "Carte de séjour",
+      "typeCritere": "P"
+    },
+    {
+      "id": 5,
+      "version": 0,
+      "code": 5,
+      "libelle": "RC",
+      "typeCritere": "E"
+    },
+    {
+      "id": 8,
+      "version": 0,
+      "code": 8,
+      "libelle": "I.C.E",
+      "typeCritere": "E"
+    }
+  ],
+  "genre": [
+    {
+      "id": 1,
+      "version": 0,
+      "code": "F",
+      "libelle": "Feminin",
+      "visibles": true
+    },
+    {
+      "id": 2,
+      "version": 0,
+      "code": "M",
+      "libelle": "Masculin",
+      "visibles": true
+    },
+    {
+      "id": 0,
+      "version": 0,
+      "code": "I",
+      "libelle": " ",
+      "visibles": true
+    }
+  ],
   "etat22Client": [
     {
       "id": 1,
@@ -7245,6 +7291,26 @@
     {
       "code": 0,
       "label": "Autre"
+    }
+  ],
+  "nature-contrat": [
+    {
+      "code": "T",
+      "label": "Tacite"
+    },
+    {
+      "code": "F",
+      "label": "Ferme"
+    }
+  ],
+  "referentielApiEnum-nomenclatureNature-contratIntermediaireId": [
+    {
+      "code": "T",
+      "label": "Tacite"
+    },
+    {
+      "code": "F",
+      "label": "Ferme"
     }
   ]
 }

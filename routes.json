@@ -1,5 +1,7 @@
 {
     "/referentiel/api/enum-nomenclature/categorie-permis": "/referentielApiEnum-nomenclatureCategorie-permis",
-    "/referentiel/api/enum-nomenclature/duree-contrat": "/referentielApiEnum-nomenclatureDuree-contrat"
+    "/referentiel/api/enum-nomenclature/duree-contrat": "/referentielApiEnum-nomenclatureDuree-contrat",
+    "/typeRecherche/criteres": "/typeRechercheCriteres",
+    "/referentiel/api/enum-nomenclature/nature-contrat?intermediaireId": "/referentielApiEnum-nomenclatureNature-contratIntermediaireId"
 }
   

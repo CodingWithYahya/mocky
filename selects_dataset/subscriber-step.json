@@ -46,20 +46,7 @@
             "visibles": true
         }
     ],
-    "genre": [
-        {
-            "code": 1,
-            "label": "ESSENCE"
-        },
-        {
-            "code": 2,
-            "label": "DIESEL"
-        },
-        {
-            "code": 3,
-            "label": "ELECTRIQUE"
-        }
-    ],
+    
     "numeroDePieceDidentite": [
         {
             "id": 1,
