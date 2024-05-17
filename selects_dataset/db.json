@@ -1,4 +1,3203 @@
 {
+
+    "ALL":{
+        "TOURISME": [
+            {
+                "id": 1,
+                "code": "1",
+                "libelle": "TOURISME",
+                "categorie": "701",
+                "ptc": null,
+                "nombreplacemaximum": 8,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 1,
+                        "code": "C.I       ",
+                        "libelle": "CONDUITE INTERIEURE"
+                    },
+                    {
+                        "id": 2,
+                        "code": "BERLINE     ",
+                        "libelle": "BERLINE"
+                    },
+                    {
+                        "id": 3,
+                        "code": "BREAK       ",
+                        "libelle": "BREAK"
+                    },
+                    {
+                        "id": 4,
+                        "code": "CAMIONNETTE ",
+                        "libelle": "CAMIONNETTE"
+                    },
+                    {
+                        "id": 9,
+                        "code": "JEEP        ",
+                        "libelle": "JEEP"
+                    },
+                    {
+                        "id": 14,
+                        "code": "FOURGON     ",
+                        "libelle": "FOURGON"
+                    },
+                    {
+                        "id": 24,
+                        "code": "FOURGONNETTE",
+                        "libelle": "FOURGONNETTE"
+                    },
+                    {
+                        "id": 26,
+                        "code": "V.GARAGISTE ",
+                        "libelle": "VEHICULE GARAGISTE"
+                    },
+                    {
+                        "id": 29,
+                        "code": "PICK-UP DBL CABINE",
+                        "libelle": "PICK-UP DOUBLE CABINE"
+                    },
+                    {
+                        "id": 34,
+                        "code": "PICK-UP",
+                        "libelle": "PICK-UP"
+                    },
+                    {
+                        "id": 38,
+                        "code": "CAMPING CAR",
+                        "libelle": "CAMPING CAR"
+                    },
+                    {
+                        "id": 42,
+                        "code": "FAMILIALE",
+                        "libelle": "FAMILIALE"
+                    },
+                    {
+                        "id": 43,
+                        "code": "QUADRICYCLE",
+                        "libelle": "QUADRICYCLE"
+                    },
+                    {
+                        "id": 44,
+                        "code": "S-W ",
+                        "libelle": "S-W"
+                    },
+                    {
+                        "id": 54,
+                        "code": "ESTAFETTE",
+                        "libelle": "ESTAFETTE"
+                    },
+                    {
+                        "id": 98,
+                        "code": "REMORQUE",
+                        "libelle": "REMORQUE"
+                    },
+                    {
+                        "id": 102,
+                        "code": "CABRIOLET",
+                        "libelle": "CABRIOLET"
+                    },
+                    {
+                        "id": 103,
+                        "code": "COUPE",
+                        "libelle": "COUPE"
+                    },
+                    {
+                        "id": 104,
+                        "code": "F.V.S",
+                        "libelle": "F.V.S"
+                    },
+                    {
+                        "id": 105,
+                        "code": "CONVERTIBLE",
+                        "libelle": "CONVERTIBLE"
+                    },
+                    {
+                        "id": 107,
+                        "code": "PICK-UP DOUBLE CABINE",
+                        "libelle": "PICK-UP DOUBLE CABINE"
+                    },
+                    {
+                        "id": 117,
+                        "code": "LIMOUSINE",
+                        "libelle": "LIMOUSINE"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            }
+        ],
+        "LOCATION": [
+            {
+                "id": 10,
+                "code": "16",
+                "libelle": "LOCATION C.I.",
+                "categorie": "751",
+                "ptc": null,
+                "nombreplacemaximum": 30,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 1,
+                        "code": "C.I       ",
+                        "libelle": "CONDUITE INTERIEURE"
+                    },
+                    {
+                        "id": 2,
+                        "code": "BERLINE     ",
+                        "libelle": "BERLINE"
+                    },
+                    {
+                        "id": 3,
+                        "code": "BREAK       ",
+                        "libelle": "BREAK"
+                    },
+                    {
+                        "id": 4,
+                        "code": "CAMIONNETTE ",
+                        "libelle": "CAMIONNETTE"
+                    },
+                    {
+                        "id": 9,
+                        "code": "JEEP        ",
+                        "libelle": "JEEP"
+                    },
+                    {
+                        "id": 14,
+                        "code": "FOURGON     ",
+                        "libelle": "FOURGON"
+                    },
+                    {
+                        "id": 24,
+                        "code": "FOURGONNETTE",
+                        "libelle": "FOURGONNETTE"
+                    },
+                    {
+                        "id": 26,
+                        "code": "V.GARAGISTE ",
+                        "libelle": "VEHICULE GARAGISTE"
+                    },
+                    {
+                        "id": 29,
+                        "code": "PICK-UP DBL CABINE",
+                        "libelle": "PICK-UP DOUBLE CABINE"
+                    },
+                    {
+                        "id": 34,
+                        "code": "PICK-UP",
+                        "libelle": "PICK-UP"
+                    },
+                    {
+                        "id": 44,
+                        "code": "S-W ",
+                        "libelle": "S-W"
+                    },
+                    {
+                        "id": 45,
+                        "code": "FOURGON VITREE AVEC SIEGE",
+                        "libelle": "FOURGON VITREE AVEC SIEGE"
+                    },
+                    {
+                        "id": 54,
+                        "code": "ESTAFETTE",
+                        "libelle": "ESTAFETTE"
+                    },
+                    {
+                        "id": 98,
+                        "code": "REMORQUE",
+                        "libelle": "REMORQUE"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            }
+        ],
+        "CYCLOMOTER": [
+            {
+                "id": 36,
+                "code": "82",
+                "libelle": "CYLINDRÉE < 50 CM3 VITESSE < 60 KM/H",
+                "categorie": "705",
+                "ptc": null,
+                "nombreplacemaximum": 2,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 7,
+                        "code": "2.R       ",
+                        "libelle": "CYCLOMOTEUR (2 ROUES)"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 7,
+                        "label": "Ancienne Immatriculation"
+                    },
+                    {
+                        "code": 8,
+                        "label": "Nouvelle Immatriculation"
+                    }
+                ]
+            },
+            {
+                "id": 47,
+                "code": "92",
+                "libelle": "CYLINDRÉE < 50 CM3 VITESSE > 60 KM/H",
+                "categorie": "715",
+                "ptc": null,
+                "nombreplacemaximum": 2,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 7,
+                        "code": "2.R       ",
+                        "libelle": "CYCLOMOTEUR (2 ROUES)"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 7,
+                        "label": "Ancienne Immatriculation"
+                    },
+                    {
+                        "code": 8,
+                        "label": "Nouvelle Immatriculation"
+                    }
+                ]
+            },
+            {
+                "id": 48,
+                "code": "93",
+                "libelle": "CYLINDRÉE ENTRE 50 CM3 ET 125 CM3",
+                "categorie": "725",
+                "ptc": null,
+                "nombreplacemaximum": 2,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 7,
+                        "code": "2.R       ",
+                        "libelle": "CYCLOMOTEUR (2 ROUES)"
+                    },
+                    {
+                        "id": 8,
+                        "code": "TRI A MOTEUR",
+                        "libelle": "TRICYCLES MOTEUR"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 37,
+                "code": "83",
+                "libelle": "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+                "categorie": "745",
+                "ptc": null,
+                "nombreplacemaximum": 2,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 7,
+                        "code": "2.R       ",
+                        "libelle": "CYCLOMOTEUR (2 ROUES)"
+                    },
+                    {
+                        "id": 8,
+                        "code": "TRI A MOTEUR",
+                        "libelle": "TRICYCLES MOTEUR"
+                    },
+                    {
+                        "id": 56,
+                        "code": "QUAD",
+                        "libelle": "QUAD"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 46,
+                "code": "91",
+                "libelle": "MOTOCYCLETTE AVEC SIDE-CAR CYLINDRÉE > 125 CM3",
+                "categorie": "745",
+                "ptc": null,
+                "nombreplacemaximum": 3,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 7,
+                        "code": "2.R       ",
+                        "libelle": "CYCLOMOTEUR (2 ROUES)"
+                    },
+                    {
+                        "id": 8,
+                        "code": "TRI A MOTEUR",
+                        "libelle": "TRICYCLES MOTEUR"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 10,
+                        "label": "notDefined"
+                    }
+                ]
+            },
+            {
+                "id": 50,
+                "code": "96",
+                "libelle": "TRICYCLE OU TRIPORTEUR CYLINDRÉE > 125 CM3",
+                "categorie": "735",
+                "ptc": null,
+                "nombreplacemaximum": 2,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 8,
+                        "code": "TRI A MOTEUR",
+                        "libelle": "TRICYCLES MOTEUR"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 10,
+                        "label": "notDefined"
+                    }
+                ]
+            }
+        ],
+        "C1": [
+            {
+                "id": 2,
+                "code": "3",
+                "libelle": "C1 (COMMERCE <= 3,5T)",
+                "categorie": "703",
+                "ptc": 1,
+                "nombreplacemaximum": 32,
+                "nombreplaceminimum": 8,
+                "genre": [
+                    {
+                        "id": 3,
+                        "code": "BREAK       ",
+                        "libelle": "BREAK"
+                    },
+                    {
+                        "id": 4,
+                        "code": "CAMIONNETTE ",
+                        "libelle": "CAMIONNETTE"
+                    },
+                    {
+                        "id": 5,
+                        "code": "CAMION      ",
+                        "libelle": "CAMION"
+                    },
+                    {
+                        "id": 9,
+                        "code": "JEEP        ",
+                        "libelle": "JEEP"
+                    },
+                    {
+                        "id": 10,
+                        "code": "VEH.MALAXEUR",
+                        "libelle": "VEHICULE MALAXEUR"
+                    },
+                    {
+                        "id": 11,
+                        "code": "CAM. CITERNE",
+                        "libelle": "CAMION CITERNE"
+                    },
+                    {
+                        "id": 12,
+                        "code": "AUTOCAR     ",
+                        "libelle": "AUTOCAR"
+                    },
+                    {
+                        "id": 13,
+                        "code": "MICROCAR    ",
+                        "libelle": "MICROCAR"
+                    },
+                    {
+                        "id": 14,
+                        "code": "FOURGON     ",
+                        "libelle": "FOURGON"
+                    },
+                    {
+                        "id": 15,
+                        "code": "CAMION BENNE",
+                        "libelle": "CAMION BENNE"
+                    },
+                    {
+                        "id": 16,
+                        "code": "MICROBUS    ",
+                        "libelle": "MICROBUS"
+                    },
+                    {
+                        "id": 17,
+                        "code": "CAM. PORTEUR",
+                        "libelle": "CAMION PORTEUR"
+                    },
+                    {
+                        "id": 24,
+                        "code": "FOURGONNETTE",
+                        "libelle": "FOURGONNETTE"
+                    },
+                    {
+                        "id": 25,
+                        "code": "CAM. PLATEAU",
+                        "libelle": "CAMION PLATEAU"
+                    },
+                    {
+                        "id": 26,
+                        "code": "V.GARAGISTE ",
+                        "libelle": "VEHICULE GARAGISTE"
+                    },
+                    {
+                        "id": 27,
+                        "code": "FOURG-FRIGOR",
+                        "libelle": "FOURGON FRIGORIFIQUE"
+                    },
+                    {
+                        "id": 28,
+                        "code": "CAM-FRIGORIF",
+                        "libelle": "CAMION FRIGORIFIQUE"
+                    },
+                    {
+                        "id": 33,
+                        "code": "TRAC.AVEC GRUE",
+                        "libelle": "TRACTEUR AVEC GRUE"
+                    },
+                    {
+                        "id": 34,
+                        "code": "PICK-UP",
+                        "libelle": "PICK-UP"
+                    },
+                    {
+                        "id": 35,
+                        "code": "CAM. CARROS",
+                        "libelle": "CAM. CARROS"
+                    },
+                    {
+                        "id": 36,
+                        "code": "FOURGONNETTE-FRIGOR",
+                        "libelle": "FOURGONNETTE FRIGORIFIQUE"
+                    },
+                    {
+                        "id": 37,
+                        "code": "CAMIONNETTE-FRIGO",
+                        "libelle": "CAMIONNETTE FRIGORIFIQUE"
+                    },
+                    {
+                        "id": 38,
+                        "code": "CAMPING CAR",
+                        "libelle": "CAMPING CAR"
+                    },
+                    {
+                        "id": 40,
+                        "code": "CAMION PLATEAU AVEC GRUE",
+                        "libelle": "CAMION PLATEAU AVEC GRUE"
+                    },
+                    {
+                        "id": 41,
+                        "code": "Camionnette Plateau",
+                        "libelle": "Camionnette Plateau"
+                    },
+                    {
+                        "id": 44,
+                        "code": "S-W ",
+                        "libelle": "S-W"
+                    },
+                    {
+                        "id": 54,
+                        "code": "ESTAFETTE",
+                        "libelle": "ESTAFETTE"
+                    },
+                    {
+                        "id": 59,
+                        "code": "CAMION BRASSEUR",
+                        "libelle": "CAMION BRASSEUR"
+                    },
+                    {
+                        "id": 60,
+                        "code": "CAM. PLATEAU RIDELLES",
+                        "libelle": "CAMION PLATEAU RIDELLES"
+                    },
+                    {
+                        "id": 61,
+                        "code": "CAM. PLATEAU BRASSEUR",
+                        "libelle": "CAMION PLATEAU BRASSEUR"
+                    },
+                    {
+                        "id": 62,
+                        "code": "CAMION HYDRAUCUREUSE",
+                        "libelle": "CAMION HYDRAUCUREUSE"
+                    },
+                    {
+                        "id": 63,
+                        "code": "CAMION AMPLIROLL",
+                        "libelle": "CAMION AMPLIROLL"
+                    },
+                    {
+                        "id": 64,
+                        "code": "CAMION AVEC GRUE",
+                        "libelle": "CAMION AVEC GRUE"
+                    },
+                    {
+                        "id": 65,
+                        "code": "FOURGONNETTE VITREE",
+                        "libelle": "FOURGONNETTE VITREE"
+                    },
+                    {
+                        "id": 66,
+                        "code": "FOURGONNET.VITR.AVEC BANQ.",
+                        "libelle": "FOURGONNETTE VITREE AVEC BANQUETTE"
+                    },
+                    {
+                        "id": 98,
+                        "code": "REMORQUE",
+                        "libelle": "REMORQUE"
+                    },
+                    {
+                        "id": 100,
+                        "code": "CAMION FOURGON",
+                        "libelle": "CAMION FOURGON"
+                    },
+                    {
+                        "id": 101,
+                        "code": "CAMIONNETTE FOURGON",
+                        "libelle": "CAMIONNETTE FOURGON"
+                    },
+                    {
+                        "id": 107,
+                        "code": "PICK-UP DOUBLE CABINE",
+                        "libelle": "PICK-UP DOUBLE CABINE"
+                    },
+                    {
+                        "id": 109,
+                        "code": "FTTE.V.S",
+                        "libelle": "FTTE.V.S"
+                    },
+                    {
+                        "id": 110,
+                        "code": "F.V.S",
+                        "libelle": "F.V.S"
+                    },
+                    {
+                        "id": 119,
+                        "code": "FOURGONNETTE TOLEE",
+                        "libelle": "FOURGONNETTE TOLEE"
+                    },
+                    {
+                        "id": 120,
+                        "code": "PICK UP FOURGON FRIGORIFIQUE",
+                        "libelle": "PICK UP FOURGON FRIGORIFIQUE"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            }
+        ],
+        "C2": [
+            {
+                "id": 3,
+                "code": "4",
+                "libelle": "C2 (COMMERCE +3,5T)",
+                "categorie": "713",
+                "ptc": 2,
+                "nombreplacemaximum": 3,
+                "nombreplaceminimum": 3,
+                "genre": [
+                    {
+                        "id": 5,
+                        "code": "CAMION      ",
+                        "libelle": "CAMION"
+                    },
+                    {
+                        "id": 6,
+                        "code": "TRAC.ROUT.  ",
+                        "libelle": "TRACTEUR ROUTIER"
+                    },
+                    {
+                        "id": 10,
+                        "code": "VEH.MALAXEUR",
+                        "libelle": "VEHICULE MALAXEUR"
+                    },
+                    {
+                        "id": 11,
+                        "code": "CAM. CITERNE",
+                        "libelle": "CAMION CITERNE"
+                    },
+                    {
+                        "id": 12,
+                        "code": "AUTOCAR     ",
+                        "libelle": "AUTOCAR"
+                    },
+                    {
+                        "id": 14,
+                        "code": "FOURGON     ",
+                        "libelle": "FOURGON"
+                    },
+                    {
+                        "id": 15,
+                        "code": "CAMION BENNE",
+                        "libelle": "CAMION BENNE"
+                    },
+                    {
+                        "id": 17,
+                        "code": "CAM. PORTEUR",
+                        "libelle": "CAMION PORTEUR"
+                    },
+                    {
+                        "id": 20,
+                        "code": "CAM. A BET. ",
+                        "libelle": "CAMION A BETTONNIERE"
+                    },
+                    {
+                        "id": 21,
+                        "code": "CAM A FORAGE",
+                        "libelle": "CAMION A FORAGE"
+                    },
+                    {
+                        "id": 22,
+                        "code": "AUTOBUS     ",
+                        "libelle": "AUTOBUS"
+                    },
+                    {
+                        "id": 25,
+                        "code": "CAM. PLATEAU",
+                        "libelle": "CAMION PLATEAU"
+                    },
+                    {
+                        "id": 27,
+                        "code": "FOURG-FRIGOR",
+                        "libelle": "FOURGON FRIGORIFIQUE"
+                    },
+                    {
+                        "id": 28,
+                        "code": "CAM-FRIGORIF",
+                        "libelle": "CAMION FRIGORIFIQUE"
+                    },
+                    {
+                        "id": 33,
+                        "code": "TRAC.AVEC GRUE",
+                        "libelle": "TRACTEUR AVEC GRUE"
+                    },
+                    {
+                        "id": 35,
+                        "code": "CAM. CARROS",
+                        "libelle": "CAM. CARROS"
+                    },
+                    {
+                        "id": 38,
+                        "code": "CAMPING CAR",
+                        "libelle": "CAMPING CAR"
+                    },
+                    {
+                        "id": 39,
+                        "code": "CAMION A POMPE A BETON",
+                        "libelle": "CAMION A POMPE A BETON"
+                    },
+                    {
+                        "id": 40,
+                        "code": "CAMION PLATEAU AVEC GRUE",
+                        "libelle": "CAMION PLATEAU AVEC GRUE"
+                    },
+                    {
+                        "id": 45,
+                        "code": "FOURGON VITREE AVEC SIEGE",
+                        "libelle": "FOURGON VITREE AVEC SIEGE"
+                    },
+                    {
+                        "id": 57,
+                        "code": "CAM. CITERNE A EAU",
+                        "libelle": "CAMION CITERNE A EAU"
+                    },
+                    {
+                        "id": 58,
+                        "code": "CAM. CITERNE A CARBURANT",
+                        "libelle": "CAMION CITERNE A CARBURANT"
+                    },
+                    {
+                        "id": 59,
+                        "code": "CAMION BRASSEUR",
+                        "libelle": "CAMION BRASSEUR"
+                    },
+                    {
+                        "id": 60,
+                        "code": "CAM. PLATEAU RIDELLES",
+                        "libelle": "CAMION PLATEAU RIDELLES"
+                    },
+                    {
+                        "id": 61,
+                        "code": "CAM. PLATEAU BRASSEUR",
+                        "libelle": "CAMION PLATEAU BRASSEUR"
+                    },
+                    {
+                        "id": 62,
+                        "code": "CAMION HYDRAUCUREUSE",
+                        "libelle": "CAMION HYDRAUCUREUSE"
+                    },
+                    {
+                        "id": 63,
+                        "code": "CAMION AMPLIROLL",
+                        "libelle": "CAMION AMPLIROLL"
+                    },
+                    {
+                        "id": 64,
+                        "code": "CAMION AVEC GRUE",
+                        "libelle": "CAMION AVEC GRUE"
+                    },
+                    {
+                        "id": 65,
+                        "code": "FOURGONNETTE VITREE",
+                        "libelle": "FOURGONNETTE VITREE"
+                    },
+                    {
+                        "id": 66,
+                        "code": "FOURGONNET.VITR.AVEC BANQ.",
+                        "libelle": "FOURGONNETTE VITREE AVEC BANQUETTE"
+                    },
+                    {
+                        "id": 98,
+                        "code": "REMORQUE",
+                        "libelle": "REMORQUE"
+                    },
+                    {
+                        "id": 100,
+                        "code": "CAMION FOURGON",
+                        "libelle": "CAMION FOURGON"
+                    },
+                    {
+                        "id": 107,
+                        "code": "PICK-UP DOUBLE CABINE",
+                        "libelle": "PICK-UP DOUBLE CABINE"
+                    },
+                    {
+                        "id": 108,
+                        "code": "CAMION BENNE AVEC GRUE",
+                        "libelle": "CAMION BENNE AVEC GRUE"
+                    },
+                    {
+                        "id": 111,
+                        "code": "CAMION NACELLE",
+                        "libelle": "CAMION NACELLE"
+                    },
+                    {
+                        "id": 112,
+                        "code": "CHASSIS CABINE",
+                        "libelle": "CHASSIS CABINE"
+                    },
+                    {
+                        "id": 116,
+                        "code": "CAMION AMPLIROLL AVEC GRUE",
+                        "libelle": "CAMION AMPLIROLL AVEC GRUE"
+                    },
+                    {
+                        "id": 121,
+                        "code": "CAMION FOURGON ISOTHERME",
+                        "libelle": "CAMION FOURGON ISOTHERME"
+                    },
+                    {
+                        "id": 124,
+                        "code": "CAMION PLATEAU PORTE COMPRESSEURE",
+                        "libelle": "CAMION PLATEAU PORTE COMPRESSEURE"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            }
+        ],
+        "DIVERS": [
+            {
+                "id": 5,
+                "code": "11",
+                "libelle": "AMBULANCES <= 3,5T",
+                "categorie": "721",
+                "ptc": 1,
+                "nombreplacemaximum": 5,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 3,
+                        "code": "BREAK       ",
+                        "libelle": "BREAK"
+                    },
+                    {
+                        "id": 14,
+                        "code": "FOURGON     ",
+                        "libelle": "FOURGON"
+                    },
+                    {
+                        "id": 24,
+                        "code": "FOURGONNETTE",
+                        "libelle": "FOURGONNETTE"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "code": "12",
+                "libelle": "CORBILLARDS <= 3,5T",
+                "categorie": "721",
+                "ptc": 1,
+                "nombreplacemaximum": 3,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 3,
+                        "code": "BREAK       ",
+                        "libelle": "BREAK"
+                    },
+                    {
+                        "id": 14,
+                        "code": "FOURGON     ",
+                        "libelle": "FOURGON"
+                    },
+                    {
+                        "id": 24,
+                        "code": "FOURGONNETTE",
+                        "libelle": "FOURGONNETTE"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "code": "13",
+                "libelle": "FOURGONS FUNÉRAIRES <= 3,5T",
+                "categorie": "721",
+                "ptc": 1,
+                "nombreplacemaximum": 3,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 3,
+                        "code": "BREAK       ",
+                        "libelle": "BREAK"
+                    },
+                    {
+                        "id": 14,
+                        "code": "FOURGON     ",
+                        "libelle": "FOURGON"
+                    },
+                    {
+                        "id": 24,
+                        "code": "FOURGONNETTE",
+                        "libelle": "FOURGONNETTE"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "code": "14",
+                "libelle": "AUTO-ECOLE TOURISME",
+                "categorie": "741",
+                "ptc": null,
+                "nombreplacemaximum": 5,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 1,
+                        "code": "C.I       ",
+                        "libelle": "CONDUITE INTERIEURE"
+                    },
+                    {
+                        "id": 2,
+                        "code": "BERLINE     ",
+                        "libelle": "BERLINE"
+                    },
+                    {
+                        "id": 3,
+                        "code": "BREAK       ",
+                        "libelle": "BREAK"
+                    },
+                    {
+                        "id": 4,
+                        "code": "CAMIONNETTE ",
+                        "libelle": "CAMIONNETTE"
+                    },
+                    {
+                        "id": 9,
+                        "code": "JEEP        ",
+                        "libelle": "JEEP"
+                    },
+                    {
+                        "id": 14,
+                        "code": "FOURGON     ",
+                        "libelle": "FOURGON"
+                    },
+                    {
+                        "id": 24,
+                        "code": "FOURGONNETTE",
+                        "libelle": "FOURGONNETTE"
+                    },
+                    {
+                        "id": 26,
+                        "code": "V.GARAGISTE ",
+                        "libelle": "VEHICULE GARAGISTE"
+                    },
+                    {
+                        "id": 34,
+                        "code": "PICK-UP",
+                        "libelle": "PICK-UP"
+                    },
+                    {
+                        "id": 44,
+                        "code": "S-W ",
+                        "libelle": "S-W"
+                    },
+                    {
+                        "id": 54,
+                        "code": "ESTAFETTE",
+                        "libelle": "ESTAFETTE"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 15,
+                "code": "21",
+                "libelle": "TRACTEUR AGRICOLE",
+                "categorie": "711",
+                "ptc": null,
+                "nombreplacemaximum": 1,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 19,
+                        "code": "TRAC.AGRICOL",
+                        "libelle": "TRACTEUR AGRICOLE"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "code": "22",
+                "libelle": "MOISSONEUSE BATTEUSE",
+                "categorie": "783",
+                "ptc": null,
+                "nombreplacemaximum": 1,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 18,
+                        "code": "M. BATTEUSE ",
+                        "libelle": "MOISSONEUSE BATTEUSE"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 18,
+                "code": "30",
+                "libelle": "VÉHICULE DÉPANNAGE <= 3,5T",
+                "categorie": "763",
+                "ptc": 1,
+                "nombreplacemaximum": 3,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 5,
+                        "code": "CAMION      ",
+                        "libelle": "CAMION"
+                    },
+                    {
+                        "id": 9,
+                        "code": "JEEP        ",
+                        "libelle": "JEEP"
+                    },
+                    {
+                        "id": 34,
+                        "code": "PICK-UP",
+                        "libelle": "PICK-UP"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 19,
+                "code": "31",
+                "libelle": "AUTO-ECOLE UTIL./AUTOCARS",
+                "categorie": "741",
+                "ptc": null,
+                "nombreplacemaximum": 5,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 5,
+                        "code": "CAMION      ",
+                        "libelle": "CAMION"
+                    },
+                    {
+                        "id": 6,
+                        "code": "TRAC.ROUT.  ",
+                        "libelle": "TRACTEUR ROUTIER"
+                    },
+                    {
+                        "id": 12,
+                        "code": "AUTOCAR     ",
+                        "libelle": "AUTOCAR"
+                    },
+                    {
+                        "id": 22,
+                        "code": "AUTOBUS     ",
+                        "libelle": "AUTOBUS"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 20,
+                "code": "32",
+                "libelle": "TRANSPORT DES ECOLIERS <= 3,5 T",
+                "categorie": "703",
+                "ptc": 1,
+                "nombreplacemaximum": 70,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 4,
+                        "code": "CAMIONNETTE ",
+                        "libelle": "CAMIONNETTE"
+                    },
+                    {
+                        "id": 12,
+                        "code": "AUTOCAR     ",
+                        "libelle": "AUTOCAR"
+                    },
+                    {
+                        "id": 13,
+                        "code": "MICROCAR    ",
+                        "libelle": "MICROCAR"
+                    },
+                    {
+                        "id": 14,
+                        "code": "FOURGON     ",
+                        "libelle": "FOURGON"
+                    },
+                    {
+                        "id": 16,
+                        "code": "MICROBUS    ",
+                        "libelle": "MICROBUS"
+                    },
+                    {
+                        "id": 17,
+                        "code": "CAM. PORTEUR",
+                        "libelle": "CAMION PORTEUR"
+                    },
+                    {
+                        "id": 22,
+                        "code": "AUTOBUS     ",
+                        "libelle": "AUTOBUS"
+                    },
+                    {
+                        "id": 24,
+                        "code": "FOURGONNETTE",
+                        "libelle": "FOURGONNETTE"
+                    },
+                    {
+                        "id": 54,
+                        "code": "ESTAFETTE",
+                        "libelle": "ESTAFETTE"
+                    },
+                    {
+                        "id": 106,
+                        "code": "FORGON VITRE AVEC SIEGE",
+                        "libelle": "FORGON VITRE AVEC SIEGE"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 21,
+                "code": "33",
+                "libelle": "TRANSPORT PERSONNEL <= 3,5T",
+                "categorie": "703",
+                "ptc": 1,
+                "nombreplacemaximum": 32,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 4,
+                        "code": "CAMIONNETTE ",
+                        "libelle": "CAMIONNETTE"
+                    },
+                    {
+                        "id": 5,
+                        "code": "CAMION      ",
+                        "libelle": "CAMION"
+                    },
+                    {
+                        "id": 12,
+                        "code": "AUTOCAR     ",
+                        "libelle": "AUTOCAR"
+                    },
+                    {
+                        "id": 13,
+                        "code": "MICROCAR    ",
+                        "libelle": "MICROCAR"
+                    },
+                    {
+                        "id": 14,
+                        "code": "FOURGON     ",
+                        "libelle": "FOURGON"
+                    },
+                    {
+                        "id": 16,
+                        "code": "MICROBUS    ",
+                        "libelle": "MICROBUS"
+                    },
+                    {
+                        "id": 17,
+                        "code": "CAM. PORTEUR",
+                        "libelle": "CAMION PORTEUR"
+                    },
+                    {
+                        "id": 22,
+                        "code": "AUTOBUS     ",
+                        "libelle": "AUTOBUS"
+                    },
+                    {
+                        "id": 24,
+                        "code": "FOURGONNETTE",
+                        "libelle": "FOURGONNETTE"
+                    },
+                    {
+                        "id": 34,
+                        "code": "PICK-UP",
+                        "libelle": "PICK-UP"
+                    },
+                    {
+                        "id": 45,
+                        "code": "FOURGON VITREE AVEC SIEGE",
+                        "libelle": "FOURGON VITREE AVEC SIEGE"
+                    },
+                    {
+                        "id": 54,
+                        "code": "ESTAFETTE",
+                        "libelle": "ESTAFETTE"
+                    },
+                    {
+                        "id": 106,
+                        "code": "FORGON VITRE AVEC SIEGE",
+                        "libelle": "FORGON VITRE AVEC SIEGE"
+                    },
+                    {
+                        "id": 107,
+                        "code": "PICK-UP DOUBLE CABINE",
+                        "libelle": "PICK-UP DOUBLE CABINE"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 22,
+                "code": "34",
+                "libelle": "ARROSEUSE <= 3,5T",
+                "categorie": "753",
+                "ptc": 1,
+                "nombreplacemaximum": 3,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 11,
+                        "code": "CAM. CITERNE",
+                        "libelle": "CAMION CITERNE"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 23,
+                "code": "35",
+                "libelle": "BALAYEUSE <= 3,5T",
+                "categorie": "753",
+                "ptc": 1,
+                "nombreplacemaximum": 3,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 5,
+                        "code": "CAMION      ",
+                        "libelle": "CAMION"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 24,
+                "code": "36",
+                "libelle": "ENLÉVEMENT DES ORDURES <= 3,5T",
+                "categorie": "753",
+                "ptc": 1,
+                "nombreplacemaximum": 3,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 5,
+                        "code": "CAMION      ",
+                        "libelle": "CAMION"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 25,
+                "code": "37",
+                "libelle": "VOITURE VIDANGE <= 3,5T",
+                "categorie": "753",
+                "ptc": 1,
+                "nombreplacemaximum": 3,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 11,
+                        "code": "CAM. CITERNE",
+                        "libelle": "CAMION CITERNE"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 26,
+                "code": "38",
+                "libelle": "CHASSE NEIGE <= 3,5T",
+                "categorie": "753",
+                "ptc": 1,
+                "nombreplacemaximum": 3,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 5,
+                        "code": "CAMION      ",
+                        "libelle": "CAMION"
+                    }
+                ],
+                "typeImmatriculation": [
+                    [
+                        {
+                            "code": 1,
+                            "label": "Plaque noire"
+                        },
+                        {
+                            "code": 2,
+                            "label": "Plaque blanche"
+                        },
+                        {
+                            "code": 3,
+                            "label": "Nouvelle plaque"
+                        },
+                        {
+                            "code": 4,
+                            "label": "Autre"
+                        },
+                        {
+                            "code": 5,
+                            "label": "WW"
+                        },
+                        {
+                            "code": 9,
+                            "label": "En cours d'immatriculation"
+                        },
+                        {
+                            "code": 10,
+                            "label": "Etatique"
+                        }
+                    ]
+                ]
+            },
+            {
+                "id": 27,
+                "code": "39",
+                "libelle": "VÉHICULE SCE INCENDIE <= 3,5T",
+                "categorie": "753",
+                "ptc": 1,
+                "nombreplacemaximum": 5,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 5,
+                        "code": "CAMION      ",
+                        "libelle": "CAMION"
+                    },
+                    {
+                        "id": 14,
+                        "code": "FOURGON     ",
+                        "libelle": "FOURGON"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 28,
+                "code": "40",
+                "libelle": "VÉHICULE DÉPANNAGE +3,5T",
+                "categorie": "763",
+                "ptc": 2,
+                "nombreplacemaximum": 3,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 5,
+                        "code": "CAMION      ",
+                        "libelle": "CAMION"
+                    },
+                    {
+                        "id": 113,
+                        "code": "DEPANNAGE PORTE VHL",
+                        "libelle": "DEPANNAGE PORTE VHL"
+                    },
+                    {
+                        "id": 118,
+                        "code": "CAMION PLATEAU DEPANAGE AVEC GR",
+                        "libelle": "CAMION PLATEAU DEPANAGE AVEC GR"
+                    },
+                    {
+                        "id": 122,
+                        "code": "CAMION PLATEAU DE DEPANNAGE",
+                        "libelle": "CAMION PLATEAU DE DEPANNAGE"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 29,
+                "code": "42",
+                "libelle": "TRANSPORT ECOLIERS +3,5T",
+                "categorie": "713",
+                "ptc": 2,
+                "nombreplacemaximum": 80,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 4,
+                        "code": "CAMIONNETTE ",
+                        "libelle": "CAMIONNETTE"
+                    },
+                    {
+                        "id": 12,
+                        "code": "AUTOCAR     ",
+                        "libelle": "AUTOCAR"
+                    },
+                    {
+                        "id": 13,
+                        "code": "MICROCAR    ",
+                        "libelle": "MICROCAR"
+                    },
+                    {
+                        "id": 14,
+                        "code": "FOURGON     ",
+                        "libelle": "FOURGON"
+                    },
+                    {
+                        "id": 16,
+                        "code": "MICROBUS    ",
+                        "libelle": "MICROBUS"
+                    },
+                    {
+                        "id": 17,
+                        "code": "CAM. PORTEUR",
+                        "libelle": "CAMION PORTEUR"
+                    },
+                    {
+                        "id": 22,
+                        "code": "AUTOBUS     ",
+                        "libelle": "AUTOBUS"
+                    },
+                    {
+                        "id": 24,
+                        "code": "FOURGONNETTE",
+                        "libelle": "FOURGONNETTE"
+                    },
+                    {
+                        "id": 54,
+                        "code": "ESTAFETTE",
+                        "libelle": "ESTAFETTE"
+                    },
+                    {
+                        "id": 106,
+                        "code": "FORGON VITRE AVEC SIEGE",
+                        "libelle": "FORGON VITRE AVEC SIEGE"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 30,
+                "code": "43",
+                "libelle": "TRANSPORT PERSONNEL +3,5T",
+                "categorie": "713",
+                "ptc": 2,
+                "nombreplacemaximum": 80,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 5,
+                        "code": "CAMION      ",
+                        "libelle": "CAMION"
+                    },
+                    {
+                        "id": 12,
+                        "code": "AUTOCAR     ",
+                        "libelle": "AUTOCAR"
+                    },
+                    {
+                        "id": 13,
+                        "code": "MICROCAR    ",
+                        "libelle": "MICROCAR"
+                    },
+                    {
+                        "id": 14,
+                        "code": "FOURGON     ",
+                        "libelle": "FOURGON"
+                    },
+                    {
+                        "id": 24,
+                        "code": "FOURGONNETTE",
+                        "libelle": "FOURGONNETTE"
+                    },
+                    {
+                        "id": 45,
+                        "code": "FOURGON VITREE AVEC SIEGE",
+                        "libelle": "FOURGON VITREE AVEC SIEGE"
+                    },
+                    {
+                        "id": 54,
+                        "code": "ESTAFETTE",
+                        "libelle": "ESTAFETTE"
+                    },
+                    {
+                        "id": 106,
+                        "code": "FORGON VITRE AVEC SIEGE",
+                        "libelle": "FORGON VITRE AVEC SIEGE"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 31,
+                "code": "44",
+                "libelle": "ARROSEUR +3,5T",
+                "categorie": "753",
+                "ptc": 2,
+                "nombreplacemaximum": 3,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 11,
+                        "code": "CAM. CITERNE",
+                        "libelle": "CAMION CITERNE"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 32,
+                "code": "47",
+                "libelle": "VOITURE VIDANGE +3.5T",
+                "categorie": "753",
+                "ptc": 2,
+                "nombreplacemaximum": 3,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 11,
+                        "code": "CAM. CITERNE",
+                        "libelle": "CAMION CITERNE"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 33,
+                "code": "49",
+                "libelle": "VÉH. SCE INCENDIE +3.5T",
+                "categorie": "753",
+                "ptc": 2,
+                "nombreplacemaximum": 5,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 5,
+                        "code": "CAMION      ",
+                        "libelle": "CAMION"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 34,
+                "code": "51",
+                "libelle": "AUTO-ECOLE 2 OU 3 ROUES",
+                "categorie": "741",
+                "ptc": null,
+                "nombreplacemaximum": 2,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 7,
+                        "code": "2.R       ",
+                        "libelle": "CYCLOMOTEUR (2 ROUES)"
+                    },
+                    {
+                        "id": 8,
+                        "code": "TRI A MOTEUR",
+                        "libelle": "TRICYCLES MOTEUR"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 35,
+                "code": "81",
+                "libelle": "ENGIN DE CHANTIER",
+                "categorie": "743",
+                "ptc": null,
+                "nombreplacemaximum": 1,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 5,
+                        "code": "CAMION      ",
+                        "libelle": "CAMION"
+                    },
+                    {
+                        "id": 19,
+                        "code": "TRAC.AGRICOL",
+                        "libelle": "TRACTEUR AGRICOLE"
+                    },
+                    {
+                        "id": 20,
+                        "code": "CAM. A BET. ",
+                        "libelle": "CAMION A BETTONNIERE"
+                    },
+                    {
+                        "id": 21,
+                        "code": "CAM A FORAGE",
+                        "libelle": "CAMION A FORAGE"
+                    },
+                    {
+                        "id": 23,
+                        "code": "ENG CHANTIER",
+                        "libelle": "ENGIN CHANTIER"
+                    },
+                    {
+                        "id": 39,
+                        "code": "CAMION A POMPE A BETON",
+                        "libelle": "CAMION A POMPE A BETON"
+                    },
+                    {
+                        "id": 114,
+                        "code": "CAMION SONDEUSE",
+                        "libelle": "CAMION SONDEUSE"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 39,
+                "code": "85",
+                "libelle": "TRANS. MATIÈRE INFL. <= 3,5T",
+                "categorie": "773",
+                "ptc": 1,
+                "nombreplacemaximum": 5,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 3,
+                        "code": "BREAK       ",
+                        "libelle": "BREAK"
+                    },
+                    {
+                        "id": 4,
+                        "code": "CAMIONNETTE ",
+                        "libelle": "CAMIONNETTE"
+                    },
+                    {
+                        "id": 5,
+                        "code": "CAMION      ",
+                        "libelle": "CAMION"
+                    },
+                    {
+                        "id": 9,
+                        "code": "JEEP        ",
+                        "libelle": "JEEP"
+                    },
+                    {
+                        "id": 11,
+                        "code": "CAM. CITERNE",
+                        "libelle": "CAMION CITERNE"
+                    },
+                    {
+                        "id": 14,
+                        "code": "FOURGON     ",
+                        "libelle": "FOURGON"
+                    },
+                    {
+                        "id": 15,
+                        "code": "CAMION BENNE",
+                        "libelle": "CAMION BENNE"
+                    },
+                    {
+                        "id": 24,
+                        "code": "FOURGONNETTE",
+                        "libelle": "FOURGONNETTE"
+                    },
+                    {
+                        "id": 25,
+                        "code": "CAM. PLATEAU",
+                        "libelle": "CAMION PLATEAU"
+                    },
+                    {
+                        "id": 34,
+                        "code": "PICK-UP",
+                        "libelle": "PICK-UP"
+                    },
+                    {
+                        "id": 35,
+                        "code": "CAM. CARROS",
+                        "libelle": "CAM. CARROS"
+                    },
+                    {
+                        "id": 44,
+                        "code": "S-W ",
+                        "libelle": "S-W"
+                    },
+                    {
+                        "id": 54,
+                        "code": "ESTAFETTE",
+                        "libelle": "ESTAFETTE"
+                    },
+                    {
+                        "id": 58,
+                        "code": "CAM. CITERNE A CARBURANT",
+                        "libelle": "CAMION CITERNE A CARBURANT"
+                    },
+                    {
+                        "id": 100,
+                        "code": "CAMION FOURGON",
+                        "libelle": "CAMION FOURGON"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 40,
+                "code": "86",
+                "libelle": "TRANS. MATIÈRE INFL. +3,5T",
+                "categorie": "773",
+                "ptc": 2,
+                "nombreplacemaximum": 5,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 5,
+                        "code": "CAMION      ",
+                        "libelle": "CAMION"
+                    },
+                    {
+                        "id": 6,
+                        "code": "TRAC.ROUT.  ",
+                        "libelle": "TRACTEUR ROUTIER"
+                    },
+                    {
+                        "id": 11,
+                        "code": "CAM. CITERNE",
+                        "libelle": "CAMION CITERNE"
+                    },
+                    {
+                        "id": 15,
+                        "code": "CAMION BENNE",
+                        "libelle": "CAMION BENNE"
+                    },
+                    {
+                        "id": 17,
+                        "code": "CAM. PORTEUR",
+                        "libelle": "CAMION PORTEUR"
+                    },
+                    {
+                        "id": 25,
+                        "code": "CAM. PLATEAU",
+                        "libelle": "CAMION PLATEAU"
+                    },
+                    {
+                        "id": 35,
+                        "code": "CAM. CARROS",
+                        "libelle": "CAM. CARROS"
+                    },
+                    {
+                        "id": 58,
+                        "code": "CAM. CITERNE A CARBURANT",
+                        "libelle": "CAMION CITERNE A CARBURANT"
+                    },
+                    {
+                        "id": 98,
+                        "code": "REMORQUE",
+                        "libelle": "REMORQUE"
+                    },
+                    {
+                        "id": 100,
+                        "code": "CAMION FOURGON",
+                        "libelle": "CAMION FOURGON"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 41,
+                "code": "87",
+                "libelle": "TRACTEUR AGRICOLE AVEC T.M.I.",
+                "categorie": "713",
+                "ptc": null,
+                "nombreplacemaximum": 1,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 5,
+                        "code": "CAMION      ",
+                        "libelle": "CAMION"
+                    },
+                    {
+                        "id": 19,
+                        "code": "TRAC.AGRICOL",
+                        "libelle": "TRACTEUR AGRICOLE"
+                    },
+                    {
+                        "id": 20,
+                        "code": "CAM. A BET. ",
+                        "libelle": "CAMION A BETTONNIERE"
+                    },
+                    {
+                        "id": 21,
+                        "code": "CAM A FORAGE",
+                        "libelle": "CAMION A FORAGE"
+                    },
+                    {
+                        "id": 23,
+                        "code": "ENG CHANTIER",
+                        "libelle": "ENGIN CHANTIER"
+                    },
+                    {
+                        "id": 39,
+                        "code": "CAMION A POMPE A BETON",
+                        "libelle": "CAMION A POMPE A BETON"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 42,
+                "code": "88",
+                "libelle": "BALAYEUSE +3,5T",
+                "categorie": "753",
+                "ptc": 2,
+                "nombreplacemaximum": 5,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 5,
+                        "code": "CAMION      ",
+                        "libelle": "CAMION"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 43,
+                "code": "89",
+                "libelle": "ENLÉVEMENT DES ORDURES +3,5T",
+                "categorie": "753",
+                "ptc": 2,
+                "nombreplacemaximum": 5,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 5,
+                        "code": "CAMION      ",
+                        "libelle": "CAMION"
+                    },
+                    {
+                        "id": 6,
+                        "code": "TRAC.ROUT.  ",
+                        "libelle": "TRACTEUR ROUTIER"
+                    },
+                    {
+                        "id": 98,
+                        "code": "REMORQUE",
+                        "libelle": "REMORQUE"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 44,
+                "code": "90",
+                "libelle": "CHASSE NEIGE +3,5T",
+                "categorie": "753",
+                "ptc": 2,
+                "nombreplacemaximum": 5,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 5,
+                        "code": "CAMION      ",
+                        "libelle": "CAMION"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 45,
+                "code": "99",
+                "libelle": "GARAGISTE",
+                "categorie": "731",
+                "ptc": null,
+                "nombreplacemaximum": 5,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 26,
+                        "code": "V.GARAGISTE ",
+                        "libelle": "VEHICULE GARAGISTE"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 49,
+                "code": "95",
+                "libelle": "VÉHICULES À MOTEUR ÉLECTRIQUE",
+                "categorie": "",
+                "ptc": null,
+                "nombreplacemaximum": 1,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 55,
+                        "code": "Vehicule a moteur electrique",
+                        "libelle": "Vehicule a moteur electrique"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 58,
+                "code": "41",
+                "libelle": "HYDROCUREUSE <= 3,5T",
+                "categorie": "753",
+                "ptc": null,
+                "nombreplacemaximum": 3,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 11,
+                        "code": "CAM. CITERNE",
+                        "libelle": "CAMION CITERNE"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 59,
+                "code": "45",
+                "libelle": "HYDROCUREUSE +3,5T",
+                "categorie": "753",
+                "ptc": null,
+                "nombreplacemaximum": 3,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 11,
+                        "code": "CAM. CITERNE",
+                        "libelle": "CAMION CITERNE"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            },
+            {
+                "id": 62,
+                "code": "100",
+                "libelle": "TRACTEUR FORESTIER",
+                "categorie": "711",
+                "ptc": null,
+                "nombreplacemaximum": 1,
+                "nombreplaceminimum": 0,
+                "genre": [
+                    {
+                        "id": 115,
+                        "code": "TRACTEUR FORESTIER",
+                        "libelle": "TRACTEUR FORESTIER"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "code": 1,
+                        "label": "Plaque noire"
+                    },
+                    {
+                        "code": 2,
+                        "label": "Plaque blanche"
+                    },
+                    {
+                        "code": 3,
+                        "label": "Nouvelle plaque"
+                    },
+                    {
+                        "code": 4,
+                        "label": "Autre"
+                    },
+                    {
+                        "code": 5,
+                        "label": "WW"
+                    },
+                    {
+                        "code": 9,
+                        "label": "En cours d'immatriculation"
+                    },
+                    {
+                        "code": 10,
+                        "label": "Etatique"
+                    }
+                ]
+            }
+        ]
+    },
+
+    "draft":{
+        "LOCATION": [
+            {
+                "id": 10,
+                "code": 16,
+                "libelle": "LOCATION C.I.",
+                "categorie": 751,
+                "nombrePlaceMaximum": 30,
+                "nombrePlaceMinimum": 0,
+                "genre": [
+                    {
+                        "id": 1,
+                        "code": "C.I       ",
+                        "libelle": "CONDUITE INTERIEURE"
+                    },
+                    {
+                        "id": 2,
+                        "code": "BERLINE     ",
+                        "libelle": "BERLINE"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "ID" : 7,
+                        "LIBELLE" : "Ancienne Immatriculation"
+                    },
+                    {
+                        "ID" : 8,
+                        "LIBELLE" : "Nouvelle Immatriculation"
+                    },
+                    {
+                        "ID" : 1,
+                        "LIBELLE" : "Plaque noire"
+                    }
+                ]
+            }
+        ],
+        "CYCLOMOTER": [
+            {
+                "id": 36,
+                "code": 82,
+                "libelle": "CYLINDRÉE < 50 CM3 VITESSE < 60 KM/H",
+                "categorie": 705,
+                "nombrePlaceMaximum": 2,
+                "nombrePlaceMinimum": 0,
+                "genre": [
+                    {
+                        "id": 1,
+                        "code": "genre 1 cyclo 1",
+                        "libelle": "genre 1 cyclo 1"
+                    },
+                    {
+                        "id": 2,
+                        "code": "genre 2 cyclo 1",
+                        "libelle": "genre 2 cyclo 1"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "ID" : 7,
+                        "LIBELLE" : "Immatriculation 1 cyclo 1"
+                    },
+                    {
+                        "ID" : 8,
+                        "LIBELLE" : "Immatriculation 2 cyclo 1"
+                    },
+                    {
+                        "ID" : 1,
+                        "LIBELLE" : "Immatriculation 3 cyclo 1"
+                    }
+                ]
+            },
+            {
+                "id": 37,
+                "code": 83,
+                "libelle": "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+                "categorie": 745,
+                "nombrePlaceMaximum": 2,
+                "nombrePlaceMinimum": 0,
+                "genre": [
+                    {
+                        "id": 1,
+                        "code": "genre 1 cyclo 2",
+                        "libelle": "genre 1 cyclo 2"
+                    },
+                    {
+                        "id": 2,
+                        "code": "genre 2 cyclo 2",
+                        "libelle": "genre 2 cyclo 2"
+                    }
+                ],
+                "typeImmatriculation": [
+                    {
+                        "ID" : 7,
+                        "LIBELLE" : "Immatriculation 1 cyclo 2"
+                    },
+                    {
+                        "ID" : 8,
+                        "LIBELLE" : "Immatriculation 2 cyclo 2"
+                    },
+                    {
+                        "ID" : 1,
+                        "LIBELLE" : "Immatriculation 3 cyclo 2"
+                    }
+                ]
+            }
+        ]
+    },
+    
     "LICENCE_CATEGORIES": [
         {
             "code": "A",
@@ -75,6 +3274,411 @@
         }
     ],
     "VEHICLE_USE": {
+        "LOCATION": [
+            {
+                "id": 10,
+                "code": 16,
+                "libelle": "LOCATION C.I.",
+                "categorie": 751,
+                "nombrePlaceMaximum": 30,
+                "nombrePlaceMinimum": 0
+            }
+        ],
+        "CYCLOMOTER": [
+            {
+                "id": 36,
+                "code": 82,
+                "libelle": "CYLINDRÉE < 50 CM3 VITESSE < 60 KM/H",
+                "categorie": 705,
+                "nombrePlaceMaximum": 2,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 37,
+                "code": 83,
+                "libelle": "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+                "categorie": 745,
+                "nombrePlaceMaximum": 2,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 38,
+                "code": 84,
+                "libelle": "TRICYCLE OU TRIPORTEUR CYLINDRÉE < 125 CM3",
+                "categorie": 735,
+                "nombrePlaceMaximum": 2,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 46,
+                "code": 91,
+                "libelle": "MOTOCYCLETTE AVEC SIDE-CAR CYLINDRÉE > 125 CM3",
+                "categorie": 745,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 47,
+                "code": 92,
+                "libelle": "CYLINDRÉE < 50 CM3 VITESSE > 60 KM/H",
+                "categorie": 715,
+                "nombrePlaceMaximum": 2,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 48,
+                "code": 93,
+                "libelle": "CYLINDRÉE ENTRE 50 CM3 ET 125 CM3",
+                "categorie": 725,
+                "nombrePlaceMaximum": 2,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 50,
+                "code": 96,
+                "libelle": "TRICYCLE OU TRIPORTEUR CYLINDRÉE > 125 CM3",
+                "categorie": 735,
+                "nombrePlaceMaximum": 2
+            }
+        ],
+        "DIVERS": [
+            {
+                "id": 44,
+                "code": 90,
+                "libelle": "CHASSE NEIGE +3,5T",
+                "categorie": 753,
+                "ptc": "+3,5T",
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 41,
+                "code": 87,
+                "libelle": "TRACTEUR AGRICOLE AVEC T.M.I.",
+                "categorie": 713,
+                "nombrePlaceMaximum": 1,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 28,
+                "code": 40,
+                "libelle": "VÉHICULE DÉPANNAGE +3,5T",
+                "categorie": 763,
+                "ptc": "+3,5T",
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 49,
+                "code": 95,
+                "libelle": "VÉHICULES À MOTEUR ÉLECTRIQUE",
+                "nombrePlaceMaximum": 1,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 58,
+                "code": 41,
+                "libelle": "HYDROCUREUSE <= 3,5T",
+                "categorie": 753,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 25,
+                "code": 37,
+                "libelle": "VOITURE VIDANGE <= 3,5T",
+                "categorie": 753,
+                "ptc": "-3,5T",
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 24,
+                "code": 36,
+                "libelle": "ENLÉVEMENT DES ORDURES <= 3,5T",
+                "categorie": 753,
+                "ptc": "-3,5T",
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 62,
+                "code": 100,
+                "libelle": "TRACTEUR FORESTIER",
+                "categorie": 711,
+                "nombrePlaceMaximum": 1,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 31,
+                "code": 44,
+                "libelle": "ARROSEUR +3,5T",
+                "categorie": 753,
+                "ptc": "+3,5T",
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 42,
+                "code": 88,
+                "libelle": "BALAYEUSE +3,5T",
+                "categorie": 753,
+                "ptc": "+3,5T",
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 5,
+                "code": 11,
+                "libelle": "AMBULANCES <= 3,5T",
+                "categorie": 721,
+                "ptc": "-3,5T",
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 8,
+                "code": 14,
+                "libelle": "AUTO-ECOLE TOURISME",
+                "categorie": 741,
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 32,
+                "code": 47,
+                "libelle": "VOITURE VIDANGE +3.5T",
+                "categorie": 753,
+                "ptc": "+3,5T",
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 16,
+                "code": 22,
+                "libelle": "MOISSONEUSE BATTEUSE",
+                "categorie": 783,
+                "nombrePlaceMaximum": 1,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 33,
+                "code": 49,
+                "libelle": "VÉH. SCE INCENDIE +3.5T",
+                "categorie": 753,
+                "ptc": "+3,5T",
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 20,
+                "code": 32,
+                "libelle": "TRANSPORT DES ECOLIERS <= 3,5 T",
+                "categorie": 703,
+                "ptc": "-3,5T",
+                "nombrePlaceMaximum": 70,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 39,
+                "code": 85,
+                "libelle": "TRANS. MATIÈRE INFL. <= 3,5T",
+                "categorie": 773,
+                "ptc": "-3,5T",
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 6,
+                "code": 12,
+                "libelle": "CORBILLARDS <= 3,5T",
+                "categorie": 721,
+                "ptc": "-3,5T",
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 29,
+                "code": 42,
+                "libelle": "TRANSPORT ECOLIERS +3,5T",
+                "categorie": 713,
+                "ptc": "+3,5T",
+                "nombrePlaceMaximum": 80,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 34,
+                "code": 51,
+                "libelle": "AUTO-ECOLE 2 OU 3 ROUES",
+                "categorie": 741,
+                "nombrePlaceMaximum": 2,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 27,
+                "code": 39,
+                "libelle": "VÉHICULE SCE INCENDIE <= 3,5T",
+                "categorie": 753,
+                "ptc": "-3,5T",
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 26,
+                "code": 38,
+                "libelle": "CHASSE NEIGE <= 3,5T",
+                "categorie": 753,
+                "ptc": "-3,5T",
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 15,
+                "code": 21,
+                "libelle": "TRACTEUR AGRICOLE",
+                "categorie": 711,
+                "nombrePlaceMaximum": 1,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 21,
+                "code": 33,
+                "libelle": "TRANSPORT PERSONNEL <= 3,5T",
+                "categorie": 703,
+                "ptc": "-3,5T",
+                "nombrePlaceMaximum": 32,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 18,
+                "code": 30,
+                "libelle": "VÉHICULE DÉPANNAGE <= 3,5T",
+                "categorie": 763,
+                "ptc": "-3,5T",
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 30,
+                "code": 43,
+                "libelle": "TRANSPORT PERSONNEL +3,5T",
+                "categorie": 713,
+                "ptc": "+3,5T",
+                "nombrePlaceMaximum": 80,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 23,
+                "code": 35,
+                "libelle": "BALAYEUSE <= 3,5T",
+                "categorie": 753,
+                "ptc": "-3,5T",
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 59,
+                "code": 45,
+                "libelle": "HYDROCUREUSE +3,5T",
+                "categorie": 753,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 19,
+                "code": 31,
+                "libelle": "AUTO-ECOLE UTIL./AUTOCARS",
+                "categorie": 741,
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 7,
+                "code": 13,
+                "libelle": "FOURGONS FUNÉRAIRES <= 3,5T",
+                "categorie": 721,
+                "ptc": "-3,5T",
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 45,
+                "code": 99,
+                "libelle": "GARAGISTE",
+                "categorie": 731,
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 22,
+                "code": 34,
+                "libelle": "ARROSEUSE <= 3,5T",
+                "categorie": 753,
+                "ptc": "-3,5T",
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 43,
+                "code": 89,
+                "libelle": "ENLÉVEMENT DES ORDURES +3,5T",
+                "categorie": 753,
+                "ptc": "+3,5T",
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 40,
+                "code": 86,
+                "libelle": "TRANS. MATIÈRE INFL. +3,5T",
+                "categorie": 773,
+                "ptc": "+3,5T",
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 35,
+                "code": 81,
+                "libelle": "ENGIN DE CHANTIER",
+                "categorie": 743,
+                "nombrePlaceMaximum": 1,
+                "nombrePlaceMinimum": 0
+            }
+        ],
+        "TOURISME": [
+            {
+                "id": 1,
+                "code": 1,
+                "libelle": "TOURISME",
+                "categorie": 701,
+                "nombrePlaceMaximum": 8,
+                "nombrePlaceMinimum": 0
+            }
+        ],
+        "C1": [
+            {
+                "id": 2,
+                "code": 3,
+                "libelle": "C1 (COMMERCE <= 3,5T)",
+                "categorie": 703,
+                "ptc": "-3,5T",
+                "nombrePlaceMaximum": 32,
+                "nombrePlaceMinimum": 8
+            }
+        ],
+        "C2": [
+            {
+                "id": 3,
+                "code": 4,
+                "libelle": "C2 (COMMERCE +3,5T)",
+                "categorie": 713,
+                "ptc": "+3,5T",
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 3
+            }
+        ]
+    },
+    "VEHICLE_USE_SIEGE": {
         "LOCATION": [
             {
                 "id": 13,
@@ -4787,6 +8391,429 @@
             "libelle": "I.C.E",
             "typeCritere": "E"
         }
+    ],
+    "genrr":[
+        {
+            "id": 38,
+            "code": "CAMPING CAR",
+            "libelle": "CAMPING CAR"
+        },
+        {
+            "id": 98,
+            "code": "REMORQUE",
+            "libelle": "REMORQUE"
+        },
+        {
+            "id": 56,
+            "code": "QUAD",
+            "libelle": "QUAD"
+        },
+        {
+            "id": 1,
+            "code": "C.I       ",
+            "libelle": "CONDUITE INTERIEURE"
+        },
+        {
+            "id": 2,
+            "code": "BERLINE     ",
+            "libelle": "BERLINE"
+        },
+        {
+            "id": 3,
+            "code": "BREAK       ",
+            "libelle": "BREAK"
+        },
+        {
+            "id": 4,
+            "code": "CAMIONNETTE ",
+            "libelle": "CAMIONNETTE"
+        },
+        {
+            "id": 5,
+            "code": "CAMION      ",
+            "libelle": "CAMION"
+        },
+        {
+            "id": 6,
+            "code": "TRAC.ROUT.  ",
+            "libelle": "TRACTEUR ROUTIER"
+        },
+        {
+            "id": 7,
+            "code": "2.R       ",
+            "libelle": "CYCLOMOTEUR (2 ROUES)"
+        },
+        {
+            "id": 8,
+            "code": "TRI A MOTEUR",
+            "libelle": "TRICYCLES MOTEUR"
+        },
+        {
+            "id": 9,
+            "code": "JEEP        ",
+            "libelle": "JEEP"
+        },
+        {
+            "id": 10,
+            "code": "VEH.MALAXEUR",
+            "libelle": "VEHICULE MALAXEUR"
+        },
+        {
+            "id": 11,
+            "code": "CAM. CITERNE",
+            "libelle": "CAMION CITERNE"
+        },
+        {
+            "id": 12,
+            "code": "AUTOCAR     ",
+            "libelle": "AUTOCAR"
+        },
+        {
+            "id": 13,
+            "code": "MICROCAR    ",
+            "libelle": "MICROCAR"
+        },
+        {
+            "id": 14,
+            "code": "FOURGON     ",
+            "libelle": "FOURGON"
+        },
+        {
+            "id": 15,
+            "code": "CAMION BENNE",
+            "libelle": "CAMION BENNE"
+        },
+        {
+            "id": 16,
+            "code": "MICROBUS    ",
+            "libelle": "MICROBUS"
+        },
+        {
+            "id": 17,
+            "code": "CAM. PORTEUR",
+            "libelle": "CAMION PORTEUR"
+        },
+        {
+            "id": 18,
+            "code": "M. BATTEUSE ",
+            "libelle": "MOISSONEUSE BATTEUSE"
+        },
+        {
+            "id": 19,
+            "code": "TRAC.AGRICOL",
+            "libelle": "TRACTEUR AGRICOLE"
+        },
+        {
+            "id": 20,
+            "code": "CAM. A BET. ",
+            "libelle": "CAMION A BETTONNIERE"
+        },
+        {
+            "id": 21,
+            "code": "CAM A FORAGE",
+            "libelle": "CAMION A FORAGE"
+        },
+        {
+            "id": 22,
+            "code": "AUTOBUS     ",
+            "libelle": "AUTOBUS"
+        },
+        {
+            "id": 23,
+            "code": "ENG CHANTIER",
+            "libelle": "ENGIN CHANTIER"
+        },
+        {
+            "id": 24,
+            "code": "FOURGONNETTE",
+            "libelle": "FOURGONNETTE"
+        },
+        {
+            "id": 25,
+            "code": "CAM. PLATEAU",
+            "libelle": "CAMION PLATEAU"
+        },
+        {
+            "id": 26,
+            "code": "V.GARAGISTE ",
+            "libelle": "VEHICULE GARAGISTE"
+        },
+        {
+            "id": 27,
+            "code": "FOURG-FRIGOR",
+            "libelle": "FOURGON FRIGORIFIQUE"
+        },
+        {
+            "id": 28,
+            "code": "CAM-FRIGORIF",
+            "libelle": "CAMION FRIGORIFIQUE"
+        },
+        {
+            "id": 29,
+            "code": "PICK-UP DBL CABINE",
+            "libelle": "PICK-UP DOUBLE CABINE"
+        },
+        {
+            "id": 30,
+            "code": "CAM. CARROS.",
+            "libelle": "CAMION CARROSSERIE"
+        },
+        {
+            "id": 31,
+            "code": "S-W         ",
+            "libelle": "STATION WAGON"
+        },
+        {
+            "id": 32,
+            "code": "ESTAFETTE   ",
+            "libelle": "ESTAFETTE"
+        },
+        {
+            "id": 33,
+            "code": "TRAC.AVEC GRUE",
+            "libelle": "TRACTEUR AVEC GRUE"
+        },
+        {
+            "id": 34,
+            "code": "PICK-UP",
+            "libelle": "PICK-UP"
+        },
+        {
+            "id": 35,
+            "code": "CAM. CARROS",
+            "libelle": "CAM. CARROS"
+        },
+        {
+            "id": 44,
+            "code": "S-W ",
+            "libelle": "S-W"
+        },
+        {
+            "id": 54,
+            "code": "ESTAFETTE",
+            "libelle": "ESTAFETTE"
+        },
+        {
+            "id": 99,
+            "code": "Quelconque",
+            "libelle": "Quelconque"
+        },
+        {
+            "id": 55,
+            "code": "Vehicule a moteur electrique",
+            "libelle": "Vehicule a moteur electrique"
+        },
+        {
+            "id": 39,
+            "code": "CAMION A POMPE A BETON",
+            "libelle": "CAMION A POMPE A BETON"
+        },
+        {
+            "id": 40,
+            "code": "CAMION PLATEAU AVEC GRUE",
+            "libelle": "CAMION PLATEAU AVEC GRUE"
+        },
+        {
+            "id": 102,
+            "code": "CABRIOLET",
+            "libelle": "CABRIOLET"
+        },
+        {
+            "id": 37,
+            "code": "CAMIONNETTE-FRIGO",
+            "libelle": "CAMIONNETTE FRIGORIFIQUE"
+        },
+        {
+            "id": 41,
+            "code": "Camionnette Plateau",
+            "libelle": "Camionnette Plateau"
+        },
+        {
+            "id": 103,
+            "code": "COUPE",
+            "libelle": "COUPE"
+        },
+        {
+            "id": 36,
+            "code": "FOURGONNETTE-FRIGOR",
+            "libelle": "FOURGONNETTE FRIGORIFIQUE"
+        },
+        {
+            "id": 100,
+            "code": "CAMION FOURGON",
+            "libelle": "CAMION FOURGON"
+        },
+        {
+            "id": 101,
+            "code": "CAMIONNETTE FOURGON",
+            "libelle": "CAMIONNETTE FOURGON"
+        },
+        {
+            "id": 105,
+            "code": "CONVERTIBLE",
+            "libelle": "CONVERTIBLE"
+        },
+        {
+            "id": 109,
+            "code": "FTTE.V.S",
+            "libelle": "FTTE.V.S"
+        },
+        {
+            "id": 110,
+            "code": "F.V.S",
+            "libelle": "F.V.S"
+        },
+        {
+            "id": 104,
+            "code": "F.V.S",
+            "libelle": "F.V.S"
+        },
+        {
+            "id": 42,
+            "code": "FAMILIALE",
+            "libelle": "FAMILIALE"
+        },
+        {
+            "id": 43,
+            "code": "QUADRICYCLE",
+            "libelle": "QUADRICYCLE"
+        },
+        {
+            "id": 57,
+            "code": "CAM. CITERNE A EAU",
+            "libelle": "CAMION CITERNE A EAU"
+        },
+        {
+            "id": 58,
+            "code": "CAM. CITERNE A CARBURANT",
+            "libelle": "CAMION CITERNE A CARBURANT"
+        },
+        {
+            "id": 59,
+            "code": "CAMION BRASSEUR",
+            "libelle": "CAMION BRASSEUR"
+        },
+        {
+            "id": 60,
+            "code": "CAM. PLATEAU RIDELLES",
+            "libelle": "CAMION PLATEAU RIDELLES"
+        },
+        {
+            "id": 61,
+            "code": "CAM. PLATEAU BRASSEUR",
+            "libelle": "CAMION PLATEAU BRASSEUR"
+        },
+        {
+            "id": 62,
+            "code": "CAMION HYDRAUCUREUSE",
+            "libelle": "CAMION HYDRAUCUREUSE"
+        },
+        {
+            "id": 63,
+            "code": "CAMION AMPLIROLL",
+            "libelle": "CAMION AMPLIROLL"
+        },
+        {
+            "id": 64,
+            "code": "CAMION AVEC GRUE",
+            "libelle": "CAMION AVEC GRUE"
+        },
+        {
+            "id": 65,
+            "code": "FOURGONNETTE VITREE",
+            "libelle": "FOURGONNETTE VITREE"
+        },
+        {
+            "id": 66,
+            "code": "FOURGONNET.VITR.AVEC BANQ.",
+            "libelle": "FOURGONNETTE VITREE AVEC BANQUETTE"
+        },
+        {
+            "id": 112,
+            "code": "CHASSIS CABINE",
+            "libelle": "CHASSIS CABINE"
+        },
+        {
+            "id": 107,
+            "code": "PICK-UP DOUBLE CABINE",
+            "libelle": "PICK-UP DOUBLE CABINE"
+        },
+        {
+            "id": 45,
+            "code": "FOURGON VITREE AVEC SIEGE",
+            "libelle": "FOURGON VITREE AVEC SIEGE"
+        },
+        {
+            "id": 108,
+            "code": "CAMION BENNE AVEC GRUE",
+            "libelle": "CAMION BENNE AVEC GRUE"
+        },
+        {
+            "id": 106,
+            "code": "FORGON VITRE AVEC SIEGE",
+            "libelle": "FORGON VITRE AVEC SIEGE"
+        },
+        {
+            "id": 111,
+            "code": "CAMION NACELLE",
+            "libelle": "CAMION NACELLE"
+        },
+        {
+            "id": 114,
+            "code": "CAMION SONDEUSE",
+            "libelle": "CAMION SONDEUSE"
+        },
+        {
+            "id": 117,
+            "code": "LIMOUSINE",
+            "libelle": "LIMOUSINE"
+        },
+        {
+            "id": 120,
+            "code": "PICK UP FOURGON FRIGORIFIQUE",
+            "libelle": "PICK UP FOURGON FRIGORIFIQUE"
+        },
+        {
+            "id": 122,
+            "code": "CAMION PLATEAU DE DEPANNAGE",
+            "libelle": "CAMION PLATEAU DE DEPANNAGE"
+        },
+        {
+            "id": 124,
+            "code": "CAMION PLATEAU PORTE COMPRESSEURE",
+            "libelle": "CAMION PLATEAU PORTE COMPRESSEURE"
+        },
+        {
+            "id": 116,
+            "code": "CAMION AMPLIROLL AVEC GRUE",
+            "libelle": "CAMION AMPLIROLL AVEC GRUE"
+        },
+        {
+            "id": 118,
+            "code": "CAMION PLATEAU DEPANAGE AVEC GR",
+            "libelle": "CAMION PLATEAU DEPANAGE AVEC GR"
+        },
+        {
+            "id": 119,
+            "code": "FOURGONNETTE TOLEE",
+            "libelle": "FOURGONNETTE TOLEE"
+        },
+        {
+            "id": 113,
+            "code": "DEPANNAGE PORTE VHL",
+            "libelle": "DEPANNAGE PORTE VHL"
+        },
+        {
+            "id": 121,
+            "code": "CAMION FOURGON ISOTHERME",
+            "libelle": "CAMION FOURGON ISOTHERME"
+        },
+        {
+            "id": 115,
+            "code": "TRACTEUR FORESTIER",
+            "libelle": "TRACTEUR FORESTIER"
+        }
     ]
+    
 
 }
