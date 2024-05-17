@@ -30,8 +30,8 @@
     "/criteres": "/DOCUMENT_CATEGORIES",
     
     
-    "/referentiel/api/usage-vehicule/:usageType": "/:usageType",
-    "/referentiel/api/usage-vehicule/:usageType/:subType/genres": "/:usageType/:subType/genres",
-    "/referentiel/api/usage-vehicule/:usageType/:subType/immatriculation": "/:usageType/:subType/immatriculation"
+    "/referentiel/api/usage-vehicule/:usageType": "/ALL/:usageType",
+    "/referentiel/api/usage-vehicule/:usageType/:subType/genres": "/ALL/:usageType/:subType/genres",
+    "/referentiel/api/usage-vehicule/:usageType/:subType/immatriculation": "/ALL/:usageType/:subType/immatriculation"
 }
   

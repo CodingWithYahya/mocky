@@ -37,10 +37,12 @@ const dbData = require("./selects_dataset/db.json");
 
 // Analyse des données pour identifier les types d'usage et leurs sous-types
 const usageTypes = Object.keys(dbData.ALL);
+console.log("🚀 ~ usageTypes:", usageTypes)
 
 // Définition des routes dynamiques pour chaque type d'usage
 usageTypes.forEach(usageType => {
   const subTypes = dbData.ALL[usageType].map(subType => subType.libelle);
+  console.log("🚀 ~ subTypes:", subTypes)
 
   // Endpoint pour récupérer les sous-types d'un type d'usage donné 
   server.get(`/${usageType}`, (req, res) => {
