@@ -36,33 +36,34 @@ const dbData = require("./selects_dataset/db.json");
 // Pour obtenir les types d'immatriculation d'un sous-type donné : GET /{typeUsage}/{sousType}/immatriculation
 
 // Analyse des données pour identifier les types d'usage et leurs sous-types
-const usageTypes = Object.keys(dbData.draft);
+const usageTypes = Object.keys(dbData.ALL);
 
 // Définition des routes dynamiques pour chaque type d'usage
 usageTypes.forEach(usageType => {
-  const subTypes = dbData.draft[usageType].map(subType => subType.libelle);
+  const subTypes = dbData.ALL[usageType].map(subType => subType.libelle);
 
   // Endpoint pour récupérer les sous-types d'un type d'usage donné 
   server.get(`/${usageType}`, (req, res) => {
+    console.log("req",JSON.stringify(req));
+    
     res.json(subTypes);
   });
 
   // Endpoint pour récupérer les genres d'un sous-type donné
   server.get(`/${usageType}/:subType/genres`, (req, res) => {
     const subType = req.params.subType;
-    const genres = dbData.draft[usageType].find(item => item.libelle === subType)?.genre || [];
+    const genres = dbData.ALL[usageType].find(item => item.libelle === subType)?.genre || [];
     res.json(genres);
   });
 
   // Endpoint pour récupérer les types d'immatriculation d'un sous-type donné
   server.get(`/${usageType}/:subType/immatriculation`, (req, res) => {
     const subType = req.params.subType;
-    const immatriculation = dbData.draft[usageType].find(item => item.libelle === subType)?.typeImmatriculation || [];
+    const immatriculation = dbData.ALL[usageType].find(item => item.libelle === subType)?.typeImmatriculation || [];
     res.json(immatriculation);
   });
 });
 //-------------------------------------------------------------------------------
-
 // const subscriberData = require("./selects_dataset/subscriber-step.json");
 // const vehicleData = require("./selects_dataset/vehicle-step.json");
 // const tiers = require("./selects_dataset/TIERS_API_BASE_URL.json");

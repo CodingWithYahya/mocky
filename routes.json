@@ -27,7 +27,11 @@
     "/natureClient": "/CUSTOMER_TYPES",
     "/activite": "/ACTIVITIES",
     "/secteur": "/ACTIVITY_AREAS",
-    "/criteres": "/DOCUMENT_CATEGORIES"
+    "/criteres": "/DOCUMENT_CATEGORIES",
     
+    
+    "/referentiel/api/usage-vehicule/:usageType": "/:usageType",
+    "/referentiel/api/usage-vehicule/:usageType/:subType/genres": "/:usageType/:subType/genres",
+    "/referentiel/api/usage-vehicule/:usageType/:subType/immatriculation": "/:usageType/:subType/immatriculation"
 }
   
