@@ -12,8 +12,8 @@
     "/referentiel/api/periodicite/byIntermediaire?intermediaireId=61": "/PERIODS",
 
 
-    "/referentiel/api/usage-vehicule/groups?intermediaireId=61": "/VEHICLE_USE",
-    "/referentiel/api/usage-vehicule/groups?intermediaireId=${data?.intermediateId}": "/VEHICLE_USE",
+    "/referentiel/api/usage-vehicule/groups?intermediaireId=61": "/USAGESTUFF",
+    "/referentiel/api/usage-vehicule/groups?intermediaireId=${data?.intermediateId}": "/USAGESTUFF",
 
     "/referentiel/api/enum-nomenclature/type-immatriculation/all": "/TOWED_PLATE_TYPES",
 
@@ -35,6 +35,7 @@
     "/referentiel/api/usage-vehicule":"/USAGESTUFF",
     "/referentiel/api/usage-vehicule/groups":"/USAGESTUFF",
 
+    "/referentiel/api/genre/byUsageVehiculeCode/:code":"/GenreByUsageVehiculeCode/:code",
     "/referentiel/api/usage-vehicule/:key": "/USAGESTUFF/:key",
     "/referentiel/api/usage-vehicule/:key/:id": "/USAGESTUFF/:key/:id",
     "/referentiel/api/usage-vehicule/:key/:id/genre": "/USAGESTUFF/:key/:id/genre",
