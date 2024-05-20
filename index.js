@@ -93,11 +93,46 @@ const getNestedData = (data, keys) => {
   }, data);
 };
 
+// Helper function to find an item by ID
+const findItemById = (items, id) => {
+  return items.find(item => item.id === parseInt(id));
+};
+
 // Create dynamic routes for each key in ALL
 const dynamicDb = combinedData.USAGESTUFF;
 Object.keys(dynamicDb).forEach(key => {
   server.get(`/USAGESTUFF/${key}`, (req, res) => {
     res.json(dynamicDb[key]);
+  });
+
+  server.get(`/USAGESTUFF/${key}/:id`, (req, res) => {
+    const { id } = req.params;
+    const item = findItemById(dynamicDb[key], id);
+    if (item) {
+      res.json(item);
+    } else {
+      res.status(404).json({ error: "Not Found" });
+    }
+  });
+
+  server.get(`/USAGESTUFF/${key}/:id/genre`, (req, res) => {
+    const { id } = req.params;
+    const item = findItemById(dynamicDb[key], id);
+    if (item && item.genre) {
+      res.json(item.genre);
+    } else {
+      res.status(404).json({ error: "Not Found" });
+    }
+  });
+
+  server.get(`/USAGESTUFF/${key}/:id/typeImmatriculation`, (req, res) => {
+    const { id } = req.params;
+    const item = findItemById(dynamicDb[key], id);
+    if (item && item.typeImmatriculation) {
+      res.json(item.typeImmatriculation);
+    } else {
+      res.status(404).json({ error: "Not Found" });
+    }
   });
 
   server.get(`/USAGESTUFF/${key}/*`, (req, res) => {
@@ -111,6 +146,38 @@ Object.keys(dynamicDb).forEach(key => {
     }
   });
 });
+
+
+// 🚀🚀🚀🚀🚀
+// // Helper function to get nested data
+// const getNestedData = (data, keys) => {
+//   return keys.reduce((obj, key) => {
+//     if (Array.isArray(obj)) {
+//       return obj.map(item => item[key]).flat();
+//     }
+//     return obj && obj[key] !== undefined ? obj[key] : null;
+//   }, data);
+// };
+
+// // Create dynamic routes for each key in ALL
+// const dynamicDb = combinedData.USAGESTUFF;
+// Object.keys(dynamicDb).forEach(key => {
+//   server.get(`/USAGESTUFF/${key}`, (req, res) => {
+//     res.json(dynamicDb[key]);
+//   });
+
+//   server.get(`/USAGESTUFF/${key}/*`, (req, res) => {
+//     const subPath = req.params[0].split('/');
+//     console.log("🚀 ~ server.get ~ subPath:", subPath)
+//     const nestedData = getNestedData(dynamicDb[key], subPath);
+//     if (nestedData) {
+//       res.json(nestedData);
+//     } else {
+//       res.status(404).json({ error: "Not Found" });
+//     }
+//   });
+// });
+// 🚀🚀🚀🚀🚀
 
 // Use the JSON Server router after defining the dynamic routes
 server.use(router);
