@@ -1,6 +1,7 @@
 {
     "/referentiel/api/enum-nomenclature/categorie-permis": "/LICENCE_CATEGORIES",
     
+    "/referentiel/api/enum-nomenclature/nature-contrat?intermediaireId=61": "/CONTRACT_TYPES",
     "/referentiel/api/enum-nomenclature/nature-contrat?intermediaireId=${data?.intermediateId}": "/CONTRACT_TYPES",
     "/referentiel/api/enum-nomenclature/nature-contrat": "/CONTRACT_TYPES",
 
@@ -8,13 +9,16 @@
 
     "/referentiel/api/periodicite/byIntermediaire?intermediaireId=${data?.intermediateId}": "/PERIODS",
     "/referentiel/api/periodicite/byIntermediaire": "/PERIODS",
+    "/referentiel/api/periodicite/byIntermediaire?intermediaireId=61": "/PERIODS",
 
+
+    "/referentiel/api/usage-vehicule/groups?intermediaireId=61": "/VEHICLE_USE",
     "/referentiel/api/usage-vehicule/groups?intermediaireId=${data?.intermediateId}": "/VEHICLE_USE",
 
     "/referentiel/api/enum-nomenclature/type-immatriculation/all": "/TOWED_PLATE_TYPES",
 
     "/referentiel/api/enum-nomenclature/combustible": "/COMBUSTIBLES",
-    "/referentiel/api/enum-nomenclature/combustible?intermediaireId=${data?.intermediateId}": "/COMBUSTIBLES",
+    "/referentiel/api/enum-nomenclature/combustible?intermediaireId=61": "/COMBUSTIBLES",
 
     "/ville": "/CITIES",
     "/pays": "/COUNTRIES",
@@ -26,7 +30,7 @@
     "/natureClient": "/CUSTOMER_TYPES",
     "/activite": "/ACTIVITIES",
     "/secteur": "/ACTIVITY_AREAS",
-    "/criteres": "/DOCUMENT_CATEGORIES",
+    "/typeRecherche/criteres": "/DOCUMENT_CATEGORIES",
     
     "/referentiel/api/usage-vehicule":"/USAGESTUFF",
     "/referentiel/api/usage-vehicule/groups":"/USAGESTUFF",
