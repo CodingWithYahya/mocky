@@ -88,8 +88,20 @@ server.get('/GenreByUsageVehiculeCode/:code', (req, res) => {
   const { code } = req.params;
   const items = combinedData.USAGESTUFF; // Adapter selon la structure de vos données
   const item = findItemByCode(items, code);
-  if (item) {
-    res.json(item);
+  if (item && item.genre) {
+    res.json(item.genre);
+  } else {
+    res.status(404).json({ error: "Not Found" });
+  }
+});
+
+
+server.get('/ImmatriculationByUsageVehiculeCode/:code', (req, res) => {
+  const { code } = req.params;
+  const items = combinedData.USAGESTUFF; // Adapter selon la structure de vos données
+  const item = findItemByCode(items, code);
+  if (item && item.typeImmatriculation) {
+    res.json(item.typeImmatriculation);
   } else {
     res.status(404).json({ error: "Not Found" });
   }
