@@ -36,7 +36,7 @@
     "/referentiel/api/usage-vehicule/groups":"/USAGESTUFF",
    
     "/referentiel/api/enum-nomenclature/type-immatriculation/usageVehiculeCode/:code":"/ImmatriculationByUsageVehiculeCode/:code",
-    
+    "/referentiel/api/puissance-fiscale/byUsageVehiculeCode/:code":"/puissanceFiscByUsageVehiculeCode/:code",
     "/referentiel/api/genre/byUsageVehiculeCode/:code":"/GenreByUsageVehiculeCode/:code",
     "/referentiel/api/usage-vehicule/:key": "/USAGESTUFF/:key",
     "/referentiel/api/usage-vehicule/:key/:id": "/USAGESTUFF/:key/:id",

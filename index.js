@@ -86,7 +86,7 @@ const findItemByCode = (data, code) => {
 // 🚀🚀 Créer la route dynamique pour GenreByUsageVehiculeCode
 server.get('/GenreByUsageVehiculeCode/:code', (req, res) => {
   const { code } = req.params;
-  const items = combinedData.USAGESTUFF; // Adapter selon la structure de vos données
+  const items = combinedData.USAGESTUFF;
   const item = findItemByCode(items, code);
   if (item && item.genre) {
     res.json(item.genre);
@@ -95,13 +95,25 @@ server.get('/GenreByUsageVehiculeCode/:code', (req, res) => {
   }
 });
 
-
 server.get('/ImmatriculationByUsageVehiculeCode/:code', (req, res) => {
   const { code } = req.params;
-  const items = combinedData.USAGESTUFF; // Adapter selon la structure de vos données
+  const items = combinedData.USAGESTUFF;
   const item = findItemByCode(items, code);
   if (item && item.typeImmatriculation) {
     res.json(item.typeImmatriculation);
+  } else {
+    res.status(404).json({ error: "Not Found" });
+  }
+});
+
+server.get('/puissanceFiscByUsageVehiculeCode/:code', (req, res) => {
+  const { code } = req.params;
+  const item = combinedData.puissancesFiscalesDB.find(item => item.code === code);
+  // console.log("🚀 ~ server.get ~ items:", items)
+  //const item = findItemByCode(items, code);
+  // console.log("🚀 ~ server.get ~ item:", item)
+  if (item/* && item.puissancesFiscales*/) {
+    res.json(item.puissancesFiscales);
   } else {
     res.status(404).json({ error: "Not Found" });
   }

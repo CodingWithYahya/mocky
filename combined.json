@@ -3219,6 +3219,533 @@
       }
     ]
   },
+  "puissancesFiscalesDB": [
+    {
+      "idUsageVehicule": 1,
+      "code": "1",
+      "puissancesFiscales": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "idUsageVehicule": 2,
+      "code": "3",
+      "puissancesFiscales": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "idUsageVehicule": 3,
+      "code": "4",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 5,
+      "code": "11",
+      "puissancesFiscales": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "idUsageVehicule": 6,
+      "code": "12",
+      "puissancesFiscales": [
+        6
+      ]
+    },
+    {
+      "idUsageVehicule": 7,
+      "code": "13",
+      "puissancesFiscales": [
+        5,
+        6,
+        9,
+        12
+      ]
+    },
+    {
+      "idUsageVehicule": 8,
+      "code": "14",
+      "puissancesFiscales": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "idUsageVehicule": 10,
+      "code": "16",
+      "puissancesFiscales": [
+        5,
+        6,
+        7,
+        8,
+        12
+      ]
+    },
+    {
+      "idUsageVehicule": 11,
+      "code": "17",
+      "puissancesFiscales": [
+        10
+      ]
+    },
+    {
+      "idUsageVehicule": 14,
+      "code": "20",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 15,
+      "code": "21",
+      "puissancesFiscales": [
+        0,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "idUsageVehicule": 16,
+      "code": "22",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 18,
+      "code": "30",
+      "puissancesFiscales": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "idUsageVehicule": 19,
+      "code": "31",
+      "puissancesFiscales": [
+        0,
+        6,
+        9,
+        10,
+        12,
+        14,
+        15,
+        16,
+        18,
+        19,
+        20,
+        23,
+        32,
+        34,
+        37
+      ]
+    },
+    {
+      "idUsageVehicule": 20,
+      "code": "32",
+      "puissancesFiscales": [
+        0,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "idUsageVehicule": 21,
+      "code": "33",
+      "puissancesFiscales": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19
+      ]
+    },
+    {
+      "idUsageVehicule": 22,
+      "code": "34",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 23,
+      "code": "35",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 24,
+      "code": "36",
+      "puissancesFiscales": [
+        9,
+        10,
+        13,
+        18
+      ]
+    },
+    {
+      "idUsageVehicule": 25,
+      "code": "37",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 26,
+      "code": "38",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 27,
+      "code": "39",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 28,
+      "code": "40",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 29,
+      "code": "42",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 30,
+      "code": "43",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 31,
+      "code": "44",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 32,
+      "code": "47",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 33,
+      "code": "49",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 34,
+      "code": "51",
+      "puissancesFiscales": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        49,
+        51,
+        126
+      ]
+    },
+    {
+      "idUsageVehicule": 35,
+      "code": "81",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 36,
+      "code": "82",
+      "puissancesFiscales": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        45,
+        49,
+        50
+      ]
+    },
+    {
+      "idUsageVehicule": 37,
+      "code": "83",
+      "puissancesFiscales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        126
+      ]
+    },
+    {
+      "idUsageVehicule": 38,
+      "code": "84",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 39,
+      "code": "85",
+      "puissancesFiscales": [
+        0,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "idUsageVehicule": 40,
+      "code": "86",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 41,
+      "code": "87",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 42,
+      "code": "88",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 43,
+      "code": "89",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 44,
+      "code": "90",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 45,
+      "code": "99",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 46,
+      "code": "91",
+      "puissancesFiscales": [
+        126
+      ]
+    },
+    {
+      "idUsageVehicule": 47,
+      "code": "92",
+      "puissancesFiscales": [
+        41,
+        42,
+        45,
+        48,
+        49
+      ]
+    },
+    {
+      "idUsageVehicule": 48,
+      "code": "93",
+      "puissancesFiscales": [
+        1,
+        49,
+        51,
+        107,
+        124,
+        125
+      ]
+    },
+    {
+      "idUsageVehicule": 50,
+      "code": "96",
+      "puissancesFiscales": [
+        2,
+        126
+      ]
+    },
+    {
+      "idUsageVehicule": 51,
+      "code": "72",
+      "puissancesFiscales": [
+        45,
+        49,
+        50
+      ]
+    },
+    {
+      "idUsageVehicule": 52,
+      "code": "73",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 53,
+      "code": "74",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 54,
+      "code": "75",
+      "puissancesFiscales": [
+        4,
+        7,
+        8,
+        9,
+        11,
+        126
+      ]
+    },
+    {
+      "idUsageVehicule": 55,
+      "code": "76",
+      "puissancesFiscales": [
+        41,
+        42,
+        45,
+        48,
+        49,
+        50,
+        60,
+        110
+      ]
+    },
+    {
+      "idUsageVehicule": 56,
+      "code": "77",
+      "puissancesFiscales": [
+        1
+      ]
+    },
+    {
+      "idUsageVehicule": 57,
+      "code": "78",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 58,
+      "code": "41",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 59,
+      "code": "45",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 60,
+      "code": "79",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 61,
+      "code": "94",
+      "puissancesFiscales": [
+        0
+      ]
+    },
+    {
+      "idUsageVehicule": 62,
+      "code": "100",
+      "puissancesFiscales": [
+        0
+      ]
+    }
+  ],
   "ALL-Recovery": {
     "TOURISME": [
       {
