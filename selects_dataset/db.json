@@ -142,8 +142,8 @@
                 "libelle": "TOURISMEHAHA",
                 "categorie": "701",
                 "ptc": null,
-                "nombreplacemaximum": 8,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 8,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 1,
@@ -295,8 +295,8 @@
                 "libelle": "LOCATION C.I.",
                 "categorie": "751",
                 "ptc": null,
-                "nombreplacemaximum": 30,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 30,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 1,
@@ -408,8 +408,8 @@
                 "libelle": "CYLINDRÉE < 50 CM3 VITESSE < 60 KM/H",
                 "categorie": "705",
                 "ptc": null,
-                "nombreplacemaximum": 2,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 2,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 7,
@@ -434,8 +434,8 @@
                 "libelle": "CYLINDRÉE < 50 CM3 VITESSE > 60 KM/H",
                 "categorie": "715",
                 "ptc": null,
-                "nombreplacemaximum": 2,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 2,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 7,
@@ -460,8 +460,8 @@
                 "libelle": "CYLINDRÉE ENTRE 50 CM3 ET 125 CM3",
                 "categorie": "725",
                 "ptc": null,
-                "nombreplacemaximum": 2,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 2,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 7,
@@ -511,8 +511,8 @@
                 "libelle": "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
                 "categorie": "745",
                 "ptc": null,
-                "nombreplacemaximum": 2,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 2,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 7,
@@ -567,8 +567,8 @@
                 "libelle": "MOTOCYCLETTE AVEC SIDE-CAR CYLINDRÉE > 125 CM3",
                 "categorie": "745",
                 "ptc": null,
-                "nombreplacemaximum": 3,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 7,
@@ -594,8 +594,8 @@
                 "libelle": "TRICYCLE OU TRIPORTEUR CYLINDRÉE > 125 CM3",
                 "categorie": "735",
                 "ptc": null,
-                "nombreplacemaximum": 2,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 2,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 8,
@@ -618,8 +618,8 @@
                 "libelle": "C1 (COMMERCE <= 3,5T)",
                 "categorie": "703",
                 "ptc": 1,
-                "nombreplacemaximum": 32,
-                "nombreplaceminimum": 8,
+                "nombrePlaceMaximum": 32,
+                "nombrePlaceMinimum": 8,
                 "genre": [
                     {
                         "id": 3,
@@ -876,8 +876,8 @@
                 "libelle": "C2 (COMMERCE +3,5T)",
                 "categorie": "713",
                 "ptc": 2,
-                "nombreplacemaximum": 3,
-                "nombreplaceminimum": 3,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 3,
                 "genre": [
                     {
                         "id": 5,
@@ -1114,8 +1114,8 @@
                 "libelle": "AMBULANCES <= 3,5T",
                 "categorie": "721",
                 "ptc": 1,
-                "nombreplacemaximum": 5,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 3,
@@ -1170,8 +1170,8 @@
                 "libelle": "CORBILLARDS <= 3,5T",
                 "categorie": "721",
                 "ptc": 1,
-                "nombreplacemaximum": 3,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 3,
@@ -1226,8 +1226,8 @@
                 "libelle": "FOURGONS FUNÉRAIRES <= 3,5T",
                 "categorie": "721",
                 "ptc": 1,
-                "nombreplacemaximum": 3,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 3,
@@ -1282,8 +1282,8 @@
                 "libelle": "AUTO-ECOLE TOURISME",
                 "categorie": "741",
                 "ptc": null,
-                "nombreplacemaximum": 5,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 1,
@@ -1378,8 +1378,8 @@
                 "libelle": "TRACTEUR AGRICOLE",
                 "categorie": "711",
                 "ptc": null,
-                "nombreplacemaximum": 1,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 1,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 19,
@@ -1424,8 +1424,8 @@
                 "libelle": "MOISSONEUSE BATTEUSE",
                 "categorie": "783",
                 "ptc": null,
-                "nombreplacemaximum": 1,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 1,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 18,
@@ -1470,8 +1470,8 @@
                 "libelle": "VÉHICULE DÉPANNAGE <= 3,5T",
                 "categorie": "763",
                 "ptc": 1,
-                "nombreplacemaximum": 3,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 5,
@@ -1526,8 +1526,8 @@
                 "libelle": "AUTO-ECOLE UTIL./AUTOCARS",
                 "categorie": "741",
                 "ptc": null,
-                "nombreplacemaximum": 5,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 5,
@@ -1587,8 +1587,8 @@
                 "libelle": "TRANSPORT DES ECOLIERS <= 3,5 T",
                 "categorie": "703",
                 "ptc": 1,
-                "nombreplacemaximum": 70,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 70,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 4,
@@ -1678,8 +1678,8 @@
                 "libelle": "TRANSPORT PERSONNEL <= 3,5T",
                 "categorie": "703",
                 "ptc": 1,
-                "nombreplacemaximum": 32,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 32,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 4,
@@ -1789,8 +1789,8 @@
                 "libelle": "ARROSEUSE <= 3,5T",
                 "categorie": "753",
                 "ptc": 1,
-                "nombreplacemaximum": 3,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 11,
@@ -1835,8 +1835,8 @@
                 "libelle": "BALAYEUSE <= 3,5T",
                 "categorie": "753",
                 "ptc": 1,
-                "nombreplacemaximum": 3,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 5,
@@ -1881,8 +1881,8 @@
                 "libelle": "ENLÉVEMENT DES ORDURES <= 3,5T",
                 "categorie": "753",
                 "ptc": 1,
-                "nombreplacemaximum": 3,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 5,
@@ -1927,8 +1927,8 @@
                 "libelle": "VOITURE VIDANGE <= 3,5T",
                 "categorie": "753",
                 "ptc": 1,
-                "nombreplacemaximum": 3,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 11,
@@ -1973,8 +1973,8 @@
                 "libelle": "CHASSE NEIGE <= 3,5T",
                 "categorie": "753",
                 "ptc": 1,
-                "nombreplacemaximum": 3,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 5,
@@ -2021,8 +2021,8 @@
                 "libelle": "VÉHICULE SCE INCENDIE <= 3,5T",
                 "categorie": "753",
                 "ptc": 1,
-                "nombreplacemaximum": 5,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 5,
@@ -2072,8 +2072,8 @@
                 "libelle": "VÉHICULE DÉPANNAGE +3,5T",
                 "categorie": "763",
                 "ptc": 2,
-                "nombreplacemaximum": 3,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 5,
@@ -2133,8 +2133,8 @@
                 "libelle": "TRANSPORT ECOLIERS +3,5T",
                 "categorie": "713",
                 "ptc": 2,
-                "nombreplacemaximum": 80,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 80,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 4,
@@ -2224,8 +2224,8 @@
                 "libelle": "TRANSPORT PERSONNEL +3,5T",
                 "categorie": "713",
                 "ptc": 2,
-                "nombreplacemaximum": 80,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 80,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 5,
@@ -2305,8 +2305,8 @@
                 "libelle": "ARROSEUR +3,5T",
                 "categorie": "753",
                 "ptc": 2,
-                "nombreplacemaximum": 3,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 11,
@@ -2351,8 +2351,8 @@
                 "libelle": "VOITURE VIDANGE +3.5T",
                 "categorie": "753",
                 "ptc": 2,
-                "nombreplacemaximum": 3,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 11,
@@ -2397,8 +2397,8 @@
                 "libelle": "VÉH. SCE INCENDIE +3.5T",
                 "categorie": "753",
                 "ptc": 2,
-                "nombreplacemaximum": 5,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 5,
@@ -2443,8 +2443,8 @@
                 "libelle": "AUTO-ECOLE 2 OU 3 ROUES",
                 "categorie": "741",
                 "ptc": null,
-                "nombreplacemaximum": 2,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 2,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 7,
@@ -2494,8 +2494,8 @@
                 "libelle": "ENGIN DE CHANTIER",
                 "categorie": "743",
                 "ptc": null,
-                "nombreplacemaximum": 1,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 1,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 5,
@@ -2570,8 +2570,8 @@
                 "libelle": "TRANS. MATIÈRE INFL. <= 3,5T",
                 "categorie": "773",
                 "ptc": 1,
-                "nombreplacemaximum": 5,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 3,
@@ -2686,8 +2686,8 @@
                 "libelle": "TRANS. MATIÈRE INFL. +3,5T",
                 "categorie": "773",
                 "ptc": 2,
-                "nombreplacemaximum": 5,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 5,
@@ -2777,8 +2777,8 @@
                 "libelle": "TRACTEUR AGRICOLE AVEC T.M.I.",
                 "categorie": "713",
                 "ptc": null,
-                "nombreplacemaximum": 1,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 1,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 5,
@@ -2848,8 +2848,8 @@
                 "libelle": "BALAYEUSE +3,5T",
                 "categorie": "753",
                 "ptc": 2,
-                "nombreplacemaximum": 5,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 5,
@@ -2894,8 +2894,8 @@
                 "libelle": "ENLÉVEMENT DES ORDURES +3,5T",
                 "categorie": "753",
                 "ptc": 2,
-                "nombreplacemaximum": 5,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 5,
@@ -2950,8 +2950,8 @@
                 "libelle": "CHASSE NEIGE +3,5T",
                 "categorie": "753",
                 "ptc": 2,
-                "nombreplacemaximum": 5,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 5,
@@ -2996,8 +2996,8 @@
                 "libelle": "GARAGISTE",
                 "categorie": "731",
                 "ptc": null,
-                "nombreplacemaximum": 5,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 26,
@@ -3042,8 +3042,8 @@
                 "libelle": "VÉHICULES À MOTEUR ÉLECTRIQUE",
                 "categorie": "",
                 "ptc": null,
-                "nombreplacemaximum": 1,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 1,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 55,
@@ -3088,8 +3088,8 @@
                 "libelle": "HYDROCUREUSE <= 3,5T",
                 "categorie": "753",
                 "ptc": null,
-                "nombreplacemaximum": 3,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 11,
@@ -3134,8 +3134,8 @@
                 "libelle": "HYDROCUREUSE +3,5T",
                 "categorie": "753",
                 "ptc": null,
-                "nombreplacemaximum": 3,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 11,
@@ -3180,8 +3180,8 @@
                 "libelle": "TRACTEUR FORESTIER",
                 "categorie": "711",
                 "ptc": null,
-                "nombreplacemaximum": 1,
-                "nombreplaceminimum": 0,
+                "nombrePlaceMaximum": 1,
+                "nombrePlaceMinimum": 0,
                 "genre": [
                     {
                         "id": 115,
@@ -3222,6 +3222,7 @@
             }
         ]
     },
+
     "USAGESTUFF_WITHOUT_GENRE": {
         "TOURISMEHHH": [
           {
