@@ -43,7 +43,8 @@
     "/referentiel/api/usage-vehicule/:key": "/USAGESTUFF/:key",
     "/referentiel/api/usage-vehicule/:key/:id": "/USAGESTUFF/:key/:id",
     "/referentiel/api/usage-vehicule/:key/:id/genre": "/USAGESTUFF/:key/:id/genre",
-    "/referentiel/api/usage-vehicule/:key/:id/typeImmatriculation": "/USAGESTUFF/:key/:id/typeImmatriculation"
+    "/referentiel/api/usage-vehicule/:key/:id/typeImmatriculation": "/USAGESTUFF/:key/:id/typeImmatriculation",
+    "/api/disasterRecovery/offres/offre":"/OFFRES"
 
 }
   
