@@ -44,7 +44,6 @@
     "/referentiel/api/usage-vehicule/:key/:id": "/USAGESTUFF/:key/:id",
     "/referentiel/api/usage-vehicule/:key/:id/genre": "/USAGESTUFF/:key/:id/genre",
     "/referentiel/api/usage-vehicule/:key/:id/typeImmatriculation": "/USAGESTUFF/:key/:id/typeImmatriculation",
-    "/api/disasterRecovery/offres/offre":"/OFFRES"
-
+    "/api/disasterRecovery/offres/offre":"/OFFRES",
+    "/produit/api/garantie/full/byUsage/":"/BYUSAGE"
 }
-  

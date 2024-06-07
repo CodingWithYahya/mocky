@@ -275,12 +275,122 @@
             "nombreExtincteur": "0"
         }
     ],
+    "BYUSAGE":[
+        {
+            "libelle": "Responsabilite Civile",
+            "hasOption": false,
+            "hasReductionVIP": true,
+            "hasPrimeAnnuelle": true,
+            "hasPrimeCorrective": true,
+            "hasPrimeProrata": true,
+            "order": 1,
+            "code": 1,
+            "hasCapital": false,
+            "hasModeAssurance": false,
+            "hasFranchise": false,
+            "hasExtension": false,
+            "hasTauxFranchise": false
+        },
+        {
+            "libelle": "Evenement Catastrophique",
+            "hasOption": false,
+            "hasReductionVIP": true,
+            "hasPrimeAnnuelle": true,
+            "hasPrimeCorrective": true,
+            "hasPrimeProrata": true,
+            "order": 1,
+            "code": 17,
+            "hasCapital": false,
+            "hasModeAssurance": false,
+            "hasFranchise": true,
+            "hasExtension": false,
+            "franchises": [
+                {
+                    "tauxFranchise": 10.0
+                }
+            ],
+            "hasTauxFranchise": true
+        },
+      
+        {
+            "libelle": "Assistance",
+            "extensions": [
+                {
+                    "id": 2,
+                    "code": 2,
+                    "libelle": "Option : 10000",
+                    "formule": "Basique",
+                    "plafond": 10000.0,
+                    "orderAffichage": "3"
+                },
+                {
+                    "id": 37,
+                    "code": 37,
+                    "libelle": "Option : 10500",
+                    "formule": "Optimale",
+                    "plafond": 10500.0,
+                    "orderAffichage": "8"
+                },
+                {
+                    "id": 7,
+                    "code": 7,
+                    "libelle": "Option : 11000",
+                    "formule": "Standard",
+                    "plafond": 11000.0,
+                    "orderAffichage": "9"
+                },
+                {
+                    "id": 11,
+                    "code": 11,
+                    "libelle": "Option : 12000",
+                    "formule": "Elargie",
+                    "plafond": 12000.0,
+                    "orderAffichage": "11"
+                },
+                {
+                    "id": 15,
+                    "code": 15,
+                    "libelle": "RMA Initiale Hani",
+                    "formule": "RMA Initiale Hani",
+                    "orderAffichage": "15"
+                },
+                {
+                    "id": 22,
+                    "code": 22,
+                    "libelle": "Gold",
+                    "formule": "Gold",
+                    "plafond": 0.0,
+                    "orderAffichage": "22"
+                },
+                {
+                    "id": 38,
+                    "code": 38,
+                    "libelle": "Option : 12000",
+                    "formule": "Experimente Plus",
+                    "plafond": 12000.0,
+                    "orderAffichage": "38"
+                }
+            ],
+            "hasOption": false,
+            "hasReductionVIP": true,
+            "hasPrimeAnnuelle": true,
+            "hasPrimeCorrective": true,
+            "hasPrimeProrata": true,
+            "order": 11,
+            "code": 8,
+            "hasCapital": false,
+            "hasModeAssurance": false,
+            "hasFranchise": false,
+            "hasExtension": true,
+            "hasTauxFranchise": false
+        }
+    ],
     "USAGESTUFF":{
-        "TOURISMEHHH": [
+        "TOURISME": [
             {
                 "id": 1,
                 "code": "1",
-                "libelle": "TOURISMEHAHA",
+                "libelle": "TOURISME",
                 "categorie": "701",
                 "ptc": null,
                 "nombrePlaceMaximum": 8,
@@ -289,37 +399,37 @@
                     {
                         "id": 1,
                         "code": "C.I       ",
-                        "libelle": "CONDUITE INTERIEURE hhhh"
+                        "libelle": "CONDUITE INTERIEURE "
                     },
                     {
                         "id": 2,
                         "code": "BERLINE     ",
-                        "libelle": "BERLINE hhhh"
+                        "libelle": "BERLINE "
                     },
                     {
                         "id": 3,
                         "code": "BREAK       ",
-                        "libelle": "BREAK hhhh"
+                        "libelle": "BREAK "
                     },
                     {
                         "id": 4,
                         "code": "CAMIONNETTE ",
-                        "libelle": "CAMIONNETTE hhhh"
+                        "libelle": "CAMIONNETTE "
                     },
                     {
                         "id": 9,
                         "code": "JEEP        ",
-                        "libelle": "JEEP hhhh"
+                        "libelle": "JEEP "
                     },
                     {
                         "id": 14,
                         "code": "FOURGON     ",
-                        "libelle": "FOURGON hhhh"
+                        "libelle": "FOURGON "
                     },
                     {
                         "id": 24,
                         "code": "FOURGONNETTE",
-                        "libelle": "FOURGONNETTE hhhh"
+                        "libelle": "FOURGONNETTE "
                     },
                     {
                         "id": 26,
@@ -400,11 +510,11 @@
                 "typeImmatriculation": [
                     {
                         "code": 1,
-                        "label": "Plaque noirehhhh"
+                        "label": "Plaque noire"
                     },
                     {
                         "code": 2,
-                        "label": "Plaque blanchehhhh"
+                        "label": "Plaque blanche"
                     },
                     {
                         "code": 3,
@@ -3365,11 +3475,11 @@
     },
 
     "USAGESTUFF_WITHOUT_GENRE": {
-        "TOURISMEHHH": [
+        "TOURISME": [
           {
             "id": 1,
             "code": 1,
-            "libelle": "TOURISMEHAHA",
+            "libelle": "TOURISME",
             "categorie": "701",
             "ptc": null,
             "nombrePlaceMaximum": 8,
@@ -7402,7 +7512,7 @@
     "LICENCE_CATEGORIES": [
         {
             "code": "A",
-            "label": "Ahhh json"
+            "label": "A"
         },
         {
             "code": "B",
@@ -7428,7 +7538,7 @@
     "CONTRACT_TYPES": [
         {
             "code": "T",
-            "label": "🚀 Tacite exist ghi end siege; I guess we shoud remove this cuz our app is used only by intermediary 🚀"
+            "label": "🚀 Tacite ??? 🚀"
         },
         {
             "code": "F",
@@ -8435,20 +8545,19 @@
             "label": "ELECTRIQUE"
         }
     ],
+
     "CITIES": [
         {
             "id": 2,
             "version": 0,
             "code": 10,
             "libelle": "AGADIR",
-            "label": "AGADIR",
             "abrg": null,
-            "refPays": {
+            "pays": {
                 "id": 212,
                 "version": 0,
                 "code": 212,
                 "libelle": "MAROC",
-                "label": "MAROC",
                 "abrg": "Mar",
                 "visibles": true
             },
@@ -8459,14 +8568,12 @@
             "version": 0,
             "code": 576,
             "libelle": "AHFIR",
-            "label": "AHFIR",
             "abrg": null,
-            "refPays": {
+            "pays": {
                 "id": 212,
                 "version": 0,
                 "code": 212,
                 "libelle": "MAROC",
-                "label": "MAROC",
                 "abrg": "Mar",
                 "visibles": true
             },
@@ -8477,20 +8584,2426 @@
             "version": 0,
             "code": 583,
             "libelle": "AIN B MATHAR",
-            "label": "AIN B MATHAR",
             "abrg": null,
-            "refPays": {
+            "pays": {
                 "id": 212,
                 "version": 0,
                 "code": 212,
                 "libelle": "MAROC",
-                "label": "MAROC",
                 "abrg": "Mar",
                 "visibles": true
             },
             "visibles": true
+        },
+        {
+            "id": 123,
+            "version": 0,
+            "code": 485,
+            "libelle": "AIN LEUH",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 3,
+            "version": 0,
+            "code": 22,
+            "libelle": "AIT MELLOUL",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 100,
+            "version": 0,
+            "code": 577,
+            "libelle": "AKLIM",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 46,
+            "version": 0,
+            "code": 696,
+            "libelle": "AKNOUL",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 56,
+            "version": 0,
+            "code": 50,
+            "libelle": "AL HOCEIMA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 60,
+            "version": 0,
+            "code": 643,
+            "libelle": "ASILAH",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 61,
+            "version": 0,
+            "code": 176,
+            "libelle": "AZEMOUR",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 62,
+            "version": 0,
+            "code": 70,
+            "libelle": "AZILAL",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 63,
+            "version": 0,
+            "code": 425,
+            "libelle": "AZROU",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 101,
+            "version": 0,
+            "code": 615,
+            "libelle": "BEN AHMED",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 64,
+            "version": 0,
+            "code": 201,
+            "libelle": "BEN GUERIR",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 38,
+            "version": 0,
+            "code": 110,
+            "libelle": "BEN SLIMANE",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 5,
+            "version": 0,
+            "code": 90,
+            "libelle": "BENI MELLAL",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 4,
+            "version": 0,
+            "code": 575,
+            "libelle": "BERKANE",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 51,
+            "version": 2,
+            "code": 621,
+            "libelle": "BERRECHID",
+            "abrg": "20",
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 124,
+            "version": 0,
+            "code": 621,
+            "libelle": "BERRICHID",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 102,
+            "version": 0,
+            "code": 11,
+            "libelle": "BIOUGRA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 116,
+            "version": 0,
+            "code": 536,
+            "libelle": "BIR ANZARANE",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 97,
+            "version": 0,
+            "code": 177,
+            "libelle": "BIR JDID",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 117,
+            "version": 0,
+            "code": 130,
+            "libelle": "BIR LAHLOU",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 65,
+            "version": 0,
+            "code": 312,
+            "libelle": "BOUARFA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 103,
+            "version": 0,
+            "code": 405,
+            "libelle": "BOUJAD",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 66,
+            "version": 0,
+            "code": 130,
+            "libelle": "BOUJDOUR",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 67,
+            "version": 0,
+            "code": 140,
+            "libelle": "BOULMANE",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 98,
+            "version": 0,
+            "code": 121,
+            "libelle": "BOUZNIKA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 563,
+            "version": 1,
+            "code": 0,
+            "libelle": "CASA2",
+            "abrg": "string",
+            "pays": null,
+            "visibles": true
+        },
+        {
+            "id": 6,
+            "version": 0,
+            "code": 780,
+            "libelle": "CASABLANCA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 68,
+            "version": 0,
+            "code": 150,
+            "libelle": "CHAOUEN",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 7,
+            "version": 0,
+            "code": 530,
+            "libelle": "DAKHLA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 125,
+            "version": 0,
+            "code": 337,
+            "libelle": "DAR EL GUEDDARI",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 104,
+            "version": 0,
+            "code": 432,
+            "libelle": "DCHEIRA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 69,
+            "version": 0,
+            "code": 440,
+            "libelle": "DEMNATE",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 135,
+            "version": 3,
+            "code": 501,
+            "libelle": "DRIOUCH",
+            "abrg": "aa5555",
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 137,
+            "version": 0,
+            "code": 622,
+            "libelle": "EL GARA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 70,
+            "version": 0,
+            "code": 491,
+            "libelle": "EL HAJEB",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 8,
+            "version": 0,
+            "code": 170,
+            "libelle": "EL JADIDA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 120,
+            "version": 0,
+            "code": 190,
+            "libelle": "EL KELAA DES SRAGHNA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 107,
+            "version": 0,
+            "code": 556,
+            "libelle": "EL KELAA MGOUNA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 71,
+            "version": 0,
+            "code": 218,
+            "libelle": "ERFOUD",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 27,
+            "version": 0,
+            "code": 209,
+            "libelle": "ERRACHIDIA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 30,
+            "version": 0,
+            "code": 260,
+            "libelle": "ES SEMARA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 9,
+            "version": 0,
+            "code": 240,
+            "libelle": "ESSAOUIRA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 1,
+            "version": 0,
+            "code": 0,
+            "libelle": "ETRANGER",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 99,
+            "version": 0,
+            "code": 99,
+            "libelle": "ETRANGER",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 121,
+            "version": 0,
+            "code": 136,
+            "libelle": "FEGUIG",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 11,
+            "version": 0,
+            "code": 270,
+            "libelle": "FES",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 12,
+            "version": 0,
+            "code": 310,
+            "libelle": "FIGUIG",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 73,
+            "version": 0,
+            "code": 101,
+            "libelle": "FKIH BEN SALEH",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 72,
+            "version": 0,
+            "code": 71,
+            "libelle": "FNIDEK",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 13,
+            "version": 1,
+            "code": 223,
+            "libelle": "GOULIMINE",
+            "abrg": "glm",
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 105,
+            "version": 0,
+            "code": 223,
+            "libelle": "GOULMIMA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 118,
+            "version": 0,
+            "code": 135,
+            "libelle": "GUALTAT ZEMMOUR",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 136,
+            "version": 0,
+            "code": 320,
+            "libelle": "GUELMIM",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 45,
+            "version": 0,
+            "code": 703,
+            "libelle": "GUERCIF",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 74,
+            "version": 0,
+            "code": 761,
+            "libelle": "IFNI",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 75,
+            "version": 0,
+            "code": 420,
+            "libelle": "IFRANE",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 126,
+            "version": 0,
+            "code": 155,
+            "libelle": "IMILTANOUNT",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 106,
+            "version": 0,
+            "code": 471,
+            "libelle": "IMIN TANOUTE",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 76,
+            "version": 0,
+            "code": 288,
+            "libelle": "IMOUZER KANDAR",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 77,
+            "version": 0,
+            "code": 582,
+            "libelle": "JERADA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 78,
+            "version": 0,
+            "code": 104,
+            "libelle": "KASBA TADLA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 10,
+            "version": 0,
+            "code": 9,
+            "libelle": "KELAAT SRAGHNA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 15,
+            "version": 0,
+            "code": 330,
+            "libelle": "KENITRA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 79,
+            "version": 0,
+            "code": 186,
+            "libelle": "KHEMIS ZMAMRA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 16,
+            "version": 0,
+            "code": 360,
+            "libelle": "KHEMISSET",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 57,
+            "version": 0,
+            "code": 380,
+            "libelle": "KHENIFRA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 17,
+            "version": 0,
+            "code": 400,
+            "libelle": "KHOURIBGA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 50,
+            "version": 3,
+            "code": 731,
+            "libelle": "KSAR EL KEBIR",
+            "abrg": "braaaaaaa88",
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 49,
+            "version": 0,
+            "code": 48,
+            "libelle": "KSAR ESSOUK",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 19,
+            "version": 0,
+            "code": 430,
+            "libelle": "LAAYOUNE",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 114,
+            "version": 0,
+            "code": 547,
+            "libelle": "LAGOUIRA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 18,
+            "version": 0,
+            "code": 735,
+            "libelle": "LARACHE",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 115,
+            "version": 0,
+            "code": 128,
+            "libelle": "MAHBES",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 21,
+            "version": 0,
+            "code": 450,
+            "libelle": "MARRAKECH",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 108,
+            "version": 0,
+            "code": 727,
+            "libelle": "MARTIL",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 80,
+            "version": 0,
+            "code": 79,
+            "libelle": "MDIK",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 109,
+            "version": 0,
+            "code": 728,
+            "libelle": "MDIQ",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 41,
+            "version": 0,
+            "code": 336,
+            "libelle": "MECHRAA BEL KSIRI",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 81,
+            "version": 0,
+            "code": 793,
+            "libelle": "MEDIOUNA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 127,
+            "version": 0,
+            "code": 158,
+            "libelle": "MEKNAS",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 20,
+            "version": 0,
+            "code": 480,
+            "libelle": "MEKNES",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 43,
+            "version": 0,
+            "code": 391,
+            "libelle": "MIDELT",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 82,
+            "version": 0,
+            "code": 144,
+            "libelle": "MISSOUR",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 36,
+            "version": 0,
+            "code": 787,
+            "libelle": "MOHAMMEDIA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 110,
+            "version": 0,
+            "code": 484,
+            "libelle": "MOULAY IDRISS",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 128,
+            "version": 0,
+            "code": 276,
+            "libelle": "MOULAY YAACOUB",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 566,
+            "version": 9,
+            "code": 0,
+            "libelle": "Madrid",
+            "abrg": "string",
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 22,
+            "version": 0,
+            "code": 500,
+            "libelle": "NADOR",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 83,
+            "version": 0,
+            "code": 794,
+            "libelle": "NOUASSER",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 129,
+            "version": 0,
+            "code": 161,
+            "libelle": "OMMOUZER",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 25,
+            "version": 1,
+            "code": 550,
+            "libelle": "OUARZAZATE",
+            "abrg": "1",
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 47,
+            "version": 0,
+            "code": 411,
+            "libelle": "OUED ZEM",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 53,
+            "version": 0,
+            "code": 341,
+            "libelle": "OUEZZANE",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 23,
+            "version": 0,
+            "code": 570,
+            "libelle": "OUJDA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 24,
+            "version": 0,
+            "code": 28,
+            "libelle": "OULED TEIMA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 84,
+            "version": 0,
+            "code": 365,
+            "libelle": "OULMES",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 130,
+            "version": 0,
+            "code": 164,
+            "libelle": "PRO.TAOUNATE",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 583,
+            "version": 0,
+            "code": null,
+            "libelle": "RABA2",
+            "abrg": "rab2",
+            "pays": {
+                "id": 1,
+                "version": 0,
+                "code": 1,
+                "libelle": "MAROC (SUITE)",
+                "abrg": "MAR",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 600,
+            "version": 0,
+            "code": null,
+            "libelle": "RABA66",
+            "abrg": "re",
+            "pays": {
+                "id": 1,
+                "version": 0,
+                "code": 1,
+                "libelle": "MAROC (SUITE)",
+                "abrg": "MAR",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 26,
+            "version": 3,
+            "code": 811,
+            "libelle": "RABAT",
+            "abrg": "7770",
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 85,
+            "version": 0,
+            "code": 235,
+            "libelle": "RISSANI",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 86,
+            "version": 0,
+            "code": 368,
+            "libelle": "ROMMANI",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 145,
+            "version": 1,
+            "code": 0,
+            "libelle": "Rom",
+            "abrg": "string",
+            "pays": null,
+            "visibles": true
+        },
+        {
+            "id": 131,
+            "version": 0,
+            "code": 353,
+            "libelle": "S.ARBAA EL GHARB",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 132,
+            "version": 0,
+            "code": 332,
+            "libelle": "S/YAHYA DU GHRB",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 28,
+            "version": 0,
+            "code": 590,
+            "libelle": "SAFI",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 87,
+            "version": 0,
+            "code": 579,
+            "libelle": "SAIDIA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 40,
+            "version": 0,
+            "code": 815,
+            "libelle": "SALE",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 48,
+            "version": 0,
+            "code": 281,
+            "libelle": "SEFROU",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 29,
+            "version": 0,
+            "code": 610,
+            "libelle": "SETTAT",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 35,
+            "version": 0,
+            "code": 179,
+            "libelle": "SIDI BENNOUR",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 37,
+            "version": 0,
+            "code": 346,
+            "libelle": "SIDI KACEM",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 133,
+            "version": 0,
+            "code": 123,
+            "libelle": "SIDI MOUSSA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 55,
+            "version": 0,
+            "code": 349,
+            "libelle": "SIDI SLIMANE",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 58,
+            "version": 0,
+            "code": 184,
+            "libelle": "SIDI SMAIL",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 39,
+            "version": 0,
+            "code": 572,
+            "libelle": "SIDI YAHIA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 52,
+            "version": 0,
+            "code": 821,
+            "libelle": "SKHIRAT",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 42,
+            "version": 0,
+            "code": 353,
+            "libelle": "SOUK EL ARBAA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 119,
+            "version": 0,
+            "code": 132,
+            "libelle": "TADLA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 88,
+            "version": 0,
+            "code": 765,
+            "libelle": "TAFRAOUTE",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 54,
+            "version": 0,
+            "code": 650,
+            "libelle": "TAN TAN",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 31,
+            "version": 0,
+            "code": 640,
+            "libelle": "TANGER",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 89,
+            "version": 0,
+            "code": 660,
+            "libelle": "TAOUNATE",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 111,
+            "version": 0,
+            "code": 585,
+            "libelle": "TAOURIRT",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 90,
+            "version": 0,
+            "code": 437,
+            "libelle": "TARFAYA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 32,
+            "version": 0,
+            "code": 41,
+            "libelle": "TAROUDANT",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 91,
+            "version": 0,
+            "code": 680,
+            "libelle": "TATA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 44,
+            "version": 0,
+            "code": 690,
+            "libelle": "TAZA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 92,
+            "version": 0,
+            "code": 812,
+            "libelle": "TEMARA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 34,
+            "version": 0,
+            "code": 720,
+            "libelle": "TETOUAN",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 93,
+            "version": 0,
+            "code": 374,
+            "libelle": "TIFLET",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 94,
+            "version": 0,
+            "code": 93,
+            "libelle": "TISSA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 95,
+            "version": 0,
+            "code": 94,
+            "libelle": "TIT-MELLIL",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 33,
+            "version": 0,
+            "code": 750,
+            "libelle": "TIZNIT",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 96,
+            "version": 0,
+            "code": 607,
+            "libelle": "YOUSSOUFIA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 112,
+            "version": 0,
+            "code": 565,
+            "libelle": "ZAGORA",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 113,
+            "version": 0,
+            "code": 519,
+            "libelle": "ZAIO",
+            "abrg": null,
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 592,
+            "version": 0,
+            "code": null,
+            "libelle": "casablanca22",
+            "abrg": "casa",
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 596,
+            "version": 0,
+            "code": null,
+            "libelle": "fes2",
+            "abrg": "fes",
+            "pays": {
+                "id": 1,
+                "version": 0,
+                "code": 1,
+                "libelle": "MAROC (SUITE)",
+                "abrg": "MAR",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 598,
+            "version": 0,
+            "code": null,
+            "libelle": "fes4",
+            "abrg": "rab",
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 601,
+            "version": 0,
+            "code": null,
+            "libelle": "iran77",
+            "abrg": "rab",
+            "pays": {
+                "id": 204,
+                "version": 0,
+                "code": 204,
+                "libelle": "IRAN",
+                "abrg": "IR",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 580,
+            "version": 0,
+            "code": null,
+            "libelle": "kanzap",
+            "abrg": "kanzap",
+            "pays": {
+                "id": 5,
+                "version": 0,
+                "code": 5,
+                "libelle": "FRANCE",
+                "abrg": "FRA",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 564,
+            "version": 1,
+            "code": 0,
+            "libelle": "london",
+            "abrg": "string",
+            "pays": null,
+            "visibles": true
+        },
+        {
+            "id": 579,
+            "version": 0,
+            "code": null,
+            "libelle": "mppp",
+            "abrg": "mppp",
+            "pays": {
+                "id": 204,
+                "version": 0,
+                "code": 204,
+                "libelle": "IRAN",
+                "abrg": "IR",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 565,
+            "version": 1,
+            "code": 0,
+            "libelle": "paris",
+            "abrg": "string",
+            "pays": null,
+            "visibles": true
+        },
+        {
+            "id": 603,
+            "version": 0,
+            "code": null,
+            "libelle": "pop2024",
+            "abrg": "pop2024",
+            "pays": {
+                "id": 1,
+                "version": 0,
+                "code": 1,
+                "libelle": "MAROC (SUITE)",
+                "abrg": "MAR",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 602,
+            "version": 0,
+            "code": null,
+            "libelle": "pop23",
+            "abrg": "pop",
+            "pays": {
+                "id": 1,
+                "version": 0,
+                "code": 1,
+                "libelle": "MAROC (SUITE)",
+                "abrg": "MAR",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 593,
+            "version": 0,
+            "code": null,
+            "libelle": "rabat",
+            "abrg": "rab",
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 562,
+            "version": 0,
+            "code": null,
+            "libelle": "test",
+            "abrg": "string",
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 0,
+            "version": 2,
+            "code": 0,
+            "libelle": "test24",
+            "abrg": "78788878",
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 561,
+            "version": 1,
+            "code": null,
+            "libelle": "test26",
+            "abrg": "545445",
+            "pays": {
+                "id": 212,
+                "version": 0,
+                "code": 212,
+                "libelle": "MAROC",
+                "abrg": "Mar",
+                "visibles": true
+            },
+            "visibles": true
+        },
+        {
+            "id": 581,
+            "version": 0,
+            "code": null,
+            "libelle": "zazazaza",
+            "abrg": "zazazaza",
+            "pays": {
+                "id": 204,
+                "version": 0,
+                "code": 204,
+                "libelle": "IRAN",
+                "abrg": "IR",
+                "visibles": true
+            },
+            "visibles": true
         }
-    ],
+    ]
+    ,
+
+
+
     "COUNTRIES": [
         {
             "id": 3,
@@ -9017,15 +11530,15 @@
         {
             "id": 1,
             "version": 0,
-            "code": 1,
-            "libelle": "Célibataire byMocky",
+            "code": "C",
+            "libelle": "Célibataire ",
             "label": "Single",
             "visibles": true
         },
         {
             "id": 3,
             "version": 0,
-            "code": 2,
+            "code": "D",
             "libelle": "Divorcé",
             "label": "Divorced",
             "visibles": true
@@ -9033,7 +11546,7 @@
         {
             "id": 2,
             "version": 0,
-            "code": 3,
+            "code": "M",
             "libelle": "Marié",
             "label": "Married",
             "visibles": true
@@ -9041,12 +11554,14 @@
         {
             "id": 6,
             "version": 0,
-            "code": 4,
+            "code": "V",
             "libelle": "Veuf",
             "label": "widower",
             "visibles": true
         }
     ],
+
+
     "GENDERS": [
         {
             "id": 1,
@@ -9084,7 +11599,7 @@
             "id": 2,
             "version": 0,
             "code": 2,
-            "libelle": "Mme hhhh",
+            "libelle": "Mme ",
             "label": "Mme. ",
             "abrg": "Mme.",
             "visibles": true
