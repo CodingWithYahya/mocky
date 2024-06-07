@@ -4,34 +4,12 @@ const express = require("express");
 const jsonServer = require('json-server');
 require('dotenv').config(); // Charger les variables d'environnement à partir de .env
 
-// const app = express();
-// const PORT = process.env.PORT || 3333;
-// Middleware CORS
-// app.use(cors({
-//   origin: '*',
-//   credentials: true,
-//   methods: 'GET, POST, PUT, DELETE, PATCH, OPTIONS',
-//   allowedHeaders: 'Origin, X-Requested-With, Content-Type, Accept'
-// }));
-
-// app.use((req, res, next) => {
-//   res.header('Access-Control-Allow-Origin', '*');
-//   res.header('Access-Control-Allow-Credentials', 'true');
-//   res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, PATCH, OPTIONS');
-//   res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
-//   next();
-// });
-
 const server = jsonServer.create();
 const router = jsonServer.router('combined.json'); 
 const middlewares = jsonServer.defaults();
 
 // Charger les routes personnalisées depuis routes.json
 const customRoutes = JSON.parse(fs.readFileSync('routes.json'));
-// const rewriter = jsonServer.rewriter(JSON.parse(fs.readFileSync('routes.json', 'utf-8')));
-// app.use(middlewares);
-// app.use(rewriter);
-// app.use(router);
 
 server.use(jsonServer.rewriter(customRoutes));
 // server.use(cors());
@@ -172,7 +150,7 @@ Object.keys(dynamicDb).forEach(key => {
   });
 });
 
-// Use the JSON Server router after defining the dynamic routes
+
 server.use(router);
 
 const PORT = process.env.PORT;
