@@ -33,7 +33,14 @@
     "/activite": "/ACTIVITIES",
     "/secteur": "/ACTIVITY_AREAS",
     "/typeRecherche/criteres": "/DOCUMENT_CATEGORIES",
+
+    "/referentiel/api/enum-nomenclature/format-attestation":"/format-attestation",
+    "/referentiel/api/enum-nomenclature/type-attestation": "/type_attestation",
+"/referentiel/api/enum-nomenclature/mode-paiement": "/mode-paiement",
+    "/tarification/api/tarif/tarifs-ref": "/tarifs-ref",
     
+
+
     "/referentiel/api/usage-vehicule":"/USAGESTUFF",
     "/referentiel/api/usage-vehicule/groups":"/USAGESTUFF",
    

@@ -158,3 +158,15 @@ console.log("🚀 ~ PORT:", PORT)
 server.listen(PORT, () => {
   console.log(`JSON Server is running on port ${PORT}`);
 });
+
+
+
+/*
+pas de provisoire = 
+------ 
+,
+        {
+            "code": 2,
+            "label": "PROVISOIRE"
+        }
+*/

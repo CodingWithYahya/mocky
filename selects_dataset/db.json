@@ -1,6 +1,5 @@
 {
-
-    "draft":{
+    "draft": {
         "LOCATION": [
             {
                 "id": 10,
@@ -79,7 +78,6 @@
                     }
                 ]
             },
-            
             {
                 "id": 48,
                 "code": "93",
@@ -133,7 +131,7 @@
             }
         ]
     },
-    "OFFRES":[
+    "OFFRES": [
         {
             "id": 237,
             "libelle": "RC",
@@ -275,7 +273,7 @@
             "nombreExtincteur": "0"
         }
     ],
-    "BYUSAGE":[
+    "BYUSAGE": [
         {
             "libelle": "Responsabilite Civile",
             "hasOption": false,
@@ -311,7 +309,6 @@
             ],
             "hasTauxFranchise": true
         },
-      
         {
             "libelle": "Assistance",
             "extensions": [
@@ -385,7 +382,7 @@
             "hasTauxFranchise": false
         }
     ],
-    "USAGESTUFF":{
+    "USAGESTUFF": {
         "TOURISME": [
             {
                 "id": 1,
@@ -3473,955 +3470,1017 @@
             }
         ]
     },
-
+    "mode-paiement": [
+        {
+            "code": 2,
+            "label": "Espece"
+        },
+        {
+            "code": 3,
+            "label": "Virement"
+        },
+        {
+            "code": 6,
+            "label": "Financement"
+        },
+        {
+            "code": 7,
+            "label": "Cheque RMAW"
+        },
+        {
+            "code": 8,
+            "label": "Carte Monetique"
+        }
+    ],
+    "tarifs-ref": [
+        {
+            "id": 233,
+            "code": "P0102",
+            "label": "OFFRE PROMO FIN ANNEE C2"
+        },
+        {
+            "id": 236,
+            "code": "P0104",
+            "label": "OFFRE EXPERIMENTE"
+        },
+        {
+            "id": 224,
+            "code": "P100",
+            "label": "BOOST  RC"
+        },
+        {
+            "id": 235,
+            "code": "P0103",
+            "label": "OFFRE PROMO FIN ANNEE TOURISME"
+        }
+    ],
+    "format-attestation": [
+        {
+            "code": 1,
+            "label": "TRIPTIQUE"
+        },
+        {
+            "code": 2,
+            "label": "VOLANTE"
+        },
+        {
+            "code": 3,
+            "label": "A4"
+        }
+    ],
+    "type_attestation": [
+        {
+            "code": 1,
+            "label": "DEFINITIVE"
+        }
+    ],
     "USAGESTUFF_WITHOUT_GENRE": {
         "TOURISME": [
-          {
-            "id": 1,
-            "code": 1,
-            "libelle": "TOURISME",
-            "categorie": "701",
-            "ptc": null,
-            "nombrePlaceMaximum": 8,
-            "nombrePlaceMinimum": 0
-          }
+            {
+                "id": 1,
+                "code": 1,
+                "libelle": "TOURISME",
+                "categorie": "701",
+                "ptc": null,
+                "nombrePlaceMaximum": 8,
+                "nombrePlaceMinimum": 0
+            }
         ],
         "LOCATION": [
-          {
-            "id": 10,
-            "code": 16,
-            "libelle": "LOCATION C.I.",
-            "categorie": "751",
-            "ptc": null,
-            "nombrePlaceMaximum": 30,
-            "nombrePlaceMinimum": 0
-          }
+            {
+                "id": 10,
+                "code": 16,
+                "libelle": "LOCATION C.I.",
+                "categorie": "751",
+                "ptc": null,
+                "nombrePlaceMaximum": 30,
+                "nombrePlaceMinimum": 0
+            }
         ],
         "CYCLOMOTER": [
-          {
-            "id": 36,
-            "code": 82,
-            "libelle": "CYLINDRÉE < 50 CM3 VITESSE < 60 KM/H",
-            "categorie": "705",
-            "ptc": null,
-            "nombrePlaceMaximum": 2,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 47,
-            "code": 92,
-            "libelle": "CYLINDRÉE < 50 CM3 VITESSE > 60 KM/H",
-            "categorie": "715",
-            "ptc": null,
-            "nombrePlaceMaximum": 2,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 48,
-            "code": 93,
-            "libelle": "CYLINDRÉE ENTRE 50 CM3 ET 125 CM3",
-            "categorie": "725",
-            "ptc": null,
-            "nombrePlaceMaximum": 2,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 37,
-            "code": 83,
-            "libelle": "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
-            "categorie": "745",
-            "ptc": null,
-            "nombrePlaceMaximum": 2,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 46,
-            "code": 91,
-            "libelle": "MOTOCYCLETTE AVEC SIDE-CAR CYLINDRÉE > 125 CM3",
-            "categorie": "745",
-            "ptc": null,
-            "nombrePlaceMaximum": 3,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 50,
-            "code": 96,
-            "libelle": "TRICYCLE OU TRIPORTEUR CYLINDRÉE > 125 CM3",
-            "categorie": "735",
-            "ptc": null,
-            "nombrePlaceMaximum": 2,
-            "nombrePlaceMinimum": 0
-          }
+            {
+                "id": 36,
+                "code": 82,
+                "libelle": "CYLINDRÉE < 50 CM3 VITESSE < 60 KM/H",
+                "categorie": "705",
+                "ptc": null,
+                "nombrePlaceMaximum": 2,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 47,
+                "code": 92,
+                "libelle": "CYLINDRÉE < 50 CM3 VITESSE > 60 KM/H",
+                "categorie": "715",
+                "ptc": null,
+                "nombrePlaceMaximum": 2,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 48,
+                "code": 93,
+                "libelle": "CYLINDRÉE ENTRE 50 CM3 ET 125 CM3",
+                "categorie": "725",
+                "ptc": null,
+                "nombrePlaceMaximum": 2,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 37,
+                "code": 83,
+                "libelle": "MOTOCYCLETTE SANS SIDE-CAR CYLINDRÉE > 125 CM3",
+                "categorie": "745",
+                "ptc": null,
+                "nombrePlaceMaximum": 2,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 46,
+                "code": 91,
+                "libelle": "MOTOCYCLETTE AVEC SIDE-CAR CYLINDRÉE > 125 CM3",
+                "categorie": "745",
+                "ptc": null,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 50,
+                "code": 96,
+                "libelle": "TRICYCLE OU TRIPORTEUR CYLINDRÉE > 125 CM3",
+                "categorie": "735",
+                "ptc": null,
+                "nombrePlaceMaximum": 2,
+                "nombrePlaceMinimum": 0
+            }
         ],
         "C1": [
-          {
-            "id": 2,
-            "code": 3,
-            "libelle": "C1 (COMMERCE <= 3,5T)",
-            "categorie": "703",
-            "ptc": 1,
-            "nombrePlaceMaximum": 32,
-            "nombrePlaceMinimum": 8
-          }
+            {
+                "id": 2,
+                "code": 3,
+                "libelle": "C1 (COMMERCE <= 3,5T)",
+                "categorie": "703",
+                "ptc": 1,
+                "nombrePlaceMaximum": 32,
+                "nombrePlaceMinimum": 8
+            }
         ],
         "C2": [
-          {
-            "id": 3,
-            "code": 4,
-            "libelle": "C2 (COMMERCE +3,5T)",
-            "categorie": "713",
-            "ptc": 2,
-            "nombrePlaceMaximum": 3,
-            "nombrePlaceMinimum": 3
-          }
+            {
+                "id": 3,
+                "code": 4,
+                "libelle": "C2 (COMMERCE +3,5T)",
+                "categorie": "713",
+                "ptc": 2,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 3
+            }
         ],
         "DIVERS": [
-          {
-            "id": 5,
-            "code": 11,
-            "libelle": "AMBULANCES <= 3,5T",
-            "categorie": "721",
-            "ptc": 1,
-            "nombrePlaceMaximum": 5,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 6,
-            "code": 12,
-            "libelle": "CORBILLARDS <= 3,5T",
-            "categorie": "721",
-            "ptc": 1,
-            "nombrePlaceMaximum": 3,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 7,
-            "code": 13,
-            "libelle": "FOURGONS FUNÉRAIRES <= 3,5T",
-            "categorie": "721",
-            "ptc": 1,
-            "nombrePlaceMaximum": 3,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 8,
-            "code": 14,
-            "libelle": "AUTO-ECOLE TOURISME",
-            "categorie": "741",
-            "ptc": null,
-            "nombrePlaceMaximum": 5,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 15,
-            "code": 21,
-            "libelle": "TRACTEUR AGRICOLE",
-            "categorie": "711",
-            "ptc": null,
-            "nombrePlaceMaximum": 1,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 16,
-            "code": 22,
-            "libelle": "MOISSONEUSE BATTEUSE",
-            "categorie": "783",
-            "ptc": null,
-            "nombrePlaceMaximum": 1,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 18,
-            "code": 30,
-            "libelle": "VÉHICULE DÉPANNAGE <= 3,5T",
-            "categorie": "763",
-            "ptc": 1,
-            "nombrePlaceMaximum": 3,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 19,
-            "code": 31,
-            "libelle": "AUTO-ECOLE UTIL./AUTOCARS",
-            "categorie": "741",
-            "ptc": null,
-            "nombrePlaceMaximum": 5,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 20,
-            "code": 32,
-            "libelle": "TRANSPORT DES ECOLIERS <= 3,5 T",
-            "categorie": "703",
-            "ptc": 1,
-            "nombrePlaceMaximum": 70,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 21,
-            "code": 33,
-            "libelle": "TRANSPORT PERSONNEL <= 3,5T",
-            "categorie": "703",
-            "ptc": 1,
-            "nombrePlaceMaximum": 32,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 22,
-            "code": 34,
-            "libelle": "ARROSEUSE <= 3,5T",
-            "categorie": "753",
-            "ptc": 1,
-            "nombrePlaceMaximum": 3,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 23,
-            "code": 35,
-            "libelle": "BALAYEUSE <= 3,5T",
-            "categorie": "753",
-            "ptc": 1,
-            "nombrePlaceMaximum": 3,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 24,
-            "code": 36,
-            "libelle": "ENLÉVEMENT DES ORDURES <= 3,5T",
-            "categorie": "753",
-            "ptc": 1,
-            "nombrePlaceMaximum": 3,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 25,
-            "code": 37,
-            "libelle": "VOITURE VIDANGE <= 3,5T",
-            "categorie": "753",
-            "ptc": 1,
-            "nombrePlaceMaximum": 3,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 26,
-            "code": 38,
-            "libelle": "CHASSE NEIGE <= 3,5T",
-            "categorie": "753",
-            "ptc": 1,
-            "nombrePlaceMaximum": 3,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 27,
-            "code": 39,
-            "libelle": "VÉHICULE SCE INCENDIE <= 3,5T",
-            "categorie": "753",
-            "ptc": 1,
-            "nombrePlaceMaximum": 5,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 28,
-            "code": 40,
-            "libelle": "VÉHICULE DÉPANNAGE +3,5T",
-            "categorie": "763",
-            "ptc": 2,
-            "nombrePlaceMaximum": 3,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 29,
-            "code": 42,
-            "libelle": "TRANSPORT ECOLIERS +3,5T",
-            "categorie": "713",
-            "ptc": 2,
-            "nombrePlaceMaximum": 80,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 30,
-            "code": 43,
-            "libelle": "TRANSPORT PERSONNEL +3,5T",
-            "categorie": "713",
-            "ptc": 2,
-            "nombrePlaceMaximum": 80,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 31,
-            "code": 44,
-            "libelle": "ARROSEUR +3,5T",
-            "categorie": "753",
-            "ptc": 2,
-            "nombrePlaceMaximum": 3,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 32,
-            "code": 47,
-            "libelle": "VOITURE VIDANGE +3.5T",
-            "categorie": "753",
-            "ptc": 2,
-            "nombrePlaceMaximum": 3,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 33,
-            "code": 49,
-            "libelle": "VÉH. SCE INCENDIE +3.5T",
-            "categorie": "753",
-            "ptc": 2,
-            "nombrePlaceMaximum": 5,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 34,
-            "code": 51,
-            "libelle": "AUTO-ECOLE 2 OU 3 ROUES",
-            "categorie": "741",
-            "ptc": null,
-            "nombrePlaceMaximum": 2,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 35,
-            "code": 81,
-            "libelle": "ENGIN DE CHANTIER",
-            "categorie": "743",
-            "ptc": null,
-            "nombrePlaceMaximum": 1,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 39,
-            "code": 85,
-            "libelle": "TRANS. MATIÈRE INFL. <= 3,5T",
-            "categorie": "773",
-            "ptc": 1,
-            "nombrePlaceMaximum": 5,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 40,
-            "code": 86,
-            "libelle": "TRANS. MATIÈRE INFL. +3,5T",
-            "categorie": "773",
-            "ptc": 2,
-            "nombrePlaceMaximum": 5,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 41,
-            "code": 87,
-            "libelle": "TRACTEUR AGRICOLE AVEC T.M.I.",
-            "categorie": "713",
-            "ptc": null,
-            "nombrePlaceMaximum": 1,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 42,
-            "code": 88,
-            "libelle": "BALAYEUSE +3,5T",
-            "categorie": "753",
-            "ptc": 2,
-            "nombrePlaceMaximum": 5,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 43,
-            "code": 89,
-            "libelle": "ENLÉVEMENT DES ORDURES +3,5T",
-            "categorie": "753",
-            "ptc": 2,
-            "nombrePlaceMaximum": 5,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 44,
-            "code": 90,
-            "libelle": "CHASSE NEIGE +3,5T",
-            "categorie": "753",
-            "ptc": 2,
-            "nombrePlaceMaximum": 5,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 45,
-            "code": 99,
-            "libelle": "GARAGISTE",
-            "categorie": "731",
-            "ptc": null,
-            "nombrePlaceMaximum": 5,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 49,
-            "code": 95,
-            "libelle": "VÉHICULES À MOTEUR ÉLECTRIQUE",
-            "categorie": "",
-            "ptc": null,
-            "nombrePlaceMaximum": 1,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 58,
-            "code": 41,
-            "libelle": "HYDROCUREUSE <= 3,5T",
-            "categorie": "753",
-            "ptc": null,
-            "nombrePlaceMaximum": 3,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 59,
-            "code": 45,
-            "libelle": "HYDROCUREUSE +3,5T",
-            "categorie": "753",
-            "ptc": null,
-            "nombrePlaceMaximum": 3,
-            "nombrePlaceMinimum": 0
-          },
-          {
-            "id": 62,
-            "code": 100,
-            "libelle": "TRACTEUR FORESTIER",
-            "categorie": "711",
-            "ptc": null,
-            "nombrePlaceMaximum": 1,
-            "nombrePlaceMinimum": 0
-          }
+            {
+                "id": 5,
+                "code": 11,
+                "libelle": "AMBULANCES <= 3,5T",
+                "categorie": "721",
+                "ptc": 1,
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 6,
+                "code": 12,
+                "libelle": "CORBILLARDS <= 3,5T",
+                "categorie": "721",
+                "ptc": 1,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 7,
+                "code": 13,
+                "libelle": "FOURGONS FUNÉRAIRES <= 3,5T",
+                "categorie": "721",
+                "ptc": 1,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 8,
+                "code": 14,
+                "libelle": "AUTO-ECOLE TOURISME",
+                "categorie": "741",
+                "ptc": null,
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 15,
+                "code": 21,
+                "libelle": "TRACTEUR AGRICOLE",
+                "categorie": "711",
+                "ptc": null,
+                "nombrePlaceMaximum": 1,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 16,
+                "code": 22,
+                "libelle": "MOISSONEUSE BATTEUSE",
+                "categorie": "783",
+                "ptc": null,
+                "nombrePlaceMaximum": 1,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 18,
+                "code": 30,
+                "libelle": "VÉHICULE DÉPANNAGE <= 3,5T",
+                "categorie": "763",
+                "ptc": 1,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 19,
+                "code": 31,
+                "libelle": "AUTO-ECOLE UTIL./AUTOCARS",
+                "categorie": "741",
+                "ptc": null,
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 20,
+                "code": 32,
+                "libelle": "TRANSPORT DES ECOLIERS <= 3,5 T",
+                "categorie": "703",
+                "ptc": 1,
+                "nombrePlaceMaximum": 70,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 21,
+                "code": 33,
+                "libelle": "TRANSPORT PERSONNEL <= 3,5T",
+                "categorie": "703",
+                "ptc": 1,
+                "nombrePlaceMaximum": 32,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 22,
+                "code": 34,
+                "libelle": "ARROSEUSE <= 3,5T",
+                "categorie": "753",
+                "ptc": 1,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 23,
+                "code": 35,
+                "libelle": "BALAYEUSE <= 3,5T",
+                "categorie": "753",
+                "ptc": 1,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 24,
+                "code": 36,
+                "libelle": "ENLÉVEMENT DES ORDURES <= 3,5T",
+                "categorie": "753",
+                "ptc": 1,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 25,
+                "code": 37,
+                "libelle": "VOITURE VIDANGE <= 3,5T",
+                "categorie": "753",
+                "ptc": 1,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 26,
+                "code": 38,
+                "libelle": "CHASSE NEIGE <= 3,5T",
+                "categorie": "753",
+                "ptc": 1,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 27,
+                "code": 39,
+                "libelle": "VÉHICULE SCE INCENDIE <= 3,5T",
+                "categorie": "753",
+                "ptc": 1,
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 28,
+                "code": 40,
+                "libelle": "VÉHICULE DÉPANNAGE +3,5T",
+                "categorie": "763",
+                "ptc": 2,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 29,
+                "code": 42,
+                "libelle": "TRANSPORT ECOLIERS +3,5T",
+                "categorie": "713",
+                "ptc": 2,
+                "nombrePlaceMaximum": 80,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 30,
+                "code": 43,
+                "libelle": "TRANSPORT PERSONNEL +3,5T",
+                "categorie": "713",
+                "ptc": 2,
+                "nombrePlaceMaximum": 80,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 31,
+                "code": 44,
+                "libelle": "ARROSEUR +3,5T",
+                "categorie": "753",
+                "ptc": 2,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 32,
+                "code": 47,
+                "libelle": "VOITURE VIDANGE +3.5T",
+                "categorie": "753",
+                "ptc": 2,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 33,
+                "code": 49,
+                "libelle": "VÉH. SCE INCENDIE +3.5T",
+                "categorie": "753",
+                "ptc": 2,
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 34,
+                "code": 51,
+                "libelle": "AUTO-ECOLE 2 OU 3 ROUES",
+                "categorie": "741",
+                "ptc": null,
+                "nombrePlaceMaximum": 2,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 35,
+                "code": 81,
+                "libelle": "ENGIN DE CHANTIER",
+                "categorie": "743",
+                "ptc": null,
+                "nombrePlaceMaximum": 1,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 39,
+                "code": 85,
+                "libelle": "TRANS. MATIÈRE INFL. <= 3,5T",
+                "categorie": "773",
+                "ptc": 1,
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 40,
+                "code": 86,
+                "libelle": "TRANS. MATIÈRE INFL. +3,5T",
+                "categorie": "773",
+                "ptc": 2,
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 41,
+                "code": 87,
+                "libelle": "TRACTEUR AGRICOLE AVEC T.M.I.",
+                "categorie": "713",
+                "ptc": null,
+                "nombrePlaceMaximum": 1,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 42,
+                "code": 88,
+                "libelle": "BALAYEUSE +3,5T",
+                "categorie": "753",
+                "ptc": 2,
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 43,
+                "code": 89,
+                "libelle": "ENLÉVEMENT DES ORDURES +3,5T",
+                "categorie": "753",
+                "ptc": 2,
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 44,
+                "code": 90,
+                "libelle": "CHASSE NEIGE +3,5T",
+                "categorie": "753",
+                "ptc": 2,
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 45,
+                "code": 99,
+                "libelle": "GARAGISTE",
+                "categorie": "731",
+                "ptc": null,
+                "nombrePlaceMaximum": 5,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 49,
+                "code": 95,
+                "libelle": "VÉHICULES À MOTEUR ÉLECTRIQUE",
+                "categorie": "",
+                "ptc": null,
+                "nombrePlaceMaximum": 1,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 58,
+                "code": 41,
+                "libelle": "HYDROCUREUSE <= 3,5T",
+                "categorie": "753",
+                "ptc": null,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 59,
+                "code": 45,
+                "libelle": "HYDROCUREUSE +3,5T",
+                "categorie": "753",
+                "ptc": null,
+                "nombrePlaceMaximum": 3,
+                "nombrePlaceMinimum": 0
+            },
+            {
+                "id": 62,
+                "code": 100,
+                "libelle": "TRACTEUR FORESTIER",
+                "categorie": "711",
+                "ptc": null,
+                "nombrePlaceMaximum": 1,
+                "nombrePlaceMinimum": 0
+            }
         ]
-      },
+    },
     "puissancesFiscalesDB": [
-		{
-			"idUsageVehicule": 1,
-			"code": "1",
-			"puissancesFiscales": [
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12
-			]
-		},
-		{
-			"idUsageVehicule": 2,
-			"code": "3",
-			"puissancesFiscales": [
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12
-			]
-		},
-		{
-			"idUsageVehicule": 3,
-			"code": "4",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 5,
-			"code": "11",
-			"puissancesFiscales": [
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13
-			]
-		},
-		{
-			"idUsageVehicule": 6,
-			"code": "12",
-			"puissancesFiscales": [
-				6
-			]
-		},
-		{
-			"idUsageVehicule": 7,
-			"code": "13",
-			"puissancesFiscales": [
-				5,
-				6,
-				9,
-				12
-			]
-		},
-		{
-			"idUsageVehicule": 8,
-			"code": "14",
-			"puissancesFiscales": [
-				5,
-				6,
-				7
-			]
-		},
-		{
-			"idUsageVehicule": 10,
-			"code": "16",
-			"puissancesFiscales": [
-				5,
-				6,
-				7,
-				8,
-				12
-			]
-		},
-		{
-			"idUsageVehicule": 11,
-			"code": "17",
-			"puissancesFiscales": [
-				10
-			]
-		},
-		{
-			"idUsageVehicule": 14,
-			"code": "20",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 15,
-			"code": "21",
-			"puissancesFiscales": [
-				0,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15
-			]
-		},
-		{
-			"idUsageVehicule": 16,
-			"code": "22",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 18,
-			"code": "30",
-			"puissancesFiscales": [
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13
-			]
-		},
-		{
-			"idUsageVehicule": 19,
-			"code": "31",
-			"puissancesFiscales": [
-				0,
-				6,
-				9,
-				10,
-				12,
-				14,
-				15,
-				16,
-				18,
-				19,
-				20,
-				23,
-				32,
-				34,
-				37
-			]
-		},
-		{
-			"idUsageVehicule": 20,
-			"code": "32",
-			"puissancesFiscales": [
-				0,
-				8,
-				9,
-				10,
-				11,
-				12
-			]
-		},
-		{
-			"idUsageVehicule": 21,
-			"code": "33",
-			"puissancesFiscales": [
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				19
-			]
-		},
-		{
-			"idUsageVehicule": 22,
-			"code": "34",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 23,
-			"code": "35",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 24,
-			"code": "36",
-			"puissancesFiscales": [
-				9,
-				10,
-				13,
-				18
-			]
-		},
-		{
-			"idUsageVehicule": 25,
-			"code": "37",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 26,
-			"code": "38",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 27,
-			"code": "39",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 28,
-			"code": "40",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 29,
-			"code": "42",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 30,
-			"code": "43",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 31,
-			"code": "44",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 32,
-			"code": "47",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 33,
-			"code": "49",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 34,
-			"code": "51",
-			"puissancesFiscales": [
-				2,
-				3,
-				4,
-				5,
-				7,
-				49,
-				51,
-				126
-			]
-		},
-		{
-			"idUsageVehicule": 35,
-			"code": "81",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 36,
-			"code": "82",
-			"puissancesFiscales": [
-				1,
-				2,
-				3,
-				6,
-				7,
-				8,
-				45,
-				49,
-				50
-			]
-		},
-		{
-			"idUsageVehicule": 37,
-			"code": "83",
-			"puissancesFiscales": [
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				14,
-				15,
-				16,
-				126
-			]
-		},
-		{
-			"idUsageVehicule": 38,
-			"code": "84",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 39,
-			"code": "85",
-			"puissancesFiscales": [
-				0,
-				6,
-				7,
-				9,
-				10,
-				11,
-				12
-			]
-		},
-		{
-			"idUsageVehicule": 40,
-			"code": "86",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 41,
-			"code": "87",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 42,
-			"code": "88",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 43,
-			"code": "89",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 44,
-			"code": "90",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 45,
-			"code": "99",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 46,
-			"code": "91",
-			"puissancesFiscales": [
-				126
-			]
-		},
-		{
-			"idUsageVehicule": 47,
-			"code": "92",
-			"puissancesFiscales": [
-				41,
-				42,
-				45,
-				48,
-				49
-			]
-		},
-		{
-			"idUsageVehicule": 48,
-			"code": "93",
-			"puissancesFiscales": [
-				1,
-				49,
-				51,
-				107,
-				124,
-				125
-			]
-		},
-		{
-			"idUsageVehicule": 50,
-			"code": "96",
-			"puissancesFiscales": [
-				2,
-				126
-			]
-		},
-		{
-			"idUsageVehicule": 51,
-			"code": "72",
-			"puissancesFiscales": [
-				45,
-				49,
-				50
-			]
-		},
-		{
-			"idUsageVehicule": 52,
-			"code": "73",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 53,
-			"code": "74",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 54,
-			"code": "75",
-			"puissancesFiscales": [
-				4,
-				7,
-				8,
-				9,
-				11,
-				126
-			]
-		},
-		{
-			"idUsageVehicule": 55,
-			"code": "76",
-			"puissancesFiscales": [
-				41,
-				42,
-				45,
-				48,
-				49,
-				50,
-				60,
-				110
-			]
-		},
-		{
-			"idUsageVehicule": 56,
-			"code": "77",
-			"puissancesFiscales": [
-				1
-			]
-		},
-		{
-			"idUsageVehicule": 57,
-			"code": "78",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 58,
-			"code": "41",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 59,
-			"code": "45",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 60,
-			"code": "79",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 61,
-			"code": "94",
-			"puissancesFiscales": [
-				0
-			]
-		},
-		{
-			"idUsageVehicule": 62,
-			"code": "100",
-			"puissancesFiscales": [
-				0
-			]
-		}
-	],
-
-    "ALL-Recovery":{
+        {
+            "idUsageVehicule": 1,
+            "code": "1",
+            "puissancesFiscales": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "idUsageVehicule": 2,
+            "code": "3",
+            "puissancesFiscales": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "idUsageVehicule": 3,
+            "code": "4",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 5,
+            "code": "11",
+            "puissancesFiscales": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+            ]
+        },
+        {
+            "idUsageVehicule": 6,
+            "code": "12",
+            "puissancesFiscales": [
+                6
+            ]
+        },
+        {
+            "idUsageVehicule": 7,
+            "code": "13",
+            "puissancesFiscales": [
+                5,
+                6,
+                9,
+                12
+            ]
+        },
+        {
+            "idUsageVehicule": 8,
+            "code": "14",
+            "puissancesFiscales": [
+                5,
+                6,
+                7
+            ]
+        },
+        {
+            "idUsageVehicule": 10,
+            "code": "16",
+            "puissancesFiscales": [
+                5,
+                6,
+                7,
+                8,
+                12
+            ]
+        },
+        {
+            "idUsageVehicule": 11,
+            "code": "17",
+            "puissancesFiscales": [
+                10
+            ]
+        },
+        {
+            "idUsageVehicule": 14,
+            "code": "20",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 15,
+            "code": "21",
+            "puissancesFiscales": [
+                0,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+            ]
+        },
+        {
+            "idUsageVehicule": 16,
+            "code": "22",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 18,
+            "code": "30",
+            "puissancesFiscales": [
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+            ]
+        },
+        {
+            "idUsageVehicule": 19,
+            "code": "31",
+            "puissancesFiscales": [
+                0,
+                6,
+                9,
+                10,
+                12,
+                14,
+                15,
+                16,
+                18,
+                19,
+                20,
+                23,
+                32,
+                34,
+                37
+            ]
+        },
+        {
+            "idUsageVehicule": 20,
+            "code": "32",
+            "puissancesFiscales": [
+                0,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "idUsageVehicule": 21,
+            "code": "33",
+            "puissancesFiscales": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                19
+            ]
+        },
+        {
+            "idUsageVehicule": 22,
+            "code": "34",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 23,
+            "code": "35",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 24,
+            "code": "36",
+            "puissancesFiscales": [
+                9,
+                10,
+                13,
+                18
+            ]
+        },
+        {
+            "idUsageVehicule": 25,
+            "code": "37",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 26,
+            "code": "38",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 27,
+            "code": "39",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 28,
+            "code": "40",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 29,
+            "code": "42",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 30,
+            "code": "43",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 31,
+            "code": "44",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 32,
+            "code": "47",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 33,
+            "code": "49",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 34,
+            "code": "51",
+            "puissancesFiscales": [
+                2,
+                3,
+                4,
+                5,
+                7,
+                49,
+                51,
+                126
+            ]
+        },
+        {
+            "idUsageVehicule": 35,
+            "code": "81",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 36,
+            "code": "82",
+            "puissancesFiscales": [
+                1,
+                2,
+                3,
+                6,
+                7,
+                8,
+                45,
+                49,
+                50
+            ]
+        },
+        {
+            "idUsageVehicule": 37,
+            "code": "83",
+            "puissancesFiscales": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                14,
+                15,
+                16,
+                126
+            ]
+        },
+        {
+            "idUsageVehicule": 38,
+            "code": "84",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 39,
+            "code": "85",
+            "puissancesFiscales": [
+                0,
+                6,
+                7,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "idUsageVehicule": 40,
+            "code": "86",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 41,
+            "code": "87",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 42,
+            "code": "88",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 43,
+            "code": "89",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 44,
+            "code": "90",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 45,
+            "code": "99",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 46,
+            "code": "91",
+            "puissancesFiscales": [
+                126
+            ]
+        },
+        {
+            "idUsageVehicule": 47,
+            "code": "92",
+            "puissancesFiscales": [
+                41,
+                42,
+                45,
+                48,
+                49
+            ]
+        },
+        {
+            "idUsageVehicule": 48,
+            "code": "93",
+            "puissancesFiscales": [
+                1,
+                49,
+                51,
+                107,
+                124,
+                125
+            ]
+        },
+        {
+            "idUsageVehicule": 50,
+            "code": "96",
+            "puissancesFiscales": [
+                2,
+                126
+            ]
+        },
+        {
+            "idUsageVehicule": 51,
+            "code": "72",
+            "puissancesFiscales": [
+                45,
+                49,
+                50
+            ]
+        },
+        {
+            "idUsageVehicule": 52,
+            "code": "73",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 53,
+            "code": "74",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 54,
+            "code": "75",
+            "puissancesFiscales": [
+                4,
+                7,
+                8,
+                9,
+                11,
+                126
+            ]
+        },
+        {
+            "idUsageVehicule": 55,
+            "code": "76",
+            "puissancesFiscales": [
+                41,
+                42,
+                45,
+                48,
+                49,
+                50,
+                60,
+                110
+            ]
+        },
+        {
+            "idUsageVehicule": 56,
+            "code": "77",
+            "puissancesFiscales": [
+                1
+            ]
+        },
+        {
+            "idUsageVehicule": 57,
+            "code": "78",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 58,
+            "code": "41",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 59,
+            "code": "45",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 60,
+            "code": "79",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 61,
+            "code": "94",
+            "puissancesFiscales": [
+                0
+            ]
+        },
+        {
+            "idUsageVehicule": 62,
+            "code": "100",
+            "puissancesFiscales": [
+                0
+            ]
+        }
+    ],
+    "ALL-Recovery": {
         "TOURISME": [
             {
                 "id": 1,
@@ -8545,7 +8604,6 @@
             "label": "ELECTRIQUE"
         }
     ],
-
     "CITIES": [
         {
             "id": 2,
@@ -10999,11 +11057,7 @@
             },
             "visibles": true
         }
-    ]
-    ,
-
-
-
+    ],
     "COUNTRIES": [
         {
             "id": 3,
@@ -11560,8 +11614,6 @@
             "visibles": true
         }
     ],
-
-
     "GENDERS": [
         {
             "id": 1,
@@ -15108,7 +15160,7 @@
             "typeCritere": "E"
         }
     ],
-    "genrr":[
+    "genrr": [
         {
             "id": 38,
             "code": "CAMPING CAR",
@@ -15529,7 +15581,28 @@
             "code": "TRACTEUR FORESTIER",
             "libelle": "TRACTEUR FORESTIER"
         }
+    ],
+    "useless": [],
+    "type-reduction": [
+        {
+            "code": 1,
+            "label": "Erreur tarification"
+        },
+        {
+            "code": 2,
+            "label": "Prime corrective"
+        },
+        {
+            "code": 3,
+            "label": "Reduction VIP"
+        },
+        {
+            "code": 4,
+            "label": "Tarification libre"
+        },
+        {
+            "code": 5,
+            "label": "Alignement Tarifaire"
+        }
     ]
-    
-
 }
